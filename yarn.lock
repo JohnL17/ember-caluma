@@ -4705,7 +4705,7 @@ ember-assign-polyfill@^2.5.0, ember-assign-polyfill@^2.6.0:
     ember-cli-babel "^6.16.0"
     ember-cli-version-checker "^2.0.0"
 
-ember-auto-import@1.2.21, ember-auto-import@^1.2.19:
+ember-auto-import@1.2.21, ember-auto-import@^1.2.19, ember-auto-import@^1.2.21:
   version "1.2.21"
   resolved "https://registry.yarnpkg.com/ember-auto-import/-/ember-auto-import-1.2.21.tgz#e02ded183844faba66c3f2af97028ef35175b837"
   integrity sha512-coHnqO3mRnlj/JAQSQBEqzX2wL8rH5YrfEJMzk1102X9MdSX1CWeaUYBcyjvI/pG8fHUhv+4VsD6rQuhTUyZUQ==
@@ -5732,10 +5732,10 @@ ember-ignore-children-helper@^1.0.0:
   dependencies:
     ember-cli-babel "^6.6.0"
 
-ember-intl@3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/ember-intl/-/ember-intl-3.5.0.tgz#40efd9e5c369943f1d1178a97a780e02a05b3dde"
-  integrity sha512-jm4Kr5vFE8MJZ+mNTvrxhtyE7z9Xdo0xJbmcavvg/aBDBM3MytPTotILA2febVLP2dVUtrDcRfL6CDHY+H27rA==
+ember-intl@3.5.2:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/ember-intl/-/ember-intl-3.5.2.tgz#9db9205c679dcc13e164453b19997916f3b5b58f"
+  integrity sha512-rrgWX1D0nKkx3qSWxSqyQkuyXXDw8UYel8T7QBkOldTzOOlN+sJadvbyQW6HuN7RBJ9Bd2XfkDn16QwpCxGsiQ==
   dependencies:
     "@ember-intl/intl-messageformat" "^2.2.0"
     "@ember-intl/intl-messageformat-parser" "^1.4.0"
@@ -5747,7 +5747,7 @@ ember-intl@3.5.0:
     broccoli-source "^1.1.0"
     broccoli-stew "^2.0.0"
     cldr-core "28.0.0"
-    ember-auto-import "^1.2.13"
+    ember-auto-import "^1.2.21"
     ember-cli-babel "^7.1.2"
     extend "^3.0.2"
     fast-memoize "^2.5.1"
