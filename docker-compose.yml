@@ -15,4 +15,4 @@ services:
       - DATABASE_HOST=db
       - DATABASE_PORT=5432
       - ENV=docker
-      - LANGUAGES=de,fr
+      - LANGUAGES=de,fr,en
