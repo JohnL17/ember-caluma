@@ -16,3 +16,5 @@ services:
       - DATABASE_PORT=5432
       - ENV=docker
       - LANGUAGES=de,fr,en
+    volumes:
+      - ./dumps:/app/dumps
