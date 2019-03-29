@@ -33,7 +33,7 @@
   },
   {
     "model": "form.form",
-    "pk": "durchgefuhrte-vorabklarungen",
+    "pk": "durchgefuehrte-vorabklaerungen",
     "fields": {
       "created_at": "2019-03-08T15:30:03.741Z",
       "modified_at": "2019-03-11T07:09:04.010Z",
@@ -49,7 +49,7 @@
   },
   {
     "model": "form.form",
-    "pk": "durchgefuhrte-vorabklarungen-tabelle",
+    "pk": "durchgefuehrte-vorabklaerungen-tabelle",
     "fields": {
       "created_at": "2019-03-25T09:58:38.695Z",
       "modified_at": "2019-03-25T09:58:38.695Z",
@@ -249,7 +249,33 @@
       "created_by_group": null,
       "form": "personalien",
       "question": "personalien-grundeigentumerin",
-      "sort": 2
+      "sort": 3
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "016fbe3d-bb48-4ea5-ba85-e286d9f57e04",
+    "fields": {
+      "created_at": "2019-03-29T14:33:26.209Z",
+      "modified_at": "2019-03-29T14:33:26.209Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "projektverfasserin",
+      "question": "handelt-es-sich-um-eine-juristische-person",
+      "sort": 12
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "01efad3c-6b5a-432d-b74f-333412efbcfb",
+    "fields": {
+      "created_at": "2019-03-29T14:28:16.083Z",
+      "modified_at": "2019-03-29T14:28:16.083Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "projektverfasserin",
+      "question": "kontaktperson-name",
+      "sort": 9
     }
   },
   {
@@ -261,7 +287,7 @@
       "created_by_user": null,
       "created_by_group": null,
       "form": "zonenvorschriften-baurechtliche-grundordnung",
-      "question": "uberbauungsordnung",
+      "question": "ueberbauungsordnung",
       "sort": 5
     }
   },
@@ -300,7 +326,7 @@
       "created_by_user": null,
       "created_by_group": null,
       "form": "triage",
-      "question": "ist-ein-fumoir-betroffengeplant",
+      "question": "ist-ein-fumoir-betroffen",
       "sort": 13
     }
   },
@@ -391,8 +417,21 @@
       "created_by_user": null,
       "created_by_group": null,
       "form": "triage",
-      "question": "gefahrliche-stoffe",
+      "question": "gefaehrliche-stoffe",
       "sort": 12
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "16119de5-cd88-44e6-9566-21412d2c16e1",
+    "fields": {
+      "created_at": "2019-03-29T14:29:47.937Z",
+      "modified_at": "2019-03-29T14:29:47.937Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "projektverfasserin",
+      "question": "e-mail",
+      "sort": 1
     }
   },
   {
@@ -423,6 +462,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "1d65ff02-ab3b-463e-a100-09fe512bffe1",
+    "fields": {
+      "created_at": "2019-03-29T14:30:01.287Z",
+      "modified_at": "2019-03-29T14:30:01.287Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "projektverfasserin",
+      "question": "vorname",
+      "sort": 8
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "1dfb0542-4476-4228-a383-0364f126f0c0",
     "fields": {
       "created_at": "2019-03-28T14:56:01.617Z",
@@ -442,7 +494,7 @@
       "modified_at": "2019-03-25T09:59:37.531Z",
       "created_by_user": null,
       "created_by_group": null,
-      "form": "durchgefuhrte-vorabklarungen-tabelle",
+      "form": "durchgefuehrte-vorabklaerungen-tabelle",
       "question": "mit-ebau-nr",
       "sort": 3
     }
@@ -495,7 +547,7 @@
       "created_by_user": null,
       "created_by_group": null,
       "form": "allgemeine-angaben",
-      "question": "grunflache-in-m",
+      "question": "gruenflache-in-quadratmeter",
       "sort": 4
     }
   },
@@ -527,19 +579,6 @@
   },
   {
     "model": "form.formquestion",
-    "pk": "30b4b523-8cca-438c-9107-6912da902644",
-    "fields": {
-      "created_at": "2019-03-15T09:22:09.339Z",
-      "modified_at": "2019-03-15T09:22:09.340Z",
-      "created_by_user": null,
-      "created_by_group": null,
-      "form": "projektverfasserin",
-      "question": "kontaktperson-name",
-      "sort": 9
-    }
-  },
-  {
-    "model": "form.formquestion",
     "pk": "323d51e1-6e60-46ad-9f75-3a811054bfad",
     "fields": {
       "created_at": "2019-03-15T09:29:23.355Z",
@@ -559,7 +598,7 @@
       "modified_at": "2019-03-25T09:59:16.608Z",
       "created_by_user": null,
       "created_by_group": null,
-      "form": "durchgefuhrte-vorabklarungen-tabelle",
+      "form": "durchgefuehrte-vorabklaerungen-tabelle",
       "question": "telefon-oder-mobile",
       "sort": 4
     }
@@ -612,8 +651,21 @@
       "created_by_user": null,
       "created_by_group": null,
       "form": "triage",
-      "question": "werden-neue-hofdungeranlagen-erstellt",
+      "question": "werden-neue-hofduengeranlagen-erstellt",
       "sort": 4
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "392fb952-0d61-43ac-b038-6a63895fecbd",
+    "fields": {
+      "created_at": "2019-03-29T14:28:23.305Z",
+      "modified_at": "2019-03-29T14:28:23.305Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "projektverfasserin",
+      "question": "strasse",
+      "sort": 6
     }
   },
   {
@@ -625,7 +677,7 @@
       "created_by_user": null,
       "created_by_group": null,
       "form": "triage",
-      "question": "ableitung-in-gullegrube",
+      "question": "ableitung-in-guellegrube",
       "sort": 1
     }
   },
@@ -663,7 +715,7 @@
       "modified_at": "2019-03-25T09:59:39.623Z",
       "created_by_user": null,
       "created_by_group": null,
-      "form": "durchgefuhrte-vorabklarungen-tabelle",
+      "form": "durchgefuehrte-vorabklaerungen-tabelle",
       "question": "ebau-nummer",
       "sort": 2
     }
@@ -690,7 +742,7 @@
       "created_by_user": null,
       "created_by_group": null,
       "form": "zonenvorschriften-baurechtliche-grundordnung",
-      "question": "empfindlichkeitsstufe-es",
+      "question": "empfindlichkeitsstufe",
       "sort": 3
     }
   },
@@ -716,16 +768,16 @@
       "created_by_user": null,
       "created_by_group": null,
       "form": "zonenvorschriften-baurechtliche-grundordnung",
-      "question": "hohe",
+      "question": "hoehe",
       "sort": 2
     }
   },
   {
     "model": "form.formquestion",
-    "pk": "46f56768-8f30-4c6d-9715-e900d5c05a57",
+    "pk": "44e9e4ad-6a7c-430d-8761-1a9cb22ec3ba",
     "fields": {
-      "created_at": "2019-03-15T09:27:02.417Z",
-      "modified_at": "2019-03-15T09:27:02.418Z",
+      "created_at": "2019-03-29T14:30:07.250Z",
+      "modified_at": "2019-03-29T14:30:07.250Z",
       "created_by_user": null,
       "created_by_group": null,
       "form": "projektverfasserin",
@@ -748,19 +800,6 @@
   },
   {
     "model": "form.formquestion",
-    "pk": "49d83d26-0f40-4d5b-9150-25f006911b40",
-    "fields": {
-      "created_at": "2019-03-15T09:21:56.728Z",
-      "modified_at": "2019-03-15T09:21:56.728Z",
-      "created_by_user": null,
-      "created_by_group": null,
-      "form": "projektverfasserin",
-      "question": "name-juristische-person",
-      "sort": 11
-    }
-  },
-  {
-    "model": "form.formquestion",
     "pk": "4d849ef6-2e04-400e-8f4f-f3e81a556e34",
     "fields": {
       "created_at": "2019-03-28T14:13:23.864Z",
@@ -774,6 +813,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "4db97ff8-0991-4635-8586-2ce82529ecb3",
+    "fields": {
+      "created_at": "2019-03-29T14:28:10.169Z",
+      "modified_at": "2019-03-29T14:28:10.169Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "projektverfasserin",
+      "question": "kontaktperson-vorname",
+      "sort": 10
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "518467c8-1ece-4d47-bc07-4ad94095cf9e",
     "fields": {
       "created_at": "2019-03-25T12:45:23.378Z",
@@ -783,6 +835,19 @@
       "form": "gebaudeeigentumerin",
       "question": "kontaktperson-name",
       "sort": 9
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "5254e643-4233-45a5-9336-bd776adfe17a",
+    "fields": {
+      "created_at": "2019-03-29T14:29:25.398Z",
+      "modified_at": "2019-03-29T14:29:25.398Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "projektverfasserin",
+      "question": "plz",
+      "sort": 4
     }
   },
   {
@@ -872,7 +937,7 @@
       "created_by_user": null,
       "created_by_group": null,
       "form": "allgemeine-angaben",
-      "question": "ausnutzung",
+      "question": "ausnuetzung",
       "sort": 5
     }
   },
@@ -885,7 +950,7 @@
       "created_by_user": null,
       "created_by_group": null,
       "form": "triage",
-      "question": "aussenlarm",
+      "question": "aussenlaerm",
       "sort": 10
     }
   },
@@ -917,6 +982,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "6e3c00f2-0526-4a0f-a168-4d402bec656b",
+    "fields": {
+      "created_at": "2019-03-29T12:22:56.079Z",
+      "modified_at": "2019-03-29T12:22:56.079Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "durchgefuehrte-vorabklaerungen",
+      "question": "weitere-hinzufuegen",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "6f1e89d8-32a3-4dd5-987d-7e03fab70d6f",
     "fields": {
       "created_at": "2019-03-15T08:28:54.715Z",
@@ -926,19 +1004,6 @@
       "form": "vertreterin-mit-vollmacht",
       "question": "telefon-oder-mobile",
       "sort": 3
-    }
-  },
-  {
-    "model": "form.formquestion",
-    "pk": "6f8863cf-50b3-4956-acbe-f0d9617ec5e3",
-    "fields": {
-      "created_at": "2019-03-15T09:22:06.383Z",
-      "modified_at": "2019-03-15T09:22:06.383Z",
-      "created_by_user": null,
-      "created_by_group": null,
-      "form": "projektverfasserin",
-      "question": "kontaktperson-vorname",
-      "sort": 10
     }
   },
   {
@@ -982,54 +1047,15 @@
   },
   {
     "model": "form.formquestion",
-    "pk": "7bc07e8a-da42-47c4-8430-04ace25560cc",
-    "fields": {
-      "created_at": "2019-03-15T09:27:04.137Z",
-      "modified_at": "2019-03-15T09:27:04.137Z",
-      "created_by_user": null,
-      "created_by_group": null,
-      "form": "projektverfasserin",
-      "question": "vorname",
-      "sort": 8
-    }
-  },
-  {
-    "model": "form.formquestion",
-    "pk": "7f47f25c-a5d2-42ed-8dbf-72d230188296",
-    "fields": {
-      "created_at": "2019-03-15T09:22:31.960Z",
-      "modified_at": "2019-03-15T09:22:31.960Z",
-      "created_by_user": null,
-      "created_by_group": null,
-      "form": "projektverfasserin",
-      "question": "e-mail",
-      "sort": 1
-    }
-  },
-  {
-    "model": "form.formquestion",
     "pk": "82fbfdea-b24f-4061-9b3e-223ba975ffbf",
     "fields": {
       "created_at": "2019-03-25T09:59:52.039Z",
       "modified_at": "2019-03-25T09:59:52.039Z",
       "created_by_user": null,
       "created_by_group": null,
-      "form": "durchgefuhrte-vorabklarungen-tabelle",
+      "form": "durchgefuehrte-vorabklaerungen-tabelle",
       "question": "bemerkungen",
       "sort": 1
-    }
-  },
-  {
-    "model": "form.formquestion",
-    "pk": "84b1a7f5-b635-4180-9dee-4a01e598b3cb",
-    "fields": {
-      "created_at": "2019-03-11T07:18:04.867Z",
-      "modified_at": "2019-03-11T07:18:04.867Z",
-      "created_by_user": null,
-      "created_by_group": null,
-      "form": "personalien",
-      "question": "handelt-es-sich-um-eine-juristische-person",
-      "sort": 7
     }
   },
   {
@@ -1040,8 +1066,8 @@
       "modified_at": "2019-03-08T15:30:16.183Z",
       "created_by_user": null,
       "created_by_group": null,
-      "form": "durchgefuhrte-vorabklarungen",
-      "question": "wurden-vorabklarungen-durchgefuhrt",
+      "form": "durchgefuehrte-vorabklaerungen",
+      "question": "wurden-vorabklaerungen-durchgefuehrt",
       "sort": 2
     }
   },
@@ -1060,19 +1086,6 @@
   },
   {
     "model": "form.formquestion",
-    "pk": "87e925d5-8417-477e-9ab8-e87c1caaec9e",
-    "fields": {
-      "created_at": "2019-03-15T09:21:51.440Z",
-      "modified_at": "2019-03-15T09:21:51.440Z",
-      "created_by_user": null,
-      "created_by_group": null,
-      "form": "projektverfasserin",
-      "question": "handelt-es-sich-um-eine-juristische-person",
-      "sort": 12
-    }
-  },
-  {
-    "model": "form.formquestion",
     "pk": "8d59017e-3f29-4538-96a4-3a850b6025e1",
     "fields": {
       "created_at": "2019-03-15T08:39:07.460Z",
@@ -1086,19 +1099,6 @@
   },
   {
     "model": "form.formquestion",
-    "pk": "8d7c5580-7a6e-403d-8719-6c4f26abe248",
-    "fields": {
-      "created_at": "2019-03-15T12:15:49.029Z",
-      "modified_at": "2019-03-15T12:15:49.029Z",
-      "created_by_user": null,
-      "created_by_group": null,
-      "form": "personalien",
-      "question": "personalien-projektverfasserin",
-      "sort": 3
-    }
-  },
-  {
-    "model": "form.formquestion",
     "pk": "90eaaa34-2ea8-47e8-ac56-a60bb236b6b8",
     "fields": {
       "created_at": "2019-03-28T09:16:13.236Z",
@@ -1106,7 +1106,7 @@
       "created_by_user": null,
       "created_by_group": null,
       "form": "triage",
-      "question": "was-fur-ein-vorhaben",
+      "question": "was-fuer-ein-vorhaben",
       "sort": 8
     }
   },
@@ -1146,19 +1146,6 @@
       "created_by_group": null,
       "form": "triage",
       "question": "welche-art-vorhaben",
-      "sort": 6
-    }
-  },
-  {
-    "model": "form.formquestion",
-    "pk": "9604c665-d6af-4df6-9ac7-d3969d3c6e23",
-    "fields": {
-      "created_at": "2019-03-15T09:22:13.780Z",
-      "modified_at": "2019-03-15T09:22:13.780Z",
-      "created_by_user": null,
-      "created_by_group": null,
-      "form": "projektverfasserin",
-      "question": "strasse",
       "sort": 6
     }
   },
@@ -1242,19 +1229,6 @@
   },
   {
     "model": "form.formquestion",
-    "pk": "9a140330-eee4-4305-81ef-ff4723779667",
-    "fields": {
-      "created_at": "2019-03-15T09:22:27.859Z",
-      "modified_at": "2019-03-15T09:22:27.860Z",
-      "created_by_user": null,
-      "created_by_group": null,
-      "form": "projektverfasserin",
-      "question": "telefon-oder-mobile",
-      "sort": 2
-    }
-  },
-  {
-    "model": "form.formquestion",
     "pk": "9a262324-50c7-42b6-969d-d0ba2e302723",
     "fields": {
       "created_at": "2019-03-28T14:12:32.578Z",
@@ -1264,6 +1238,32 @@
       "form": "parzelle-formular",
       "question": "parzellen-nr-liegenschaftsnummer",
       "sort": 9
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "9a91155d-e976-446a-bf98-835f1eb7fd6f",
+    "fields": {
+      "created_at": "2019-03-29T14:29:40.638Z",
+      "modified_at": "2019-03-29T14:29:40.638Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "projektverfasserin",
+      "question": "telefon-oder-mobile",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "9bef0541-6441-4e7e-9b37-b7c720074ace",
+    "fields": {
+      "created_at": "2019-03-29T14:29:31.117Z",
+      "modified_at": "2019-03-29T14:29:31.117Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "projektverfasserin",
+      "question": "ort",
+      "sort": 3
     }
   },
   {
@@ -1327,8 +1327,21 @@
       "created_by_user": null,
       "created_by_group": null,
       "form": "allgemeine-angaben",
-      "question": "geschossflache-in-m",
+      "question": "geschossflaeche-in-quadratmeter",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "adcbafe2-b95f-40b6-9d27-3fc2215de4bb",
+    "fields": {
+      "created_at": "2019-03-29T14:27:54.986Z",
+      "modified_at": "2019-03-29T14:27:54.986Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "projektverfasserin",
+      "question": "name-juristische-person",
+      "sort": 11
     }
   },
   {
@@ -1342,32 +1355,6 @@
       "form": "triage",
       "question": "nutzungsart",
       "sort": 17
-    }
-  },
-  {
-    "model": "form.formquestion",
-    "pk": "b00b96fa-ad7e-44de-b05d-fdbb355fc338",
-    "fields": {
-      "created_at": "2019-03-15T09:22:20.081Z",
-      "modified_at": "2019-03-15T09:22:20.081Z",
-      "created_by_user": null,
-      "created_by_group": null,
-      "form": "projektverfasserin",
-      "question": "plz",
-      "sort": 4
-    }
-  },
-  {
-    "model": "form.formquestion",
-    "pk": "b26890cd-bf4d-48ab-99b9-e4be2df4f3eb",
-    "fields": {
-      "created_at": "2019-03-25T10:02:34.598Z",
-      "modified_at": "2019-03-25T10:02:34.598Z",
-      "created_by_user": null,
-      "created_by_group": null,
-      "form": "durchgefuhrte-vorabklarungen",
-      "question": "weitere-hinzufugen",
-      "sort": 1
     }
   },
   {
@@ -1450,6 +1437,32 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "c8d8955b-31d9-4e64-a8f8-f805c21622b8",
+    "fields": {
+      "created_at": "2019-03-29T14:29:15.233Z",
+      "modified_at": "2019-03-29T14:29:15.233Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "projektverfasserin",
+      "question": "nummer",
+      "sort": 5
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "c99670fa-02f2-40a2-a53c-a5c78e049d77",
+    "fields": {
+      "created_at": "2019-03-29T12:37:39.118Z",
+      "modified_at": "2019-03-29T12:37:39.118Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien-tabelle",
+      "question": "handelt-es-sich-um-eine-juristische-person",
+      "sort": 12
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "d02b25bf-b9cc-4ca3-9165-7cc6ce97e31f",
     "fields": {
       "created_at": "2019-03-15T08:28:57.020Z",
@@ -1469,7 +1482,7 @@
       "modified_at": "2019-03-25T09:59:08.330Z",
       "created_by_user": null,
       "created_by_group": null,
-      "form": "durchgefuhrte-vorabklarungen-tabelle",
+      "form": "durchgefuehrte-vorabklaerungen-tabelle",
       "question": "kontaktperson",
       "sort": 5
     }
@@ -1601,7 +1614,7 @@
       "created_by_group": null,
       "form": "personalien",
       "question": "personalien-gebaudeeigentumerin",
-      "sort": 1
+      "sort": 2
     }
   },
   {
@@ -1626,21 +1639,8 @@
       "created_by_user": null,
       "created_by_group": null,
       "form": "allgemeine-angaben",
-      "question": "strasseflurname",
+      "question": "strasse-flurname",
       "sort": 11
-    }
-  },
-  {
-    "model": "form.formquestion",
-    "pk": "e2d7411a-b636-4a62-9a6f-9fbfafda71c6",
-    "fields": {
-      "created_at": "2019-03-15T09:22:16.873Z",
-      "modified_at": "2019-03-15T09:22:16.873Z",
-      "created_by_user": null,
-      "created_by_group": null,
-      "form": "projektverfasserin",
-      "question": "nummer",
-      "sort": 5
     }
   },
   {
@@ -1652,7 +1652,7 @@
       "created_by_user": null,
       "created_by_group": null,
       "form": "triage",
-      "question": "um-was-fur-ein-gebaude-handelt-es-sich",
+      "question": "um-was-fuer-ein-gebaeude-handelt-es-sich",
       "sort": 16
     }
   },
@@ -1704,7 +1704,7 @@
       "created_by_user": null,
       "created_by_group": null,
       "form": "zonenvorschriften-baurechtliche-grundordnung",
-      "question": "zulassige-geschosszahl",
+      "question": "zulaessige-geschosszahl",
       "sort": 4
     }
   },
@@ -1730,7 +1730,7 @@
       "created_by_user": null,
       "created_by_group": null,
       "form": "bauvorhaben",
-      "question": "baufkosten-in-chf",
+      "question": "baukosten-in-chf",
       "sort": 2
     }
   },
@@ -1756,7 +1756,7 @@
       "created_by_user": null,
       "created_by_group": null,
       "form": "allgemeine-angaben",
-      "question": "uberbauung-in-percent",
+      "question": "ueberbauung-in-prozent",
       "sort": 3
     }
   },
@@ -1782,21 +1782,8 @@
       "created_by_user": null,
       "created_by_group": null,
       "form": "triage",
-      "question": "bauten-mit-greater-30-grossvieheinheiten",
+      "question": "bauten-mit-mehr-als-30-grossvieheinheiten",
       "sort": 5
-    }
-  },
-  {
-    "model": "form.formquestion",
-    "pk": "fbabd8d5-5dad-49d8-948d-83dd065b50a1",
-    "fields": {
-      "created_at": "2019-03-15T09:22:23.735Z",
-      "modified_at": "2019-03-15T09:22:23.735Z",
-      "created_by_user": null,
-      "created_by_group": null,
-      "form": "projektverfasserin",
-      "question": "ort",
-      "sort": 3
     }
   },
   {
@@ -1813,8 +1800,21 @@
     }
   },
   {
+    "model": "form.formquestion",
+    "pk": "fd5262f7-7b2d-4ca7-aecf-ccac7a63a090",
+    "fields": {
+      "created_at": "2019-03-29T14:26:51.182Z",
+      "modified_at": "2019-03-29T14:26:51.182Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien",
+      "question": "personalien-projektverfasserin",
+      "sort": 1
+    }
+  },
+  {
     "model": "form.question",
-    "pk": "ableitung-in-gullegrube",
+    "pk": "ableitung-in-guellegrube",
     "fields": {
       "created_at": "2019-03-25T14:02:50.734Z",
       "modified_at": "2019-03-28T10:07:51.471Z",
@@ -1834,7 +1834,7 @@
   },
   {
     "model": "form.question",
-    "pk": "ausnutzung",
+    "pk": "ausnuetzung",
     "fields": {
       "created_at": "2019-03-28T14:56:32.939Z",
       "modified_at": "2019-03-28T14:56:32.939Z",
@@ -1854,7 +1854,7 @@
   },
   {
     "model": "form.question",
-    "pk": "aussenlarm",
+    "pk": "aussenlaerm",
     "fields": {
       "created_at": "2019-03-15T13:25:53.280Z",
       "modified_at": "2019-03-28T08:37:03.605Z",
@@ -1894,13 +1894,13 @@
   },
   {
     "model": "form.question",
-    "pk": "baufkosten-in-chf",
+    "pk": "baukosten-in-chf",
     "fields": {
       "created_at": "2019-03-11T09:29:34.526Z",
       "modified_at": "2019-03-11T09:29:34.526Z",
       "created_by_user": null,
       "created_by_group": null,
-      "label": "{\"de\": null, \"fr\": null, \"en\": \"Baufkosten in CHF\"}",
+      "label": "{\"de\": null, \"fr\": null, \"en\": \"Baukosten in CHF\"}",
       "type": "integer",
       "is_required": "true",
       "is_hidden": "false",
@@ -1934,7 +1934,7 @@
   },
   {
     "model": "form.question",
-    "pk": "bauten-mit-greater-30-grossvieheinheiten",
+    "pk": "bauten-mit-mehr-als-30-grossvieheinheiten",
     "fields": {
       "created_at": "2019-03-28T09:46:55.992Z",
       "modified_at": "2019-03-28T09:46:55.992Z",
@@ -1983,7 +1983,7 @@
       "label": "{\"de\": null, \"fr\": null, \"en\": \"Bemerkungen\"}",
       "type": "textarea",
       "is_required": "false",
-      "is_hidden": "'nein' in 'wurden-vorabklarungen-durchgefuhrt'|answer",
+      "is_hidden": "'nein' in 'wurden-vorabklaerungen-durchgefuehrt'|answer",
       "is_archived": false,
       "configuration": { "max_length": null },
       "meta": {},
@@ -2057,13 +2057,13 @@
     "pk": "ebau-nummer",
     "fields": {
       "created_at": "2019-03-08T16:38:41.117Z",
-      "modified_at": "2019-03-28T10:31:47.561Z",
+      "modified_at": "2019-03-29T12:34:21.892Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"eBau Nummer\", \"fr\": null, \"en\": \"eBau Nummer\"}",
       "type": "text",
       "is_required": "true",
-      "is_hidden": "'mit-ebau-nr-no' in 'mit-ebau-nr'|answer",
+      "is_hidden": "false",
       "is_archived": false,
       "configuration": { "max_length": null },
       "meta": {},
@@ -2134,7 +2134,7 @@
   },
   {
     "model": "form.question",
-    "pk": "empfindlichkeitsstufe-es",
+    "pk": "empfindlichkeitsstufe",
     "fields": {
       "created_at": "2019-03-28T15:11:45.653Z",
       "modified_at": "2019-03-28T15:11:45.653Z",
@@ -2174,7 +2174,7 @@
   },
   {
     "model": "form.question",
-    "pk": "gefahrliche-stoffe",
+    "pk": "gefaehrliche-stoffe",
     "fields": {
       "created_at": "2019-03-15T13:23:59.864Z",
       "modified_at": "2019-03-28T08:35:54.540Z",
@@ -2194,7 +2194,7 @@
   },
   {
     "model": "form.question",
-    "pk": "geschossflache-in-m",
+    "pk": "geschossflaeche-in-quadratmeter",
     "fields": {
       "created_at": "2019-03-28T14:57:31.939Z",
       "modified_at": "2019-03-28T14:57:31.939Z",
@@ -2214,7 +2214,7 @@
   },
   {
     "model": "form.question",
-    "pk": "grunflache-in-m",
+    "pk": "gruenflache-in-quadratmeter",
     "fields": {
       "created_at": "2019-03-28T14:56:57.499Z",
       "modified_at": "2019-03-28T14:56:57.500Z",
@@ -2257,7 +2257,7 @@
     "pk": "handelt-es-sich-um-eine-juristische-person",
     "fields": {
       "created_at": "2019-03-11T07:18:04.773Z",
-      "modified_at": "2019-03-28T11:42:03.624Z",
+      "modified_at": "2019-03-29T12:37:47.460Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Handelt es sich um eine juristische Person?\", \"fr\": null, \"en\": \"Handelt es sich um eine juristische Person?\"}",
@@ -2274,7 +2274,7 @@
   },
   {
     "model": "form.question",
-    "pk": "hohe",
+    "pk": "hoehe",
     "fields": {
       "created_at": "2019-03-28T15:13:06.496Z",
       "modified_at": "2019-03-28T15:13:06.496Z",
@@ -2314,7 +2314,7 @@
   },
   {
     "model": "form.question",
-    "pk": "ist-ein-fumoir-betroffengeplant",
+    "pk": "ist-ein-fumoir-betroffen",
     "fields": {
       "created_at": "2019-03-15T13:17:58.193Z",
       "modified_at": "2019-03-28T09:10:33.351Z",
@@ -2337,13 +2337,13 @@
     "pk": "kontaktperson",
     "fields": {
       "created_at": "2019-03-08T15:32:28.295Z",
-      "modified_at": "2019-03-15T12:01:28.684Z",
+      "modified_at": "2019-03-29T10:13:54.611Z",
       "created_by_user": null,
       "created_by_group": null,
-      "label": "{\"de\": null, \"fr\": null, \"en\": \"Kontaktperson\"}",
+      "label": "{\"de\": \"Kontaktperson\", \"fr\": null, \"en\": \"Kontaktperson\"}",
       "type": "text",
       "is_required": "true",
-      "is_hidden": "'nein' in 'wurden-vorabklarungen-durchgefuhrt'|answer",
+      "is_hidden": "flase",
       "is_archived": false,
       "configuration": { "max_length": null },
       "meta": {},
@@ -2434,7 +2434,7 @@
   },
   {
     "model": "form.question",
-    "pk": "landwirtschaftliches-bauvorhaben-mit-ableitung",
+    "pk": "landwirtschaftliches-vorhaben-mit-ableitung",
     "fields": {
       "created_at": "2019-03-28T09:49:51.860Z",
       "modified_at": "2019-03-28T09:49:51.860Z",
@@ -2497,13 +2497,13 @@
     "pk": "mit-ebau-nr",
     "fields": {
       "created_at": "2019-03-08T16:03:51.285Z",
-      "modified_at": "2019-03-28T10:30:13.369Z",
+      "modified_at": "2019-03-29T10:15:37.288Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Mit eBau-Nr.?\", \"fr\": null, \"en\": \"Mit eBau-Nr.?\"}",
       "type": "choice",
       "is_required": "true",
-      "is_hidden": "'nein' != 'wurden-vorabklarungen-durchgefuhrt'|answer",
+      "is_hidden": "false",
       "is_archived": false,
       "configuration": {},
       "meta": {},
@@ -2537,13 +2537,13 @@
     "pk": "name-juristische-person",
     "fields": {
       "created_at": "2019-03-11T12:08:01.064Z",
-      "modified_at": "2019-03-28T11:42:38.570Z",
+      "modified_at": "2019-03-29T14:39:29.811Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Name juristische Person\", \"fr\": null, \"en\": \"Name juristische Person\"}",
       "type": "text",
       "is_required": "true",
-      "is_hidden": "'handelt-es-sich-um-eine-juristische-person-no' in 'handelt-es-sich-um-eine-juristische-person'|answer",
+      "is_hidden": "'handelt-es-sich-um-eine-juristische-person-nein' in 'handelt-es-sich-um-eine-juristische-person'|answer",
       "is_archived": false,
       "configuration": { "max_length": null },
       "meta": {},
@@ -2854,7 +2854,7 @@
   },
   {
     "model": "form.question",
-    "pk": "strasseflurname",
+    "pk": "strasse-flurname",
     "fields": {
       "created_at": "2019-03-28T14:15:10.806Z",
       "modified_at": "2019-03-28T14:15:10.806Z",
@@ -2877,13 +2877,13 @@
     "pk": "telefon-oder-mobile",
     "fields": {
       "created_at": "2019-03-08T15:32:55.365Z",
-      "modified_at": "2019-03-15T12:01:30.191Z",
+      "modified_at": "2019-03-29T10:14:05.756Z",
       "created_by_user": null,
       "created_by_group": null,
-      "label": "{\"de\": null, \"fr\": null, \"en\": \"Telefon oder Mobile\"}",
+      "label": "{\"de\": \"Telefon oder Mobile\", \"fr\": null, \"en\": \"Telefon oder Mobile\"}",
       "type": "text",
       "is_required": "true",
-      "is_hidden": "'nein' in 'wurden-vorabklarungen-durchgefuhrt'|answer",
+      "is_hidden": "false",
       "is_archived": false,
       "configuration": { "max_length": null },
       "meta": {},
@@ -2914,7 +2914,7 @@
   },
   {
     "model": "form.question",
-    "pk": "uberbauung-in-percent",
+    "pk": "ueberbauung-in-prozent",
     "fields": {
       "created_at": "2019-03-28T14:57:14.512Z",
       "modified_at": "2019-03-28T14:57:14.512Z",
@@ -2934,7 +2934,7 @@
   },
   {
     "model": "form.question",
-    "pk": "uberbauungsordnung",
+    "pk": "ueberbauungsordnung",
     "fields": {
       "created_at": "2019-03-28T15:11:08.156Z",
       "modified_at": "2019-03-28T15:11:08.156Z",
@@ -2954,7 +2954,7 @@
   },
   {
     "model": "form.question",
-    "pk": "um-was-fur-ein-gebaude-handelt-es-sich",
+    "pk": "um-was-fuer-ein-gebaeude-handelt-es-sich",
     "fields": {
       "created_at": "2019-03-15T13:17:11.788Z",
       "modified_at": "2019-03-25T13:43:28.373Z",
@@ -3054,7 +3054,7 @@
   },
   {
     "model": "form.question",
-    "pk": "was-fur-ein-vorhaben",
+    "pk": "was-fuer-ein-vorhaben",
     "fields": {
       "created_at": "2019-03-28T09:16:13.122Z",
       "modified_at": "2019-03-28T09:16:13.122Z",
@@ -3074,20 +3074,40 @@
   },
   {
     "model": "form.question",
-    "pk": "weitere-hinzufugen",
+    "pk": "weitere-hinzufuegen",
     "fields": {
       "created_at": "2019-03-25T10:02:34.522Z",
-      "modified_at": "2019-03-28T11:24:08.994Z",
+      "modified_at": "2019-03-29T12:24:00.917Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Weitere hinzuf\\u00fcgen\", \"fr\": null, \"en\": \"Weitere hinzuf\\u00fcgen\"}",
       "type": "table",
       "is_required": "true",
-      "is_hidden": "'nein' in 'wurden-vorabklarungen-durchgefuhrt'|answer",
+      "is_hidden": "'nein' in 'wurden-vorabklaerungen-durchgefuehrt'|answer",
       "is_archived": false,
       "configuration": {},
       "meta": {},
-      "row_form": "durchgefuhrte-vorabklarungen-tabelle",
+      "row_form": "durchgefuehrte-vorabklaerungen-tabelle",
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "weitere-hinzufugen",
+    "fields": {
+      "created_at": "2019-03-25T10:02:34.522Z",
+      "modified_at": "2019-03-29T12:24:00.917Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Weitere hinzuf\\u00fcgen\", \"fr\": null, \"en\": \"Weitere hinzuf\\u00fcgen\"}",
+      "type": "table",
+      "is_required": "true",
+      "is_hidden": "'nein' in 'wurden-vorabklaerungen-durchgefuehrt'|answer",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": "durchgefuehrte-vorabklaerungen-tabelle",
       "sub_form": null,
       "source": null
     }
@@ -3134,7 +3154,7 @@
   },
   {
     "model": "form.question",
-    "pk": "werden-neue-hofdungeranlagen-erstellt",
+    "pk": "werden-neue-hofduengeranlagen-erstellt",
     "fields": {
       "created_at": "2019-03-28T09:47:46.554Z",
       "modified_at": "2019-03-28T09:47:46.554Z",
@@ -3174,13 +3194,13 @@
   },
   {
     "model": "form.question",
-    "pk": "wurden-vorabklarungen-durchgefuhrt",
+    "pk": "wurden-vorabklaerungen-durchgefuehrt",
     "fields": {
       "created_at": "2019-03-08T11:20:08.267Z",
-      "modified_at": "2019-03-08T15:58:26.367Z",
+      "modified_at": "2019-03-29T10:02:05.394Z",
       "created_by_user": null,
       "created_by_group": null,
-      "label": "{\"de\": null, \"fr\": null, \"en\": \"Wurden Vorabkl\\u00e4rungen durchgef\\u00fchrt?\"}",
+      "label": "{\"de\": \"Wurden Vorabkl\\u00e4rungen durchgef\\u00fchrt?\", \"fr\": null, \"en\": \"Wurden Vorabkl\\u00e4rungen durchgef\\u00fchrt?\"}",
       "type": "choice",
       "is_required": "true",
       "is_hidden": "false",
@@ -3194,7 +3214,7 @@
   },
   {
     "model": "form.question",
-    "pk": "zulassige-geschosszahl",
+    "pk": "zulaessige-geschosszahl",
     "fields": {
       "created_at": "2019-03-28T15:11:27.509Z",
       "modified_at": "2019-03-28T15:11:27.509Z",
@@ -3233,8 +3253,8 @@
       "modified_at": "2019-03-28T08:37:03.610Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "aussenlarm",
-      "option": "aussenlarm-yes",
+      "question": "aussenlaerm",
+      "option": "aussenlaerm-ja",
       "sort": 2
     }
   },
@@ -3279,14 +3299,40 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "0e5d6a66-0e2c-417c-b4d2-c90214902966",
+    "fields": {
+      "created_at": "2019-03-29T09:53:51.887Z",
+      "modified_at": "2019-03-29T09:53:51.887Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "wurden-vorabklarungen-durchgefuhrt",
+      "option": "wurden-vorabklarungen-durchgefuhrt-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "1479ff83-9a90-4d51-8948-fef5cf9a46d6",
+    "fields": {
+      "created_at": "2019-03-29T10:02:05.397Z",
+      "modified_at": "2019-03-29T10:02:05.397Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "wurden-vorabklaerungen-durchgefuehrt",
+      "option": "wurden-vorabklaerungen-durchgefuehrt-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "15c1f697-0bbd-4f68-9821-f9916173ee17",
     "fields": {
       "created_at": "2019-03-28T09:46:55.997Z",
       "modified_at": "2019-03-28T09:46:55.997Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "bauten-mit-greater-30-grossvieheinheiten",
-      "option": "bauten-mit-greater-30-grossvieheinheiten-yes",
+      "question": "bauten-mit-mehr-als-30-grossvieheinheiten",
+      "option": "bauten-mit-mehr-als-30-grossvieheinheiten-ja",
       "sort": 2
     }
   },
@@ -3298,8 +3344,8 @@
       "modified_at": "2019-03-28T09:49:51.865Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "landwirtschaftliches-bauvorhaben-mit-ableitung",
-      "option": "landwirtschaftliches-bauvorhaben-mit-ableitung-yes",
+      "question": "landwirtschaftliches-vorhaben-mit-ableitung",
+      "option": "landwirtschaftliches-vorhaben-mit-ableitung-ja",
       "sort": 2
     }
   },
@@ -3350,8 +3396,8 @@
       "modified_at": "2019-03-28T08:35:54.544Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "gefahrliche-stoffe",
-      "option": "gefahrliche-stoffe-yes",
+      "question": "gefaehrliche-stoffe",
+      "option": "gefaehrliche-stoffe-ja",
       "sort": 2
     }
   },
@@ -3363,8 +3409,8 @@
       "modified_at": "2019-03-28T09:47:46.557Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "werden-neue-hofdungeranlagen-erstellt",
-      "option": "werden-neue-hofdungeranlagen-erstellt-yes",
+      "question": "werden-neue-hofduengeranlagen-erstellt",
+      "option": "werden-neue-hofduengeranlagen-erstellt-ja",
       "sort": 2
     }
   },
@@ -3389,8 +3435,8 @@
       "modified_at": "2019-03-28T09:46:55.997Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "bauten-mit-greater-30-grossvieheinheiten",
-      "option": "bauten-mit-greater-30-grossvieheinheiten-no",
+      "question": "bauten-mit-mehr-als-30-grossvieheinheiten",
+      "option": "bauten-mit-mehr-als-30-grossvieheinheiten-nein",
       "sort": 1
     }
   },
@@ -3415,8 +3461,8 @@
       "modified_at": "2019-03-25T13:43:28.376Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "um-was-fur-ein-gebaude-handelt-es-sich",
-      "option": "um-was-fur-ein-gebaude-handelt-es-sich-mfh",
+      "question": "um-was-fuer-ein-gebaeude-handelt-es-sich",
+      "option": "um-was-fuer-ein-gebaeude-handelt-es-sich-mfh",
       "sort": 1
     }
   },
@@ -3429,7 +3475,7 @@
       "created_by_user": null,
       "created_by_group": null,
       "question": "maschinelle-arbeitsmittel",
-      "option": "maschinelle-arbeitsmittel-yes",
+      "option": "maschinelle-arbeitsmittel-ja",
       "sort": 2
     }
   },
@@ -3468,7 +3514,7 @@
       "created_by_user": null,
       "created_by_group": null,
       "question": "brandbelastung",
-      "option": "brandbelastung-no",
+      "option": "brandbelastung-nein",
       "sort": 1
     }
   },
@@ -3506,8 +3552,8 @@
       "modified_at": "2019-03-28T09:16:13.126Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "was-fur-ein-vorhaben",
-      "option": "was-fur-ein-vorhaben-verkehrintensives-vorhaben",
+      "question": "was-fuer-ein-vorhaben",
+      "option": "was-fuer-ein-vorhaben-verkehrintensives-vorhaben",
       "sort": 7
     }
   },
@@ -3559,20 +3605,7 @@
       "created_by_user": null,
       "created_by_group": null,
       "question": "werden-siloanlagen-erstellt",
-      "option": "werden-siloanlagen-erstellt-yes",
-      "sort": 2
-    }
-  },
-  {
-    "model": "form.questionoption",
-    "pk": "5bede47a-2561-45ac-8a7c-db3f7c483332",
-    "fields": {
-      "created_at": "2019-03-28T10:30:13.374Z",
-      "modified_at": "2019-03-28T10:30:13.374Z",
-      "created_by_user": null,
-      "created_by_group": null,
-      "question": "mit-ebau-nr",
-      "option": "mit-ebau-nr-yes",
+      "option": "werden-siloanlagen-erstellt-ja",
       "sort": 2
     }
   },
@@ -3610,21 +3643,8 @@
       "modified_at": "2019-03-28T09:10:33.355Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "ist-ein-fumoir-betroffengeplant",
-      "option": "ist-ein-fumoir-betroffengeplant-no",
-      "sort": 1
-    }
-  },
-  {
-    "model": "form.questionoption",
-    "pk": "61d51a90-07de-4292-8748-528e738ea078",
-    "fields": {
-      "created_at": "2019-03-28T11:42:03.630Z",
-      "modified_at": "2019-03-28T11:42:03.631Z",
-      "created_by_user": null,
-      "created_by_group": null,
-      "question": "handelt-es-sich-um-eine-juristische-person",
-      "option": "handelt-es-sich-um-eine-juristische-person-no",
+      "question": "ist-ein-fumoir-betroffen",
+      "option": "ist-ein-fumoir-betroffen-nein",
       "sort": 1
     }
   },
@@ -3637,7 +3657,7 @@
       "created_by_user": null,
       "created_by_group": null,
       "question": "rechtliche-sicherung-fremden-bodens",
-      "option": "rechtliche-sicherung-fremden-bodens-no",
+      "option": "rechtliche-sicherung-fremden-bodens-nein",
       "sort": 1
     }
   },
@@ -3689,7 +3709,7 @@
       "created_by_user": null,
       "created_by_group": null,
       "question": "verunreinigte-abluft",
-      "option": "verunreinigte-abluft-no",
+      "option": "verunreinigte-abluft-nein",
       "sort": 1
     }
   },
@@ -3728,7 +3748,7 @@
       "created_by_user": null,
       "created_by_group": null,
       "question": "werden-siloanlagen-erstellt",
-      "option": "werden-siloanlagen-erstellt-no",
+      "option": "werden-siloanlagen-erstellt-nein",
       "sort": 1
     }
   },
@@ -3754,7 +3774,7 @@
       "created_by_user": null,
       "created_by_group": null,
       "question": "brandbelastung",
-      "option": "brandbelastung-yes",
+      "option": "brandbelastung-ja",
       "sort": 2
     }
   },
@@ -3766,8 +3786,21 @@
       "modified_at": "2019-03-25T13:43:28.376Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "um-was-fur-ein-gebaude-handelt-es-sich",
-      "option": "um-was-fur-ein-gebaude-handelt-es-sich-efh",
+      "question": "um-was-fuer-ein-gebaeude-handelt-es-sich",
+      "option": "um-was-fuer-ein-gebaeude-handelt-es-sich-efh",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "7b54a725-cce0-49c7-91d8-a34b88bab234",
+    "fields": {
+      "created_at": "2019-03-29T10:15:37.290Z",
+      "modified_at": "2019-03-29T10:15:37.290Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "mit-ebau-nr",
+      "option": "mit-ebau-nr-ja",
       "sort": 2
     }
   },
@@ -3786,6 +3819,32 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "7ef1e8d6-8c86-4ebc-b396-0c1dbdd814fa",
+    "fields": {
+      "created_at": "2019-03-29T12:37:47.463Z",
+      "modified_at": "2019-03-29T12:37:47.463Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "handelt-es-sich-um-eine-juristische-person",
+      "option": "handelt-es-sich-um-eine-juristische-person-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "7f875b16-d07a-4a1a-87a6-538b1e864397",
+    "fields": {
+      "created_at": "2019-03-29T12:37:47.463Z",
+      "modified_at": "2019-03-29T12:37:47.463Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "handelt-es-sich-um-eine-juristische-person",
+      "option": "handelt-es-sich-um-eine-juristische-person-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "808d0433-f2a4-4dbe-a85e-5df25eb67a04",
     "fields": {
       "created_at": "2019-03-28T08:35:19.153Z",
@@ -3793,7 +3852,7 @@
       "created_by_user": null,
       "created_by_group": null,
       "question": "maschinelle-arbeitsmittel",
-      "option": "maschinelle-arbeitsmittel-no",
+      "option": "maschinelle-arbeitsmittel-nein",
       "sort": 1
     }
   },
@@ -3808,19 +3867,6 @@
       "question": "welche-art-vorhaben",
       "option": "welche-art-vorhaben-umnutzungen",
       "sort": 6
-    }
-  },
-  {
-    "model": "form.questionoption",
-    "pk": "81729529-802a-47bb-bb66-8559f98658a0",
-    "fields": {
-      "created_at": "2019-03-08T15:58:26.372Z",
-      "modified_at": "2019-03-08T15:58:26.372Z",
-      "created_by_user": null,
-      "created_by_group": null,
-      "question": "wurden-vorabklarungen-durchgefuhrt",
-      "option": "wurden-vorabklarungen-durchgefuhrt-ja",
-      "sort": 2
     }
   },
   {
@@ -3844,8 +3890,8 @@
       "modified_at": "2019-03-28T08:37:03.610Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "aussenlarm",
-      "option": "aussenlarm-no",
+      "question": "aussenlaerm",
+      "option": "aussenlaerm-nein",
       "sort": 1
     }
   },
@@ -3883,8 +3929,8 @@
       "modified_at": "2019-03-28T09:47:46.557Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "werden-neue-hofdungeranlagen-erstellt",
-      "option": "werden-neue-hofdungeranlagen-erstellt-no",
+      "question": "werden-neue-hofduengeranlagen-erstellt",
+      "option": "werden-neue-hofduengeranlagen-erstellt-nein",
       "sort": 1
     }
   },
@@ -3903,14 +3949,27 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "93c5e877-07a7-49e3-bbdc-ebe211923a36",
+    "fields": {
+      "created_at": "2019-03-29T10:02:05.396Z",
+      "modified_at": "2019-03-29T10:02:05.396Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "wurden-vorabklaerungen-durchgefuehrt",
+      "option": "wurden-vorabklaerungen-durchgefuehrt-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "98c9ae21-ce79-42db-9134-1d1e1f427e20",
     "fields": {
       "created_at": "2019-03-28T15:13:06.498Z",
       "modified_at": "2019-03-28T15:13:06.498Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "hohe",
-      "option": "hohe-mittlere-hohe-zwischen-11-m-und-30-m",
+      "question": "hoehe",
+      "option": "hoehe-mittlere-hoehe-zwischen-11-m-und-30-m",
       "sort": 2
     }
   },
@@ -3942,14 +4001,27 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "9d226a86-e67c-4a8b-be2f-5739620c672e",
+    "fields": {
+      "created_at": "2019-03-29T10:15:37.290Z",
+      "modified_at": "2019-03-29T10:15:37.290Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "mit-ebau-nr",
+      "option": "mit-ebau-nr-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "a4563f71-5dc8-4419-9f85-a07e4f34616a",
     "fields": {
       "created_at": "2019-03-28T08:35:54.544Z",
       "modified_at": "2019-03-28T08:35:54.544Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "gefahrliche-stoffe",
-      "option": "gefahrliche-stoffe-no",
+      "question": "gefaehrliche-stoffe",
+      "option": "gefaehrliche-stoffe-nein",
       "sort": 1
     }
   },
@@ -3974,8 +4046,8 @@
       "modified_at": "2019-03-28T09:49:51.865Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "landwirtschaftliches-bauvorhaben-mit-ableitung",
-      "option": "landwirtschaftliches-bauvorhaben-mit-ableitung-no",
+      "question": "landwirtschaftliches-vorhaben-mit-ableitung",
+      "option": "landwirtschaftliches-vorhaben-mit-ableitung-nein",
       "sort": 1
     }
   },
@@ -4039,22 +4111,9 @@
       "modified_at": "2019-03-28T09:16:13.125Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "was-fur-ein-vorhaben",
-      "option": "was-fur-ein-vorhaben-behebergungsbetriebe",
+      "question": "was-fuer-ein-vorhaben",
+      "option": "was-fuer-ein-vorhaben-behebergungsbetriebe",
       "sort": 2
-    }
-  },
-  {
-    "model": "form.questionoption",
-    "pk": "b7a34e80-b65b-4c31-a600-bef470be16a1",
-    "fields": {
-      "created_at": "2019-03-08T15:58:26.372Z",
-      "modified_at": "2019-03-08T15:58:26.372Z",
-      "created_by_user": null,
-      "created_by_group": null,
-      "question": "wurden-vorabklarungen-durchgefuhrt",
-      "option": "wurden-vorabklarungen-durchgefuhrt-nein",
-      "sort": 1
     }
   },
   {
@@ -4092,7 +4151,7 @@
       "created_by_user": null,
       "created_by_group": null,
       "question": "rechtliche-sicherung-fremden-bodens",
-      "option": "rechtliche-sicherung-fremden-bodens-yes",
+      "option": "rechtliche-sicherung-fremden-bodens-ja",
       "sort": 2
     }
   },
@@ -4117,8 +4176,8 @@
       "modified_at": "2019-03-28T10:07:51.477Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "ableitung-in-gullegrube",
-      "option": "ableitung-in-gullegrube-yes",
+      "question": "ableitung-in-guellegrube",
+      "option": "ableitung-in-guellegrube-ja",
       "sort": 2
     }
   },
@@ -4130,8 +4189,8 @@
       "modified_at": "2019-03-28T09:16:13.125Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "was-fur-ein-vorhaben",
-      "option": "was-fur-ein-vorhaben-andere",
+      "question": "was-fuer-ein-vorhaben",
+      "option": "was-fuer-ein-vorhaben-andere",
       "sort": 1
     }
   },
@@ -4143,8 +4202,8 @@
       "modified_at": "2019-03-28T09:16:13.126Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "was-fur-ein-vorhaben",
-      "option": "was-fur-ein-vorhaben-verwaltungsgebaude",
+      "question": "was-fuer-ein-vorhaben",
+      "option": "was-fuer-ein-vorhaben-verwaltungsgebaude",
       "sort": 6
     }
   },
@@ -4195,8 +4254,8 @@
       "modified_at": "2019-03-28T15:13:06.498Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "hohe",
-      "option": "hohe-geringe-hohe-bis-11-m",
+      "question": "hoehe",
+      "option": "hoehe-geringe-hoehe-bis-11-m",
       "sort": 3
     }
   },
@@ -4208,8 +4267,8 @@
       "modified_at": "2019-03-28T09:16:13.126Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "was-fur-ein-vorhaben",
-      "option": "was-fur-ein-vorhaben-spitaler",
+      "question": "was-fuer-ein-vorhaben",
+      "option": "was-fuer-ein-vorhaben-spitaler",
       "sort": 3
     }
   },
@@ -4228,19 +4287,6 @@
   },
   {
     "model": "form.questionoption",
-    "pk": "e51e4332-ef7c-480c-a750-5ab8b2a89470",
-    "fields": {
-      "created_at": "2019-03-28T10:30:13.374Z",
-      "modified_at": "2019-03-28T10:30:13.374Z",
-      "created_by_user": null,
-      "created_by_group": null,
-      "question": "mit-ebau-nr",
-      "option": "mit-ebau-nr-no",
-      "sort": 1
-    }
-  },
-  {
-    "model": "form.questionoption",
     "pk": "e65d3ac2-b533-4303-9657-90d90f69381e",
     "fields": {
       "created_at": "2019-03-28T10:10:46.332Z",
@@ -4254,19 +4300,6 @@
   },
   {
     "model": "form.questionoption",
-    "pk": "e77e1118-b04c-4b1f-b860-9af5d3529471",
-    "fields": {
-      "created_at": "2019-03-28T11:42:03.631Z",
-      "modified_at": "2019-03-28T11:42:03.631Z",
-      "created_by_user": null,
-      "created_by_group": null,
-      "question": "handelt-es-sich-um-eine-juristische-person",
-      "option": "handelt-es-sich-um-eine-juristische-person-yes",
-      "sort": 2
-    }
-  },
-  {
-    "model": "form.questionoption",
     "pk": "e7ec2645-f0b0-4541-bd44-ab6f6042900f",
     "fields": {
       "created_at": "2019-03-28T08:36:33.041Z",
@@ -4274,8 +4307,21 @@
       "created_by_user": null,
       "created_by_group": null,
       "question": "verunreinigte-abluft",
-      "option": "verunreinigte-abluft-yes",
+      "option": "verunreinigte-abluft-ja",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "eb6b0b33-d80c-4631-86df-a9792bb51d54",
+    "fields": {
+      "created_at": "2019-03-29T09:53:51.887Z",
+      "modified_at": "2019-03-29T09:53:51.887Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "wurden-vorabklarungen-durchgefuhrt",
+      "option": "wurden-vorabklarungen-durchgefuhrt-nein",
+      "sort": 1
     }
   },
   {
@@ -4299,8 +4345,8 @@
       "modified_at": "2019-03-28T09:10:33.356Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "ist-ein-fumoir-betroffengeplant",
-      "option": "ist-ein-fumoir-betroffengeplant-yes",
+      "question": "ist-ein-fumoir-betroffen",
+      "option": "ist-ein-fumoir-betroffen-ja",
       "sort": 2
     }
   },
@@ -4325,8 +4371,8 @@
       "modified_at": "2019-03-28T10:07:51.477Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "ableitung-in-gullegrube",
-      "option": "ableitung-in-gullegrube-no",
+      "question": "ableitung-in-guellegrube",
+      "option": "ableitung-in-guellegrube-nein",
       "sort": 1
     }
   },
@@ -4351,8 +4397,8 @@
       "modified_at": "2019-03-28T09:16:13.126Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "was-fur-ein-vorhaben",
-      "option": "was-fur-ein-vorhaben-verkaufsgeschafte",
+      "question": "was-fuer-ein-vorhaben",
+      "option": "was-fuer-ein-vorhaben-verkaufsgeschafte",
       "sort": 5
     }
   },
@@ -4377,8 +4423,8 @@
       "modified_at": "2019-03-28T15:13:06.498Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "hohe",
-      "option": "hohe-grosse-hohe-ab-30-m",
+      "question": "hoehe",
+      "option": "hoehe-grosse-hoehe-ab-30-m",
       "sort": 1
     }
   },
@@ -4390,8 +4436,8 @@
       "modified_at": "2019-03-28T09:16:13.126Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "was-fur-ein-vorhaben",
-      "option": "was-fur-ein-vorhaben-gastgewerbe",
+      "question": "was-fuer-ein-vorhaben",
+      "option": "was-fuer-ein-vorhaben-gastgewerbe",
       "sort": 4
     }
   },
@@ -4410,7 +4456,7 @@
   },
   {
     "model": "form.option",
-    "pk": "ableitung-in-gullegrube-no",
+    "pk": "ableitung-in-guellegrube-nein",
     "fields": {
       "created_at": "2019-03-25T14:02:50.602Z",
       "modified_at": "2019-03-28T10:07:51.344Z",
@@ -4423,7 +4469,7 @@
   },
   {
     "model": "form.option",
-    "pk": "ableitung-in-gullegrube-yes",
+    "pk": "ableitung-in-guellegrube-ja",
     "fields": {
       "created_at": "2019-03-25T14:02:50.603Z",
       "modified_at": "2019-03-28T10:07:51.334Z",
@@ -4436,7 +4482,7 @@
   },
   {
     "model": "form.option",
-    "pk": "aussenlarm-no",
+    "pk": "aussenlaerm-nein",
     "fields": {
       "created_at": "2019-03-15T13:25:53.136Z",
       "modified_at": "2019-03-28T08:37:03.469Z",
@@ -4449,7 +4495,7 @@
   },
   {
     "model": "form.option",
-    "pk": "aussenlarm-yes",
+    "pk": "aussenlaerm-ja",
     "fields": {
       "created_at": "2019-03-15T13:25:53.137Z",
       "modified_at": "2019-03-28T08:37:03.470Z",
@@ -4592,7 +4638,7 @@
   },
   {
     "model": "form.option",
-    "pk": "bauten-mit-greater-30-grossvieheinheiten-no",
+    "pk": "bauten-mit-mehr-als-30-grossvieheinheiten-nein",
     "fields": {
       "created_at": "2019-03-28T09:46:55.831Z",
       "modified_at": "2019-03-28T09:46:55.832Z",
@@ -4605,7 +4651,7 @@
   },
   {
     "model": "form.option",
-    "pk": "bauten-mit-greater-30-grossvieheinheiten-yes",
+    "pk": "bauten-mit-mehr-als-30-grossvieheinheiten-ja",
     "fields": {
       "created_at": "2019-03-28T09:46:55.832Z",
       "modified_at": "2019-03-28T09:46:55.832Z",
@@ -4644,7 +4690,7 @@
   },
   {
     "model": "form.option",
-    "pk": "brandbelastung-no",
+    "pk": "brandbelastung-nein",
     "fields": {
       "created_at": "2019-03-15T13:22:17.839Z",
       "modified_at": "2019-03-28T08:33:20.308Z",
@@ -4657,7 +4703,7 @@
   },
   {
     "model": "form.option",
-    "pk": "brandbelastung-yes",
+    "pk": "brandbelastung-ja",
     "fields": {
       "created_at": "2019-03-15T13:22:17.829Z",
       "modified_at": "2019-03-28T08:33:20.302Z",
@@ -4709,7 +4755,7 @@
   },
   {
     "model": "form.option",
-    "pk": "gefahrliche-stoffe-no",
+    "pk": "gefaehrliche-stoffe-nein",
     "fields": {
       "created_at": "2019-03-15T13:23:59.684Z",
       "modified_at": "2019-03-28T08:35:54.406Z",
@@ -4722,7 +4768,7 @@
   },
   {
     "model": "form.option",
-    "pk": "gefahrliche-stoffe-yes",
+    "pk": "gefaehrliche-stoffe-ja",
     "fields": {
       "created_at": "2019-03-15T13:23:59.669Z",
       "modified_at": "2019-03-28T08:35:54.405Z",
@@ -4737,11 +4783,24 @@
     "model": "form.option",
     "pk": "handelt-es-sich-um-eine-juristische-person-ja",
     "fields": {
-      "created_at": "2019-03-11T07:18:04.604Z",
-      "modified_at": "2019-03-15T08:44:51.131Z",
+      "created_at": "2019-03-28T11:42:03.459Z",
+      "modified_at": "2019-03-29T12:37:47.310Z",
       "created_by_user": null,
       "created_by_group": null,
-      "label": "{\"de\": null, \"fr\": null, \"en\": \"Ja\"}",
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "handelt-es-sich-um-eine-juristische-person-nein",
+    "fields": {
+      "created_at": "2019-03-28T11:42:03.460Z",
+      "modified_at": "2019-03-29T12:37:47.314Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
       "meta": {},
       "source": null
     }
@@ -4761,23 +4820,10 @@
   },
   {
     "model": "form.option",
-    "pk": "handelt-es-sich-um-eine-juristische-person-no",
-    "fields": {
-      "created_at": "2019-03-28T11:42:03.460Z",
-      "modified_at": "2019-03-28T11:42:03.461Z",
-      "created_by_user": null,
-      "created_by_group": null,
-      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
-      "meta": {},
-      "source": null
-    }
-  },
-  {
-    "model": "form.option",
-    "pk": "handelt-es-sich-um-eine-juristische-person-yes",
+    "pk": "handelt-es-sich-um-eine-juristische-person-ja",
     "fields": {
       "created_at": "2019-03-28T11:42:03.459Z",
-      "modified_at": "2019-03-28T11:42:03.459Z",
+      "modified_at": "2019-03-29T12:37:47.310Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
@@ -4787,7 +4833,7 @@
   },
   {
     "model": "form.option",
-    "pk": "hohe-geringe-hohe-bis-11-m",
+    "pk": "hoehe-geringe-hoehe-bis-11-m",
     "fields": {
       "created_at": "2019-03-28T15:13:06.327Z",
       "modified_at": "2019-03-28T15:13:06.327Z",
@@ -4800,7 +4846,7 @@
   },
   {
     "model": "form.option",
-    "pk": "hohe-grosse-hohe-ab-30-m",
+    "pk": "hoehe-grosse-hoehe-ab-30-m",
     "fields": {
       "created_at": "2019-03-28T15:13:06.346Z",
       "modified_at": "2019-03-28T15:13:06.346Z",
@@ -4813,7 +4859,7 @@
   },
   {
     "model": "form.option",
-    "pk": "hohe-mittlere-hohe-zwischen-11-m-und-30-m",
+    "pk": "hoehe-mittlere-hoehe-zwischen-11-m-und-30-m",
     "fields": {
       "created_at": "2019-03-28T15:13:06.324Z",
       "modified_at": "2019-03-28T15:13:06.324Z",
@@ -4826,7 +4872,7 @@
   },
   {
     "model": "form.option",
-    "pk": "ist-ein-fumoir-betroffengeplant-ja",
+    "pk": "ist-ein-fumoir-betroffen-ja",
     "fields": {
       "created_at": "2019-03-15T13:17:58.061Z",
       "modified_at": "2019-03-15T13:17:58.061Z",
@@ -4839,7 +4885,7 @@
   },
   {
     "model": "form.option",
-    "pk": "ist-ein-fumoir-betroffengeplant-nein",
+    "pk": "ist-ein-fumoir-betroffen-nein",
     "fields": {
       "created_at": "2019-03-15T13:17:58.076Z",
       "modified_at": "2019-03-15T13:17:58.076Z",
@@ -4852,7 +4898,7 @@
   },
   {
     "model": "form.option",
-    "pk": "ist-ein-fumoir-betroffengeplant-no",
+    "pk": "ist-ein-fumoir-betroffen-nein",
     "fields": {
       "created_at": "2019-03-15T13:22:35.998Z",
       "modified_at": "2019-03-28T09:10:33.218Z",
@@ -4865,7 +4911,7 @@
   },
   {
     "model": "form.option",
-    "pk": "ist-ein-fumoir-betroffengeplant-yes",
+    "pk": "ist-ein-fumoir-betroffen-ja",
     "fields": {
       "created_at": "2019-03-15T13:22:35.984Z",
       "modified_at": "2019-03-28T09:10:33.216Z",
@@ -4878,7 +4924,7 @@
   },
   {
     "model": "form.option",
-    "pk": "landwirtschaftliches-bauvorhaben-mit-ableitung-no",
+    "pk": "landwirtschaftliches-vorhaben-mit-ableitung-nein",
     "fields": {
       "created_at": "2019-03-28T09:49:51.729Z",
       "modified_at": "2019-03-28T09:49:51.729Z",
@@ -4891,7 +4937,7 @@
   },
   {
     "model": "form.option",
-    "pk": "landwirtschaftliches-bauvorhaben-mit-ableitung-yes",
+    "pk": "landwirtschaftliches-vorhaben-mit-ableitung-ja",
     "fields": {
       "created_at": "2019-03-28T09:49:51.729Z",
       "modified_at": "2019-03-28T09:49:51.729Z",
@@ -4904,7 +4950,7 @@
   },
   {
     "model": "form.option",
-    "pk": "maschinelle-arbeitsmittel-no",
+    "pk": "maschinelle-arbeitsmittel-nein",
     "fields": {
       "created_at": "2019-03-15T13:21:38.726Z",
       "modified_at": "2019-03-28T08:35:18.975Z",
@@ -4917,7 +4963,7 @@
   },
   {
     "model": "form.option",
-    "pk": "maschinelle-arbeitsmittel-yes",
+    "pk": "maschinelle-arbeitsmittel-ja",
     "fields": {
       "created_at": "2019-03-15T13:21:38.722Z",
       "modified_at": "2019-03-28T08:35:18.973Z",
@@ -4998,10 +5044,10 @@
     "pk": "mit-ebau-nr-ja",
     "fields": {
       "created_at": "2019-03-08T15:34:00.765Z",
-      "modified_at": "2019-03-15T12:00:32.385Z",
+      "modified_at": "2019-03-29T10:15:37.153Z",
       "created_by_user": null,
       "created_by_group": null,
-      "label": "{\"de\": null, \"fr\": null, \"en\": \"Ja\"}",
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": \"Ja\"}",
       "meta": {},
       "source": null
     }
@@ -5011,20 +5057,20 @@
     "pk": "mit-ebau-nr-nein",
     "fields": {
       "created_at": "2019-03-08T15:34:00.791Z",
-      "modified_at": "2019-03-15T12:00:32.411Z",
+      "modified_at": "2019-03-29T10:15:37.169Z",
       "created_by_user": null,
       "created_by_group": null,
-      "label": "{\"de\": null, \"fr\": null, \"en\": \"Nein\"}",
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": \"Nein\"}",
       "meta": {},
       "source": null
     }
   },
   {
     "model": "form.option",
-    "pk": "mit-ebau-nr-no",
+    "pk": "mit-ebau-nr-nein",
     "fields": {
       "created_at": "2019-03-28T10:30:13.232Z",
-      "modified_at": "2019-03-28T10:30:13.232Z",
+      "modified_at": "2019-03-29T10:15:14.622Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
@@ -5034,10 +5080,10 @@
   },
   {
     "model": "form.option",
-    "pk": "mit-ebau-nr-yes",
+    "pk": "mit-ebau-nr-ja",
     "fields": {
       "created_at": "2019-03-28T10:30:13.236Z",
-      "modified_at": "2019-03-28T10:30:13.236Z",
+      "modified_at": "2019-03-29T10:15:14.632Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
@@ -5102,7 +5148,7 @@
     "pk": "nutzungsart-industrie",
     "fields": {
       "created_at": "2019-03-15T13:15:44.292Z",
-      "modified_at": "2019-03-28T10:10:46.000Z",
+      "modified_at": "2019-03-28T10:10:46Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Industrie\", \"fr\": null, \"en\": \"Industrie\"}",
@@ -5154,7 +5200,7 @@
     "pk": "nutzungsart-wohnen",
     "fields": {
       "created_at": "2019-03-15T13:15:44.283Z",
-      "modified_at": "2019-03-28T10:10:46.000Z",
+      "modified_at": "2019-03-28T10:10:46Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Wohnen\", \"fr\": null, \"en\": \"Wohnen\"}",
@@ -5164,7 +5210,7 @@
   },
   {
     "model": "form.option",
-    "pk": "rechtliche-sicherung-fremden-bodens-no",
+    "pk": "rechtliche-sicherung-fremden-bodens-nein",
     "fields": {
       "created_at": "2019-03-28T15:01:56.816Z",
       "modified_at": "2019-03-28T15:01:56.816Z",
@@ -5177,7 +5223,7 @@
   },
   {
     "model": "form.option",
-    "pk": "rechtliche-sicherung-fremden-bodens-yes",
+    "pk": "rechtliche-sicherung-fremden-bodens-ja",
     "fields": {
       "created_at": "2019-03-28T15:01:56.814Z",
       "modified_at": "2019-03-28T15:01:56.814Z",
@@ -5190,7 +5236,7 @@
   },
   {
     "model": "form.option",
-    "pk": "um-was-fur-ein-gebaude-handelt-es-sich-efh",
+    "pk": "um-was-fuer-ein-gebaeude-handelt-es-sich-efh",
     "fields": {
       "created_at": "2019-03-15T13:17:11.628Z",
       "modified_at": "2019-03-25T13:43:28.264Z",
@@ -5203,7 +5249,7 @@
   },
   {
     "model": "form.option",
-    "pk": "um-was-fur-ein-gebaude-handelt-es-sich-mfh",
+    "pk": "um-was-fuer-ein-gebaeude-handelt-es-sich-mfh",
     "fields": {
       "created_at": "2019-03-15T13:17:11.627Z",
       "modified_at": "2019-03-25T13:43:28.266Z",
@@ -5216,7 +5262,7 @@
   },
   {
     "model": "form.option",
-    "pk": "verunreinigte-abluft-no",
+    "pk": "verunreinigte-abluft-nein",
     "fields": {
       "created_at": "2019-03-15T13:24:55.156Z",
       "modified_at": "2019-03-28T08:36:32.872Z",
@@ -5229,7 +5275,7 @@
   },
   {
     "model": "form.option",
-    "pk": "verunreinigte-abluft-yes",
+    "pk": "verunreinigte-abluft-ja",
     "fields": {
       "created_at": "2019-03-15T13:24:55.151Z",
       "modified_at": "2019-03-28T08:36:32.864Z",
@@ -5307,7 +5353,7 @@
   },
   {
     "model": "form.option",
-    "pk": "was-fur-ein-vorhaben-andere",
+    "pk": "was-fuer-ein-vorhaben-andere",
     "fields": {
       "created_at": "2019-03-28T09:16:12.946Z",
       "modified_at": "2019-03-28T09:16:12.947Z",
@@ -5320,7 +5366,7 @@
   },
   {
     "model": "form.option",
-    "pk": "was-fur-ein-vorhaben-behebergungsbetriebe",
+    "pk": "was-fuer-ein-vorhaben-behebergungsbetriebe",
     "fields": {
       "created_at": "2019-03-28T09:16:12.916Z",
       "modified_at": "2019-03-28T09:16:12.916Z",
@@ -5333,7 +5379,7 @@
   },
   {
     "model": "form.option",
-    "pk": "was-fur-ein-vorhaben-gastgewerbe",
+    "pk": "was-fuer-ein-vorhaben-gastgewerbe",
     "fields": {
       "created_at": "2019-03-28T09:16:12.892Z",
       "modified_at": "2019-03-28T09:16:12.892Z",
@@ -5346,7 +5392,7 @@
   },
   {
     "model": "form.option",
-    "pk": "was-fur-ein-vorhaben-spitaler",
+    "pk": "was-fuer-ein-vorhaben-spitaler",
     "fields": {
       "created_at": "2019-03-28T09:16:12.924Z",
       "modified_at": "2019-03-28T09:16:12.924Z",
@@ -5359,7 +5405,7 @@
   },
   {
     "model": "form.option",
-    "pk": "was-fur-ein-vorhaben-verkaufsgeschafte",
+    "pk": "was-fuer-ein-vorhaben-verkaufsgeschafte",
     "fields": {
       "created_at": "2019-03-28T09:16:12.890Z",
       "modified_at": "2019-03-28T09:16:12.890Z",
@@ -5372,7 +5418,7 @@
   },
   {
     "model": "form.option",
-    "pk": "was-fur-ein-vorhaben-verkehrintensives-vorhaben",
+    "pk": "was-fuer-ein-vorhaben-verkehrintensives-vorhaben",
     "fields": {
       "created_at": "2019-03-28T09:16:12.857Z",
       "modified_at": "2019-03-28T09:16:12.857Z",
@@ -5385,7 +5431,7 @@
   },
   {
     "model": "form.option",
-    "pk": "was-fur-ein-vorhaben-verwaltungsgebaude",
+    "pk": "was-fuer-ein-vorhaben-verwaltungsgebaude",
     "fields": {
       "created_at": "2019-03-28T09:16:12.871Z",
       "modified_at": "2019-03-28T09:16:12.871Z",
@@ -5619,7 +5665,7 @@
   },
   {
     "model": "form.option",
-    "pk": "werden-neue-hofdungeranlagen-erstellt-no",
+    "pk": "werden-neue-hofduengeranlagen-erstellt-nein",
     "fields": {
       "created_at": "2019-03-28T09:47:46.416Z",
       "modified_at": "2019-03-28T09:47:46.416Z",
@@ -5632,7 +5678,7 @@
   },
   {
     "model": "form.option",
-    "pk": "werden-neue-hofdungeranlagen-erstellt-yes",
+    "pk": "werden-neue-hofduengeranlagen-erstellt-ja",
     "fields": {
       "created_at": "2019-03-28T09:47:46.405Z",
       "modified_at": "2019-03-28T09:47:46.406Z",
@@ -5645,7 +5691,7 @@
   },
   {
     "model": "form.option",
-    "pk": "werden-siloanlagen-erstellt-no",
+    "pk": "werden-siloanlagen-erstellt-nein",
     "fields": {
       "created_at": "2019-03-28T09:48:48.532Z",
       "modified_at": "2019-03-28T09:48:48.532Z",
@@ -5658,7 +5704,7 @@
   },
   {
     "model": "form.option",
-    "pk": "werden-siloanlagen-erstellt-yes",
+    "pk": "werden-siloanlagen-erstellt-ja",
     "fields": {
       "created_at": "2019-03-28T09:48:48.514Z",
       "modified_at": "2019-03-28T09:48:48.514Z",
@@ -5671,13 +5717,39 @@
   },
   {
     "model": "form.option",
+    "pk": "wurden-vorabklaerungen-durchgefuehrt-ja",
+    "fields": {
+      "created_at": "2019-03-08T11:20:08.131Z",
+      "modified_at": "2019-03-29T09:53:51.663Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": \"Ja\"}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "wurden-vorabklaerungen-durchgefuehrt-nein",
+    "fields": {
+      "created_at": "2019-03-08T11:20:08.156Z",
+      "modified_at": "2019-03-29T09:53:51.666Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": \"Nein\"}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
     "pk": "wurden-vorabklarungen-durchgefuhrt-ja",
     "fields": {
       "created_at": "2019-03-08T11:20:08.131Z",
-      "modified_at": "2019-03-08T15:58:26.187Z",
+      "modified_at": "2019-03-29T09:53:51.663Z",
       "created_by_user": null,
       "created_by_group": null,
-      "label": "{\"de\": null, \"fr\": null, \"en\": \"Ja\"}",
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": \"Ja\"}",
       "meta": {},
       "source": null
     }
@@ -5687,10 +5759,10 @@
     "pk": "wurden-vorabklarungen-durchgefuhrt-nein",
     "fields": {
       "created_at": "2019-03-08T11:20:08.156Z",
-      "modified_at": "2019-03-08T15:58:26.189Z",
+      "modified_at": "2019-03-29T09:53:51.666Z",
       "created_by_user": null,
       "created_by_group": null,
-      "label": "{\"de\": null, \"fr\": null, \"en\": \"Nein\"}",
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": \"Nein\"}",
       "meta": {},
       "source": null
     }
