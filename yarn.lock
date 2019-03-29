@@ -5041,6 +5041,7 @@ ember-apollo-client@2.0.0-beta.2:
 ember-app-scheduler@^1.0.5:
   version "1.0.7"
   resolved "https://codeload.github.com/ember-app-scheduler/ember-app-scheduler/tar.gz/6fcd526a1a9cc48a5b943662bfab3b066f4caec7"
+  integrity sha512-KeL8AjbScgbE6+T75iwJOgFqtYGeoMbbvh/+oB24Psddz96m/7iXK6NehQamNFcUelsJWDenehPnARG3e7pYdw==
   dependencies:
     "@types/ember" "^3.1.0"
     "@types/rsvp" "^4.0.2"
