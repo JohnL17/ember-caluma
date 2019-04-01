@@ -6650,8 +6650,8 @@
       "modified_at": "2019-03-29T09:53:51.887Z",
       "created_by_user": null,
       "created_by_group": null,
-      "question": "wurden-vorabklarungen-durchgefuhrt",
-      "option": "wurden-vorabklarungen-durchgefuhrt-ja",
+      "question": "wurden-vorabklaerungen-durchgefuehrt",
+      "option": "wurden-vorabklaerungen-durchgefuehrt-ja",
       "sort": 2
     }
   },
@@ -6718,19 +6718,6 @@
       "question": "brandschutzrisiken",
       "option": "brandschutzrisiken-gefaehrdende-stoffe",
       "sort": 8
-    }
-  },
-  {
-    "model": "form.questionoption",
-    "pk": "1479ff83-9a90-4d51-8948-fef5cf9a46d6",
-    "fields": {
-      "created_at": "2019-03-29T10:02:05.397Z",
-      "modified_at": "2019-03-29T10:02:05.397Z",
-      "created_by_user": null,
-      "created_by_group": null,
-      "question": "wurden-vorabklaerungen-durchgefuehrt",
-      "option": "wurden-vorabklaerungen-durchgefuehrt-ja",
-      "sort": 2
     }
   },
   {
@@ -9174,19 +9161,6 @@
       "created_by_group": null,
       "question": "terrainveraenderung-weniger-als-2000m2",
       "option": "terrainveraenderung-weniger-als-2000m2-nein",
-      "sort": 1
-    }
-  },
-  {
-    "model": "form.questionoption",
-    "pk": "eb6b0b33-d80c-4631-86df-a9792bb51d54",
-    "fields": {
-      "created_at": "2019-03-29T09:53:51.887Z",
-      "modified_at": "2019-03-29T09:53:51.887Z",
-      "created_by_user": null,
-      "created_by_group": null,
-      "question": "wurden-vorabklarungen-durchgefuhrt",
-      "option": "wurden-vorabklarungen-durchgefuhrt-nein",
       "sort": 1
     }
   },
@@ -12807,32 +12781,6 @@
   {
     "model": "form.option",
     "pk": "wurden-vorabklaerungen-durchgefuehrt-nein",
-    "fields": {
-      "created_at": "2019-03-08T11:20:08.156Z",
-      "modified_at": "2019-03-29T09:53:51.666Z",
-      "created_by_user": null,
-      "created_by_group": null,
-      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": \"Nein\"}",
-      "meta": {},
-      "source": null
-    }
-  },
-  {
-    "model": "form.option",
-    "pk": "wurden-vorabklarungen-durchgefuhrt-ja",
-    "fields": {
-      "created_at": "2019-03-08T11:20:08.131Z",
-      "modified_at": "2019-03-29T09:53:51.663Z",
-      "created_by_user": null,
-      "created_by_group": null,
-      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": \"Ja\"}",
-      "meta": {},
-      "source": null
-    }
-  },
-  {
-    "model": "form.option",
-    "pk": "wurden-vorabklarungen-durchgefuhrt-nein",
     "fields": {
       "created_at": "2019-03-08T11:20:08.156Z",
       "modified_at": "2019-03-29T09:53:51.666Z",
