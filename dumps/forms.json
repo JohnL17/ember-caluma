@@ -49,6 +49,22 @@
   },
   {
     "model": "form.form",
+    "pk": "brandschutz",
+    "fields": {
+      "created_at": "2019-04-01T11:58:01.387Z",
+      "modified_at": "2019-04-01T11:58:01.387Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "name": "{\"de\": \"Brandschutz\", \"fr\": null, \"en\": null}",
+      "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "is_published": true,
+      "is_archived": false,
+      "source": null
+    }
+  },
+  {
+    "model": "form.form",
     "pk": "durchgefuehrte-vorabklaerungen",
     "fields": {
       "created_at": "2019-03-08T15:30:03.741Z",
@@ -1219,6 +1235,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "724bab82-5311-42c0-90a0-fa394d445487",
+    "fields": {
+      "created_at": "2019-04-01T12:16:30.953Z",
+      "modified_at": "2019-04-01T12:16:30.953Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "brandschutz",
+      "question": "brandschutzrisiken",
+      "sort": 3
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "754f69b0-5649-4432-961a-d48027ab7d1a",
     "fields": {
       "created_at": "2019-04-01T10:42:44.489Z",
@@ -1414,6 +1443,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "961b96d0-a366-4b24-b953-717bb9195bf6",
+    "fields": {
+      "created_at": "2019-04-01T12:19:18.827Z",
+      "modified_at": "2019-04-01T12:19:18.827Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "brandschutz",
+      "question": "qss-stufe",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "9625b8a5-4bd3-4d38-aa30-a27e73d5bd82",
     "fields": {
       "created_at": "2019-03-25T10:07:36.518Z",
@@ -1605,6 +1647,19 @@
       "form": "zonenvorschriften-schutzzonen",
       "question": "objekt-des-besonderen-landschaftsschutzes",
       "sort": 5
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "a905dbc8-5172-4127-aa4e-8d4c7553b11b",
+    "fields": {
+      "created_at": "2019-04-01T12:23:22.261Z",
+      "modified_at": "2019-04-01T12:23:22.261Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "brandschutz",
+      "question": "werden-brandschutzabstaende-unterschritten",
+      "sort": 4
     }
   },
   {
@@ -2077,6 +2132,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "ed834b1d-5639-4953-b9ca-271e4e3218d0",
+    "fields": {
+      "created_at": "2019-04-01T12:22:07.100Z",
+      "modified_at": "2019-04-01T12:22:07.100Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "brandschutz",
+      "question": "ersatzmassnahmen-brandschutzabstaende",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "f239589a-fa29-41b5-b520-245c9950f319",
     "fields": {
       "created_at": "2019-03-11T09:24:56.318Z",
@@ -2099,6 +2167,19 @@
       "form": "bauvorhaben",
       "question": "baukosten-in-chf",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "f4e990b0-af69-42c3-8777-a17acf88cc85",
+    "fields": {
+      "created_at": "2019-04-01T11:58:51.253Z",
+      "modified_at": "2019-04-01T11:58:51.253Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "brandschutz",
+      "question": "besondere-brandrisiken",
+      "sort": 5
     }
   },
   {
@@ -2614,6 +2695,26 @@
   },
   {
     "model": "form.question",
+    "pk": "besondere-brandrisiken",
+    "fields": {
+      "created_at": "2019-04-01T11:58:51.170Z",
+      "modified_at": "2019-04-01T11:58:51.170Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ist das Bauvorhaben besonderen Brandrisiken ausgesetzt?\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "brandbelastung",
     "fields": {
       "created_at": "2019-03-15T13:19:24.778Z",
@@ -2624,6 +2725,26 @@
       "type": "choice",
       "is_required": "true",
       "is_hidden": "!('nutzungsart-industrie' in 'nutzungsart'|answer || 'nutzungsart-gewerbe' in 'nutzungsart'|answer || 'nutzungsart-gastgewerbe' in 'nutzungsart'|answer || 'nutzungsart-lager' in 'nutzungsart'|answer)",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "brandschutzrisiken",
+    "fields": {
+      "created_at": "2019-04-01T12:16:30.841Z",
+      "modified_at": "2019-04-01T12:18:00.402Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Besondere Brandschutzrisiken\", \"fr\": null, \"en\": null}",
+      "type": "multiple_choice",
+      "is_required": "true",
+      "is_hidden": "'besondere-brandrisiken-nein' in 'besondere-brandrisiken'|answer",
       "is_archived": false,
       "configuration": {},
       "meta": {},
@@ -2786,6 +2907,26 @@
       "is_hidden": "'handelt-es-sich-um-ein-baudenkmal-nein' in 'handelt-es-sich-um-ein-baudenkmal'|answer",
       "is_archived": false,
       "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "ersatzmassnahmen-brandschutzabstaende",
+    "fields": {
+      "created_at": "2019-04-01T12:22:07.030Z",
+      "modified_at": "2019-04-01T12:23:40.193Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ersatzmassnahmen, wenn Brandschutzabst\\u00e4nde nicht eingehalten sind\", \"fr\": null, \"en\": null}",
+      "type": "textarea",
+      "is_required": "true",
+      "is_hidden": "'werden-brandschutzabstaende-unterschritten-nein' in 'werden-brandschutzabstaende-unterschritten'|answer",
+      "is_archived": false,
+      "configuration": { "max_length": null },
       "meta": {},
       "row_form": null,
       "sub_form": null,
@@ -4014,6 +4155,26 @@
   },
   {
     "model": "form.question",
+    "pk": "qss-stufe",
+    "fields": {
+      "created_at": "2019-04-01T12:19:18.723Z",
+      "modified_at": "2019-04-01T12:20:40.035Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"QSS-Stufe\", \"fr\": null, \"en\": null}",
+      "type": "multiple_choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": { "widgetType": "powerselect" },
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "rechtliche-sicherung-fremden-bodens",
     "fields": {
       "created_at": "2019-03-28T15:01:56.945Z",
@@ -4574,6 +4735,26 @@
   },
   {
     "model": "form.question",
+    "pk": "werden-brandschutzabstaende-unterschritten",
+    "fields": {
+      "created_at": "2019-04-01T12:23:22.176Z",
+      "modified_at": "2019-04-01T12:23:22.176Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Werden Brandschutzabst\\u00e4nde unterschritten?\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "werden-neue-hofduengeranlagen-erstellt",
     "fields": {
       "created_at": "2019-03-28T09:47:46.554Z",
@@ -4753,6 +4934,32 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "02b4630c-3f4d-44ef-a86e-587fdd7333db",
+    "fields": {
+      "created_at": "2019-04-01T12:18:00.406Z",
+      "modified_at": "2019-04-01T12:18:00.406Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "brandschutzrisiken",
+      "option": "brandschutzrisiken-aussenwand-bekleidung",
+      "sort": 19
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "03329176-e2a8-4bb8-9bcd-738ffd8f9c33",
+    "fields": {
+      "created_at": "2019-04-01T12:20:40.037Z",
+      "modified_at": "2019-04-01T12:20:40.037Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "qss-stufe",
+      "option": "qss-stufe-1",
+      "sort": 3
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "035fbd96-8882-42e2-8e38-d65d942c2fe9",
     "fields": {
       "created_at": "2019-03-28T08:37:03.610Z",
@@ -4805,6 +5012,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "08bb8774-71c3-4c95-977c-a4739446b357",
+    "fields": {
+      "created_at": "2019-04-01T12:18:00.406Z",
+      "modified_at": "2019-04-01T12:18:00.406Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "brandschutzrisiken",
+      "option": "brandschutzrisiken-feuerwerk-bis-300kg",
+      "sort": 10
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "0b60d0f4-79d4-4984-a223-8112917cb2ed",
     "fields": {
       "created_at": "2019-04-01T11:13:03.550Z",
@@ -4814,6 +5034,19 @@
       "question": "vertrag",
       "option": "vertrag-ja",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "0b9b971d-b532-4994-8d55-0f8a51db5284",
+    "fields": {
+      "created_at": "2019-04-01T12:23:22.178Z",
+      "modified_at": "2019-04-01T12:23:22.178Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "werden-brandschutzabstaende-unterschritten",
+      "option": "werden-brandschutzabstande-unterschritten-nein",
+      "sort": 1
     }
   },
   {
@@ -4879,6 +5112,19 @@
       "question": "mehr-als-500-m3-bodenmaterial",
       "option": "mehr-als-500-m3-bodenmaterial-nein",
       "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "13c093ad-161c-4062-a55c-02c10769283f",
+    "fields": {
+      "created_at": "2019-04-01T12:18:00.405Z",
+      "modified_at": "2019-04-01T12:18:00.406Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "brandschutzrisiken",
+      "option": "brandschutzrisiken-gefaehrdende-stoffe",
+      "sort": 8
     }
   },
   {
@@ -4974,6 +5220,32 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "1ce2383d-fdb4-42ee-88c5-d3ac4c3f75e4",
+    "fields": {
+      "created_at": "2019-04-01T12:23:22.178Z",
+      "modified_at": "2019-04-01T12:23:22.178Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "werden-brandschutzabstaende-unterschritten",
+      "option": "werden-brandschutzabstande-unterschritten-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "1d868458-9b3b-4ae0-8afe-4cb4d31edc45",
+    "fields": {
+      "created_at": "2019-04-01T12:18:00.406Z",
+      "modified_at": "2019-04-01T12:18:00.406Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "brandschutzrisiken",
+      "option": "brandschutzrisiken-pneulager-ueber-60t",
+      "sort": 11
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "20cccfe3-19d2-4093-8ed6-2ec8dcd59c2e",
     "fields": {
       "created_at": "2019-03-15T12:57:02.035Z",
@@ -4983,6 +5255,32 @@
       "question": "weitere-personen",
       "option": "weitere-personen-grundeigentumerin",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "2183e336-00de-4e3a-838f-710c594a7859",
+    "fields": {
+      "created_at": "2019-04-01T12:18:00.406Z",
+      "modified_at": "2019-04-01T12:18:00.406Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "brandschutzrisiken",
+      "option": "brandschutzrisiken-pneulager-bis-60t",
+      "sort": 12
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "247ed401-d57e-4daf-b440-01498e28f629",
+    "fields": {
+      "created_at": "2019-04-01T12:18:00.406Z",
+      "modified_at": "2019-04-01T12:18:00.406Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "brandschutzrisiken",
+      "option": "brandschutzrisiken-feuerwerk-uber-300kg",
+      "sort": 9
     }
   },
   {
@@ -5208,6 +5506,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "4132bf9c-a00d-45ec-b2d3-3a0bc9308b05",
+    "fields": {
+      "created_at": "2019-04-01T12:18:00.405Z",
+      "modified_at": "2019-04-01T12:18:00.405Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "brandschutzrisiken",
+      "option": "brandschutzrisiken-lagerung-fester-brennstoffe-5m",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "4442189a-b580-4dc3-affa-c5fd9ea3c742",
     "fields": {
       "created_at": "2019-04-01T11:45:50.183Z",
@@ -5216,6 +5527,19 @@
       "created_by_group": null,
       "question": "beanspruchte-flache-ober-unterboden-2000-m2",
       "option": "beanspruchte-flache-ober-unterboden-2000-m2-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "45096c04-c2bd-4bf5-b1d1-b389866f14e8",
+    "fields": {
+      "created_at": "2019-04-01T12:18:00.405Z",
+      "modified_at": "2019-04-01T12:18:00.405Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "brandschutzrisiken",
+      "option": "brandschutzrisiken-hohe-brandschutzmassnahmen",
       "sort": 2
     }
   },
@@ -5295,6 +5619,19 @@
       "question": "welche-art-vorhaben",
       "option": "welche-art-vorhaben-planungen",
       "sort": 3
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "4f46ba0d-8f1e-4122-bd49-425bfe991324",
+    "fields": {
+      "created_at": "2019-04-01T12:18:00.405Z",
+      "modified_at": "2019-04-01T12:18:00.405Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "brandschutzrisiken",
+      "option": "brandschutzrisiken-flaeche-ueber-12000-m",
+      "sort": 4
     }
   },
   {
@@ -5416,6 +5753,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "5cdd4feb-e155-4a1b-b5ca-3b7123c532e5",
+    "fields": {
+      "created_at": "2019-04-01T12:20:40.037Z",
+      "modified_at": "2019-04-01T12:20:40.037Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "qss-stufe",
+      "option": "qss-stufe-2",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "5d16ade4-b2c0-447d-a648-a919eeb78a8e",
     "fields": {
       "created_at": "2019-03-28T09:21:10.407Z",
@@ -5463,6 +5813,19 @@
       "created_by_group": null,
       "question": "rechtliche-sicherung-fremden-bodens",
       "option": "rechtliche-sicherung-fremden-bodens-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "6311018c-8666-4e32-a23e-156231358179",
+    "fields": {
+      "created_at": "2019-04-01T12:20:40.037Z",
+      "modified_at": "2019-04-01T12:20:40.037Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "qss-stufe",
+      "option": "qss-stufe-3",
       "sort": 1
     }
   },
@@ -5529,6 +5892,32 @@
       "question": "feuerungsanlagen",
       "option": "feuerungsanlagen-holzfeuerungen",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "6d432798-aef1-4fb1-95d3-75c3b600e983",
+    "fields": {
+      "created_at": "2019-04-01T12:18:00.405Z",
+      "modified_at": "2019-04-01T12:18:00.405Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "brandschutzrisiken",
+      "option": "brandschutzrisiken-flaeche-ueber-7200-m2",
+      "sort": 5
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "6e275400-4af5-4a58-afde-72518d939896",
+    "fields": {
+      "created_at": "2019-04-01T12:18:00.406Z",
+      "modified_at": "2019-04-01T12:18:00.406Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "brandschutzrisiken",
+      "option": "brandschutzrisiken-gase-ueber-1000kg",
+      "sort": 15
     }
   },
   {
@@ -5845,6 +6234,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "8e5f8095-7442-455b-b54d-de69302733ba",
+    "fields": {
+      "created_at": "2019-04-01T12:18:00.406Z",
+      "modified_at": "2019-04-01T12:18:00.406Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "brandschutzrisiken",
+      "option": "brandschutzrisiken-ab-2000kg-fluessigkeit",
+      "sort": 13
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "8fdb7bf5-d694-44a8-a6cf-3a204676bc83",
     "fields": {
       "created_at": "2019-04-01T10:42:44.405Z",
@@ -5906,6 +6308,19 @@
       "question": "wurden-vorabklaerungen-durchgefuehrt",
       "option": "wurden-vorabklaerungen-durchgefuehrt-nein",
       "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "989b8801-0609-45d1-8d88-5ef9306163b1",
+    "fields": {
+      "created_at": "2019-04-01T12:18:00.405Z",
+      "modified_at": "2019-04-01T12:18:00.405Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "brandschutzrisiken",
+      "option": "brandschutzrisiken-atrien-doppelfassaden",
+      "sort": 6
     }
   },
   {
@@ -5984,6 +6399,32 @@
       "question": "gefaehrliche-stoffe",
       "option": "gefaehrliche-stoffe-nein",
       "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "a5765a1c-0977-4de0-93d3-bcb52bd1c169",
+    "fields": {
+      "created_at": "2019-04-01T12:18:00.405Z",
+      "modified_at": "2019-04-01T12:18:00.405Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "brandschutzrisiken",
+      "option": "brandschutzrisiken-nachweisverfahren",
+      "sort": 3
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "a5bbd287-5d7b-4a5d-85c4-38b7cdc9ac30",
+    "fields": {
+      "created_at": "2019-04-01T12:18:00.406Z",
+      "modified_at": "2019-04-01T12:18:00.406Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "brandschutzrisiken",
+      "option": "brandschutzrisiken-bis-2000kg-fluessigkeit",
+      "sort": 14
     }
   },
   {
@@ -6131,6 +6572,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "b32212b0-0855-4f28-b064-af3ef9b5fd28",
+    "fields": {
+      "created_at": "2019-04-01T12:18:00.406Z",
+      "modified_at": "2019-04-01T12:18:00.406Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "brandschutzrisiken",
+      "option": "brandschutzrisiken-daemmschichtbildende-systeme",
+      "sort": 17
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "b43f7eff-8cd1-422b-94a9-b69a2d7aa490",
     "fields": {
       "created_at": "2019-04-01T11:11:48.819Z",
@@ -6166,6 +6620,19 @@
       "question": "handelt-es-sich-um-ein-baudenkmal",
       "option": "handelt-es-sich-um-ein-baudenkmal-ja",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "b7db9aef-0262-41e6-823d-c011a55f7ca9",
+    "fields": {
+      "created_at": "2019-04-01T12:18:00.406Z",
+      "modified_at": "2019-04-01T12:18:00.406Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "brandschutzrisiken",
+      "option": "brandschutzrisiken-gase-bis-1000kg",
+      "sort": 16
     }
   },
   {
@@ -6287,6 +6754,32 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "c38479d7-34ba-4938-a4f8-e0bbfc4bd372",
+    "fields": {
+      "created_at": "2019-04-01T11:58:51.172Z",
+      "modified_at": "2019-04-01T11:58:51.172Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "besondere-brandrisiken",
+      "option": "besondere-brandrisiken-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "c7adb70e-dcca-4f4e-ba6a-696f39db2588",
+    "fields": {
+      "created_at": "2019-04-01T11:58:51.172Z",
+      "modified_at": "2019-04-01T11:58:51.172Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "besondere-brandrisiken",
+      "option": "besondere-brandrisiken-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "c7dcc4fb-4c2c-409a-b692-938b5a5890c3",
     "fields": {
       "created_at": "2019-04-01T11:21:22.839Z",
@@ -6335,6 +6828,19 @@
       "question": "baubeschrieb",
       "option": "baubeschrieb-um-ausbau",
       "sort": 8
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "d1346879-9b3a-42a6-ada4-cf0d4b555d39",
+    "fields": {
+      "created_at": "2019-04-01T12:18:00.405Z",
+      "modified_at": "2019-04-01T12:18:00.405Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "brandschutzrisiken",
+      "option": "brandschutzrisiken-explosionsgefahr",
+      "sort": 7
     }
   },
   {
@@ -6478,6 +6984,19 @@
       "question": "vorbereitende-massnahmen",
       "option": "vorbereitende-massnahmen-rammen",
       "sort": 3
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "e4f031c7-10ec-470c-b1e3-4a0e675ebdc4",
+    "fields": {
+      "created_at": "2019-04-01T12:18:00.406Z",
+      "modified_at": "2019-04-01T12:18:00.406Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "brandschutzrisiken",
+      "option": "brandschutzrisiken-tragwerk-brennbar",
+      "sort": 18
     }
   },
   {
@@ -7171,6 +7690,32 @@
   },
   {
     "model": "form.option",
+    "pk": "besondere-brandrisiken-ja",
+    "fields": {
+      "created_at": "2019-04-01T11:58:51.056Z",
+      "modified_at": "2019-04-01T11:58:51.056Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "besondere-brandrisiken-nein",
+    "fields": {
+      "created_at": "2019-04-01T11:58:51.066Z",
+      "modified_at": "2019-04-01T11:58:51.066Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
     "pk": "brandbelastung-ja",
     "fields": {
       "created_at": "2019-03-15T13:22:17.829Z",
@@ -7191,6 +7736,253 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": \"Nein\"}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "brandschutzrisiken-ab-2000kg-fluessigkeit",
+    "fields": {
+      "created_at": "2019-04-01T12:16:30.489Z",
+      "modified_at": "2019-04-01T12:18:00.021Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"\\u00fcber 2000kg brennbare Fl\\u00fcssigkeit\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "brandschutzrisiken-atrien-doppelfassaden",
+    "fields": {
+      "created_at": "2019-04-01T12:16:30.591Z",
+      "modified_at": "2019-04-01T12:18:00.110Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Bauten mit Atrien oder Doppelfassaden\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "brandschutzrisiken-aussenwand-bekleidung",
+    "fields": {
+      "created_at": "2019-04-01T12:16:30.347Z",
+      "modified_at": "2019-04-01T12:17:59.895Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Aussenwand: Bekleidung\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "brandschutzrisiken-bis-2000kg-fluessigkeit",
+    "fields": {
+      "created_at": "2019-04-01T12:16:30.431Z",
+      "modified_at": "2019-04-01T12:17:59.970Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"bis 2000kg brennbare Fl\\u00fcssigkeit\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "brandschutzrisiken-daemmschichtbildende-systeme",
+    "fields": {
+      "created_at": "2019-04-01T12:16:30.397Z",
+      "modified_at": "2019-04-01T12:17:59.939Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"D\\u00e4mmschichtbildende Systeme\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "brandschutzrisiken-explosionsgefahr",
+    "fields": {
+      "created_at": "2019-04-01T12:16:30.561Z",
+      "modified_at": "2019-04-01T12:18:00.104Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Explosionsgef\\u00e4hrdete R\\u00f6ume oder Zonen\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "brandschutzrisiken-feuerwerk-bis-300kg",
+    "fields": {
+      "created_at": "2019-04-01T12:16:30.497Z",
+      "modified_at": "2019-04-01T12:18:00.065Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Feuerwerksk\\u00f6rper bis 300kg\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "brandschutzrisiken-feuerwerk-uber-300kg",
+    "fields": {
+      "created_at": "2019-04-01T12:16:30.536Z",
+      "modified_at": "2019-04-01T12:18:00.104Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Feuerwerksk\\u00f6rper \\u00fcber 300kg\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "brandschutzrisiken-flaeche-ueber-12000-m",
+    "fields": {
+      "created_at": "2019-04-01T12:16:30.612Z",
+      "modified_at": "2019-04-01T12:18:00.171Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Bruttogeschossfl\\u00e4che \\u00fcber 12000 m\\u00b2\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "brandschutzrisiken-flaeche-ueber-7200-m2",
+    "fields": {
+      "created_at": "2019-04-01T12:16:30.595Z",
+      "modified_at": "2019-04-01T12:18:00.140Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Brandabschnittsfl\\u00e4che \\u00fcber 7200 m\\u00b2\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "brandschutzrisiken-gase-bis-1000kg",
+    "fields": {
+      "created_at": "2019-04-01T12:16:30.423Z",
+      "modified_at": "2019-04-01T12:17:59.960Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Brennbare Gase bis 1000 kg\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "brandschutzrisiken-gase-ueber-1000kg",
+    "fields": {
+      "created_at": "2019-04-01T12:16:30.429Z",
+      "modified_at": "2019-04-01T12:17:59.976Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Brennbare Gase \\u00fcber 1000 kg\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "brandschutzrisiken-gefaehrdende-stoffe",
+    "fields": {
+      "created_at": "2019-04-01T12:16:30.561Z",
+      "modified_at": "2019-04-01T12:18:00.076Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Mensch und Umwelt gef\\u00e4hrdende Stoffe\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "brandschutzrisiken-hohe-brandschutzmassnahmen",
+    "fields": {
+      "created_at": "2019-04-01T12:16:30.645Z",
+      "modified_at": "2019-04-01T12:18:00.162Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Hoher Anteil an Brandschutzmassnahmen\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "brandschutzrisiken-lagerung-fester-brennstoffe-5m",
+    "fields": {
+      "created_at": "2019-04-01T12:16:30.644Z",
+      "modified_at": "2019-04-01T12:18:00.195Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Lagerung fester Brennstoffe 5m\\u00b3\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "brandschutzrisiken-nachweisverfahren",
+    "fields": {
+      "created_at": "2019-04-01T12:16:30.643Z",
+      "modified_at": "2019-04-01T12:18:00.164Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Anwendung von Nachweisverfahren\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "brandschutzrisiken-pneulager-bis-60t",
+    "fields": {
+      "created_at": "2019-04-01T12:16:30.506Z",
+      "modified_at": "2019-04-01T12:18:00.005Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Pneulager bis 60t\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "brandschutzrisiken-pneulager-ueber-60t",
+    "fields": {
+      "created_at": "2019-04-01T12:16:30.482Z",
+      "modified_at": "2019-04-01T12:18:00.028Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Pneulager \\u00fcber 60t\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "brandschutzrisiken-tragwerk-brennbar",
+    "fields": {
+      "created_at": "2019-04-01T12:16:30.385Z",
+      "modified_at": "2019-04-01T12:17:59.907Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Tragwerk brennbar\", \"fr\": null, \"en\": null}",
       "meta": {},
       "source": null
     }
@@ -8211,6 +9003,45 @@
   },
   {
     "model": "form.option",
+    "pk": "qss-stufe-1",
+    "fields": {
+      "created_at": "2019-04-01T12:19:18.529Z",
+      "modified_at": "2019-04-01T12:20:39.871Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"1\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "qss-stufe-2",
+    "fields": {
+      "created_at": "2019-04-01T12:19:18.540Z",
+      "modified_at": "2019-04-01T12:20:39.874Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"2\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "qss-stufe-3",
+    "fields": {
+      "created_at": "2019-04-01T12:19:18.570Z",
+      "modified_at": "2019-04-01T12:20:39.887Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"3\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
     "pk": "rechtliche-sicherung-fremden-bodens-ja",
     "fields": {
       "created_at": "2019-03-28T15:01:56.814Z",
@@ -8907,6 +9738,32 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Weitere\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "werden-brandschutzabstande-unterschritten-ja",
+    "fields": {
+      "created_at": "2019-04-01T12:23:21.974Z",
+      "modified_at": "2019-04-01T12:23:21.975Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "werden-brandschutzabstande-unterschritten-nein",
+    "fields": {
+      "created_at": "2019-04-01T12:23:21.979Z",
+      "modified_at": "2019-04-01T12:23:21.979Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
       "meta": {},
       "source": null
     }
