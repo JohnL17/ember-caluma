@@ -5,6 +5,17 @@ services:
     environment:
       - POSTGRES_USER=caluma
       - POSTGRES_PASSWORD=caluma
+  phppgadmin:
+    image: zhajor/docker-phppgadmin
+    depends_on:
+      - db
+    links:
+      - db
+    ports:
+        - "8080:80"
+    environment:
+      - DB_HOST=db
+      - DB_PORT=5432
   caluma:
     image: projectcaluma/caluma:latest
     ports:
