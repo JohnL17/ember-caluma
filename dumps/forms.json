@@ -241,6 +241,54 @@
   },
   {
     "model": "form.form",
+    "pk": "gewaesserschutz-gewerbe-industrie",
+    "fields": {
+      "created_at": "2019-04-03T11:26:06.444Z",
+      "modified_at": "2019-04-03T11:26:06.444Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "name": "{\"de\": \"Gew\\u00e4sserschutz - Gewerbe / Industrie\", \"fr\": null, \"en\": null}",
+      "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "is_published": true,
+      "is_archived": false,
+      "source": null
+    }
+  },
+  {
+    "model": "form.form",
+    "pk": "gewaesserschutz-grundstueckentwaesserung",
+    "fields": {
+      "created_at": "2019-04-03T13:03:37.844Z",
+      "modified_at": "2019-04-03T13:03:37.845Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "name": "{\"de\": \"Gew\\u00e4sserschutz - Grundst\\u00fcckentw\\u00e4sserung\", \"fr\": null, \"en\": null}",
+      "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "is_published": true,
+      "is_archived": false,
+      "source": null
+    }
+  },
+  {
+    "model": "form.form",
+    "pk": "gewaesserschutz-wassergefaehrdende-fluessigkeiten",
+    "fields": {
+      "created_at": "2019-04-03T11:37:16.193Z",
+      "modified_at": "2019-04-03T11:37:16.193Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "name": "{\"de\": \"Gew\\u00e4sserschutz - Lagerung wassergef\\u00e4hrdender Fl\\u00fcssigkeiten\", \"fr\": null, \"en\": null}",
+      "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "is_published": true,
+      "is_archived": false,
+      "source": null
+    }
+  },
+  {
+    "model": "form.form",
     "pk": "grundeigentumerin",
     "fields": {
       "created_at": "2019-03-15T09:28:20.889Z",
@@ -280,6 +328,22 @@
       "created_by_user": null,
       "created_by_group": null,
       "name": "{\"de\": \"Immissionsschutz - L\\u00e4rmschutz\", \"fr\": null, \"en\": null}",
+      "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "is_published": true,
+      "is_archived": false,
+      "source": null
+    }
+  },
+  {
+    "model": "form.form",
+    "pk": "lagerung-von-stoffen-tabelle",
+    "fields": {
+      "created_at": "2019-04-03T11:43:29.917Z",
+      "modified_at": "2019-04-03T11:43:29.917Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "name": "{\"de\": \"Lagerung von Stoffen Tabelle\", \"fr\": null, \"en\": null}",
       "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
       "meta": {},
       "is_published": true,
@@ -711,6 +775,32 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "0b98eaf9-e5b2-4f48-976c-024665b942ee",
+    "fields": {
+      "created_at": "2019-04-03T11:48:06.243Z",
+      "modified_at": "2019-04-03T11:48:06.243Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "lagerung-von-stoffen-tabelle",
+      "question": "massangabe",
+      "sort": 6
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "0ce5320f-9de8-47fb-8026-36ec6be264ac",
+    "fields": {
+      "created_at": "2019-04-03T11:31:54.408Z",
+      "modified_at": "2019-04-03T11:31:54.408Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-gewerbe-industrie",
+      "question": "kontrolle-der-abwaesser-vorhanden-geplant",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "0db092cd-14b3-48c6-9931-89c37d14ec54",
     "fields": {
       "created_at": "2019-04-01T11:13:03.631Z",
@@ -915,6 +1005,19 @@
       "form": "personalien-tabelle",
       "question": "kontaktperson-name",
       "sort": 9
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "18de7e2a-5b1a-4ae4-8e96-f3f8851b1355",
+    "fields": {
+      "created_at": "2019-04-03T13:27:08.643Z",
+      "modified_at": "2019-04-03T13:27:08.643Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-grundstueckentwaesserung",
+      "question": "zufahrten-plaetze-in-quadratmeter",
+      "sort": 3
     }
   },
   {
@@ -1205,6 +1308,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "31296374-c2b5-4acf-abc7-134c1dd23f3d",
+    "fields": {
+      "created_at": "2019-04-03T11:30:10.048Z",
+      "modified_at": "2019-04-03T11:30:10.048Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-gewerbe-industrie",
+      "question": "wasserverbrauch-im-neuen-betrieb",
+      "sort": 3
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "318dad56-d31d-4fd9-892c-f52a541c706b",
     "fields": {
       "created_at": "2019-04-02T14:02:57.192Z",
@@ -1227,6 +1343,19 @@
       "form": "grundeigentumerin",
       "question": "telefon-oder-mobile",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "33047d6e-cef9-42bc-a905-465e5db62b30",
+    "fields": {
+      "created_at": "2019-04-03T13:24:53.518Z",
+      "modified_at": "2019-04-03T13:24:53.518Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-grundstueckentwaesserung",
+      "question": "neue-dachflaechen-in-quadratmeter",
+      "sort": 4
     }
   },
   {
@@ -1283,6 +1412,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "36d9ef75-43c5-4949-b083-177c7d555992",
+    "fields": {
+      "created_at": "2019-04-03T11:56:06.499Z",
+      "modified_at": "2019-04-03T11:56:06.499Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-wassergefaehrdende-fluessigkeiten",
+      "question": "lagerung-von-stoffen",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "374e25d8-1fa1-45c1-a8a3-5d315573f462",
     "fields": {
       "created_at": "2019-03-28T14:15:25.612Z",
@@ -1318,6 +1460,19 @@
       "form": "projektverfasserin",
       "question": "strasse",
       "sort": 6
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "39352eef-5ebb-479b-83f0-265359e0c8fd",
+    "fields": {
+      "created_at": "2019-04-03T13:31:11.892Z",
+      "modified_at": "2019-04-03T13:31:11.892Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-grundstueckentwaesserung",
+      "question": "sanitaertechnische-anpassungen-liegenschaft",
+      "sort": 1
     }
   },
   {
@@ -1504,6 +1659,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "446859f6-f245-4209-8bc7-abd0a5d89533",
+    "fields": {
+      "created_at": "2019-04-03T13:14:17.001Z",
+      "modified_at": "2019-04-03T13:14:17.001Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "4-bauwerk",
+      "question": "gewaesserschutz-grundstueckentwaesserung",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "44e9e4ad-6a7c-430d-8761-1a9cb22ec3ba",
     "fields": {
       "created_at": "2019-03-29T14:30:07.250Z",
@@ -1552,6 +1720,19 @@
       "form": "energie",
       "question": "ausnahme-im-sinne-von-artikel-64-kenv",
       "sort": 1
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "47074c10-ce7b-493f-8ac1-3cd82c398519",
+    "fields": {
+      "created_at": "2019-04-03T11:53:20.138Z",
+      "modified_at": "2019-04-03T11:53:20.138Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "lagerung-von-stoffen-tabelle",
+      "question": "gesundheitsschaedlich-oder-explosiv",
+      "sort": 2
     }
   },
   {
@@ -1772,7 +1953,7 @@
       "created_by_group": null,
       "form": "4-bauwerk",
       "question": "wohnen",
-      "sort": 2
+      "sort": 5
     }
   },
   {
@@ -1868,6 +2049,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "6046a5cb-8ce5-4845-aaf4-f058e4cfa093",
+    "fields": {
+      "created_at": "2019-04-03T11:54:25.508Z",
+      "modified_at": "2019-04-03T11:54:25.508Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "lagerung-von-stoffen-tabelle",
+      "question": "wassergefaehrdend",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "605c9133-ea3a-4e4f-bf7c-0aaa8a6e52c3",
     "fields": {
       "created_at": "2019-04-01T11:40:08.630Z",
@@ -1928,7 +2122,7 @@
       "created_by_group": null,
       "form": "4-bauwerk",
       "question": "brandschutz",
-      "sort": 3
+      "sort": 6
     }
   },
   {
@@ -1972,6 +2166,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "66200753-298d-4c55-8c61-359b64b126a3",
+    "fields": {
+      "created_at": "2019-04-03T11:28:24.277Z",
+      "modified_at": "2019-04-03T11:28:24.277Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-gewerbe-industrie",
+      "question": "fallen-abwaesser-an-neuer-betrieb",
+      "sort": 5
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "666cbc73-07d1-4063-8453-86b8551417f6",
     "fields": {
       "created_at": "2019-04-02T08:59:04.389Z",
@@ -2007,6 +2214,19 @@
       "form": "energie",
       "question": "nummer",
       "sort": 8
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "69e8a231-55c5-4c7c-aee0-dec66d8623c9",
+    "fields": {
+      "created_at": "2019-04-03T13:28:32.559Z",
+      "modified_at": "2019-04-03T13:28:32.559Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-grundstueckentwaesserung",
+      "question": "neubau-abwasseranlagen-grundleitungen",
+      "sort": 2
     }
   },
   {
@@ -2228,6 +2448,19 @@
       "form": "projektverfasserin",
       "question": "juristische-person-projektverfasserin",
       "sort": 12
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "75b1cbe4-b8c7-499c-a8e3-a9748c4b9226",
+    "fields": {
+      "created_at": "2019-04-03T11:48:45.984Z",
+      "modified_at": "2019-04-03T11:48:45.984Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "lagerung-von-stoffen-tabelle",
+      "question": "lagerort",
+      "sort": 5
     }
   },
   {
@@ -2583,6 +2816,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "9039d1d7-49e7-47af-b367-641a169b24da",
+    "fields": {
+      "created_at": "2019-04-03T13:09:09.533Z",
+      "modified_at": "2019-04-03T13:09:09.533Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-grundstueckentwaesserung",
+      "question": "ableitung-haeusliche-abwaesser",
+      "sort": 7
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "90dd89a2-3aac-4993-9e51-30a77c644b3b",
     "fields": {
       "created_at": "2019-04-03T08:10:52.666Z",
@@ -2748,6 +2994,19 @@
       "form": "zonenvorschriften-baurechtliche-grundordnung",
       "question": "nutzungszone",
       "sort": 6
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "96f560cd-e628-4e86-bf79-49f32f1b7649",
+    "fields": {
+      "created_at": "2019-04-03T11:45:32.260Z",
+      "modified_at": "2019-04-03T11:45:32.260Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "lagerung-von-stoffen-tabelle",
+      "question": "lagerstoff",
+      "sort": 9
     }
   },
   {
@@ -3012,6 +3271,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "a4a2b75b-574a-4e95-b207-ec4e09aecda7",
+    "fields": {
+      "created_at": "2019-04-03T11:32:54.924Z",
+      "modified_at": "2019-04-03T11:32:54.924Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-gewerbe-industrie",
+      "question": "wird-kuehlwasser-im-betrieb-verwendet",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "a6d463bd-df5d-435e-a6ef-5b67dc4addd0",
     "fields": {
       "created_at": "2019-04-03T07:53:47.449Z",
@@ -3103,6 +3375,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "ac2f571b-cc52-4c62-8203-308ab3f97513",
+    "fields": {
+      "created_at": "2019-04-03T12:07:12.781Z",
+      "modified_at": "2019-04-03T12:07:12.781Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "lagerung-von-stoffen-tabelle",
+      "question": "flammpunkt",
+      "sort": 3
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "adcbafe2-b95f-40b6-9d27-3fc2215de4bb",
     "fields": {
       "created_at": "2019-03-29T14:27:54.986Z",
@@ -3177,6 +3462,19 @@
       "form": "bodenschutz",
       "question": "terrainveraenderung-weniger-als-2000m2",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "b1ef299d-36cb-496d-936f-103383131b3e",
+    "fields": {
+      "created_at": "2019-04-03T11:34:08.213Z",
+      "modified_at": "2019-04-03T11:34:08.213Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "4-bauwerk",
+      "question": "gewaesserschutz-gewerbe-industrie",
+      "sort": 4
     }
   },
   {
@@ -3337,6 +3635,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "bb727d0f-95c4-4e3b-a07d-19777ab47f58",
+    "fields": {
+      "created_at": "2019-04-03T11:46:51.464Z",
+      "modified_at": "2019-04-03T11:46:51.464Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "lagerung-von-stoffen-tabelle",
+      "question": "neu-bestehend",
+      "sort": 8
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "bc9fdd25-a34d-4e1e-9a10-3cfa0110db3a",
     "fields": {
       "created_at": "2019-04-01T11:06:07.010Z",
@@ -3463,6 +3774,19 @@
       "form": "triage",
       "question": "werden-siloanlagen-erstellt",
       "sort": 3
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "c6dd5419-e1a5-4038-a60b-5c5b795ab6ba",
+    "fields": {
+      "created_at": "2019-04-03T11:29:24.359Z",
+      "modified_at": "2019-04-03T11:29:24.359Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-gewerbe-industrie",
+      "question": "wasserverbrauch-im-bestehenden-betrieb",
+      "sort": 4
     }
   },
   {
@@ -3688,6 +4012,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "d3c6b96c-4683-431b-9fa5-a3386c98cf20",
+    "fields": {
+      "created_at": "2019-04-03T13:12:04.542Z",
+      "modified_at": "2019-04-03T13:12:04.542Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-grundstueckentwaesserung",
+      "question": "beschreibung",
+      "sort": 6
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "d3d8b792-551b-4f8e-88c5-a26aaee3cfe9",
     "fields": {
       "created_at": "2019-04-03T07:51:23.235Z",
@@ -3909,6 +4246,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "e6275e82-1bac-402a-8eb2-edd714315a35",
+    "fields": {
+      "created_at": "2019-04-03T11:47:23.242Z",
+      "modified_at": "2019-04-03T11:47:23.242Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "lagerung-von-stoffen-tabelle",
+      "question": "menge",
+      "sort": 7
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "e752ef70-3634-4ccf-87f6-c8c1a325681f",
     "fields": {
       "created_at": "2019-04-02T07:32:18.081Z",
@@ -3974,6 +4324,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "eb0d7be8-cbd7-474d-a367-8fb9119e3eff",
+    "fields": {
+      "created_at": "2019-04-03T11:49:55.454Z",
+      "modified_at": "2019-04-03T11:49:55.455Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "lagerung-von-stoffen-tabelle",
+      "question": "brennbare-fluessigkeit-gas",
+      "sort": 4
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "eb606b3f-151f-42d5-a12b-791cc400fe2c",
     "fields": {
       "created_at": "2019-04-01T10:43:26.841Z",
@@ -4009,6 +4372,32 @@
       "form": "brandschutz",
       "question": "ersatzmassnahmen-brandschutzabstaende",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "ee252db7-8d2b-4829-9154-7e8849391677",
+    "fields": {
+      "created_at": "2019-04-03T11:59:51.704Z",
+      "modified_at": "2019-04-03T11:59:51.704Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "4-bauwerk",
+      "question": "gewaesserschutz-wassergefaehrdende-fluessigkeiten",
+      "sort": 3
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "f14ae45a-9e4e-471d-a7c4-12ce898ce1d9",
+    "fields": {
+      "created_at": "2019-04-03T11:26:58.319Z",
+      "modified_at": "2019-04-03T11:26:58.319Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-gewerbe-industrie",
+      "question": "fallen-abwaesser-an",
+      "sort": 6
     }
   },
   {
@@ -4139,6 +4528,19 @@
       "form": "allgemeine-angaben",
       "question": "ueberbauung-in-prozent",
       "sort": 3
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "f968ca41-0bbc-48a8-ad1e-9a2829c913bd",
+    "fields": {
+      "created_at": "2019-04-03T13:22:25.565Z",
+      "modified_at": "2019-04-03T13:22:25.565Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-grundstueckentwaesserung",
+      "question": "aenderungen-dachflaechen-zufahrten-plaetzen",
+      "sort": 5
     }
   },
   {
@@ -4412,6 +4814,26 @@
   },
   {
     "model": "form.question",
+    "pk": "ableitung-haeusliche-abwaesser",
+    "fields": {
+      "created_at": "2019-04-03T13:09:09.453Z",
+      "modified_at": "2019-04-03T13:09:09.453Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ableitung der h\\u00e4uslichen Abw\\u00e4sser in\", \"fr\": null, \"en\": null}",
+      "type": "multiple_choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "ableitung-in-guellegrube",
     "fields": {
       "created_at": "2019-03-25T14:02:50.734Z",
@@ -4464,6 +4886,26 @@
       "is_hidden": "'auto-oder-fahrradabstellplaetze-nein' in 'auto-oder-fahrradabstellplaetze'|answer",
       "is_archived": false,
       "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "aenderungen-dachflaechen-zufahrten-plaetzen",
+    "fields": {
+      "created_at": "2019-04-03T13:22:25.453Z",
+      "modified_at": "2019-04-03T13:22:25.453Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Es erfolgen \\u00e4nderungen an Dachfl\\u00e4chen, Zufahrten, Pl\\u00e4tzen, PW-Parkpl\\u00e4tzen?\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
       "meta": {},
       "row_form": null,
       "sub_form": null,
@@ -5092,6 +5534,26 @@
   },
   {
     "model": "form.question",
+    "pk": "beschreibung",
+    "fields": {
+      "created_at": "2019-04-03T13:12:04.461Z",
+      "modified_at": "2019-04-03T13:16:51.285Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Beschreibung\", \"fr\": null, \"en\": null}",
+      "type": "textarea",
+      "is_required": "true",
+      "is_hidden": "!('ableitung-haeusliche-abwaesser-andere-einrichtung' in 'ableitung-haeusliche-abwaesser'|answer)",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "beschreibung-boden-untergrund",
     "fields": {
       "created_at": "2019-03-11T09:27:24.293Z",
@@ -5419,6 +5881,26 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Wird auf dem Areal ein mobiler oder station\\u00e4rer Brecher oder Holzhacker betrieben?\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "brennbare-fluessigkeit-gas",
+    "fields": {
+      "created_at": "2019-04-03T11:49:55.375Z",
+      "modified_at": "2019-04-03T11:49:55.375Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Brennbare Fl\\u00fcssigkeit / Gas\", \"fr\": null, \"en\": null}",
       "type": "choice",
       "is_required": "true",
       "is_hidden": "false",
@@ -5832,6 +6314,46 @@
   },
   {
     "model": "form.question",
+    "pk": "fallen-abwaesser-an",
+    "fields": {
+      "created_at": "2019-04-03T11:26:58.233Z",
+      "modified_at": "2019-04-03T11:26:58.233Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Fallen im bestehenden Betrieb industrielle / gewerbliche Abw\\u00e4sser (Prozess-, Reinigungs-, Sp\\u00fcl-, K\\u00fchlw\\u00e4sser) an?\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "fallen-abwaesser-an-neuer-betrieb",
+    "fields": {
+      "created_at": "2019-04-03T11:28:24.191Z",
+      "modified_at": "2019-04-03T11:28:24.191Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Fallen im neuen Betriebsteil industrielle / gewerbliche Abw\\u00e4sser (Prozess-, Reinigungs-, Sp\\u00fcl-, K\\u00fchlw\\u00e4sser) an?\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "feuerungsanlagen",
     "fields": {
       "created_at": "2019-03-15T13:36:16.815Z",
@@ -5865,6 +6387,26 @@
       "is_archived": false,
       "configuration": {},
       "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "flammpunkt",
+    "fields": {
+      "created_at": "2019-04-03T12:07:12.713Z",
+      "modified_at": "2019-04-03T12:07:12.713Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Flammpunkt\", \"fr\": null, \"en\": null}",
+      "type": "multiple_choice",
+      "is_required": "true",
+      "is_hidden": "'brennbare-fluessigkeit-gas-nein' in 'brennbare-fluessigkeit-gas'|answer",
+      "is_archived": false,
+      "configuration": {},
+      "meta": { "widgetType": "powerselect" },
       "row_form": null,
       "sub_form": null,
       "source": null
@@ -6152,6 +6694,26 @@
   },
   {
     "model": "form.question",
+    "pk": "gesundheitsschaedlich-oder-explosiv",
+    "fields": {
+      "created_at": "2019-04-03T11:53:20.041Z",
+      "modified_at": "2019-04-03T11:53:20.041Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Gesundheitssch\\u00e4dlich oder explosiv\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "gewaesserschutzbereich",
     "fields": {
       "created_at": "2019-04-01T10:42:44.403Z",
@@ -6167,6 +6729,66 @@
       "meta": {},
       "row_form": null,
       "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "gewaesserschutz-gewerbe-industrie",
+    "fields": {
+      "created_at": "2019-04-03T11:34:08.152Z",
+      "modified_at": "2019-04-03T11:34:08.152Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Gew\\u00e4sserschutz - Gewerbe / Industrie\", \"fr\": null, \"en\": null}",
+      "type": "form",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": "gewaesserschutz-gewerbe-industrie",
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "gewaesserschutz-grundstueckentwaesserung",
+    "fields": {
+      "created_at": "2019-04-03T13:14:16.933Z",
+      "modified_at": "2019-04-03T13:14:16.933Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Gew\\u00e4sserschutz - Grundst\\u00fcckentw\\u00e4sserung\", \"fr\": null, \"en\": null}",
+      "type": "form",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": "gewaesserschutz-grundstueckentwaesserung",
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "gewaesserschutz-wassergefaehrdende-fluessigkeiten",
+    "fields": {
+      "created_at": "2019-04-03T11:59:51.630Z",
+      "modified_at": "2019-04-03T11:59:51.630Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Gew\\u00e4sserschutz - Lagerung wassergef\\u00e4hrdender Fl\\u00fcssigkeiten\", \"fr\": null, \"en\": null}",
+      "type": "form",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": "gewaesserschutz-wassergefaehrdende-fluessigkeiten",
       "source": null
     }
   },
@@ -7112,6 +7734,26 @@
   },
   {
     "model": "form.question",
+    "pk": "kontrolle-der-abwaesser-vorhanden-geplant",
+    "fields": {
+      "created_at": "2019-04-03T11:31:54.333Z",
+      "modified_at": "2019-04-03T11:31:54.333Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ist eine Behandlung / Kontrolle der Abw\\u00e4sser vorhanden oder geplant?\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "laermige-bauphase-laenger-als-6-tage",
     "fields": {
       "created_at": "2019-04-02T10:35:46.916Z",
@@ -7206,6 +7848,66 @@
       "configuration": { "max_length": null },
       "meta": {},
       "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "lagerort",
+    "fields": {
+      "created_at": "2019-04-03T11:48:45.904Z",
+      "modified_at": "2019-04-03T11:48:45.904Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Lagerort\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "lagerstoff",
+    "fields": {
+      "created_at": "2019-04-03T11:45:32.184Z",
+      "modified_at": "2019-04-03T11:45:32.184Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Lagerstoff\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "lagerung-von-stoffen",
+    "fields": {
+      "created_at": "2019-04-03T11:56:06.419Z",
+      "modified_at": "2019-04-03T12:01:02.496Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Lagerung von Stoffen\", \"fr\": null, \"en\": null}",
+      "type": "table",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": "lagerung-von-stoffen-tabelle",
       "sub_form": null,
       "source": null
     }
@@ -7372,6 +8074,26 @@
   },
   {
     "model": "form.question",
+    "pk": "massangabe",
+    "fields": {
+      "created_at": "2019-04-03T11:48:06.149Z",
+      "modified_at": "2019-04-03T11:48:06.149Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Massangabe\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": { "widgetType": "powerselect" },
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "mehr-als-1500-m3-bodenmaterial",
     "fields": {
       "created_at": "2019-04-01T11:40:08.548Z",
@@ -7404,6 +8126,26 @@
       "is_hidden": "'ist-durch-das-bauvorhaben-boden-betroffen-nein' in 'ist-durch-das-bauvorhaben-boden-betroffen'|answer",
       "is_archived": false,
       "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "menge",
+    "fields": {
+      "created_at": "2019-04-03T11:47:23.158Z",
+      "modified_at": "2019-04-03T11:47:23.158Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Menge\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
       "meta": {},
       "row_form": null,
       "sub_form": null,
@@ -7564,6 +8306,66 @@
       "is_hidden": "false",
       "is_archived": false,
       "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "neubau-abwasseranlagen-grundleitungen",
+    "fields": {
+      "created_at": "2019-04-03T13:28:32.468Z",
+      "modified_at": "2019-04-03T13:28:32.468Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Neubau von Abwasseranlagen, Grundleitungen, Grundst\\u00fccksanschlussleitungen?\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "neu-bestehend",
+    "fields": {
+      "created_at": "2019-04-03T11:46:51.381Z",
+      "modified_at": "2019-04-03T11:46:51.381Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Neu / Bestehend\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "neue-dachflaechen-in-quadratmeter",
+    "fields": {
+      "created_at": "2019-04-03T13:24:53.436Z",
+      "modified_at": "2019-04-03T13:25:44.745Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Neue Dachfl\\u00e4chen in m\\u00b2\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "'aenderungen-dachflaechen-zufahrten-plaetzen-nein' in 'aenderungen-dachflaechen-zufahrten-plaetzen'|answer",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
       "meta": {},
       "row_form": null,
       "sub_form": null,
@@ -8022,6 +8824,26 @@
       "type": "choice",
       "is_required": "true",
       "is_hidden": "'schutzraumbefreiung-beantragt-ja' in 'schutzraumbefreiung-beantragt'|answer",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "sanitaertechnische-anpassungen-liegenschaft",
+    "fields": {
+      "created_at": "2019-04-03T13:31:11.812Z",
+      "modified_at": "2019-04-03T13:31:11.812Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nur sanit\\u00e4rtechnische Anpassungen der Liegenschaft?\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
       "is_archived": false,
       "configuration": {},
       "meta": {},
@@ -9032,6 +9854,66 @@
   },
   {
     "model": "form.question",
+    "pk": "wassergefaehrdend",
+    "fields": {
+      "created_at": "2019-04-03T11:54:25.412Z",
+      "modified_at": "2019-04-03T11:54:25.412Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Wassergef\\u00e4hrdend\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "wasserverbrauch-im-bestehenden-betrieb",
+    "fields": {
+      "created_at": "2019-04-03T11:29:24.284Z",
+      "modified_at": "2019-04-03T11:29:24.284Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Wie gross ist der (gesch\\u00e4tzte) Wasserverbrauch im bestehenden Betrieb (m\\u00b3/a)?\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "wasserverbrauch-im-neuen-betrieb",
+    "fields": {
+      "created_at": "2019-04-03T11:30:09.983Z",
+      "modified_at": "2019-04-03T11:30:09.983Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Wie gross ist der (gesch\\u00e4tzte) Wasserverbrauch im neuen Betriebsteil (m\\u00b3/a)?\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "weitere-hinzufuegen",
     "fields": {
       "created_at": "2019-03-25T10:02:34.522Z",
@@ -9272,6 +10154,26 @@
   },
   {
     "model": "form.question",
+    "pk": "wird-kuehlwasser-im-betrieb-verwendet",
+    "fields": {
+      "created_at": "2019-04-03T11:32:54.848Z",
+      "modified_at": "2019-04-03T11:32:54.848Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Wird K\\u00fchlwasser im Betrieb verwendet?\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "wohnen",
     "fields": {
       "created_at": "2019-04-03T10:51:51.009Z",
@@ -9407,6 +10309,26 @@
       "meta": {},
       "row_form": null,
       "sub_form": "zonenvorschriften-schutzzonen",
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "zufahrten-plaetze-in-quadratmeter",
+    "fields": {
+      "created_at": "2019-04-03T13:27:08.587Z",
+      "modified_at": "2019-04-03T13:27:08.588Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Zufahrten / Pl\\u00e4tze in m\\u00b2\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "'aenderungen-dachflaechen-zufahrten-plaetzen-nein' in 'aenderungen-dachflaechen-zufahrten-plaetzen'|answer",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
       "source": null
     }
   },
@@ -9667,6 +10589,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "06e34f2b-1d5d-4eea-931e-39b89a59305d",
+    "fields": {
+      "created_at": "2019-04-03T12:07:12.716Z",
+      "modified_at": "2019-04-03T12:07:12.716Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "flammpunkt",
+      "option": "flammpunkt-fluessigkeit-flammpunkt-unter-30-grad",
+      "sort": 4
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "06fe8871-b1f3-4f96-93fa-8a8bc9918d0d",
     "fields": {
       "created_at": "2019-04-02T08:53:54.556Z",
@@ -9702,6 +10637,19 @@
       "question": "brandschutzrisiken",
       "option": "brandschutzrisiken-feuerwerk-bis-300kg",
       "sort": 10
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "09523922-4e2c-4bf1-8cec-8a82611a2c0b",
+    "fields": {
+      "created_at": "2019-04-03T13:09:09.456Z",
+      "modified_at": "2019-04-03T13:09:09.456Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "ableitung-haeusliche-abwaesser",
+      "option": "ableitung-haeusliche-abwaesser-ara",
+      "sort": 6
     }
   },
   {
@@ -10304,6 +11252,45 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "2ba5c681-740e-4242-abc5-d5bc957c5802",
+    "fields": {
+      "created_at": "2019-04-03T11:26:58.235Z",
+      "modified_at": "2019-04-03T11:26:58.235Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "fallen-abwaesser-an",
+      "option": "fallen-abwaesser-an-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "2c61e6d1-7072-4805-97bc-a98397009cb7",
+    "fields": {
+      "created_at": "2019-04-03T13:09:09.456Z",
+      "modified_at": "2019-04-03T13:09:09.456Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "ableitung-haeusliche-abwaesser",
+      "option": "ableitung-haeusliche-abwaesser-abflusslose-grube",
+      "sort": 3
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "2cdf6115-53b1-43d0-a543-d039a59dfce3",
+    "fields": {
+      "created_at": "2019-04-03T11:48:06.151Z",
+      "modified_at": "2019-04-03T11:48:06.151Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "massangabe",
+      "option": "massangabe-kg",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "2d2080ff-c07f-4278-adec-f0b069e2dffc",
     "fields": {
       "created_at": "2019-04-02T14:04:07.513Z",
@@ -10338,6 +11325,19 @@
       "created_by_group": null,
       "question": "waermetraegerfluessigkeit",
       "option": "waermetraegerfluessigkeit-andere-waermetrager",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "2dbe5da3-d70c-49c5-902b-15040fc370ef",
+    "fields": {
+      "created_at": "2019-04-03T11:26:58.235Z",
+      "modified_at": "2019-04-03T11:26:58.235Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "fallen-abwaesser-an",
+      "option": "fallen-abwaesser-an-nein",
       "sort": 1
     }
   },
@@ -10512,6 +11512,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "388a506c-3f15-4ced-8097-44bce75cd17b",
+    "fields": {
+      "created_at": "2019-04-03T13:09:09.456Z",
+      "modified_at": "2019-04-03T13:09:09.456Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "ableitung-haeusliche-abwaesser",
+      "option": "ableitung-haeusliche-abwaesser-guellegrube",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "38a4a014-b627-431f-8ce5-f392a7725e2b",
     "fields": {
       "created_at": "2019-04-02T14:07:26.583Z",
@@ -10533,6 +11546,19 @@
       "created_by_group": null,
       "question": "erhaltenswert",
       "option": "erhaltenswert-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "3a14bb7f-1123-4488-88d2-ebfe11c2e6a2",
+    "fields": {
+      "created_at": "2019-04-03T11:28:24.194Z",
+      "modified_at": "2019-04-03T11:28:24.194Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "fallen-abwaesser-an-neuer-betrieb",
+      "option": "fallen-abwaesser-an-neuer-betrieb-nein",
       "sort": 1
     }
   },
@@ -10586,6 +11612,32 @@
       "question": "geplante-anlagen",
       "option": "geplante-anlagen-sendeanlage",
       "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "3c90c93b-2894-40f1-81f0-18b5b00e3d73",
+    "fields": {
+      "created_at": "2019-04-03T11:46:51.383Z",
+      "modified_at": "2019-04-03T11:46:51.383Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "neu-bestehend",
+      "option": "neu-bestehend-neu",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "3d1ed4c6-aabf-430b-a2d4-5c8be5177db2",
+    "fields": {
+      "created_at": "2019-04-03T13:31:11.815Z",
+      "modified_at": "2019-04-03T13:31:11.815Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "sanitaertechnische-anpassungen-liegenschaft",
+      "option": "sanitaertechnische-anpassungen-liegenschaft-ja",
+      "sort": 2
     }
   },
   {
@@ -10694,6 +11746,32 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "45289657-5d85-4a88-8553-db0de6eb4ce1",
+    "fields": {
+      "created_at": "2019-04-03T13:09:09.456Z",
+      "modified_at": "2019-04-03T13:09:09.456Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "ableitung-haeusliche-abwaesser",
+      "option": "ableitung-haeusliche-abwaesser-klaergrube",
+      "sort": 4
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "4658d1cd-1b32-4cdb-a59a-145bd0a12f46",
+    "fields": {
+      "created_at": "2019-04-03T11:49:55.377Z",
+      "modified_at": "2019-04-03T11:49:55.377Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "brennbare-fluessigkeit-gas",
+      "option": "brennbare-fluessigkeit-gas-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "466d9cd9-9113-4f26-a084-169b585af277",
     "fields": {
       "created_at": "2019-04-01T12:26:54.997Z",
@@ -10781,6 +11859,19 @@
       "question": "waermetraegerfluessigkeit",
       "option": "waermetraegerfluessigkeit-ethylenglykol",
       "sort": 13
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "4945d563-f26c-4a4a-8e09-978cd2ee00bf",
+    "fields": {
+      "created_at": "2019-04-03T12:07:12.716Z",
+      "modified_at": "2019-04-03T12:07:12.716Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "flammpunkt",
+      "option": "flammpunkt-fluessigkeit-flammpunkt-unter-60-grad",
+      "sort": 3
     }
   },
   {
@@ -10876,6 +11967,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "4e93a82e-688f-4f51-86c9-c8bc6f90e7db",
+    "fields": {
+      "created_at": "2019-04-03T12:07:12.716Z",
+      "modified_at": "2019-04-03T12:07:12.716Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "flammpunkt",
+      "option": "flammpunkt-fluessigkeit-flammpunkt-ueber-60-grad",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "4eabfa75-01b1-4e66-b8ca-4243a0266bfd",
     "fields": {
       "created_at": "2019-04-02T08:53:54.557Z",
@@ -10950,6 +12054,19 @@
       "question": "waermetraegerfluessigkeit",
       "option": "waermetraegerfluessigkeit-natriumcarbonat",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "50bffad3-ebf5-4ae4-b08c-cfb011ff8547",
+    "fields": {
+      "created_at": "2019-04-03T11:32:54.850Z",
+      "modified_at": "2019-04-03T11:32:54.850Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "wird-kuehlwasser-im-betrieb-verwendet",
+      "option": "wird-kuhlwaasser-im-betrieb-verwendet-nein",
+      "sort": 1
     }
   },
   {
@@ -11045,6 +12162,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "530e8da3-2452-48b1-a9ff-e6c955086a07",
+    "fields": {
+      "created_at": "2019-04-03T11:53:20.043Z",
+      "modified_at": "2019-04-03T11:53:20.043Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "gesundheitsschaedlich-oder-explosiv",
+      "option": "gesundheitsschaedlich-oder-explosiv-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "5391538d-558a-4e61-88e9-1189ac0b7038",
     "fields": {
       "created_at": "2019-04-03T10:45:56.698Z",
@@ -11136,6 +12266,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "59985672-573b-4318-9b36-881dd10b929e",
+    "fields": {
+      "created_at": "2019-04-03T13:31:11.814Z",
+      "modified_at": "2019-04-03T13:31:11.815Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "sanitaertechnische-anpassungen-liegenschaft",
+      "option": "sanitaertechnische-anpassungen-liegenschaft-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "5aba8040-b6da-4abb-b01c-5c3b302963af",
     "fields": {
       "created_at": "2019-03-28T09:48:48.704Z",
@@ -11210,6 +12353,19 @@
       "question": "ist-ein-fumoir-betroffen",
       "option": "ist-ein-fumoir-betroffen-nein",
       "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "61c2e3af-bf06-4396-9d2c-2797de7fc797",
+    "fields": {
+      "created_at": "2019-04-03T11:31:54.335Z",
+      "modified_at": "2019-04-03T11:31:54.335Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "kontrolle-der-abwaesser-vorhanden-geplant",
+      "option": "kontrolle-der-abwaesser-vorhanden-geplant-ja",
+      "sort": 2
     }
   },
   {
@@ -11305,6 +12461,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "65abfab1-e444-4dac-8b84-f0f9dd98e7d0",
+    "fields": {
+      "created_at": "2019-04-03T11:28:24.194Z",
+      "modified_at": "2019-04-03T11:28:24.194Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "fallen-abwaesser-an-neuer-betrieb",
+      "option": "fallen-abwaesser-an-neuer-betrieb-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "66d808ca-bf38-4675-95a7-4f51c93b42d3",
     "fields": {
       "created_at": "2019-03-28T09:41:34.616Z",
@@ -11339,6 +12508,19 @@
       "created_by_group": null,
       "question": "laermige-bauphase-laenger-als-6-tage",
       "option": "laermige-bauphase-laenger-als-6-tage-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "68b99a03-42b2-4af4-a5f9-009b2d026952",
+    "fields": {
+      "created_at": "2019-04-03T13:22:25.455Z",
+      "modified_at": "2019-04-03T13:22:25.455Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "aenderungen-dachflaechen-zufahrten-plaetzen",
+      "option": "aenderungen-dachflaechen-zufahrten-plaetzen-nein",
       "sort": 1
     }
   },
@@ -11496,6 +12678,19 @@
       "question": "brandschutzrisiken",
       "option": "brandschutzrisiken-gase-ueber-1000kg",
       "sort": 15
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "6e5bac6b-cba1-4f43-93e9-7f42a410bc7a",
+    "fields": {
+      "created_at": "2019-04-03T13:22:25.455Z",
+      "modified_at": "2019-04-03T13:22:25.455Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "aenderungen-dachflaechen-zufahrten-plaetzen",
+      "option": "aenderungen-dachflaechen-zufahrten-plaetzen-ja",
+      "sort": 2
     }
   },
   {
@@ -11994,6 +13189,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "87413239-1912-4ad6-850f-c4291433255b",
+    "fields": {
+      "created_at": "2019-04-03T12:07:12.716Z",
+      "modified_at": "2019-04-03T12:07:12.716Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "flammpunkt",
+      "option": "flammpunkt-fluessiggas",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "88a3949d-01e0-4421-b6da-3f16deee11d4",
     "fields": {
       "created_at": "2019-04-01T11:28:08.325Z",
@@ -12029,6 +13237,19 @@
       "question": "waermetraegerfluessigkeit",
       "option": "waermetraegerfluessigkeit-kaliumacetat",
       "sort": 5
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "8b900d31-b55e-4a0b-9fdd-378908add8bf",
+    "fields": {
+      "created_at": "2019-04-03T13:28:32.470Z",
+      "modified_at": "2019-04-03T13:28:32.470Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "neubau-abwasseranlagen-grundleitungen",
+      "option": "neubau-abwasseranlagen-grundleitungen-nein",
+      "sort": 1
     }
   },
   {
@@ -12275,6 +13496,32 @@
       "created_by_group": null,
       "question": "klassierung-der-taetigkeit",
       "option": "klassierung-der-taetigkeit-klasse-3",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "959da683-5a71-490d-8b4a-3bce94aa9fb1",
+    "fields": {
+      "created_at": "2019-04-03T11:31:54.335Z",
+      "modified_at": "2019-04-03T11:31:54.335Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "kontrolle-der-abwaesser-vorhanden-geplant",
+      "option": "kontrolle-der-abwaesser-vorhanden-geplant-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "966fb03c-c355-4521-b83a-f0a826ad2c26",
+    "fields": {
+      "created_at": "2019-04-03T11:48:06.151Z",
+      "modified_at": "2019-04-03T11:48:06.151Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "massangabe",
+      "option": "massangabe-liter",
       "sort": 2
     }
   },
@@ -12670,6 +13917,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "ac1e1647-928d-4f63-8345-19f3e120099f",
+    "fields": {
+      "created_at": "2019-04-03T11:46:51.383Z",
+      "modified_at": "2019-04-03T11:46:51.383Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "neu-bestehend",
+      "option": "neu-bestehend-bestehend",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "ac58f9a1-f701-4a23-a802-6d57f3bdada9",
     "fields": {
       "created_at": "2019-03-28T09:41:34.615Z",
@@ -12705,6 +13965,19 @@
       "question": "dimensionierung-erdwaermesonden",
       "option": "dimensionierung-erdwaermesonden-andere-grundlage",
       "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "aeb8d488-e222-4aee-8530-e81a399e5506",
+    "fields": {
+      "created_at": "2019-04-03T11:53:20.044Z",
+      "modified_at": "2019-04-03T11:53:20.044Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "gesundheitsschaedlich-oder-explosiv",
+      "option": "gesundheitsschaedlich-oder-explosiv-ja",
+      "sort": 2
     }
   },
   {
@@ -12938,6 +14211,19 @@
       "created_by_group": null,
       "question": "gefaehrlich-fuer-bevoelkerung-oder-umwelt",
       "option": "gefaehrlich-fuer-bevoelkerung-oder-umwelt-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "bee32ab7-174b-4851-9dea-c3b048f8d64c",
+    "fields": {
+      "created_at": "2019-04-03T11:32:54.850Z",
+      "modified_at": "2019-04-03T11:32:54.850Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "wird-kuehlwasser-im-betrieb-verwendet",
+      "option": "wird-kuhlwaasser-im-betrieb-verwendet-ja",
       "sort": 2
     }
   },
@@ -13177,6 +14463,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "cae455c0-6601-4a2f-9651-2db40e833c3c",
+    "fields": {
+      "created_at": "2019-04-03T11:49:55.377Z",
+      "modified_at": "2019-04-03T11:49:55.377Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "brennbare-fluessigkeit-gas",
+      "option": "brennbare-fluessigkeit-gas-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "cae631e7-6064-4b05-a260-835552969711",
     "fields": {
       "created_at": "2019-04-01T14:25:14.587Z",
@@ -13328,6 +14627,19 @@
       "created_by_group": null,
       "question": "juristische-person-vertreterin",
       "option": "juristische-person-vertreterin-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "d65da748-5c11-4fda-8617-c7f3594cf322",
+    "fields": {
+      "created_at": "2019-04-03T11:54:25.414Z",
+      "modified_at": "2019-04-03T11:54:25.414Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "wassergefaehrdend",
+      "option": "wassergefaehrdend-nein",
       "sort": 1
     }
   },
@@ -13619,6 +14931,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "ed85bd05-75c2-4884-b3fa-6adb8257f467",
+    "fields": {
+      "created_at": "2019-04-03T13:09:09.456Z",
+      "modified_at": "2019-04-03T13:09:09.456Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "ableitung-haeusliche-abwaesser",
+      "option": "ableitung-haeusliche-abwaesser-klara",
+      "sort": 5
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "edb40da0-80b1-4106-9d06-f7bb1fef599d",
     "fields": {
       "created_at": "2019-04-03T10:45:56.699Z",
@@ -13736,6 +15061,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "f2ff334e-1291-4044-bf1b-45c313dafac6",
+    "fields": {
+      "created_at": "2019-04-03T13:09:09.456Z",
+      "modified_at": "2019-04-03T13:09:09.456Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "ableitung-haeusliche-abwaesser",
+      "option": "ableitung-haeusliche-abwaesser-andere-einrichtung",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "f3701dff-d29e-4d40-89e8-924b687c0c49",
     "fields": {
       "created_at": "2019-04-02T08:23:03.768Z",
@@ -13757,6 +15095,19 @@
       "created_by_group": null,
       "question": "ist-ein-fumoir-betroffen",
       "option": "ist-ein-fumoir-betroffen-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "f4bb87f9-918d-410c-974c-7870186c28ae",
+    "fields": {
+      "created_at": "2019-04-03T11:54:25.414Z",
+      "modified_at": "2019-04-03T11:54:25.414Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "wassergefaehrdend",
+      "option": "wassergefaehrdend-ja",
       "sort": 2
     }
   },
@@ -14047,6 +15398,97 @@
     }
   },
   {
+    "model": "form.questionoption",
+    "pk": "ffb577d9-ca0b-4b0a-9b43-adbf96475b63",
+    "fields": {
+      "created_at": "2019-04-03T13:28:32.470Z",
+      "modified_at": "2019-04-03T13:28:32.470Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "neubau-abwasseranlagen-grundleitungen",
+      "option": "neubau-abwasseranlagen-grundleitungen-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "ableitung-haeusliche-abwaesser-abflusslose-grube",
+    "fields": {
+      "created_at": "2019-04-03T13:09:09.278Z",
+      "modified_at": "2019-04-03T13:09:09.278Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Abflusslose Grube\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "ableitung-haeusliche-abwaesser-andere-einrichtung",
+    "fields": {
+      "created_at": "2019-04-03T13:09:09.275Z",
+      "modified_at": "2019-04-03T13:09:09.275Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Andere Einrichtung\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "ableitung-haeusliche-abwaesser-ara",
+    "fields": {
+      "created_at": "2019-04-03T13:09:09.216Z",
+      "modified_at": "2019-04-03T13:09:09.216Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"ARA\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "ableitung-haeusliche-abwaesser-guellegrube",
+    "fields": {
+      "created_at": "2019-04-03T13:09:09.250Z",
+      "modified_at": "2019-04-03T13:09:09.250Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"G\\u00fcllegrube\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "ableitung-haeusliche-abwaesser-klaergrube",
+    "fields": {
+      "created_at": "2019-04-03T13:09:09.224Z",
+      "modified_at": "2019-04-03T13:09:09.224Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Provisorische Kl\\u00e4rgrube\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "ableitung-haeusliche-abwaesser-klara",
+    "fields": {
+      "created_at": "2019-04-03T13:09:09.246Z",
+      "modified_at": "2019-04-03T13:09:09.246Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"KLARA\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
     "model": "form.option",
     "pk": "ableitung-in-guellegrube-ja",
     "fields": {
@@ -14094,6 +15536,32 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": \"Nein\"}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "aenderungen-dachflaechen-zufahrten-plaetzen-ja",
+    "fields": {
+      "created_at": "2019-04-03T13:22:25.270Z",
+      "modified_at": "2019-04-03T13:22:25.270Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "aenderungen-dachflaechen-zufahrten-plaetzen-nein",
+    "fields": {
+      "created_at": "2019-04-03T13:22:25.277Z",
+      "modified_at": "2019-04-03T13:22:25.277Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
       "meta": {},
       "source": null
     }
@@ -14958,6 +16426,32 @@
   },
   {
     "model": "form.option",
+    "pk": "brennbare-fluessigkeit-gas-ja",
+    "fields": {
+      "created_at": "2019-04-03T11:49:55.234Z",
+      "modified_at": "2019-04-03T11:49:55.234Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "brennbare-fluessigkeit-gas-nein",
+    "fields": {
+      "created_at": "2019-04-03T11:49:55.253Z",
+      "modified_at": "2019-04-03T11:49:55.253Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
     "pk": "dimensionierung-erdwaermesonden-andere-grundlage",
     "fields": {
       "created_at": "2019-04-01T14:42:04.674Z",
@@ -15153,6 +16647,58 @@
   },
   {
     "model": "form.option",
+    "pk": "fallen-abwaesser-an-ja",
+    "fields": {
+      "created_at": "2019-04-03T11:26:58.109Z",
+      "modified_at": "2019-04-03T11:26:58.109Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "fallen-abwaesser-an-nein",
+    "fields": {
+      "created_at": "2019-04-03T11:26:58.118Z",
+      "modified_at": "2019-04-03T11:26:58.118Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "fallen-abwaesser-an-neuer-betrieb-ja",
+    "fields": {
+      "created_at": "2019-04-03T11:28:23.967Z",
+      "modified_at": "2019-04-03T11:28:23.967Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "fallen-abwaesser-an-neuer-betrieb-nein",
+    "fields": {
+      "created_at": "2019-04-03T11:28:23.971Z",
+      "modified_at": "2019-04-03T11:28:23.971Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
     "pk": "feuerungsanlagen-holzfeuerungen",
     "fields": {
       "created_at": "2019-03-15T13:36:16.586Z",
@@ -15212,6 +16758,58 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "flammpunkt-fluessiggas",
+    "fields": {
+      "created_at": "2019-04-03T12:07:12.569Z",
+      "modified_at": "2019-04-03T12:07:12.570Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Fl\\u00fcssiggas\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "flammpunkt-fluessigkeit-flammpunkt-ueber-60-grad",
+    "fields": {
+      "created_at": "2019-04-03T12:07:12.565Z",
+      "modified_at": "2019-04-03T12:07:12.565Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Brennbare Fl\\u00fcssigkeit mit Flammpunkt > 60 Grad\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "flammpunkt-fluessigkeit-flammpunkt-unter-30-grad",
+    "fields": {
+      "created_at": "2019-04-03T12:07:12.544Z",
+      "modified_at": "2019-04-03T12:07:12.544Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Leichtbrennbare Fl\\u00fcssigkeit mit Flammpunkt < 30 Grad\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "flammpunkt-fluessigkeit-flammpunkt-unter-60-grad",
+    "fields": {
+      "created_at": "2019-04-03T12:07:12.566Z",
+      "modified_at": "2019-04-03T12:07:12.566Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Brennbare Fl\\u00fcssigkeit mit Flammpunkt < 60 Grad\", \"fr\": null, \"en\": null}",
       "meta": {},
       "source": null
     }
@@ -15394,6 +16992,32 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Solar- oder Photovoltaik-Anlage\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "gesundheitsschaedlich-oder-explosiv-ja",
+    "fields": {
+      "created_at": "2019-04-03T11:53:19.842Z",
+      "modified_at": "2019-04-03T11:53:19.842Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "gesundheitsschaedlich-oder-explosiv-nein",
+    "fields": {
+      "created_at": "2019-04-03T11:53:19.856Z",
+      "modified_at": "2019-04-03T11:53:19.856Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
       "meta": {},
       "source": null
     }
@@ -16089,6 +17713,32 @@
   },
   {
     "model": "form.option",
+    "pk": "kontrolle-der-abwaesser-vorhanden-geplant-ja",
+    "fields": {
+      "created_at": "2019-04-03T11:31:54.201Z",
+      "modified_at": "2019-04-03T11:31:54.201Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "kontrolle-der-abwaesser-vorhanden-geplant-nein",
+    "fields": {
+      "created_at": "2019-04-03T11:31:54.205Z",
+      "modified_at": "2019-04-03T11:31:54.205Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
     "pk": "laermige-bauphase-laenger-als-6-tage-ja",
     "fields": {
       "created_at": "2019-04-02T10:35:46.659Z",
@@ -16414,6 +18064,32 @@
   },
   {
     "model": "form.option",
+    "pk": "massangabe-kg",
+    "fields": {
+      "created_at": "2019-04-03T11:48:05.983Z",
+      "modified_at": "2019-04-03T11:48:05.983Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Kg\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "massangabe-liter",
+    "fields": {
+      "created_at": "2019-04-03T11:48:05.970Z",
+      "modified_at": "2019-04-03T11:48:05.970Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Liter\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
     "pk": "mehr-als-1500-m3-bodenmaterial-ja",
     "fields": {
       "created_at": "2019-04-01T11:39:19.835Z",
@@ -16590,6 +18266,58 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "neubau-abwasseranlagen-grundleitungen-ja",
+    "fields": {
+      "created_at": "2019-04-03T13:28:32.327Z",
+      "modified_at": "2019-04-03T13:28:32.327Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "neubau-abwasseranlagen-grundleitungen-nein",
+    "fields": {
+      "created_at": "2019-04-03T13:28:32.332Z",
+      "modified_at": "2019-04-03T13:28:32.332Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "neu-bestehend-bestehend",
+    "fields": {
+      "created_at": "2019-04-03T11:46:51.216Z",
+      "modified_at": "2019-04-03T11:46:51.216Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Bestehend\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "neu-bestehend-neu",
+    "fields": {
+      "created_at": "2019-04-03T11:46:51.215Z",
+      "modified_at": "2019-04-03T11:46:51.216Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Neu\", \"fr\": null, \"en\": null}",
       "meta": {},
       "source": null
     }
@@ -17003,6 +18731,32 @@
     "fields": {
       "created_at": "2019-04-01T13:20:09.404Z",
       "modified_at": "2019-04-01T13:20:09.404Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "sanitaertechnische-anpassungen-liegenschaft-ja",
+    "fields": {
+      "created_at": "2019-04-03T13:31:11.644Z",
+      "modified_at": "2019-04-03T13:31:11.644Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "sanitaertechnische-anpassungen-liegenschaft-nein",
+    "fields": {
+      "created_at": "2019-04-03T13:31:11.650Z",
+      "modified_at": "2019-04-03T13:31:11.650Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
@@ -18169,6 +19923,32 @@
   },
   {
     "model": "form.option",
+    "pk": "wassergefaehrdend-ja",
+    "fields": {
+      "created_at": "2019-04-03T11:54:25.278Z",
+      "modified_at": "2019-04-03T11:54:25.278Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "wassergefaehrdend-nein",
+    "fields": {
+      "created_at": "2019-04-03T11:54:25.283Z",
+      "modified_at": "2019-04-03T11:54:25.283Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
     "pk": "weitere-personen-gebaudeeigentumerin",
     "fields": {
       "created_at": "2019-03-14T16:03:48.840Z",
@@ -18576,6 +20356,32 @@
     "fields": {
       "created_at": "2019-04-01T11:18:15.266Z",
       "modified_at": "2019-04-01T11:18:15.266Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "wird-kuhlwaasser-im-betrieb-verwendet-ja",
+    "fields": {
+      "created_at": "2019-04-03T11:32:54.634Z",
+      "modified_at": "2019-04-03T11:32:54.634Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "wird-kuhlwaasser-im-betrieb-verwendet-nein",
+    "fields": {
+      "created_at": "2019-04-03T11:32:54.638Z",
+      "modified_at": "2019-04-03T11:32:54.638Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
