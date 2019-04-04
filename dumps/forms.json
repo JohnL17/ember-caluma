@@ -241,6 +241,22 @@
   },
   {
     "model": "form.form",
+    "pk": "gewaesserschutz-bauten-im-grundwasser",
+    "fields": {
+      "created_at": "2019-04-03T13:41:14.848Z",
+      "modified_at": "2019-04-03T13:41:14.848Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "name": "{\"de\": \"Gew\\u00e4sserschutz - Bauten im Grundwasser\", \"fr\": null, \"en\": null}",
+      "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "is_published": true,
+      "is_archived": false,
+      "source": null
+    }
+  },
+  {
+    "model": "form.form",
     "pk": "gewaesserschutz-gewerbe-industrie",
     "fields": {
       "created_at": "2019-04-03T11:26:06.444Z",
@@ -632,6 +648,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "01d71d64-f6e0-4a42-90d2-5f21da46dfa9",
+    "fields": {
+      "created_at": "2019-04-03T13:55:42.016Z",
+      "modified_at": "2019-04-03T13:55:42.016Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-bauten-im-grundwasser",
+      "question": "tiefste-kote-der-aushubsohle",
+      "sort": 17
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "01efad3c-6b5a-432d-b74f-333412efbcfb",
     "fields": {
       "created_at": "2019-03-29T14:28:16.083Z",
@@ -680,6 +709,19 @@
       "form": "allgemeine-angaben",
       "question": "gwr-egid",
       "sort": 6
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "05d3244c-f15c-419d-b3f0-b34847a2a836",
+    "fields": {
+      "created_at": "2019-04-03T13:56:41.880Z",
+      "modified_at": "2019-04-03T13:56:41.880Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-bauten-im-grundwasser",
+      "question": "unterkante-der-baugrubenumschliessung",
+      "sort": 16
     }
   },
   {
@@ -1035,6 +1077,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "1a04e76f-5a25-48ba-b948-25cf79719119",
+    "fields": {
+      "created_at": "2019-04-03T14:11:33.151Z",
+      "modified_at": "2019-04-03T14:11:33.151Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-bauten-im-grundwasser",
+      "question": "beschreibung-andere",
+      "sort": 12
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "1a5e504c-4e57-40d7-b44a-8ef6ba56c393",
     "fields": {
       "created_at": "2019-04-02T13:52:01.138Z",
@@ -1187,6 +1242,19 @@
       "form": "immissionsschutz-laermschutz",
       "question": "arbeit-waehrend-nachtzeit",
       "sort": 4
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "267916a6-399d-411a-95d7-e99d40583090",
+    "fields": {
+      "created_at": "2019-04-03T14:02:51.228Z",
+      "modified_at": "2019-04-03T14:02:51.228Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-bauten-im-grundwasser",
+      "question": "art-der-fundationsmassnahmen",
+      "sort": 14
     }
   },
   {
@@ -1360,6 +1428,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "333c7b35-5e6c-4855-bb5a-72ccf07592dd",
+    "fields": {
+      "created_at": "2019-04-04T06:29:05.055Z",
+      "modified_at": "2019-04-04T06:29:05.055Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-bauten-im-grundwasser",
+      "question": "beschreibung-grundwasserabsenkung",
+      "sort": 8
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "34144ac0-152b-4d06-8853-c8f41e9cffab",
     "fields": {
       "created_at": "2019-03-25T09:59:16.608Z",
@@ -1447,6 +1528,19 @@
       "form": "triage",
       "question": "werden-neue-hofduengeranlagen-erstellt",
       "sort": 4
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "380d8aca-36de-447d-b3ce-c0bd18aa0a58",
+    "fields": {
+      "created_at": "2019-04-03T13:57:57.800Z",
+      "modified_at": "2019-04-03T13:57:57.800Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-bauten-im-grundwasser",
+      "question": "im-grundwasser-verbleibendes-einbauvolumen",
+      "sort": 15
     }
   },
   {
@@ -1667,7 +1761,7 @@
       "created_by_group": null,
       "form": "4-bauwerk",
       "question": "gewaesserschutz-grundstueckentwaesserung",
-      "sort": 2
+      "sort": 3
     }
   },
   {
@@ -1694,6 +1788,19 @@
       "form": "zonenvorschriften-schutzzonen",
       "question": "erhaltenswert",
       "sort": 10
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "4550c47c-f88c-4c06-89d0-b3e3dac52b52",
+    "fields": {
+      "created_at": "2019-04-04T06:20:13.656Z",
+      "modified_at": "2019-04-04T06:20:13.656Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-bauten-im-grundwasser",
+      "question": "name-des-gewaessers-regen",
+      "sort": 2
     }
   },
   {
@@ -1841,6 +1948,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "4efa7181-796b-4665-ba73-305c9a26a874",
+    "fields": {
+      "created_at": "2019-04-03T14:41:53.642Z",
+      "modified_at": "2019-04-03T14:41:53.642Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-bauten-im-grundwasser",
+      "question": "oberflaechengewaesser-regenabwasserleitung",
+      "sort": 3
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "518467c8-1ece-4d47-bc07-4ad94095cf9e",
     "fields": {
       "created_at": "2019-03-25T12:45:23.378Z",
@@ -1953,7 +2073,7 @@
       "created_by_group": null,
       "form": "4-bauwerk",
       "question": "wohnen",
-      "sort": 5
+      "sort": 6
     }
   },
   {
@@ -2062,6 +2182,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "604b9b66-9be5-47d6-b28f-771f64972a33",
+    "fields": {
+      "created_at": "2019-04-03T14:54:11.882Z",
+      "modified_at": "2019-04-03T14:54:11.882Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-bauten-im-grundwasser",
+      "question": "schmutz-oder-mischwasserkanalisation",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "605c9133-ea3a-4e4f-bf7c-0aaa8a6e52c3",
     "fields": {
       "created_at": "2019-04-01T11:40:08.630Z",
@@ -2122,7 +2255,20 @@
       "created_by_group": null,
       "form": "4-bauwerk",
       "question": "brandschutz",
-      "sort": 6
+      "sort": 7
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "6569a573-7f76-4faa-bfc0-0eaa76284a3e",
+    "fields": {
+      "created_at": "2019-04-03T14:08:59.213Z",
+      "modified_at": "2019-04-03T14:08:59.213Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-bauten-im-grundwasser",
+      "question": "beschreibung-tiefenfundation",
+      "sort": 13
     }
   },
   {
@@ -2214,6 +2360,19 @@
       "form": "energie",
       "question": "nummer",
       "sort": 8
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "6925232a-d112-4218-8481-ed878f872ea9",
+    "fields": {
+      "created_at": "2019-04-03T14:35:57.901Z",
+      "modified_at": "2019-04-03T14:35:57.901Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-bauten-im-grundwasser",
+      "question": "art-der-grundwasserabsenkung",
+      "sort": 9
     }
   },
   {
@@ -3323,6 +3482,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "a89a5e58-673e-4fa6-8365-1add84d16a82",
+    "fields": {
+      "created_at": "2019-04-03T14:40:08.292Z",
+      "modified_at": "2019-04-03T14:40:08.292Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-bauten-im-grundwasser",
+      "question": "versickerung",
+      "sort": 6
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "a8dc5736-42bf-4956-8574-2da8a0951860",
     "fields": {
       "created_at": "2019-04-02T07:31:37.691Z",
@@ -3427,6 +3599,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "afb24f7b-0efc-4f0d-8bd8-7ca3848451a7",
+    "fields": {
+      "created_at": "2019-04-03T14:37:49.309Z",
+      "modified_at": "2019-04-03T14:37:49.309Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-bauten-im-grundwasser",
+      "question": "menge-des-abzuleitenden-grundwassers",
+      "sort": 7
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "b146b4f6-75d3-49f0-bd83-5e5c2876ef7a",
     "fields": {
       "created_at": "2019-04-02T09:00:05.669Z",
@@ -3474,7 +3659,7 @@
       "created_by_group": null,
       "form": "4-bauwerk",
       "question": "gewaesserschutz-gewerbe-industrie",
-      "sort": 4
+      "sort": 5
     }
   },
   {
@@ -3661,6 +3846,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "bcd27b90-6009-4e4f-9944-2d5a041fd0c9",
+    "fields": {
+      "created_at": "2019-04-03T14:30:48.518Z",
+      "modified_at": "2019-04-03T14:30:48.518Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-bauten-im-grundwasser",
+      "question": "art-der-baugrubenumschliessung",
+      "sort": 11
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "bcd4327a-839d-40a4-abd7-63b9768b3e68",
     "fields": {
       "created_at": "2019-03-28T14:13:36.248Z",
@@ -3722,6 +3920,19 @@
       "form": "zonenvorschriften-schutzzonen",
       "question": "bauten-oder-pfaehlen-im-grundwasser",
       "sort": 13
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "c07ab212-a1e6-4f51-aed1-f82ab5d1ef77",
+    "fields": {
+      "created_at": "2019-04-03T14:04:11.615Z",
+      "modified_at": "2019-04-03T14:04:11.615Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "4-bauwerk",
+      "question": "gewaesserschutz-bauten-im-grundwasser",
+      "sort": 2
     }
   },
   {
@@ -3895,6 +4106,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "cbc87984-69ed-4178-a1c4-f43b3a92767f",
+    "fields": {
+      "created_at": "2019-04-03T13:42:37.969Z",
+      "modified_at": "2019-04-03T13:42:37.969Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-bauten-im-grundwasser",
+      "question": "terrain-kote",
+      "sort": 20
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "cc9ae2be-6d47-4223-9400-7964a4d87d54",
     "fields": {
       "created_at": "2019-04-01T14:28:46.538Z",
@@ -3930,6 +4154,19 @@
       "form": "vertreterin-mit-vollmacht",
       "question": "e-mail",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "d07b5571-2e1a-4748-8dff-805fa8597be7",
+    "fields": {
+      "created_at": "2019-04-03T14:32:14.938Z",
+      "modified_at": "2019-04-03T14:32:14.938Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-bauten-im-grundwasser",
+      "question": "beschreibung-baugrubenumschliessung",
+      "sort": 10
     }
   },
   {
@@ -4350,6 +4587,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "ec38df13-478a-4ab2-b1f3-a36fbf2c1ff8",
+    "fields": {
+      "created_at": "2019-04-03T13:43:32.341Z",
+      "modified_at": "2019-04-03T13:43:32.341Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-bauten-im-grundwasser",
+      "question": "hoechstmoeglicher-grundwasserspiegel",
+      "sort": 19
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "ed6bfe59-e416-404a-a010-134222b44c2a",
     "fields": {
       "created_at": "2019-03-28T15:11:27.570Z",
@@ -4384,7 +4634,7 @@
       "created_by_group": null,
       "form": "4-bauwerk",
       "question": "gewaesserschutz-wassergefaehrdende-fluessigkeiten",
-      "sort": 3
+      "sort": 4
     }
   },
   {
@@ -4532,6 +4782,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "f8cd98d2-c3c1-4e3f-8273-0bf67d8ef191",
+    "fields": {
+      "created_at": "2019-04-03T15:10:15.577Z",
+      "modified_at": "2019-04-03T15:10:15.577Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-bauten-im-grundwasser",
+      "question": "oberflaechengewasser-direkt",
+      "sort": 5
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "f968ca41-0bbc-48a8-ad1e-9a2829c913bd",
     "fields": {
       "created_at": "2019-04-03T13:22:25.565Z",
@@ -4636,6 +4899,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "fd5387f1-8afc-41b3-b2da-855372f51054",
+    "fields": {
+      "created_at": "2019-04-03T13:44:07.145Z",
+      "modified_at": "2019-04-03T13:44:07.145Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-bauten-im-grundwasser",
+      "question": "mittlerer-grundwasserspiegel",
+      "sort": 18
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "fd9664ec-dc1f-4f89-8ddf-d3268c794466",
     "fields": {
       "created_at": "2019-04-01T14:18:45.101Z",
@@ -4645,6 +4921,19 @@
       "form": "waermepumpen",
       "question": "total-bohrlaenge",
       "sort": 19
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "fd9b4953-17c9-42ba-9a8e-bc6bc2596a44",
+    "fields": {
+      "created_at": "2019-04-04T06:17:34.455Z",
+      "modified_at": "2019-04-04T06:17:34.455Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gewaesserschutz-bauten-im-grundwasser",
+      "question": "name-des-gewaessers",
+      "sort": 4
     }
   },
   {
@@ -5042,6 +5331,66 @@
       "created_by_group": null,
       "label": "{\"de\": \"Wird w\\u00e4hrend der akustischen Nachtzeit (19:00 - 07:00) gearbeitet?\", \"fr\": null, \"en\": null}",
       "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "art-der-baugrubenumschliessung",
+    "fields": {
+      "created_at": "2019-04-03T14:30:48.396Z",
+      "modified_at": "2019-04-03T14:30:48.396Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Art der Baugrubenumschliessung\", \"fr\": null, \"en\": null}",
+      "type": "multiple_choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "art-der-fundationsmassnahmen",
+    "fields": {
+      "created_at": "2019-04-03T14:02:51.128Z",
+      "modified_at": "2019-04-03T14:02:51.128Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Art der Fundationsmassnahmen\", \"fr\": null, \"en\": null}",
+      "type": "multiple_choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "art-der-grundwasserabsenkung",
+    "fields": {
+      "created_at": "2019-04-03T14:35:57.798Z",
+      "modified_at": "2019-04-03T14:35:57.798Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Art der Grundwasserabsenkung\", \"fr\": null, \"en\": null}",
+      "type": "multiple_choice",
       "is_required": "true",
       "is_hidden": "false",
       "is_archived": false,
@@ -5554,6 +5903,46 @@
   },
   {
     "model": "form.question",
+    "pk": "beschreibung-andere",
+    "fields": {
+      "created_at": "2019-04-03T14:11:33.075Z",
+      "modified_at": "2019-04-03T14:14:32.502Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Beschreibung\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "!('art-der-fundationsmassnahmen-andere' in 'art-der-fundationsmassnahmen'|answer)",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "beschreibung-baugrubenumschliessung",
+    "fields": {
+      "created_at": "2019-04-03T14:32:14.872Z",
+      "modified_at": "2019-04-03T14:34:06.373Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Beschreibung\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "!('art-der-baugrubenumschliessung-andere' in 'art-der-baugrubenumschliessung'|answer)",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "beschreibung-boden-untergrund",
     "fields": {
       "created_at": "2019-03-11T09:27:24.293Z",
@@ -5594,6 +5983,26 @@
   },
   {
     "model": "form.question",
+    "pk": "beschreibung-grundwasserabsenkung",
+    "fields": {
+      "created_at": "2019-04-04T06:29:04.983Z",
+      "modified_at": "2019-04-04T06:30:14.566Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Beschreibung\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "!('art-der-grundwasserabsenkung-andere' in 'art-der-grundwasserabsenkung'|answer)",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "beschreibung-luft",
     "fields": {
       "created_at": "2019-04-02T09:04:42.378Z",
@@ -5624,6 +6033,26 @@
       "type": "textarea",
       "is_required": "true",
       "is_hidden": "!('organismen-in-anlage-andere' in 'organismen-in-anlage'|answer)",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "beschreibung-tiefenfundation",
+    "fields": {
+      "created_at": "2019-04-03T14:08:59.126Z",
+      "modified_at": "2019-04-03T14:14:20.350Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Beschreibung\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "!('art-der-fundationsmassnahmen-tiefenfundation' in 'art-der-fundationsmassnahmen'|answer)",
       "is_archived": false,
       "configuration": { "max_length": null },
       "meta": {},
@@ -6714,6 +7143,26 @@
   },
   {
     "model": "form.question",
+    "pk": "gewaesserschutz-bauten-im-grundwasser",
+    "fields": {
+      "created_at": "2019-04-03T14:04:11.539Z",
+      "modified_at": "2019-04-03T14:04:11.540Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Gew\\u00e4sserschutz - Bauten im Grundwasser\", \"fr\": null, \"en\": null}",
+      "type": "form",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": "gewaesserschutz-bauten-im-grundwasser",
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "gewaesserschutzbereich",
     "fields": {
       "created_at": "2019-04-01T10:42:44.403Z",
@@ -7134,6 +7583,26 @@
   },
   {
     "model": "form.question",
+    "pk": "hoechstmoeglicher-grundwasserspiegel",
+    "fields": {
+      "created_at": "2019-04-03T13:43:32.262Z",
+      "modified_at": "2019-04-03T13:43:32.262Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"H\\u00f6chstm\\u00f6glicher Grundwasserspiegel (HW)\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "hoehe",
     "fields": {
       "created_at": "2019-03-28T15:13:06.496Z",
@@ -7187,6 +7656,26 @@
       "is_archived": true,
       "configuration": {},
       "meta": { "widgetType": "powerselect" },
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "im-grundwasser-verbleibendes-einbauvolumen",
+    "fields": {
+      "created_at": "2019-04-03T13:57:57.703Z",
+      "modified_at": "2019-04-03T13:57:57.703Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Im Grundwasser verbleibendes Einbauvolumen in m\\u00b3 (inkl. Pf\\u00e4hle) bei Mittelwasserstand (MW)\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
       "row_form": null,
       "sub_form": null,
       "source": null
@@ -8154,6 +8643,26 @@
   },
   {
     "model": "form.question",
+    "pk": "menge-des-abzuleitenden-grundwassers",
+    "fields": {
+      "created_at": "2019-04-03T14:37:49.232Z",
+      "modified_at": "2019-04-04T06:25:08.105Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Menge des abzuleitenden Grundwassers (voraussichtlich) in Liter / Minute\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "!('art-der-grundwasserabsenkung-filterbrunnen' in 'art-der-grundwasserabsenkung'|answer || 'art-der-grundwasserabsenkung-offene-wasserhaltung' in 'art-der-grundwasserabsenkung'|answer || 'art-der-grundwasserabsenkung-vakuumverfahren' in 'art-der-grundwasserabsenkung'|answer || 'art-der-grundwasserabsenkung-andere' in 'art-der-grundwasserabsenkung'|answer)",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "mengenschwelle-hochaktive-stoffe",
     "fields": {
       "created_at": "2019-04-02T14:11:50.451Z",
@@ -8234,6 +8743,26 @@
   },
   {
     "model": "form.question",
+    "pk": "mittlerer-grundwasserspiegel",
+    "fields": {
+      "created_at": "2019-04-03T13:44:07.067Z",
+      "modified_at": "2019-04-03T13:44:07.067Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Mittlerer Grundwasserspiegel (MW) (m \\u00fc. M.)\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "name",
     "fields": {
       "created_at": "2019-03-15T08:39:42.653Z",
@@ -8264,6 +8793,46 @@
       "type": "text",
       "is_required": "true",
       "is_hidden": "!('geplante-anlagen-sendeanlage' in 'geplante-anlagen'|answer)",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "name-des-gewaessers",
+    "fields": {
+      "created_at": "2019-04-04T06:17:34.360Z",
+      "modified_at": "2019-04-04T06:21:02.725Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Name des Gew\\u00e4ssers\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "'oberflaechengewasser-direkt-nein' in 'oberflaechengewasser-direkt'|answer",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "name-des-gewaessers-regen",
+    "fields": {
+      "created_at": "2019-04-04T06:20:13.579Z",
+      "modified_at": "2019-04-04T06:21:11.554Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Name des Gew\\u00e4ssers\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "'oberflaechengewaesser-regenabwasserleitung-nein' in 'oberflaechengewaesser-regenabwasserleitung'|answer",
       "is_archived": false,
       "configuration": { "max_length": null },
       "meta": {},
@@ -8446,6 +9015,46 @@
       "is_hidden": "false",
       "is_archived": false,
       "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "oberflaechengewaesser-regenabwasserleitung",
+    "fields": {
+      "created_at": "2019-04-03T14:41:53.560Z",
+      "modified_at": "2019-04-04T06:26:32.776Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Oberfl\\u00e4chengew\\u00e4sser via Regenabwasserleitung?\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "false",
+      "is_hidden": "!('art-der-grundwasserabsenkung-filterbrunnen' in 'art-der-grundwasserabsenkung'|answer || 'art-der-grundwasserabsenkung-offene-wasserhaltung' in 'art-der-grundwasserabsenkung'|answer || 'art-der-grundwasserabsenkung-vakuumverfahren' in 'art-der-grundwasserabsenkung'|answer || 'art-der-grundwasserabsenkung-andere' in 'art-der-grundwasserabsenkung'|answer)",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "oberflaechengewasser-direkt",
+    "fields": {
+      "created_at": "2019-04-03T15:10:15.471Z",
+      "modified_at": "2019-04-03T15:11:37.524Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Oberfl\\u00e4chengew\\u00e4sser direkt?\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "!('versickerung-nein' in 'versickerung'|answer)",
+      "is_archived": false,
+      "configuration": {},
       "meta": {},
       "row_form": null,
       "sub_form": null,
@@ -8894,6 +9503,26 @@
   },
   {
     "model": "form.question",
+    "pk": "schmutz-oder-mischwasserkanalisation",
+    "fields": {
+      "created_at": "2019-04-03T14:54:11.788Z",
+      "modified_at": "2019-04-04T06:26:41.682Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Schmutz- oder Mischwasserkanalisation?\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "false",
+      "is_hidden": "!('art-der-grundwasserabsenkung-filterbrunnen' in 'art-der-grundwasserabsenkung'|answer || 'art-der-grundwasserabsenkung-offene-wasserhaltung' in 'art-der-grundwasserabsenkung'|answer || 'art-der-grundwasserabsenkung-vakuumverfahren' in 'art-der-grundwasserabsenkung'|answer || 'art-der-grundwasserabsenkung-andere' in 'art-der-grundwasserabsenkung'|answer)",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "schuetzenswert",
     "fields": {
       "created_at": "2019-04-01T11:06:06.925Z",
@@ -9274,6 +9903,26 @@
   },
   {
     "model": "form.question",
+    "pk": "terrain-kote",
+    "fields": {
+      "created_at": "2019-04-03T13:42:37.889Z",
+      "modified_at": "2019-04-03T13:42:37.889Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Terrain-Kote (m \\u00fc. M.)\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "terrainveraenderung-weniger-als-2000m2",
     "fields": {
       "created_at": "2019-04-01T11:43:01.159Z",
@@ -9306,6 +9955,26 @@
       "is_hidden": "false",
       "is_archived": false,
       "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "tiefste-kote-der-aushubsohle",
+    "fields": {
+      "created_at": "2019-04-03T13:55:41.927Z",
+      "modified_at": "2019-04-03T13:55:41.927Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Tiefste Kote der Aushubsohle, inkl. lokaler Vertiefungen (m \\u00fc. M.)\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
       "meta": {},
       "row_form": null,
       "sub_form": null,
@@ -9534,6 +10203,26 @@
   },
   {
     "model": "form.question",
+    "pk": "unterkante-der-baugrubenumschliessung",
+    "fields": {
+      "created_at": "2019-04-03T13:56:41.803Z",
+      "modified_at": "2019-04-03T13:56:41.803Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Unterkante der Baugrubenumschliessung (m \\u00fc. M.)\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "verfahren-fuer-die-sterilisation-des-abwassers",
     "fields": {
       "created_at": "2019-04-02T14:06:11.365Z",
@@ -9546,6 +10235,26 @@
       "is_hidden": "!('sterilisation-des-abwassers-nein' in 'sterilisation-des-abwassers'|answer)",
       "is_archived": false,
       "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "versickerung",
+    "fields": {
+      "created_at": "2019-04-03T14:40:08.199Z",
+      "modified_at": "2019-04-04T06:26:09.992Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Versickerung\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "!('art-der-grundwasserabsenkung-filterbrunnen' in 'art-der-grundwasserabsenkung'|answer || 'art-der-grundwasserabsenkung-offene-wasserhaltung' in 'art-der-grundwasserabsenkung'|answer || 'art-der-grundwasserabsenkung-vakuumverfahren' in 'art-der-grundwasserabsenkung'|answer || 'art-der-grundwasserabsenkung-andere' in 'art-der-grundwasserabsenkung'|answer)",
+      "is_archived": false,
+      "configuration": {},
       "meta": {},
       "row_form": null,
       "sub_form": null,
@@ -10628,6 +11337,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "0804e0e1-a39e-4e46-bf9d-77e23be4f351",
+    "fields": {
+      "created_at": "2019-04-04T06:26:32.779Z",
+      "modified_at": "2019-04-04T06:26:32.779Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "oberflaechengewaesser-regenabwasserleitung",
+      "option": "oberflaechengewaesser-regenabwasserleitung-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "08bb8774-71c3-4c95-977c-a4739446b357",
     "fields": {
       "created_at": "2019-04-01T12:18:00.406Z",
@@ -10732,6 +11454,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "0c30a042-856c-45bb-950d-35d959ee2bcf",
+    "fields": {
+      "created_at": "2019-04-03T15:11:37.526Z",
+      "modified_at": "2019-04-03T15:11:37.526Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "oberflaechengewasser-direkt",
+      "option": "oberflaechengewasser-direkt-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "0d0e0183-d616-479c-be11-22f11e773c81",
     "fields": {
       "created_at": "2019-04-01T13:45:01.250Z",
@@ -10754,6 +11489,19 @@
       "question": "organismen-in-anlage",
       "option": "organismen-in-anlage-parasiten",
       "sort": 4
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "0e580226-c8d5-446d-b867-cbe9c05f24b2",
+    "fields": {
+      "created_at": "2019-04-03T14:35:57.801Z",
+      "modified_at": "2019-04-03T14:35:57.801Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "art-der-grundwasserabsenkung",
+      "option": "art-der-grundwasserabsenkung-vakuumverfahren",
+      "sort": 3
     }
   },
   {
@@ -11044,6 +11792,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "210200c2-50ac-419b-9be9-dc1e6a5b484e",
+    "fields": {
+      "created_at": "2019-04-04T06:26:09.995Z",
+      "modified_at": "2019-04-04T06:26:09.995Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "versickerung",
+      "option": "versickerung-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "2183e336-00de-4e3a-838f-710c594a7859",
     "fields": {
       "created_at": "2019-04-01T12:18:00.406Z",
@@ -11079,6 +11840,19 @@
       "question": "wohnungsgroesse",
       "option": "wohnungsgroesse-20",
       "sort": 11
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "23abe27e-5347-43d8-aa9b-ae401a18a7a2",
+    "fields": {
+      "created_at": "2019-04-03T14:30:48.399Z",
+      "modified_at": "2019-04-03T14:30:48.399Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "art-der-baugrubenumschliessung",
+      "option": "art-der-baugrubenumschliessung-andere",
+      "sort": 1
     }
   },
   {
@@ -11131,6 +11905,19 @@
       "question": "waermetraegerfluessigkeit",
       "option": "waermetraegerfluessigkeit-ethylalkohol-ethanol",
       "sort": 11
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "270dd8ce-60ad-47c1-9c5d-77fa618a997e",
+    "fields": {
+      "created_at": "2019-04-03T14:30:48.399Z",
+      "modified_at": "2019-04-03T14:30:48.399Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "art-der-baugrubenumschliessung",
+      "option": "art-der-baugrubenumschliessung-nagelwand",
+      "sort": 4
     }
   },
   {
@@ -11486,6 +12273,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "37558f2d-db41-4bb7-b283-9d4c14fd7f91",
+    "fields": {
+      "created_at": "2019-04-03T14:30:48.400Z",
+      "modified_at": "2019-04-03T14:30:48.400Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "art-der-baugrubenumschliessung",
+      "option": "art-der-baugrubenumschliessung-boeschung",
+      "sort": 7
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "3830b19e-6d40-4f48-bdf1-10eebec9dddc",
     "fields": {
       "created_at": "2019-03-28T09:41:34.616Z",
@@ -11715,6 +12515,19 @@
       "created_by_group": null,
       "question": "brandschutzrisiken",
       "option": "brandschutzrisiken-lagerung-fester-brennstoffe-5m",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "4314d0a6-1b9b-4041-827e-95cd02e01193",
+    "fields": {
+      "created_at": "2019-04-03T14:02:51.130Z",
+      "modified_at": "2019-04-03T14:02:51.130Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "art-der-fundationsmassnahmen",
+      "option": "art-der-fundationsmassnahmen-andere",
       "sort": 1
     }
   },
@@ -11954,6 +12767,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "4cb26181-12bf-41bc-a12f-ded8c22039b2",
+    "fields": {
+      "created_at": "2019-04-03T14:35:57.801Z",
+      "modified_at": "2019-04-03T14:35:57.801Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "art-der-grundwasserabsenkung",
+      "option": "art-der-grundwasserabsenkung-offene-wasserhaltung",
+      "sort": 4
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "4e029c98-757f-4641-9645-44f6e93ec80c",
     "fields": {
       "created_at": "2019-03-28T09:41:34.615Z",
@@ -12015,6 +12841,19 @@
       "question": "verwendungszweck-luft",
       "option": "verwendungszweck-luft-raumheizung",
       "sort": 4
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "4f1c9ed7-a350-47df-a37f-50db13cf4da7",
+    "fields": {
+      "created_at": "2019-04-04T06:26:41.685Z",
+      "modified_at": "2019-04-04T06:26:41.685Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "schmutz-oder-mischwasserkanalisation",
+      "option": "schmutz-oder-mischwasserkanalisation-ja",
+      "sort": 2
     }
   },
   {
@@ -12188,6 +13027,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "539757fe-2798-4bba-b1ee-a3fff2195240",
+    "fields": {
+      "created_at": "2019-04-03T14:35:57.800Z",
+      "modified_at": "2019-04-03T14:35:57.800Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "art-der-grundwasserabsenkung",
+      "option": "art-der-grundwasserabsenkung-andere",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "53991f88-3b78-4acf-99ee-53cccaa76db8",
     "fields": {
       "created_at": "2019-04-02T10:47:39.033Z",
@@ -12331,6 +13183,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "5d28f773-0c6b-4630-814e-35d8016c6881",
+    "fields": {
+      "created_at": "2019-04-04T06:26:32.779Z",
+      "modified_at": "2019-04-04T06:26:32.779Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "oberflaechengewaesser-regenabwasserleitung",
+      "option": "oberflaechengewaesser-regenabwasserleitung-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "5d2f8a61-4fef-4c87-9c87-78aca4e06df1",
     "fields": {
       "created_at": "2019-03-28T10:10:46.331Z",
@@ -12340,6 +13205,19 @@
       "question": "nutzungsart",
       "option": "nutzungsart-gastgewerbe",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "5d725e12-9fe4-4370-9a61-eddb006b17ba",
+    "fields": {
+      "created_at": "2019-04-03T14:30:48.399Z",
+      "modified_at": "2019-04-03T14:30:48.399Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "art-der-baugrubenumschliessung",
+      "option": "art-der-baugrubenumschliessung-ankerbodennaegel",
+      "sort": 3
     }
   },
   {
@@ -13033,6 +13911,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "7d681884-ee90-4f34-9dd4-bf5f8c1b1e62",
+    "fields": {
+      "created_at": "2019-04-03T14:30:48.399Z",
+      "modified_at": "2019-04-03T14:30:48.399Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "art-der-baugrubenumschliessung",
+      "option": "art-der-baugrubenumschliessung-ruehlwand",
+      "sort": 5
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "7de6a2cd-f131-4848-bc73-ae2dc4a75be2",
     "fields": {
       "created_at": "2019-04-02T14:10:18.236Z",
@@ -13202,6 +14093,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "87d46b11-f8be-403a-a090-384d89a0d96c",
+    "fields": {
+      "created_at": "2019-04-03T14:35:57.800Z",
+      "modified_at": "2019-04-03T14:35:57.800Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "art-der-grundwasserabsenkung",
+      "option": "art-der-grundwasserabsenkung-keine",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "88a3949d-01e0-4421-b6da-3f16deee11d4",
     "fields": {
       "created_at": "2019-04-01T11:28:08.325Z",
@@ -13224,6 +14128,19 @@
       "question": "maschinen-aus-den-folgenden-kategorien",
       "option": "maschinen-aus-den-folgenden-kategorien-werkhofe",
       "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "89efa98d-7dcc-4fce-8655-14bfd6c14504",
+    "fields": {
+      "created_at": "2019-04-03T14:30:48.399Z",
+      "modified_at": "2019-04-03T14:30:48.400Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "art-der-baugrubenumschliessung",
+      "option": "art-der-baugrubenumschliessung-spundwand",
+      "sort": 6
     }
   },
   {
@@ -13332,6 +14249,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "8e70b300-aad0-493b-9a67-869c8f8126e4",
+    "fields": {
+      "created_at": "2019-04-04T06:26:41.685Z",
+      "modified_at": "2019-04-04T06:26:41.685Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "schmutz-oder-mischwasserkanalisation",
+      "option": "schmutz-oder-mischwasserkanalisation-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "8ef64b84-37f4-495d-845c-fe17c2a8822c",
     "fields": {
       "created_at": "2019-04-02T10:44:46.031Z",
@@ -13354,6 +14284,19 @@
       "question": "regeneration-oder-aktive-thermische-aufladung",
       "option": "regeneration-oder-aktive-thermische-aufladung-ja",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "8f544e89-ef30-4a6a-a0bf-5a74722a7ccd",
+    "fields": {
+      "created_at": "2019-04-03T14:35:57.801Z",
+      "modified_at": "2019-04-03T14:35:57.801Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "art-der-grundwasserabsenkung",
+      "option": "art-der-grundwasserabsenkung-filterbrunnen",
+      "sort": 5
     }
   },
   {
@@ -14632,6 +15575,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "d62030a6-c012-447e-82df-7dbd38766698",
+    "fields": {
+      "created_at": "2019-04-03T14:02:51.130Z",
+      "modified_at": "2019-04-03T14:02:51.130Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "art-der-fundationsmassnahmen",
+      "option": "art-der-fundationsmassnahmen-flachfundation",
+      "sort": 3
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "d65da748-5c11-4fda-8617-c7f3594cf322",
     "fields": {
       "created_at": "2019-04-03T11:54:25.414Z",
@@ -14679,6 +15635,19 @@
       "created_by_group": null,
       "question": "verwendungszweck-boden-untergrund",
       "option": "verwendungszweck-boden-untergrund-kuhlen",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "dbcb865a-78f5-49e1-956f-48372297b804",
+    "fields": {
+      "created_at": "2019-04-03T14:02:51.130Z",
+      "modified_at": "2019-04-03T14:02:51.130Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "art-der-fundationsmassnahmen",
+      "option": "art-der-fundationsmassnahmen-tiefenfundation",
       "sort": 2
     }
   },
@@ -15022,6 +15991,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "f1456ca4-7d4f-405b-a39b-7e521bcda708",
+    "fields": {
+      "created_at": "2019-04-03T14:30:48.399Z",
+      "modified_at": "2019-04-03T14:30:48.399Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "art-der-baugrubenumschliessung",
+      "option": "art-der-baugrubenumschliessung-schlitzwand",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "f1958b62-8210-47be-8dcb-d7d309f689b5",
     "fields": {
       "created_at": "2019-04-02T11:12:04.988Z",
@@ -15161,6 +16143,19 @@
       "question": "wohnungsgroesse",
       "option": "wohnungsgroesse-25",
       "sort": 6
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "f7753b92-b41d-4d7b-a566-d1b155375632",
+    "fields": {
+      "created_at": "2019-04-03T15:11:37.526Z",
+      "modified_at": "2019-04-03T15:11:37.526Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "oberflaechengewasser-direkt",
+      "option": "oberflaechengewasser-direkt-nein",
+      "sort": 1
     }
   },
   {
@@ -15399,6 +16394,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "ff585be8-7bf3-41b5-bd7c-d50cfcaba5fa",
+    "fields": {
+      "created_at": "2019-04-04T06:26:09.995Z",
+      "modified_at": "2019-04-04T06:26:09.995Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "versickerung",
+      "option": "versickerung-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "ffb577d9-ca0b-4b0a-9b43-adbf96475b63",
     "fields": {
       "created_at": "2019-04-03T13:28:32.470Z",
@@ -15588,6 +16596,201 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "art-der-baugrubenumschliessung-andere",
+    "fields": {
+      "created_at": "2019-04-03T14:30:48.185Z",
+      "modified_at": "2019-04-03T14:30:48.185Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Andere\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "art-der-baugrubenumschliessung-ankerbodennaegel",
+    "fields": {
+      "created_at": "2019-04-03T14:30:48.181Z",
+      "modified_at": "2019-04-03T14:30:48.181Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Anker/Bodenn\\u00e4gel\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "art-der-baugrubenumschliessung-boeschung",
+    "fields": {
+      "created_at": "2019-04-03T14:30:48.134Z",
+      "modified_at": "2019-04-03T14:30:48.134Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"B\\u00f6schung\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "art-der-baugrubenumschliessung-nagelwand",
+    "fields": {
+      "created_at": "2019-04-03T14:30:48.149Z",
+      "modified_at": "2019-04-03T14:30:48.149Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nagelwand\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "art-der-baugrubenumschliessung-ruehlwand",
+    "fields": {
+      "created_at": "2019-04-03T14:30:48.173Z",
+      "modified_at": "2019-04-03T14:30:48.173Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"R\\u00fchlwand\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "art-der-baugrubenumschliessung-schlitzwand",
+    "fields": {
+      "created_at": "2019-04-03T14:30:48.197Z",
+      "modified_at": "2019-04-03T14:30:48.197Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Schlitzwand\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "art-der-baugrubenumschliessung-spundwand",
+    "fields": {
+      "created_at": "2019-04-03T14:30:48.122Z",
+      "modified_at": "2019-04-03T14:30:48.122Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Spundwand\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "art-der-fundationsmassnahmen-andere",
+    "fields": {
+      "created_at": "2019-04-03T14:02:50.855Z",
+      "modified_at": "2019-04-03T14:02:50.855Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Andere\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "art-der-fundationsmassnahmen-flachfundation",
+    "fields": {
+      "created_at": "2019-04-03T14:02:50.835Z",
+      "modified_at": "2019-04-03T14:02:50.835Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Flachfundation\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "art-der-fundationsmassnahmen-tiefenfundation",
+    "fields": {
+      "created_at": "2019-04-03T14:02:50.832Z",
+      "modified_at": "2019-04-03T14:02:50.832Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Tiefenfundation, Pfahlsystem\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "art-der-grundwasserabsenkung-andere",
+    "fields": {
+      "created_at": "2019-04-03T14:35:57.651Z",
+      "modified_at": "2019-04-03T14:35:57.651Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Andere\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "art-der-grundwasserabsenkung-filterbrunnen",
+    "fields": {
+      "created_at": "2019-04-03T14:35:57.605Z",
+      "modified_at": "2019-04-03T14:35:57.605Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Filterbrunnen\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "art-der-grundwasserabsenkung-keine",
+    "fields": {
+      "created_at": "2019-04-03T14:35:57.654Z",
+      "modified_at": "2019-04-03T14:35:57.654Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Keine\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "art-der-grundwasserabsenkung-offene-wasserhaltung",
+    "fields": {
+      "created_at": "2019-04-03T14:35:57.637Z",
+      "modified_at": "2019-04-03T14:35:57.637Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Offene Wasserhaltung\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "art-der-grundwasserabsenkung-vakuumverfahren",
+    "fields": {
+      "created_at": "2019-04-03T14:35:57.622Z",
+      "modified_at": "2019-04-03T14:35:57.622Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Vakuumverfahren\", \"fr\": null, \"en\": null}",
       "meta": {},
       "source": null
     }
@@ -18441,6 +19644,84 @@
   },
   {
     "model": "form.option",
+    "pk": "oberflachengewasser-via-regenabwasserleitung-ja",
+    "fields": {
+      "created_at": "2019-04-03T14:41:53.398Z",
+      "modified_at": "2019-04-03T14:41:53.398Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "oberflachengewasser-via-regenabwasserleitung-nein",
+    "fields": {
+      "created_at": "2019-04-03T14:41:53.396Z",
+      "modified_at": "2019-04-03T14:41:53.396Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "oberflaechengewaesser-regenabwasserleitung-ja",
+    "fields": {
+      "created_at": "2019-04-03T14:41:53.398Z",
+      "modified_at": "2019-04-04T06:26:32.630Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "oberflaechengewaesser-regenabwasserleitung-nein",
+    "fields": {
+      "created_at": "2019-04-03T14:41:53.396Z",
+      "modified_at": "2019-04-04T06:26:32.644Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "oberflaechengewasser-direkt-ja",
+    "fields": {
+      "created_at": "2019-04-03T15:10:15.291Z",
+      "modified_at": "2019-04-03T15:11:37.354Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "oberflaechengewasser-direkt-nein",
+    "fields": {
+      "created_at": "2019-04-03T15:10:15.294Z",
+      "modified_at": "2019-04-03T15:11:37.357Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
     "pk": "objekt-des-besonderen-landschaftsschutzes-ja",
     "fields": {
       "created_at": "2019-04-01T11:14:20.305Z",
@@ -18757,6 +20038,32 @@
     "fields": {
       "created_at": "2019-04-03T13:31:11.650Z",
       "modified_at": "2019-04-03T13:31:11.650Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "schmutz-oder-mischwasserkanalisation-ja",
+    "fields": {
+      "created_at": "2019-04-03T14:54:11.584Z",
+      "modified_at": "2019-04-04T06:26:41.543Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "schmutz-oder-mischwasserkanalisation-nein",
+    "fields": {
+      "created_at": "2019-04-03T14:54:11.598Z",
+      "modified_at": "2019-04-04T06:26:41.549Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
@@ -19098,6 +20405,32 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": null, \"fr\": null, \"en\": \"MFH\"}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "versickerung-ja",
+    "fields": {
+      "created_at": "2019-04-03T14:40:07.868Z",
+      "modified_at": "2019-04-04T06:26:09.811Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "versickerung-nein",
+    "fields": {
+      "created_at": "2019-04-03T14:40:07.866Z",
+      "modified_at": "2019-04-04T06:26:09.824Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
       "meta": {},
       "source": null
     }
