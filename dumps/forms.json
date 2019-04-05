@@ -97,6 +97,22 @@
   },
   {
     "model": "form.form",
+    "pk": "ausschankraeume-tabelle",
+    "fields": {
+      "created_at": "2019-04-05T10:15:02.724Z",
+      "modified_at": "2019-04-05T10:15:02.724Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "name": "{\"de\": \"Ausschankr\\u00e4ume Tabelle\", \"fr\": null, \"en\": null}",
+      "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "is_published": true,
+      "is_archived": false,
+      "source": null
+    }
+  },
+  {
+    "model": "form.form",
     "pk": "baugesuch",
     "fields": {
       "created_at": "2019-04-01T15:25:51.743Z",
@@ -216,6 +232,22 @@
       "created_by_user": null,
       "created_by_group": null,
       "name": "{\"de\": \"Energie\", \"fr\": null, \"en\": null}",
+      "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "is_published": true,
+      "is_archived": false,
+      "source": null
+    }
+  },
+  {
+    "model": "form.form",
+    "pk": "gastgewerbe-allgemein",
+    "fields": {
+      "created_at": "2019-04-05T08:23:44.002Z",
+      "modified_at": "2019-04-05T08:23:44.003Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "name": "{\"de\": \"Gastgewerbe - Allgemein\", \"fr\": null, \"en\": null}",
       "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
       "meta": {},
       "is_published": true,
@@ -353,6 +385,22 @@
   },
   {
     "model": "form.form",
+    "pk": "laden-tabelle",
+    "fields": {
+      "created_at": "2019-04-05T09:05:28.701Z",
+      "modified_at": "2019-04-05T09:05:28.701Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "name": "{\"de\": \"Laden Tabelle\", \"fr\": null, \"en\": null}",
+      "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "is_published": true,
+      "is_archived": false,
+      "source": null
+    }
+  },
+  {
+    "model": "form.form",
     "pk": "lagerung-von-stoffen-tabelle",
     "fields": {
       "created_at": "2019-04-03T11:43:29.917Z",
@@ -360,6 +408,22 @@
       "created_by_user": null,
       "created_by_group": null,
       "name": "{\"de\": \"Lagerung von Stoffen Tabelle\", \"fr\": null, \"en\": null}",
+      "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "is_published": true,
+      "is_archived": false,
+      "source": null
+    }
+  },
+  {
+    "model": "form.form",
+    "pk": "oeffnungszeiten-tabelle",
+    "fields": {
+      "created_at": "2019-04-05T08:31:58.666Z",
+      "modified_at": "2019-04-05T08:31:58.666Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "name": "{\"de\": \"\\u00d6ffnungszeiten Tabelle\", \"fr\": null, \"en\": null}",
       "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
       "meta": {},
       "is_published": true,
@@ -393,6 +457,22 @@
       "created_by_group": null,
       "name": "{\"de\": null, \"fr\": null, \"en\": \"Personalien\"}",
       "description": "{\"de\": null, \"fr\": null, \"en\": \"\"}",
+      "meta": {},
+      "is_published": true,
+      "is_archived": false,
+      "source": null
+    }
+  },
+  {
+    "model": "form.form",
+    "pk": "personalien-gastgewerbe",
+    "fields": {
+      "created_at": "2019-04-05T08:06:36.111Z",
+      "modified_at": "2019-04-05T08:06:36.112Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "name": "{\"de\": \"Personalien - Gastgewerbe\", \"fr\": null, \"en\": null}",
+      "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
       "meta": {},
       "is_published": true,
       "is_archived": false,
@@ -648,6 +728,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "01c1f765-5a3b-46b7-8179-2c32a1637a8b",
+    "fields": {
+      "created_at": "2019-04-05T08:09:37.926Z",
+      "modified_at": "2019-04-05T08:09:37.926Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien-gastgewerbe",
+      "question": "nummer-gastgewerbe",
+      "sort": 8
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "01d71d64-f6e0-4a42-90d2-5f21da46dfa9",
     "fields": {
       "created_at": "2019-04-03T13:55:42.016Z",
@@ -830,6 +923,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "0dd7e2ec-bcbf-4387-a2a8-97cbe70bc1f7",
+    "fields": {
+      "created_at": "2019-04-05T08:30:18.789Z",
+      "modified_at": "2019-04-05T08:30:18.789Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-allgemein",
+      "question": "oeffnungszeiten",
+      "sort": 20
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "0ec531ad-fb98-4ec4-b4b4-dadea9f5f28c",
     "fields": {
       "created_at": "2019-03-15T08:32:07.162Z",
@@ -852,6 +958,19 @@
       "form": "waermepumpen",
       "question": "betriebsweise",
       "sort": 24
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "1031285a-997f-4c76-b0e0-fbf668213962",
+    "fields": {
+      "created_at": "2019-04-05T10:55:11.007Z",
+      "modified_at": "2019-04-05T10:55:11.007Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-allgemein",
+      "question": "appartements",
+      "sort": 4
     }
   },
   {
@@ -973,6 +1092,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "15661c87-0b36-472d-967c-43aa3207b5f4",
+    "fields": {
+      "created_at": "2019-04-05T08:11:43.010Z",
+      "modified_at": "2019-04-05T08:11:43.010Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien-gastgewerbe",
+      "question": "ort-gastgewerbe",
+      "sort": 6
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "15afa78d-b944-4846-a53d-17d16c860027",
     "fields": {
       "created_at": "2019-04-04T07:34:15.814Z",
@@ -982,6 +1114,19 @@
       "form": "vertreterin-mit-vollmacht",
       "question": "strasse-vertreterin",
       "sort": 7
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "16f9a2f6-e162-4cd6-86af-2576d64b00c4",
+    "fields": {
+      "created_at": "2019-04-05T09:02:49.584Z",
+      "modified_at": "2019-04-05T09:02:49.584Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-allgemein",
+      "question": "tanzbetrieb",
+      "sort": 18
     }
   },
   {
@@ -1085,7 +1230,7 @@
       "created_by_group": null,
       "form": "5-spezialformulare",
       "question": "zivilschutz",
-      "sort": 6
+      "sort": 8
     }
   },
   {
@@ -1203,6 +1348,32 @@
       "form": "triage",
       "question": "maschinelle-arbeitsmittel",
       "sort": 14
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "201b4525-32f3-496e-ba89-15623f6b7890",
+    "fields": {
+      "created_at": "2019-04-05T10:27:44.274Z",
+      "modified_at": "2019-04-05T10:27:44.274Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-allgemein",
+      "question": "ausschankraeume",
+      "sort": 11
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "21bb3f08-e214-4bae-a612-7a0898058947",
+    "fields": {
+      "created_at": "2019-04-05T09:08:24.405Z",
+      "modified_at": "2019-04-05T09:08:24.405Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "laden-tabelle",
+      "question": "oeffnungszeit-laden",
+      "sort": 2
     }
   },
   {
@@ -1376,6 +1547,32 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "2b7a7867-fbf6-4468-bb5a-69bc38d1622a",
+    "fields": {
+      "created_at": "2019-04-05T10:12:01.458Z",
+      "modified_at": "2019-04-05T10:12:01.459Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-allgemein",
+      "question": "anzahl-damen-toiletten",
+      "sort": 14
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "2bbc4307-f6e8-4f0f-878e-d51611027e35",
+    "fields": {
+      "created_at": "2019-04-05T09:15:32.775Z",
+      "modified_at": "2019-04-05T09:15:32.775Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-allgemein",
+      "question": "laden",
+      "sort": 15
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "2cbe9e59-41cd-4065-9f61-04e350138f7b",
     "fields": {
       "created_at": "2019-04-01T11:18:15.463Z",
@@ -1493,6 +1690,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "3496feff-f890-4e2f-88c7-f352b108bd95",
+    "fields": {
+      "created_at": "2019-04-05T10:15:50.297Z",
+      "modified_at": "2019-04-05T10:15:50.297Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "ausschankraeume-tabelle",
+      "question": "stockwerk",
+      "sort": 5
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "3521e7c6-4da9-4d7a-ba6f-63ca3f2b727c",
     "fields": {
       "created_at": "2019-04-02T07:44:04.672Z",
@@ -1580,6 +1790,19 @@
       "form": "gewaesserschutz-grundstueckentwaesserung",
       "question": "sanitaertechnische-anpassungen-liegenschaft",
       "sort": 1
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "395f4562-da54-43fe-a55e-3f29a95bf898",
+    "fields": {
+      "created_at": "2019-04-05T08:33:39.334Z",
+      "modified_at": "2019-04-05T08:33:39.334Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "oeffnungszeiten-tabelle",
+      "question": "wochentag",
+      "sort": 2
     }
   },
   {
@@ -1697,6 +1920,19 @@
       "form": "wohnen",
       "question": "abstellplaetze-fuer-fahrraeder-und-motorfahrraeder",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "40f0ce1e-fe6d-42a1-bcc9-5d4ae49cc527",
+    "fields": {
+      "created_at": "2019-04-05T10:39:04.262Z",
+      "modified_at": "2019-04-05T10:39:04.264Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-allgemein",
+      "question": "in-quadratmeter",
+      "sort": 9
     }
   },
   {
@@ -1909,6 +2145,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "4954b0ab-ae30-41d2-b6b3-3093eb93af82",
+    "fields": {
+      "created_at": "2019-04-05T10:47:03.139Z",
+      "modified_at": "2019-04-05T10:47:03.139Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-allgemein",
+      "question": "gaestezimmer",
+      "sort": 6
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "4a0a2e74-6e61-4b19-a28f-95b0ce18acda",
     "fields": {
       "created_at": "2019-04-01T14:46:46.197Z",
@@ -1931,6 +2180,19 @@
       "form": "allgemeine-angaben",
       "question": "ort-grundstueck",
       "sort": 9
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "4ae2edf7-c336-4910-8eaa-d033626cd5b5",
+    "fields": {
+      "created_at": "2019-04-05T09:04:22.914Z",
+      "modified_at": "2019-04-05T09:04:22.914Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-allgemein",
+      "question": "striptease",
+      "sort": 17
     }
   },
   {
@@ -1970,6 +2232,32 @@
       "form": "waermepumpen",
       "question": "beschreibung-wasser",
       "sort": 11
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "4d7d7cab-280e-4de4-a3b2-1b3eb3fef03a",
+    "fields": {
+      "created_at": "2019-04-05T08:14:31.098Z",
+      "modified_at": "2019-04-05T08:14:31.098Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien-gastgewerbe",
+      "question": "name-gastgewerbe",
+      "sort": 3
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "4d86c062-35c9-4cfa-965b-a597e1039395",
+    "fields": {
+      "created_at": "2019-04-05T08:12:34.812Z",
+      "modified_at": "2019-04-05T08:12:34.812Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien-gastgewerbe",
+      "question": "taetigkeit-des-betriebs-gastgewerbe",
+      "sort": 5
     }
   },
   {
@@ -2065,6 +2353,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "532dfe2e-cfb2-491a-a676-5f436ff2fc72",
+    "fields": {
+      "created_at": "2019-04-05T08:34:17.039Z",
+      "modified_at": "2019-04-05T08:34:17.039Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "oeffnungszeiten-tabelle",
+      "question": "schliessungszeit",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "54ec9b76-ad59-49c2-9fd2-cb15f61a49fe",
     "fields": {
       "created_at": "2019-04-01T11:34:45.299Z",
@@ -2074,6 +2375,19 @@
       "form": "bodenschutz",
       "question": "beanspruchte-flaeche-ober-unterboden-5000-m2",
       "sort": 6
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "5527bc02-5a8b-4349-aa12-bb3797a70e30",
+    "fields": {
+      "created_at": "2019-04-05T08:15:24.369Z",
+      "modified_at": "2019-04-05T08:15:24.369Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien-gastgewerbe",
+      "question": "telefon-oder-mobile-gastgewerbe",
+      "sort": 2
     }
   },
   {
@@ -2351,6 +2665,32 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "659e6356-90f4-4b9b-8bda-772ac317a466",
+    "fields": {
+      "created_at": "2019-04-05T11:06:15.481Z",
+      "modified_at": "2019-04-05T11:06:15.481Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-allgemein",
+      "question": "betriebskonzept",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "65a88833-68a0-4870-9253-969ff621b270",
+    "fields": {
+      "created_at": "2019-04-05T08:07:22.217Z",
+      "modified_at": "2019-04-05T08:07:22.217Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien-gastgewerbe",
+      "question": "name-betrieb-gastgewerbe",
+      "sort": 10
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "65ba77d3-de38-421b-8aab-ae2e43880a89",
     "fields": {
       "created_at": "2019-04-01T11:21:22.929Z",
@@ -2572,6 +2912,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "6f3e0bf8-9826-4b46-84a0-5c927f5536f7",
+    "fields": {
+      "created_at": "2019-04-05T10:12:49.420Z",
+      "modified_at": "2019-04-05T10:12:49.420Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-allgemein",
+      "question": "anzahl-toiletten-herren",
+      "sort": 13
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "6fd124bf-a99f-4d5e-a20a-8f84b4fccf4d",
     "fields": {
       "created_at": "2019-04-04T07:32:09.094Z",
@@ -2723,7 +3076,7 @@
       "created_by_group": null,
       "form": "5-spezialformulare",
       "question": "immissionsschutz-laermschutz",
-      "sort": 4
+      "sort": 6
     }
   },
   {
@@ -2749,6 +3102,19 @@
       "created_by_group": null,
       "form": "waermepumpen",
       "question": "lage",
+      "sort": 8
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "796ed98c-5deb-4534-8adf-bddda022864d",
+    "fields": {
+      "created_at": "2019-04-05T10:41:36.069Z",
+      "modified_at": "2019-04-05T10:41:36.069Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-allgemein",
+      "question": "sitzplaetze-garten",
       "sort": 8
     }
   },
@@ -2832,6 +3198,32 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "8281f1cd-3edd-4b9a-884c-5c9f8f67c04c",
+    "fields": {
+      "created_at": "2019-04-05T08:08:58.204Z",
+      "modified_at": "2019-04-05T08:08:58.204Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien-gastgewerbe",
+      "question": "strasse-gastgewerbe",
+      "sort": 9
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "830099d9-19ec-465f-8e1e-f5613ee6c7b6",
+    "fields": {
+      "created_at": "2019-04-05T08:37:08.022Z",
+      "modified_at": "2019-04-05T08:37:08.022Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-allgemein",
+      "question": "offnungszeiten-tabelle",
+      "sort": 19
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "85122c62-f10e-4b02-bc0a-0ef430125c72",
     "fields": {
       "created_at": "2019-03-08T15:30:16.183Z",
@@ -2841,6 +3233,19 @@
       "form": "durchgefuehrte-vorabklaerungen",
       "question": "wurden-vorabklaerungen-durchgefuehrt",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "85317618-2987-4a4d-8a8a-37f1ac5b68f2",
+    "fields": {
+      "created_at": "2019-04-05T08:16:05.266Z",
+      "modified_at": "2019-04-05T08:16:05.266Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien-gastgewerbe",
+      "question": "e-mail-gastgewerbe",
+      "sort": 1
     }
   },
   {
@@ -2867,6 +3272,19 @@
       "form": "biologische-sicherheit-und-stoerfallvorsorge",
       "question": "sicherheitsstufe-der-anlage",
       "sort": 17
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "87515882-00df-46a7-8423-af6de4aeea71",
+    "fields": {
+      "created_at": "2019-04-05T08:27:48.751Z",
+      "modified_at": "2019-04-05T08:27:48.751Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-allgemein",
+      "question": "oeffentlichkeit",
+      "sort": 21
     }
   },
   {
@@ -2905,7 +3323,7 @@
       "created_by_group": null,
       "form": "5-spezialformulare",
       "question": "waermepumpen",
-      "sort": 5
+      "sort": 7
     }
   },
   {
@@ -3014,6 +3432,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "8f8a6300-3b37-48c3-8f15-911c392d0871",
+    "fields": {
+      "created_at": "2019-04-05T09:07:36.089Z",
+      "modified_at": "2019-04-05T09:07:36.089Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "laden-tabelle",
+      "question": "wochentag-laden",
+      "sort": 3
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "8fb122c1-6687-42b9-ae20-4c04810cd91b",
     "fields": {
       "created_at": "2019-04-02T11:15:08.031Z",
@@ -3022,7 +3453,20 @@
       "created_by_group": null,
       "form": "5-spezialformulare",
       "question": "immissionsschutz",
-      "sort": 3
+      "sort": 5
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "8fdcfea7-55ec-429a-a86f-85fb22e2d8ad",
+    "fields": {
+      "created_at": "2019-04-05T10:44:06.617Z",
+      "modified_at": "2019-04-05T10:44:06.617Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-allgemein",
+      "question": "fumoir",
+      "sort": 7
     }
   },
   {
@@ -3248,6 +3692,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "9851d78a-edcc-4960-99f0-86db8ceedc2c",
+    "fields": {
+      "created_at": "2019-04-05T08:24:42.327Z",
+      "modified_at": "2019-04-05T08:24:42.327Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-allgemein",
+      "question": "alkoholausschank",
+      "sort": 22
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "98ccb7e5-9a91-4d8c-bb60-36294c8ba8a8",
     "fields": {
       "created_at": "2019-04-03T08:10:05.197Z",
@@ -3365,6 +3822,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "9e559b8f-5794-4634-93dc-d5ea14d74842",
+    "fields": {
+      "created_at": "2019-04-05T09:04:53.869Z",
+      "modified_at": "2019-04-05T09:04:53.869Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-allgemein",
+      "question": "prostitution",
+      "sort": 16
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "9f238183-c44b-4245-8e21-b5a1a3ae8ac9",
     "fields": {
       "created_at": "2019-04-04T07:35:10.601Z",
@@ -3387,6 +3857,19 @@
       "form": "bodenschutz",
       "question": "fruchtfolgeflaeche-ausgeschieden",
       "sort": 1
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "a20ff72a-c3f2-445f-8328-f792817b1564",
+    "fields": {
+      "created_at": "2019-04-05T08:10:34.320Z",
+      "modified_at": "2019-04-05T08:10:34.320Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien-gastgewerbe",
+      "question": "plz-gastgewerbe",
+      "sort": 7
     }
   },
   {
@@ -3781,6 +4264,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "b9217bfc-a285-45b7-9057-62f8ee40e27e",
+    "fields": {
+      "created_at": "2019-04-05T10:23:27.663Z",
+      "modified_at": "2019-04-05T10:23:27.663Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "ausschankraeume-tabelle",
+      "question": "davon-in-saelen",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "b9879418-2acf-49b9-8916-aaae56dfd5a2",
     "fields": {
       "created_at": "2019-04-02T07:45:19.826Z",
@@ -3829,6 +4325,19 @@
       "form": "lagerung-von-stoffen-tabelle",
       "question": "neu-bestehend",
       "sort": 8
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "bc13f70d-d739-4bf3-a780-95eb602c36bf",
+    "fields": {
+      "created_at": "2019-04-05T10:50:07.292Z",
+      "modified_at": "2019-04-05T10:50:07.292Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-allgemein",
+      "question": "gaestebetten",
+      "sort": 5
     }
   },
   {
@@ -4327,6 +4836,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "daeb92e8-172e-4f34-a272-3815e836cd94",
+    "fields": {
+      "created_at": "2019-04-05T10:21:23.974Z",
+      "modified_at": "2019-04-05T10:21:23.974Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "ausschankraeume-tabelle",
+      "question": "flaeche-in-quadratmeter",
+      "sort": 3
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "dbab8c4f-6177-4efa-af44-2c3339b80aaf",
     "fields": {
       "created_at": "2019-03-28T14:14:29.157Z",
@@ -4348,6 +4870,19 @@
       "created_by_group": null,
       "form": "wohnen-tabelle",
       "question": "anzahl-wohnungen-bestehend",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "dcc80a92-5074-4295-b9cc-ef651bc4ca0a",
+    "fields": {
+      "created_at": "2019-04-05T10:22:37.013Z",
+      "modified_at": "2019-04-05T10:22:37.013Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "ausschankraeume-tabelle",
+      "question": "sitzplaetze",
       "sort": 2
     }
   },
@@ -4401,6 +4936,19 @@
       "form": "allgemeine-angaben",
       "question": "strasse-flurname",
       "sort": 11
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "e0e558eb-3902-4026-8771-55b6a01dce5b",
+    "fields": {
+      "created_at": "2019-04-05T10:14:36.638Z",
+      "modified_at": "2019-04-05T10:14:36.638Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-allgemein",
+      "question": "anzahl-pissoire",
+      "sort": 12
     }
   },
   {
@@ -4470,6 +5018,32 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "e63e3551-8f06-4a23-81f1-6bf83d716c88",
+    "fields": {
+      "created_at": "2019-04-05T08:19:41.948Z",
+      "modified_at": "2019-04-05T08:19:41.948Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "5-spezialformulare",
+      "question": "personalien-gastgewerbe",
+      "sort": 4
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "e6a11779-4550-4298-8260-1b1bfede37e6",
+    "fields": {
+      "created_at": "2019-04-05T11:01:09.713Z",
+      "modified_at": "2019-04-05T11:01:09.713Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-allgemein",
+      "question": "massenlager",
+      "sort": 3
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "e752ef70-3634-4ccf-87f6-c8c1a325681f",
     "fields": {
       "created_at": "2019-04-02T07:32:18.081Z",
@@ -4505,6 +5079,19 @@
       "form": "wohnen",
       "question": "anzahl-abstellplaetze-fur-motorfahrzeuge",
       "sort": 4
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "e8a74975-488d-4756-8abc-19942710b44e",
+    "fields": {
+      "created_at": "2019-04-05T10:35:54.406Z",
+      "modified_at": "2019-04-05T10:35:54.406Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-allgemein",
+      "question": "anzahl-garten-terrassen",
+      "sort": 10
     }
   },
   {
@@ -4570,6 +5157,19 @@
       "form": "gewaesserschutz-bauten-im-grundwasser",
       "question": "hoechstmoeglicher-grundwasserspiegel",
       "sort": 19
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "ecef3a1d-9624-475b-b8b5-cdde0164f748",
+    "fields": {
+      "created_at": "2019-04-05T08:40:48.717Z",
+      "modified_at": "2019-04-05T08:40:48.717Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "5-spezialformulare",
+      "question": "gastgewerbe-allgemein",
+      "sort": 3
     }
   },
   {
@@ -4743,6 +5343,32 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "f5457cca-3925-4238-80c4-329787011280",
+    "fields": {
+      "created_at": "2019-04-05T11:05:11.598Z",
+      "modified_at": "2019-04-05T11:05:11.598Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-allgemein",
+      "question": "personalbetten",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "f5e34048-9e5a-4168-8515-cb8c0308485e",
+    "fields": {
+      "created_at": "2019-04-05T10:20:01.189Z",
+      "modified_at": "2019-04-05T10:20:01.189Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "ausschankraeume-tabelle",
+      "question": "zahl",
+      "sort": 4
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "f7c828ee-4dfd-4cf5-86bc-fb1b1ea47246",
     "fields": {
       "created_at": "2019-03-28T14:57:14.575Z",
@@ -4808,6 +5434,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "fa3e88f4-e27c-4f36-a389-b8bed18c06fa",
+    "fields": {
+      "created_at": "2019-04-05T09:09:14.371Z",
+      "modified_at": "2019-04-05T09:09:14.371Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "laden-tabelle",
+      "question": "schliesszeit-laden",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "fa9d0f85-cf54-47cb-9337-9cc58858c838",
     "fields": {
       "created_at": "2019-03-28T09:46:56.092Z",
@@ -4817,6 +5456,19 @@
       "form": "triage",
       "question": "bauten-mit-mehr-als-30-grossvieheinheiten",
       "sort": 7
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "fab55300-cd72-42d2-8d9a-2354b59bcd7e",
+    "fields": {
+      "created_at": "2019-04-05T08:13:41.581Z",
+      "modified_at": "2019-04-05T08:13:41.582Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien-gastgewerbe",
+      "question": "vorname-gastgewerbe",
+      "sort": 4
     }
   },
   {
@@ -5216,6 +5868,26 @@
   },
   {
     "model": "form.question",
+    "pk": "alkoholausschank",
+    "fields": {
+      "created_at": "2019-04-05T08:24:42.196Z",
+      "modified_at": "2019-04-05T08:24:42.197Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Alkoholausschank\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "allgemeine-angaben",
     "fields": {
       "created_at": "2019-04-01T15:26:12.771Z",
@@ -5276,6 +5948,66 @@
   },
   {
     "model": "form.question",
+    "pk": "anzahl-damen-toiletten",
+    "fields": {
+      "created_at": "2019-04-05T10:12:01.086Z",
+      "modified_at": "2019-04-05T10:12:01.088Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Anzahl Damen Toiletten\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "anzahl-garten-terrassen",
+    "fields": {
+      "created_at": "2019-04-05T10:35:54.219Z",
+      "modified_at": "2019-04-05T10:35:54.219Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Anzahl G\\u00e4rten / Terrassen\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "anzahl-pissoire",
+    "fields": {
+      "created_at": "2019-04-05T10:14:36.532Z",
+      "modified_at": "2019-04-05T10:14:36.532Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Anzahl Pissoire\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "anzahl-sonden",
     "fields": {
       "created_at": "2019-04-01T14:10:23.987Z",
@@ -5286,6 +6018,26 @@
       "type": "text",
       "is_required": "true",
       "is_hidden": "'entzug-von-waerme-mittels-erdwaermesonde-nein' in 'entzug-von-waerme-mittels-erdwaermesonde'|answer",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "anzahl-toiletten-herren",
+    "fields": {
+      "created_at": "2019-04-05T10:12:49.259Z",
+      "modified_at": "2019-04-05T10:12:49.260Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Anzahl Toiletten Herren\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
       "is_archived": false,
       "configuration": { "max_length": null },
       "meta": {},
@@ -5325,6 +6077,26 @@
       "label": "{\"de\": \"Anzahl Wohnungen neu\", \"fr\": null, \"en\": null}",
       "type": "integer",
       "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "appartements",
+    "fields": {
+      "created_at": "2019-04-05T10:55:10.904Z",
+      "modified_at": "2019-04-05T10:55:10.904Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Appartements\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "false",
       "is_hidden": "false",
       "is_archived": false,
       "configuration": { "max_value": null, "min_value": null },
@@ -5490,6 +6262,26 @@
       "configuration": { "max_length": null },
       "meta": {},
       "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "ausschankraeume",
+    "fields": {
+      "created_at": "2019-04-05T10:27:44.175Z",
+      "modified_at": "2019-04-05T10:27:44.175Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ausschankr\\u00e4ume\", \"fr\": null, \"en\": null}",
+      "type": "table",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": "ausschankraeume-tabelle",
       "sub_form": null,
       "source": null
     }
@@ -6176,6 +6968,26 @@
   },
   {
     "model": "form.question",
+    "pk": "betriebskonzept",
+    "fields": {
+      "created_at": "2019-04-05T11:06:15.319Z",
+      "modified_at": "2019-04-05T11:06:15.320Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Betriebskonzept\", \"fr\": null, \"en\": null}",
+      "type": "textarea",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "betriebsweise",
     "fields": {
       "created_at": "2019-04-01T13:45:01.248Z",
@@ -6456,6 +7268,26 @@
   },
   {
     "model": "form.question",
+    "pk": "davon-in-saelen",
+    "fields": {
+      "created_at": "2019-04-05T10:23:27.568Z",
+      "modified_at": "2019-04-05T10:23:27.568Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"davon in S\\u00e4len\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "davon-ueberdacht",
     "fields": {
       "created_at": "2019-04-03T11:23:07.845Z",
@@ -6646,6 +7478,26 @@
       "type": "text",
       "is_required": "true",
       "is_hidden": "!('projektverfasserin-identisch-nein' in 'projektverfasserin-identisch'|answer)",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "e-mail-gastgewerbe",
+    "fields": {
+      "created_at": "2019-04-05T08:16:05.179Z",
+      "modified_at": "2019-04-05T08:16:05.179Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"E-Mail\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "false",
+      "is_hidden": "false",
       "is_archived": false,
       "configuration": { "max_length": null },
       "meta": {},
@@ -7056,6 +7908,26 @@
   },
   {
     "model": "form.question",
+    "pk": "flaeche-in-quadratmeter",
+    "fields": {
+      "created_at": "2019-04-05T10:21:23.880Z",
+      "modified_at": "2019-04-05T10:21:23.880Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Fl\\u00e4che in m\\u00b2\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "flammpunkt",
     "fields": {
       "created_at": "2019-04-03T12:07:12.713Z",
@@ -7151,6 +8023,86 @@
       "meta": {},
       "row_form": null,
       "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "fumoir",
+    "fields": {
+      "created_at": "2019-04-05T10:44:06.451Z",
+      "modified_at": "2019-04-05T10:44:06.451Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Fumoir\", \"fr\": null, \"en\": null}",
+      "type": "multiple_choice",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "gaestebetten",
+    "fields": {
+      "created_at": "2019-04-05T10:50:07.201Z",
+      "modified_at": "2019-04-05T10:50:07.201Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"G\\u00e4stebetten\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "gaestezimmer",
+    "fields": {
+      "created_at": "2019-04-05T10:47:02.991Z",
+      "modified_at": "2019-04-05T10:47:02.991Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"G\\u00e4stezimmer\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "gastgewerbe-allgemein",
+    "fields": {
+      "created_at": "2019-04-05T08:40:48.637Z",
+      "modified_at": "2019-04-05T08:40:48.637Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Gastgewerbe - Allgemein\", \"fr\": null, \"en\": null}",
+      "type": "form",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": "gastgewerbe-allgemein",
       "source": null
     }
   },
@@ -7976,6 +8928,26 @@
   },
   {
     "model": "form.question",
+    "pk": "in-quadratmeter",
+    "fields": {
+      "created_at": "2019-04-05T10:39:02.629Z",
+      "modified_at": "2019-04-05T10:39:02.657Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"in m\\u00b2\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "integration-anderer-gebaeude",
     "fields": {
       "created_at": "2019-04-01T13:23:59.806Z",
@@ -8736,6 +9708,26 @@
   },
   {
     "model": "form.question",
+    "pk": "laden",
+    "fields": {
+      "created_at": "2019-04-05T09:15:32.684Z",
+      "modified_at": "2019-04-05T09:15:32.684Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Laden\", \"fr\": null, \"en\": null}",
+      "type": "table",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": "laden-tabelle",
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "laermige-bauphase-laenger-als-6-tage",
     "fields": {
       "created_at": "2019-04-02T10:35:46.916Z",
@@ -9076,6 +10068,26 @@
   },
   {
     "model": "form.question",
+    "pk": "massenlager",
+    "fields": {
+      "created_at": "2019-04-05T11:01:09.608Z",
+      "modified_at": "2019-04-05T11:01:09.608Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Massenlager\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "mehr-als-1500-m3-bodenmaterial",
     "fields": {
       "created_at": "2019-04-01T11:40:08.548Z",
@@ -9276,6 +10288,26 @@
   },
   {
     "model": "form.question",
+    "pk": "name-betrieb-gastgewerbe",
+    "fields": {
+      "created_at": "2019-04-05T08:07:22.128Z",
+      "modified_at": "2019-04-05T08:07:22.128Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Name Betrieb\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "name-betrieb-projektverfasserin",
     "fields": {
       "created_at": "2019-04-04T06:43:48.213Z",
@@ -9346,6 +10378,26 @@
       "type": "text",
       "is_required": "true",
       "is_hidden": "'oberflaechengewaesser-regenabwasserleitung-nein' in 'oberflaechengewaesser-regenabwasserleitung'|answer",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "name-gastgewerbe",
+    "fields": {
+      "created_at": "2019-04-05T08:14:30.995Z",
+      "modified_at": "2019-04-05T08:14:30.995Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Name\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
       "is_archived": false,
       "configuration": { "max_length": null },
       "meta": {},
@@ -9716,6 +10768,26 @@
   },
   {
     "model": "form.question",
+    "pk": "nummer-gastgewerbe",
+    "fields": {
+      "created_at": "2019-04-05T08:09:37.843Z",
+      "modified_at": "2019-04-05T08:09:37.843Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nummer\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "nummer-gebaeudeeigentuemerin",
     "fields": {
       "created_at": "2019-04-04T08:47:48.665Z",
@@ -9996,6 +11068,86 @@
   },
   {
     "model": "form.question",
+    "pk": "oeffentlichkeit",
+    "fields": {
+      "created_at": "2019-04-05T08:27:48.653Z",
+      "modified_at": "2019-04-05T08:27:48.654Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"\\u00f6ffentlichkeit\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "oeffnungszeiten",
+    "fields": {
+      "created_at": "2019-04-05T08:30:18.653Z",
+      "modified_at": "2019-04-05T08:30:18.653Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"\\u00d6ffnungszeiten\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "oeffnungszeit-laden",
+    "fields": {
+      "created_at": "2019-04-05T09:08:24.325Z",
+      "modified_at": "2019-04-05T09:08:24.325Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"\\u00d6ffnungszeit\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "offnungszeiten-tabelle",
+    "fields": {
+      "created_at": "2019-04-05T08:37:07.951Z",
+      "modified_at": "2019-04-05T08:37:07.951Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"\\u00d6ffnungszeiten\", \"fr\": null, \"en\": null}",
+      "type": "table",
+      "is_required": "false",
+      "is_hidden": "!('oeffnungszeiten-generelle-ueberzeit' in 'oeffnungszeiten'|answer)",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": "oeffnungszeiten-tabelle",
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "organismen-in-anlage",
     "fields": {
       "created_at": "2019-04-02T13:42:24.454Z",
@@ -10026,6 +11178,26 @@
       "type": "text",
       "is_required": "true",
       "is_hidden": "!('projektverfasserin-identisch-nein' in 'projektverfasserin-identisch'|answer)",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "ort-gastgewerbe",
+    "fields": {
+      "created_at": "2019-04-05T08:11:42.917Z",
+      "modified_at": "2019-04-05T08:11:42.917Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ort\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
       "is_archived": false,
       "configuration": { "max_length": null },
       "meta": {},
@@ -10256,6 +11428,26 @@
   },
   {
     "model": "form.question",
+    "pk": "personalbetten",
+    "fields": {
+      "created_at": "2019-04-05T11:05:11.513Z",
+      "modified_at": "2019-04-05T11:05:11.513Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Personalbetten\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "personalien",
     "fields": {
       "created_at": "2019-04-01T15:24:32.816Z",
@@ -10271,6 +11463,26 @@
       "meta": {},
       "row_form": null,
       "sub_form": "personalien",
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "personalien-gastgewerbe",
+    "fields": {
+      "created_at": "2019-04-05T08:19:41.821Z",
+      "modified_at": "2019-04-05T08:19:41.821Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Personalien - Gastgewerbe\", \"fr\": null, \"en\": null}",
+      "type": "form",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": "personalien-gastgewerbe",
       "source": null
     }
   },
@@ -10386,6 +11598,26 @@
       "type": "text",
       "is_required": "true",
       "is_hidden": "!('projektverfasserin-identisch-nein' in 'projektverfasserin-identisch'|answer)",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "plz-gastgewerbe",
+    "fields": {
+      "created_at": "2019-04-05T08:10:34.236Z",
+      "modified_at": "2019-04-05T08:10:34.236Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"PLZ\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
       "is_archived": false,
       "configuration": { "max_length": null },
       "meta": {},
@@ -10576,6 +11808,26 @@
   },
   {
     "model": "form.question",
+    "pk": "prostitution",
+    "fields": {
+      "created_at": "2019-04-05T09:04:53.761Z",
+      "modified_at": "2019-04-05T09:04:53.761Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Prostitution\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "qss-stufe",
     "fields": {
       "created_at": "2019-04-01T12:19:18.723Z",
@@ -10736,6 +11988,46 @@
   },
   {
     "model": "form.question",
+    "pk": "schliessungszeit",
+    "fields": {
+      "created_at": "2019-04-05T08:34:16.965Z",
+      "modified_at": "2019-04-05T08:34:16.965Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Schliessungszeit\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "schliesszeit-laden",
+    "fields": {
+      "created_at": "2019-04-05T09:09:14.292Z",
+      "modified_at": "2019-04-05T09:09:14.292Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Schliesszeit\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "schmutz-oder-mischwasserkanalisation",
     "fields": {
       "created_at": "2019-04-03T14:54:11.788Z",
@@ -10848,6 +12140,46 @@
       "is_hidden": "false",
       "is_archived": false,
       "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "sitzplaetze",
+    "fields": {
+      "created_at": "2019-04-05T10:22:36.908Z",
+      "modified_at": "2019-04-05T10:22:36.908Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Sitzpl\\u00e4tze\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "sitzplaetze-garten",
+    "fields": {
+      "created_at": "2019-04-05T10:41:35.857Z",
+      "modified_at": "2019-04-05T10:41:35.857Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Sitzpl\\u00e4tze\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
       "meta": {},
       "row_form": null,
       "sub_form": null,
@@ -10996,6 +12328,26 @@
   },
   {
     "model": "form.question",
+    "pk": "stockwerk",
+    "fields": {
+      "created_at": "2019-04-05T10:15:50.109Z",
+      "modified_at": "2019-04-05T10:15:50.111Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Stockwerk\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "stoerende-lichtreflektionen",
     "fields": {
       "created_at": "2019-04-03T07:53:47.364Z",
@@ -11063,6 +12415,26 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Strasse/Flurname\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "strasse-gastgewerbe",
+    "fields": {
+      "created_at": "2019-04-05T08:08:58.102Z",
+      "modified_at": "2019-04-05T08:08:58.102Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Strasse\", \"fr\": null, \"en\": null}",
       "type": "text",
       "is_required": "true",
       "is_hidden": "false",
@@ -11236,6 +12608,26 @@
   },
   {
     "model": "form.question",
+    "pk": "striptease",
+    "fields": {
+      "created_at": "2019-04-05T09:04:22.775Z",
+      "modified_at": "2019-04-05T09:04:22.775Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Striptease\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "system",
     "fields": {
       "created_at": "2019-04-01T14:28:46.452Z",
@@ -11276,6 +12668,46 @@
   },
   {
     "model": "form.question",
+    "pk": "taetigkeit-des-betriebs-gastgewerbe",
+    "fields": {
+      "created_at": "2019-04-05T08:12:34.641Z",
+      "modified_at": "2019-04-05T08:12:34.641Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"T\\u00e4tigkeit des Betriebs\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "tanzbetrieb",
+    "fields": {
+      "created_at": "2019-04-05T09:02:49.477Z",
+      "modified_at": "2019-04-05T09:02:49.477Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Tanzbetrieb\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "telefon-oder-mobile",
     "fields": {
       "created_at": "2019-03-08T15:32:55.365Z",
@@ -11306,6 +12738,26 @@
       "type": "text",
       "is_required": "true",
       "is_hidden": "!('projektverfasserin-identisch-nein' in 'projektverfasserin-identisch'|answer)",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "telefon-oder-mobile-gastgewerbe",
+    "fields": {
+      "created_at": "2019-04-05T08:15:24.280Z",
+      "modified_at": "2019-04-05T08:15:24.280Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Telefon oder Mobile\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
       "is_archived": false,
       "configuration": { "max_length": null },
       "meta": {},
@@ -12056,6 +13508,26 @@
   },
   {
     "model": "form.question",
+    "pk": "vorname-gastgewerbe",
+    "fields": {
+      "created_at": "2019-04-05T08:13:41.434Z",
+      "modified_at": "2019-04-05T08:13:41.434Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Vorname\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "vorname-gebaeudeeigentuemerin",
     "fields": {
       "created_at": "2019-04-04T08:41:34.429Z",
@@ -12576,6 +14048,46 @@
   },
   {
     "model": "form.question",
+    "pk": "wochentag",
+    "fields": {
+      "created_at": "2019-04-05T08:33:39.213Z",
+      "modified_at": "2019-04-05T08:33:39.213Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Wochentag\", \"fr\": null, \"en\": null}",
+      "type": "multiple_choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": { "widgetType": "powerselect" },
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "wochentag-laden",
+    "fields": {
+      "created_at": "2019-04-05T09:07:35.924Z",
+      "modified_at": "2019-04-05T09:07:35.924Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Wochentag\", \"fr\": null, \"en\": null}",
+      "type": "multiple_choice",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": { "widgetType": "powerselect" },
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "wohnen",
     "fields": {
       "created_at": "2019-04-03T10:51:51.009Z",
@@ -12648,6 +14160,26 @@
       "is_hidden": "false",
       "is_archived": false,
       "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "zahl",
+    "fields": {
+      "created_at": "2019-04-05T10:20:01.025Z",
+      "modified_at": "2019-04-05T10:20:01.027Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Zahl\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
       "meta": {},
       "row_form": null,
       "sub_form": null,
@@ -12818,6 +14350,19 @@
       "question": "integration-anderer-gebaeude",
       "option": "integration-anderer-gebaeude-nein",
       "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "01b8c8c5-eb51-4aae-bb35-070eb53df2fc",
+    "fields": {
+      "created_at": "2019-04-05T09:07:35.942Z",
+      "modified_at": "2019-04-05T09:07:35.942Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "wochentag-laden",
+      "option": "wochentag-laden-montag",
+      "sort": 7
     }
   },
   {
@@ -13004,6 +14549,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "072860cb-f57b-429d-8d05-8801edabe348",
+    "fields": {
+      "created_at": "2019-04-05T09:07:35.942Z",
+      "modified_at": "2019-04-05T09:07:35.942Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "wochentag-laden",
+      "option": "wochentag-laden-samstag",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "073b0787-8852-4aa7-9be1-f7f9a5a73c6a",
     "fields": {
       "created_at": "2019-04-01T13:20:09.531Z",
@@ -13142,6 +14700,19 @@
       "created_by_group": null,
       "question": "betriebsweise",
       "option": "betriebsweise-monovalent",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "0dfcefcf-78ce-4bff-b868-d01d77573f54",
+    "fields": {
+      "created_at": "2019-04-05T08:24:42.226Z",
+      "modified_at": "2019-04-05T08:24:42.226Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "alkoholausschank",
+      "option": "alkoholausschank-ja",
       "sort": 2
     }
   },
@@ -13355,6 +14926,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "181f01c6-85ab-4d54-9c71-994b6e962c28",
+    "fields": {
+      "created_at": "2019-04-05T09:04:53.765Z",
+      "modified_at": "2019-04-05T09:04:53.765Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "prostitution",
+      "option": "prostitution-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "198e0d86-5ace-48ff-870f-8f3b82225e66",
     "fields": {
       "created_at": "2019-04-02T14:11:50.453Z",
@@ -13363,6 +14947,45 @@
       "created_by_group": null,
       "question": "mengenschwelle-hochaktive-stoffe",
       "option": "mengenschwelle-hochaktive-stoffe-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "1a6686ad-2d6d-48f3-b5a8-bd289734a1d4",
+    "fields": {
+      "created_at": "2019-04-05T09:02:49.492Z",
+      "modified_at": "2019-04-05T09:02:49.492Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "tanzbetrieb",
+      "option": "tanzbetrieb-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "1b8aaccd-a190-44ad-a7e9-ed0e7d8274b5",
+    "fields": {
+      "created_at": "2019-04-05T09:07:35.942Z",
+      "modified_at": "2019-04-05T09:07:35.942Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "wochentag-laden",
+      "option": "wochentag-laden-donnerstag",
+      "sort": 4
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "1bc8d465-0de6-4113-a1cc-61d5c0787155",
+    "fields": {
+      "created_at": "2019-04-05T08:33:39.217Z",
+      "modified_at": "2019-04-05T08:33:39.217Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "wochentag",
+      "option": "wochentag-sonntag",
       "sort": 1
     }
   },
@@ -13836,6 +15459,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "2f39bdad-7811-4577-a3fa-569863fe61de",
+    "fields": {
+      "created_at": "2019-04-05T09:07:35.942Z",
+      "modified_at": "2019-04-05T09:07:35.942Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "wochentag-laden",
+      "option": "wochentag-laden-mittwoch",
+      "sort": 5
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "2f5f3a07-51e2-48a7-bc8e-8fb4123f026c",
     "fields": {
       "created_at": "2019-04-01T11:28:08.325Z",
@@ -13858,6 +15494,19 @@
       "question": "bauten-oder-pfaehlen-im-grundwasser",
       "option": "bauten-oder-pfaehlen-im-grundwasser-ja",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "30cb0921-4301-417a-939d-2cc46378eb1f",
+    "fields": {
+      "created_at": "2019-04-05T08:33:39.217Z",
+      "modified_at": "2019-04-05T08:33:39.217Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "wochentag",
+      "option": "wochentag-montag",
+      "sort": 7
     }
   },
   {
@@ -14261,6 +15910,19 @@
       "question": "ableitung-haeusliche-abwaesser",
       "option": "ableitung-haeusliche-abwaesser-klaergrube",
       "sort": 4
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "462b1177-c990-48f3-8130-6ec65acd5ee2",
+    "fields": {
+      "created_at": "2019-04-05T08:33:39.217Z",
+      "modified_at": "2019-04-05T08:33:39.217Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "wochentag",
+      "option": "wochentag-freitag",
+      "sort": 3
     }
   },
   {
@@ -14798,6 +16460,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "5754dae7-c881-4f15-8efd-8e0fad565b38",
+    "fields": {
+      "created_at": "2019-04-05T08:33:39.217Z",
+      "modified_at": "2019-04-05T08:33:39.217Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "wochentag",
+      "option": "wochentag-mittwoch",
+      "sort": 5
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "59985672-573b-4318-9b36-881dd10b929e",
     "fields": {
       "created_at": "2019-04-03T13:31:11.814Z",
@@ -14846,6 +16521,19 @@
       "question": "qss-stufe",
       "option": "qss-stufe-2",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "5ce03822-f918-42ba-8251-23917e86e5c9",
+    "fields": {
+      "created_at": "2019-04-05T08:27:48.662Z",
+      "modified_at": "2019-04-05T08:27:48.662Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "oeffentlichkeit",
+      "option": "oeffentlichkeit-nicht-oeffentlich",
+      "sort": 1
     }
   },
   {
@@ -15028,6 +16716,19 @@
       "question": "finden-bauarbeiten-in-der-nacht-statt",
       "option": "finden-bauarbeiten-in-der-nacht-statt-nein",
       "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "64140eda-2f58-4f65-afe1-d4e9ca4091af",
+    "fields": {
+      "created_at": "2019-04-05T08:27:48.662Z",
+      "modified_at": "2019-04-05T08:27:48.662Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "oeffentlichkeit",
+      "option": "oeffentlichkeit-oeffentlich",
+      "sort": 2
     }
   },
   {
@@ -15279,6 +16980,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "6f3c49ea-6450-49af-91ad-fe793fd813c0",
+    "fields": {
+      "created_at": "2019-04-05T10:44:06.464Z",
+      "modified_at": "2019-04-05T10:44:06.464Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "fumoir",
+      "option": "fumoir-erweiterung",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "6f46c6fb-1343-406b-9e76-decf910d29a3",
     "fields": {
       "created_at": "2019-04-01T11:44:38.608Z",
@@ -15327,6 +17041,32 @@
       "question": "duschmoeglichkeit-in-der-schleuse",
       "option": "duschmoglichkeit-in-der-schleuse-ja",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "701e8903-901f-4069-8306-766b1ef42878",
+    "fields": {
+      "created_at": "2019-04-05T09:07:35.942Z",
+      "modified_at": "2019-04-05T09:07:35.942Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "wochentag-laden",
+      "option": "wochentag-laden-dienstag",
+      "sort": 6
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "707a5fcf-83f2-4cfc-84d0-567b95454397",
+    "fields": {
+      "created_at": "2019-04-05T08:33:39.217Z",
+      "modified_at": "2019-04-05T08:33:39.217Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "wochentag",
+      "option": "wochentag-dienstag",
+      "sort": 6
     }
   },
   {
@@ -15812,6 +17552,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "89351929-8471-417a-8f1b-f4ed00b8d34f",
+    "fields": {
+      "created_at": "2019-04-05T09:04:53.765Z",
+      "modified_at": "2019-04-05T09:04:53.765Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "prostitution",
+      "option": "prostitution-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "89a52e7f-a22d-4a32-aad2-485ba6b8bda8",
     "fields": {
       "created_at": "2019-03-28T09:21:10.406Z",
@@ -15890,6 +17643,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "8c6f4dff-a034-41d9-9eed-0f279e43f704",
+    "fields": {
+      "created_at": "2019-04-05T08:30:18.673Z",
+      "modified_at": "2019-04-05T08:30:18.673Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "oeffnungszeiten",
+      "option": "oeffnungszeiten-normal",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "8cc36478-8fa6-4adf-bf7d-12161f5cc412",
     "fields": {
       "created_at": "2019-04-01T14:25:14.587Z",
@@ -15912,6 +17678,19 @@
       "question": "verwendungszweck-der-anlage",
       "option": "verwendungszweck-der-anlage-andere",
       "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "8dbb34e8-cce3-41db-b6cb-3c2455a2e57c",
+    "fields": {
+      "created_at": "2019-04-05T08:33:39.217Z",
+      "modified_at": "2019-04-05T08:33:39.217Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "wochentag",
+      "option": "wochentag-samstag",
+      "sort": 2
     }
   },
   {
@@ -16185,6 +17964,19 @@
       "question": "massangabe",
       "option": "massangabe-liter",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "96895e85-f533-4221-8b26-44d5bd9996d6",
+    "fields": {
+      "created_at": "2019-04-05T10:44:06.465Z",
+      "modified_at": "2019-04-05T10:44:06.465Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "fumoir",
+      "option": "fumoir-neu",
+      "sort": 3
     }
   },
   {
@@ -16644,6 +18436,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "afe5eb97-a33b-4bf4-951c-d925d13c5ba1",
+    "fields": {
+      "created_at": "2019-04-05T09:02:49.492Z",
+      "modified_at": "2019-04-05T09:02:49.492Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "tanzbetrieb",
+      "option": "tanzbetrieb-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "b0e10783-e123-4b70-95d2-6fc0643e0116",
     "fields": {
       "created_at": "2019-04-01T10:00:07.793Z",
@@ -16666,6 +18471,19 @@
       "question": "wohnungsgroesse",
       "option": "wohnungsgroesse-4",
       "sort": 27
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "b2521db6-00a0-4c3d-9dde-514a9a8296b2",
+    "fields": {
+      "created_at": "2019-04-05T10:44:06.465Z",
+      "modified_at": "2019-04-05T10:44:06.465Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "fumoir",
+      "option": "fumoir-bestehend",
+      "sort": 2
     }
   },
   {
@@ -16744,6 +18562,19 @@
       "question": "gueterumschlag-im-freien-oder-an-rampen",
       "option": "gueterumschlag-im-freien-oder-an-rampen-nein",
       "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "b702ad12-b5ad-4194-8948-69e16d286455",
+    "fields": {
+      "created_at": "2019-04-05T09:04:22.781Z",
+      "modified_at": "2019-04-05T09:04:22.781Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "striptease",
+      "option": "striptease-ja",
+      "sort": 2
     }
   },
   {
@@ -17060,6 +18891,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "c7620403-7b14-4c88-9cf1-32aa93374bff",
+    "fields": {
+      "created_at": "2019-04-05T09:04:22.781Z",
+      "modified_at": "2019-04-05T09:04:22.781Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "striptease",
+      "option": "striptease-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "c7adb70e-dcca-4f4e-ba6a-696f39db2588",
     "fields": {
       "created_at": "2019-04-01T11:58:51.172Z",
@@ -17095,6 +18939,19 @@
       "question": "sterilisation-des-abwassers",
       "option": "sterilisation-des-abwassers-ja",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "c95aa384-de71-4d84-9458-42ddbdd2e9c2",
+    "fields": {
+      "created_at": "2019-04-05T08:30:18.673Z",
+      "modified_at": "2019-04-05T08:30:18.673Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "oeffnungszeiten",
+      "option": "oeffnungszeiten-generelle-ueberzeit",
+      "sort": 1
     }
   },
   {
@@ -17173,6 +19030,19 @@
       "question": "baubeschrieb",
       "option": "baubeschrieb-um-ausbau",
       "sort": 8
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "cfde466f-5b1a-43ff-8d7b-da02c60112c3",
+    "fields": {
+      "created_at": "2019-04-05T08:33:39.217Z",
+      "modified_at": "2019-04-05T08:33:39.217Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "wochentag",
+      "option": "wochentag-donnerstag",
+      "sort": 4
     }
   },
   {
@@ -17398,6 +19268,32 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "dff34960-e679-4c17-9edd-e47b4f52bad9",
+    "fields": {
+      "created_at": "2019-04-05T08:24:42.225Z",
+      "modified_at": "2019-04-05T08:24:42.225Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "alkoholausschank",
+      "option": "alkoholausschank-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "e083d540-a8f9-4cd5-8e0e-bb20dfb8251b",
+    "fields": {
+      "created_at": "2019-04-05T09:07:35.941Z",
+      "modified_at": "2019-04-05T09:07:35.942Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "wochentag-laden",
+      "option": "wochentag-laden-sonntag",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "e0f88b97-d015-4902-95fd-ce4bdc877d1c",
     "fields": {
       "created_at": "2019-04-01T11:34:45.214Z",
@@ -17459,6 +19355,19 @@
       "question": "nutzungsart",
       "option": "nutzungsart-industrie",
       "sort": 8
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "e7e1e7b2-a0ee-4652-8219-2252af3f0952",
+    "fields": {
+      "created_at": "2019-04-05T09:07:35.942Z",
+      "modified_at": "2019-04-05T09:07:35.942Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "wochentag-laden",
+      "option": "wochentag-laden-freitag",
+      "sort": 3
     }
   },
   {
@@ -18260,6 +20169,32 @@
     "fields": {
       "created_at": "2019-04-03T13:22:25.277Z",
       "modified_at": "2019-04-03T13:22:25.277Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "alkoholausschank-ja",
+    "fields": {
+      "created_at": "2019-04-05T08:24:41.985Z",
+      "modified_at": "2019-04-05T08:24:41.985Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "alkoholausschank-nein",
+    "fields": {
+      "created_at": "2019-04-05T08:24:41.985Z",
+      "modified_at": "2019-04-05T08:24:41.985Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
@@ -19732,6 +21667,45 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "fumoir-bestehend",
+    "fields": {
+      "created_at": "2019-04-05T10:44:06.184Z",
+      "modified_at": "2019-04-05T10:44:06.184Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Bestehend\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "fumoir-erweiterung",
+    "fields": {
+      "created_at": "2019-04-05T10:44:06.173Z",
+      "modified_at": "2019-04-05T10:44:06.180Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Erweiterung\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "fumoir-neu",
+    "fields": {
+      "created_at": "2019-04-05T10:44:06.169Z",
+      "modified_at": "2019-04-05T10:44:06.180Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Neu\", \"fr\": null, \"en\": null}",
       "meta": {},
       "source": null
     }
@@ -21441,6 +23415,58 @@
   },
   {
     "model": "form.option",
+    "pk": "oeffentlichkeit-nicht-oeffentlich",
+    "fields": {
+      "created_at": "2019-04-05T08:27:48.465Z",
+      "modified_at": "2019-04-05T08:27:48.465Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"nicht \\u00f6ffentlich\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "oeffentlichkeit-oeffentlich",
+    "fields": {
+      "created_at": "2019-04-05T08:27:48.475Z",
+      "modified_at": "2019-04-05T08:27:48.475Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"\\u00f6ffentlich\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "oeffnungszeiten-generelle-ueberzeit",
+    "fields": {
+      "created_at": "2019-04-05T08:30:18.424Z",
+      "modified_at": "2019-04-05T08:30:18.424Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"generelle \\u00dcberzeit\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "oeffnungszeiten-normal",
+    "fields": {
+      "created_at": "2019-04-05T08:30:18.407Z",
+      "modified_at": "2019-04-05T08:30:18.407Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"normal\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
     "pk": "organismen-in-anlage-andere",
     "fields": {
       "created_at": "2019-04-02T13:42:23.534Z",
@@ -21562,6 +23588,32 @@
     "fields": {
       "created_at": "2019-04-01T12:29:02.592Z",
       "modified_at": "2019-04-04T06:40:26.498Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "prostitution-ja",
+    "fields": {
+      "created_at": "2019-04-05T09:04:53.542Z",
+      "modified_at": "2019-04-05T09:04:53.543Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "prostitution-nein",
+    "fields": {
+      "created_at": "2019-04-05T09:04:53.566Z",
+      "modified_at": "2019-04-05T09:04:53.567Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
@@ -21991,6 +24043,58 @@
     "fields": {
       "created_at": "2019-04-03T07:53:47.220Z",
       "modified_at": "2019-04-03T07:53:47.221Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "striptease-ja",
+    "fields": {
+      "created_at": "2019-04-05T09:04:22.539Z",
+      "modified_at": "2019-04-05T09:04:22.539Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "striptease-nein",
+    "fields": {
+      "created_at": "2019-04-05T09:04:22.556Z",
+      "modified_at": "2019-04-05T09:04:22.556Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "tanzbetrieb-ja",
+    "fields": {
+      "created_at": "2019-04-05T09:02:49.214Z",
+      "modified_at": "2019-04-05T09:02:49.215Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "tanzbetrieb-nein",
+    "fields": {
+      "created_at": "2019-04-05T09:02:49.148Z",
+      "modified_at": "2019-04-05T09:02:49.148Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
@@ -23385,6 +25489,188 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "wochentag-dienstag",
+    "fields": {
+      "created_at": "2019-04-05T08:33:38.987Z",
+      "modified_at": "2019-04-05T08:33:38.987Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Dienstag\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "wochentag-donnerstag",
+    "fields": {
+      "created_at": "2019-04-05T08:33:38.992Z",
+      "modified_at": "2019-04-05T08:33:38.992Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Donnerstag\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "wochentag-freitag",
+    "fields": {
+      "created_at": "2019-04-05T08:33:39.046Z",
+      "modified_at": "2019-04-05T08:33:39.046Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Freitag\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "wochentag-laden-dienstag",
+    "fields": {
+      "created_at": "2019-04-05T09:07:35.718Z",
+      "modified_at": "2019-04-05T09:07:35.719Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Dienstag\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "wochentag-laden-donnerstag",
+    "fields": {
+      "created_at": "2019-04-05T09:07:35.637Z",
+      "modified_at": "2019-04-05T09:07:35.637Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Donnerstag\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "wochentag-laden-freitag",
+    "fields": {
+      "created_at": "2019-04-05T09:07:35.653Z",
+      "modified_at": "2019-04-05T09:07:35.653Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Freitag\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "wochentag-laden-mittwoch",
+    "fields": {
+      "created_at": "2019-04-05T09:07:35.590Z",
+      "modified_at": "2019-04-05T09:07:35.590Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Mittwoch\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "wochentag-laden-montag",
+    "fields": {
+      "created_at": "2019-04-05T09:07:35.559Z",
+      "modified_at": "2019-04-05T09:07:35.559Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Montag\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "wochentag-laden-samstag",
+    "fields": {
+      "created_at": "2019-04-05T09:07:35.618Z",
+      "modified_at": "2019-04-05T09:07:35.618Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Samstag\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "wochentag-laden-sonntag",
+    "fields": {
+      "created_at": "2019-04-05T09:07:35.657Z",
+      "modified_at": "2019-04-05T09:07:35.657Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Sonntag\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "wochentag-mittwoch",
+    "fields": {
+      "created_at": "2019-04-05T08:33:38.992Z",
+      "modified_at": "2019-04-05T08:33:38.992Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Mittwoch\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "wochentag-montag",
+    "fields": {
+      "created_at": "2019-04-05T08:33:38.987Z",
+      "modified_at": "2019-04-05T08:33:38.987Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Montag\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "wochentag-samstag",
+    "fields": {
+      "created_at": "2019-04-05T08:33:39.049Z",
+      "modified_at": "2019-04-05T08:33:39.049Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Samstag\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "wochentag-sonntag",
+    "fields": {
+      "created_at": "2019-04-05T08:33:39.054Z",
+      "modified_at": "2019-04-05T08:33:39.054Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Sonntag\", \"fr\": null, \"en\": null}",
       "meta": {},
       "source": null
     }
