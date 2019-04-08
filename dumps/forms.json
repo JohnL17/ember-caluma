@@ -225,6 +225,22 @@
   },
   {
     "model": "form.form",
+    "pk": "eigentuemer-tabelle",
+    "fields": {
+      "created_at": "2019-04-08T13:30:04.290Z",
+      "modified_at": "2019-04-08T13:30:04.290Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "name": "{\"de\": \"Eigent\\u00fcmer Tabelle\", \"fr\": null, \"en\": null}",
+      "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "is_published": true,
+      "is_archived": false,
+      "source": null
+    }
+  },
+  {
+    "model": "form.form",
     "pk": "energie",
     "fields": {
       "created_at": "2019-04-01T12:25:52.037Z",
@@ -241,6 +257,22 @@
   },
   {
     "model": "form.form",
+    "pk": "entsorgung",
+    "fields": {
+      "created_at": "2019-04-08T14:55:39.590Z",
+      "modified_at": "2019-04-08T14:55:39.590Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "name": "{\"de\": \"Entsorgung\", \"fr\": null, \"en\": null}",
+      "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "is_published": true,
+      "is_archived": false,
+      "source": null
+    }
+  },
+  {
+    "model": "form.form",
     "pk": "gastgewerbe-allgemein",
     "fields": {
       "created_at": "2019-04-05T08:23:44.002Z",
@@ -248,6 +280,22 @@
       "created_by_user": null,
       "created_by_group": null,
       "name": "{\"de\": \"Gastgewerbe - Allgemein\", \"fr\": null, \"en\": null}",
+      "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "is_published": true,
+      "is_archived": false,
+      "source": null
+    }
+  },
+  {
+    "model": "form.form",
+    "pk": "gastgewerbe-fumoir",
+    "fields": {
+      "created_at": "2019-04-08T12:58:31.371Z",
+      "modified_at": "2019-04-08T12:58:31.371Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "name": "{\"de\": \"Gastgewerbe - Fumoir\", \"fr\": null, \"en\": null}",
       "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
       "meta": {},
       "is_published": true,
@@ -465,6 +513,22 @@
   },
   {
     "model": "form.form",
+    "pk": "personalien-betreiberin-der-anlage",
+    "fields": {
+      "created_at": "2019-04-08T15:07:41.632Z",
+      "modified_at": "2019-04-08T15:07:41.632Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "name": "{\"de\": \"Personalien - Betreiber/in der Anlage\", \"fr\": null, \"en\": null}",
+      "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "is_published": true,
+      "is_archived": false,
+      "source": null
+    }
+  },
+  {
+    "model": "form.form",
     "pk": "personalien-gastgewerbe",
     "fields": {
       "created_at": "2019-04-05T08:06:36.111Z",
@@ -505,6 +569,38 @@
       "created_by_group": null,
       "name": "{\"de\": null, \"fr\": null, \"en\": \"Projektverfasser/in Tabelle\"}",
       "description": "{\"de\": null, \"fr\": null, \"en\": \"\"}",
+      "meta": {},
+      "is_published": true,
+      "is_archived": false,
+      "source": null
+    }
+  },
+  {
+    "model": "form.form",
+    "pk": "reklame",
+    "fields": {
+      "created_at": "2019-04-08T13:43:31.089Z",
+      "modified_at": "2019-04-08T13:43:31.089Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "name": "{\"de\": \"Reklame\", \"fr\": null, \"en\": null}",
+      "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "is_published": true,
+      "is_archived": false,
+      "source": null
+    }
+  },
+  {
+    "model": "form.form",
+    "pk": "reklame-tabelle",
+    "fields": {
+      "created_at": "2019-04-08T13:52:56.576Z",
+      "modified_at": "2019-04-08T13:52:56.576Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "name": "{\"de\": \"Reklame Tabelle\", \"fr\": null, \"en\": null}",
+      "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
       "meta": {},
       "is_published": true,
       "is_archived": false,
@@ -600,6 +696,22 @@
       "created_by_user": null,
       "created_by_group": null,
       "name": "{\"de\": \"W\\u00e4rmepumpen\", \"fr\": null, \"en\": null}",
+      "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "is_published": true,
+      "is_archived": false,
+      "source": null
+    }
+  },
+  {
+    "model": "form.form",
+    "pk": "wald",
+    "fields": {
+      "created_at": "2019-04-08T13:13:18.652Z",
+      "modified_at": "2019-04-08T13:13:18.652Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "name": "{\"de\": \"Wald\", \"fr\": null, \"en\": null}",
       "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
       "meta": {},
       "is_published": true,
@@ -793,6 +905,45 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "067a9334-ced4-4afa-8d2c-154182dcbf31",
+    "fields": {
+      "created_at": "2019-04-08T15:08:51.829Z",
+      "modified_at": "2019-04-08T15:08:51.829Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien-betreiberin-der-anlage",
+      "question": "name-betrieb-personalien",
+      "sort": 14
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "06aa2364-3e62-4bd9-aacb-3b6b15c59b13",
+    "fields": {
+      "created_at": "2019-04-08T15:10:40.546Z",
+      "modified_at": "2019-04-08T15:10:40.546Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien-betreiberin-der-anlage",
+      "question": "nummer-personalien",
+      "sort": 12
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "06e40332-24fa-472e-a826-e1b14e4def6f",
+    "fields": {
+      "created_at": "2019-04-08T13:02:32.735Z",
+      "modified_at": "2019-04-08T13:02:32.735Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-fumoir",
+      "question": "anzahl-stehplaetze-fumoir",
+      "sort": 4
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "06f3d80a-3f23-4d41-a24c-7e19fe6313fa",
     "fields": {
       "created_at": "2019-03-15T13:17:58.282Z",
@@ -845,6 +996,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "09541ea2-c939-4451-9914-4216db36decd",
+    "fields": {
+      "created_at": "2019-04-08T13:19:56.759Z",
+      "modified_at": "2019-04-08T13:19:56.759Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "wald",
+      "question": "ist-fuer-das-vorhaben-eine-rodung-notwendig",
+      "sort": 6
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "09c94f96-f3e9-4190-9f67-ee129d1a5008",
     "fields": {
       "created_at": "2019-04-01T14:04:05.969Z",
@@ -854,6 +1018,32 @@
       "form": "waermepumpen",
       "question": "entzug-von-waerme-mittels-erdwaermesonde",
       "sort": 21
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "0a266b1e-d738-4a87-b0c8-e5d827b3595c",
+    "fields": {
+      "created_at": "2019-04-08T14:05:10.810Z",
+      "modified_at": "2019-04-08T14:05:10.810Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "reklame-tabelle",
+      "question": "breite-in-cm",
+      "sort": 14
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "0a6d61e2-8eba-4ef8-8cb2-7934b8fd535e",
+    "fields": {
+      "created_at": "2019-04-08T15:34:15.071Z",
+      "modified_at": "2019-04-08T15:34:15.071Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien-betreiberin-der-anlage",
+      "question": "e-mail-kontaktperson",
+      "sort": 5
     }
   },
   {
@@ -1001,6 +1191,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "11f6b1f8-a6fa-4729-a7b6-5c4dcb838a84",
+    "fields": {
+      "created_at": "2019-04-08T13:38:49.219Z",
+      "modified_at": "2019-04-08T13:38:49.219Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "eigentuemer-tabelle",
+      "question": "plz-wald-eigentuemer",
+      "sort": 3
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "11f7abac-6733-4e92-b7cc-e5e862a85d08",
     "fields": {
       "created_at": "2019-03-15T13:23:59.938Z",
@@ -1066,6 +1269,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "137ca27c-1cd2-442c-a1ff-3a0b3e6792f9",
+    "fields": {
+      "created_at": "2019-04-08T14:41:42.964Z",
+      "modified_at": "2019-04-08T14:41:42.964Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "reklame-tabelle",
+      "question": "bemerkungen-reklame",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "140b20ab-3fed-484b-9ca3-b4f45b544508",
     "fields": {
       "created_at": "2019-04-04T08:04:44.255Z",
@@ -1075,6 +1291,19 @@
       "form": "projektverfasserin",
       "question": "vorname-projektverfasserin",
       "sort": 8
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "14fb5401-8df2-4666-a64e-c5a66126a2d5",
+    "fields": {
+      "created_at": "2019-04-08T14:59:49.166Z",
+      "modified_at": "2019-04-08T14:59:49.166Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "entsorgung",
+      "question": "sind-bauschadstoffe-zu-erwarten",
+      "sort": 2
     }
   },
   {
@@ -1140,6 +1369,19 @@
       "form": "gastgewerbe-allgemein",
       "question": "tanzbetrieb",
       "sort": 18
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "173b7659-bdc6-4dad-8497-90ede866477d",
+    "fields": {
+      "created_at": "2019-04-08T13:25:56.293Z",
+      "modified_at": "2019-04-08T13:25:56.293Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "wald",
+      "question": "liegt-die-baute-im-waldabstandsbereich",
+      "sort": 3
     }
   },
   {
@@ -1243,7 +1485,7 @@
       "created_by_group": null,
       "form": "5-spezialformulare",
       "question": "zivilschutz",
-      "sort": 8
+      "sort": 12
     }
   },
   {
@@ -1287,6 +1529,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "1bc708e3-1a00-4743-92f9-f39a3db21010",
+    "fields": {
+      "created_at": "2019-04-08T15:24:27.287Z",
+      "modified_at": "2019-04-08T15:24:27.287Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien-betreiberin-der-anlage",
+      "question": "vorname-gewaesserschutzfragen",
+      "sort": 4
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "1c5001ca-5d36-40a6-b3bb-f9a8238868bd",
     "fields": {
       "created_at": "2019-04-02T08:53:54.649Z",
@@ -1296,6 +1551,19 @@
       "form": "waermepumpen",
       "question": "verwendungszweck-wasser",
       "sort": 12
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "1dca7030-3c7b-46b4-8a25-b1020b8be758",
+    "fields": {
+      "created_at": "2019-04-08T13:23:02.640Z",
+      "modified_at": "2019-04-08T13:23:02.641Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "wald",
+      "question": "nicht-forstliche-kleinbaute",
+      "sort": 5
     }
   },
   {
@@ -1443,6 +1711,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "23671e34-66c0-4a20-a4c7-f77835bdd484",
+    "fields": {
+      "created_at": "2019-04-08T13:24:41.083Z",
+      "modified_at": "2019-04-08T13:24:41.083Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "wald",
+      "question": "forstliche-baute",
+      "sort": 4
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "23a1df94-7339-4bd3-9317-f14846b90c7d",
     "fields": {
       "created_at": "2019-04-04T07:54:43.584Z",
@@ -1465,6 +1746,32 @@
       "form": "immissionsschutz-laermschutz",
       "question": "arbeit-waehrend-nachtzeit",
       "sort": 4
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "25b0f46e-eb29-4f8d-83f2-e1f8a19c24c5",
+    "fields": {
+      "created_at": "2019-04-08T15:20:51.587Z",
+      "modified_at": "2019-04-08T15:20:51.587Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien-betreiberin-der-anlage",
+      "question": "telefon-oder-mobile-kontaktperson",
+      "sort": 6
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "264fb7f2-fb33-48bd-8b4f-0c6564209baa",
+    "fields": {
+      "created_at": "2019-04-08T15:13:11.643Z",
+      "modified_at": "2019-04-08T15:13:11.643Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien-betreiberin-der-anlage",
+      "question": "ort-personalien",
+      "sort": 10
     }
   },
   {
@@ -1638,6 +1945,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "30327e21-c9c0-485e-93df-a0f670f65c1d",
+    "fields": {
+      "created_at": "2019-04-08T12:59:20.263Z",
+      "modified_at": "2019-04-08T12:59:20.263Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-fumoir",
+      "question": "folgender-raum-soll-als-fumoir-bewilligt-werden",
+      "sort": 7
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "31296374-c2b5-4acf-abc7-134c1dd23f3d",
     "fields": {
       "created_at": "2019-04-03T11:30:10.048Z",
@@ -1673,6 +1993,19 @@
       "form": "solar-und-sendeanlagen",
       "question": "e-mail-sendeanlage",
       "sort": 5
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "327721f9-9315-4ba7-9dc2-de735c2f5e94",
+    "fields": {
+      "created_at": "2019-04-08T14:36:24.853Z",
+      "modified_at": "2019-04-08T14:36:24.853Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "reklame-tabelle",
+      "question": "abstand-boden-bis-unterkante",
+      "sort": 4
     }
   },
   {
@@ -1725,6 +2058,19 @@
       "form": "3-grundstueck",
       "question": "allgemeine-angaben",
       "sort": 4
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "35e8b2db-403f-4307-8563-71206f1de422",
+    "fields": {
+      "created_at": "2019-04-08T13:28:41.509Z",
+      "modified_at": "2019-04-08T13:28:41.509Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "wald",
+      "question": "begruendung-waldabstand-unterschritten",
+      "sort": 2
     }
   },
   {
@@ -1790,6 +2136,32 @@
       "form": "gewaesserschutz-bauten-im-grundwasser",
       "question": "im-grundwasser-verbleibendes-einbauvolumen",
       "sort": 15
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "387790b6-2b26-4d0f-a2dc-cce1301fff60",
+    "fields": {
+      "created_at": "2019-04-08T14:25:29.865Z",
+      "modified_at": "2019-04-08T14:25:29.865Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "5-spezialformulare",
+      "question": "reklame",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "392c9840-b87b-4a2e-bc12-0b3349a80838",
+    "fields": {
+      "created_at": "2019-04-08T14:52:57.944Z",
+      "modified_at": "2019-04-08T14:52:57.944Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "reklame-tabelle",
+      "question": "reklame-neu-oder-ersatz",
+      "sort": 16
     }
   },
   {
@@ -1989,6 +2361,32 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "43aacbde-4c16-4973-aaf1-62413bfba161",
+    "fields": {
+      "created_at": "2019-04-08T14:32:10.477Z",
+      "modified_at": "2019-04-08T14:32:10.477Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "reklame-tabelle",
+      "question": "montageort-am-gebaeude",
+      "sort": 6
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "43c9118f-d961-4c6b-a587-f9f6fb2e656c",
+    "fields": {
+      "created_at": "2019-04-08T14:40:23.962Z",
+      "modified_at": "2019-04-08T14:40:23.962Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "reklame-tabelle",
+      "question": "montageort-freistehende-reklame",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "43ca4111-24ff-4556-9167-5379a21122f1",
     "fields": {
       "created_at": "2019-03-28T15:13:06.585Z",
@@ -2089,6 +2487,19 @@
       "form": "biologische-sicherheit-und-stoerfallvorsorge",
       "question": "begasung-moeglich",
       "sort": 9
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "463f1022-b643-47e5-a7f7-b5b8b58bce91",
+    "fields": {
+      "created_at": "2019-04-08T15:12:12.349Z",
+      "modified_at": "2019-04-08T15:12:12.349Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien-betreiberin-der-anlage",
+      "question": "plz-personalien",
+      "sort": 11
     }
   },
   {
@@ -2284,6 +2695,19 @@
       "form": "waermepumpen",
       "question": "kaelteleistung-boden-untergrund",
       "sort": 26
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "4edd73b5-cc07-4770-b2ee-6a96cd1566f5",
+    "fields": {
+      "created_at": "2019-04-08T15:09:53.880Z",
+      "modified_at": "2019-04-08T15:09:53.880Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien-betreiberin-der-anlage",
+      "question": "strasse-personalien",
+      "sort": 13
     }
   },
   {
@@ -2639,6 +3063,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "63fbc258-558b-4468-82be-7b4e4944f70d",
+    "fields": {
+      "created_at": "2019-04-08T15:16:06.111Z",
+      "modified_at": "2019-04-08T15:16:06.111Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien-betreiberin-der-anlage",
+      "question": "vorname-kontaktperson",
+      "sort": 8
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "640d98e5-7a1e-4031-a26f-8e2f9dd26aba",
     "fields": {
       "created_at": "2019-04-03T11:23:07.925Z",
@@ -2647,6 +3084,19 @@
       "created_by_group": null,
       "form": "wohnen",
       "question": "davon-ueberdacht",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "64688302-fe55-4a89-b829-26a8a6152e6e",
+    "fields": {
+      "created_at": "2019-04-08T15:35:47.443Z",
+      "modified_at": "2019-04-08T15:35:47.443Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien-betreiberin-der-anlage",
+      "question": "e-mail-gewaesserschutzfragen",
       "sort": 1
     }
   },
@@ -2756,6 +3206,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "6747354b-cd07-46e9-8c52-491d56203df5",
+    "fields": {
+      "created_at": "2019-04-08T14:10:46.546Z",
+      "modified_at": "2019-04-08T14:10:46.546Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "reklame-tabelle",
+      "question": "art-der-beleuchtung",
+      "sort": 9
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "674d7f89-aba3-4467-ac36-3b859e431bfe",
     "fields": {
       "created_at": "2019-04-01T13:23:59.898Z",
@@ -2778,6 +3241,19 @@
       "form": "solar-und-sendeanlagen",
       "question": "nummer-sendeanlage",
       "sort": 12
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "691cbabe-d1b5-4edd-88cb-b08c65e94bb7",
+    "fields": {
+      "created_at": "2019-04-08T13:34:09.466Z",
+      "modified_at": "2019-04-08T13:34:09.466Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "eigentuemer-tabelle",
+      "question": "vorname-wald-eigentuemer",
+      "sort": 7
     }
   },
   {
@@ -3016,6 +3492,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "73a586be-cb18-4996-8644-bcdc0b8c44d9",
+    "fields": {
+      "created_at": "2019-04-08T14:08:21.991Z",
+      "modified_at": "2019-04-08T14:08:21.991Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "reklame-tabelle",
+      "question": "schriftfarben-bei-nacht",
+      "sort": 10
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "747883e0-0056-46f6-82fa-0b00a1ece06a",
     "fields": {
       "created_at": "2019-04-02T14:28:48.522Z",
@@ -3024,7 +3513,7 @@
       "created_by_group": null,
       "form": "5-spezialformulare",
       "question": "biologische-sicherheit-und-stoerfallvorsorge",
-      "sort": 2
+      "sort": 5
     }
   },
   {
@@ -3038,6 +3527,19 @@
       "form": "waermepumpen",
       "question": "heizleistungsbedarf-wasser",
       "sort": 9
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "74c9f9e8-e657-43b6-9f9e-a3e5b945002b",
+    "fields": {
+      "created_at": "2019-04-08T15:01:58.964Z",
+      "modified_at": "2019-04-08T15:01:58.964Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "entsorgung",
+      "question": "umfasst-die-bauabfallmenge-200-kubikmeter",
+      "sort": 1
     }
   },
   {
@@ -3089,7 +3591,7 @@
       "created_by_group": null,
       "form": "5-spezialformulare",
       "question": "immissionsschutz-laermschutz",
-      "sort": 6
+      "sort": 10
     }
   },
   {
@@ -3155,6 +3657,19 @@
       "form": "personalien-tabelle",
       "question": "juristische-person-personalien",
       "sort": 12
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "8147da3e-7138-4681-be97-af3616477b2d",
+    "fields": {
+      "created_at": "2019-04-08T15:32:59.710Z",
+      "modified_at": "2019-04-08T15:32:59.710Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien-betreiberin-der-anlage",
+      "question": "telefon-oder-mobile-gewaesserschutzfragen",
+      "sort": 2
     }
   },
   {
@@ -3336,7 +3851,7 @@
       "created_by_group": null,
       "form": "5-spezialformulare",
       "question": "waermepumpen",
-      "sort": 7
+      "sort": 11
     }
   },
   {
@@ -3389,6 +3904,19 @@
       "form": "3-grundstueck",
       "question": "zonenvorschriften-schutzzonen",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "8ab9a906-e6c7-4e2f-aa55-76fd7d16fd8b",
+    "fields": {
+      "created_at": "2019-04-08T13:17:01.456Z",
+      "modified_at": "2019-04-08T13:17:01.456Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "wald",
+      "question": "handelt-es-sich-um-eine-baute-im-wald",
+      "sort": 7
     }
   },
   {
@@ -3466,7 +3994,7 @@
       "created_by_group": null,
       "form": "5-spezialformulare",
       "question": "immissionsschutz",
-      "sort": 5
+      "sort": 9
     }
   },
   {
@@ -3493,6 +4021,19 @@
       "form": "personalien-tabelle",
       "question": "e-mail-gesuchstellerin",
       "sort": 1
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "9007512b-9beb-4220-a8c9-1703a717bda6",
+    "fields": {
+      "created_at": "2019-04-08T13:10:30.646Z",
+      "modified_at": "2019-04-08T13:10:30.646Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "5-spezialformulare",
+      "question": "gastgewerbe-fumoir",
+      "sort": 6
     }
   },
   {
@@ -3822,6 +4363,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "9dc956f3-63a4-40b8-a9ca-94120e9d570e",
+    "fields": {
+      "created_at": "2019-04-08T13:32:45.033Z",
+      "modified_at": "2019-04-08T13:32:45.033Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "eigentuemer-tabelle",
+      "question": "waldabstand",
+      "sort": 8
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "9e30c451-6441-424f-9a5e-a23fd74f5a59",
     "fields": {
       "created_at": "2019-04-02T08:40:46.457Z",
@@ -3844,6 +4398,19 @@
       "form": "gastgewerbe-allgemein",
       "question": "prostitution",
       "sort": 16
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "9ed47fb5-e4e9-47a0-8c67-70462f3b7f80",
+    "fields": {
+      "created_at": "2019-04-08T13:40:56.880Z",
+      "modified_at": "2019-04-08T13:40:56.880Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "eigentuemer-tabelle",
+      "question": "grundbuch-nr-wald-eigentuemer",
+      "sort": 1
     }
   },
   {
@@ -4147,6 +4714,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "b1ecbee7-ee90-4617-b4af-2ef1be7be6af",
+    "fields": {
+      "created_at": "2019-04-08T14:34:13.091Z",
+      "modified_at": "2019-04-08T14:34:13.091Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "reklame-tabelle",
+      "question": "abstand-fassade-bis-aussenkante",
+      "sort": 5
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "b1ef299d-36cb-496d-936f-103383131b3e",
     "fields": {
       "created_at": "2019-04-03T11:34:08.213Z",
@@ -4156,6 +4736,19 @@
       "form": "4-bauwerk",
       "question": "gewaesserschutz-gewerbe-industrie",
       "sort": 5
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "b1f1806c-dc78-48a9-b0c5-84c9cbb15103",
+    "fields": {
+      "created_at": "2019-04-08T13:07:35.588Z",
+      "modified_at": "2019-04-08T13:07:35.588Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-fumoir",
+      "question": "bar-buffet-im-fumoir",
+      "sort": 1
     }
   },
   {
@@ -4251,6 +4844,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "b6a61caa-c57b-403a-bbeb-dc56e8e8dc57",
+    "fields": {
+      "created_at": "2019-04-08T13:01:37.909Z",
+      "modified_at": "2019-04-08T13:01:37.909Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-fumoir",
+      "question": "anzahl-sitzplaetze-fumoir",
+      "sort": 5
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "b8f89fbd-6919-434b-a42e-38e15a4b6830",
     "fields": {
       "created_at": "2019-04-03T10:58:35.579Z",
@@ -4342,6 +4948,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "bba64ce3-d03a-4573-8415-e19d9a819f5c",
+    "fields": {
+      "created_at": "2019-04-08T14:07:42.775Z",
+      "modified_at": "2019-04-08T14:07:42.775Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "reklame-tabelle",
+      "question": "schriftfarben-bei-tag",
+      "sort": 11
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "bc13f70d-d739-4bf3-a780-95eb602c36bf",
     "fields": {
       "created_at": "2019-04-05T10:50:07.292Z",
@@ -4416,6 +5035,19 @@
       "form": "zonenvorschriften-schutzzonen",
       "question": "k-objekt",
       "sort": 10
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "bd9c001c-ccda-4dfb-9df8-a481e81e7ca1",
+    "fields": {
+      "created_at": "2019-04-08T13:00:47.812Z",
+      "modified_at": "2019-04-08T13:00:47.812Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-fumoir",
+      "question": "flaeche-fumoir",
+      "sort": 6
     }
   },
   {
@@ -4511,6 +5143,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "c5aec423-2619-4274-81b8-26f665a661cf",
+    "fields": {
+      "created_at": "2019-04-08T13:57:55.209Z",
+      "modified_at": "2019-04-08T13:57:55.209Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "reklame-tabelle",
+      "question": "gesamtlaenge-in-cm",
+      "sort": 15
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "c6162d5a-a21b-4e3d-bbd7-57ac440d45a4",
     "fields": {
       "created_at": "2019-04-04T07:44:58.743Z",
@@ -4533,6 +5178,19 @@
       "form": "gewaesserschutz-gewerbe-industrie",
       "question": "wasserverbrauch-im-bestehenden-betrieb",
       "sort": 4
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "c7b5ab0d-b025-4d13-8476-be70ab651c7a",
+    "fields": {
+      "created_at": "2019-04-08T14:58:15.844Z",
+      "modified_at": "2019-04-08T14:58:15.844Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "entsorgung",
+      "question": "werden-bestehende-bauten-zurueckgebaut",
+      "sort": 3
     }
   },
   {
@@ -4602,6 +5260,45 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "ca20d017-3f46-437a-a3af-b094cec724b3",
+    "fields": {
+      "created_at": "2019-04-08T13:14:40.109Z",
+      "modified_at": "2019-04-08T13:14:40.109Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "5-spezialformulare",
+      "question": "wald",
+      "sort": 3
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "cade8ba8-bba7-46b0-8120-e72b79d637d9",
+    "fields": {
+      "created_at": "2019-04-08T14:11:51.293Z",
+      "modified_at": "2019-04-08T14:11:51.293Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "reklame-tabelle",
+      "question": "abschaltung-geplant",
+      "sort": 8
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "cafed258-448b-41eb-a5cf-6d117bf3b037",
+    "fields": {
+      "created_at": "2019-04-08T15:14:20.070Z",
+      "modified_at": "2019-04-08T15:14:20.070Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien-betreiberin-der-anlage",
+      "question": "taetigkeit-des-betriebs-personalien",
+      "sort": 9
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "cb370f06-1d4d-4ab8-9f24-6794f1a458e5",
     "fields": {
       "created_at": "2019-04-02T08:02:28.913Z",
@@ -4650,6 +5347,19 @@
       "form": "waermepumpen",
       "question": "system",
       "sort": 14
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "ccf6b66c-e81d-4a4f-8089-a4d376fd5fda",
+    "fields": {
+      "created_at": "2019-04-08T13:04:39.589Z",
+      "modified_at": "2019-04-08T13:04:39.589Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-fumoir",
+      "question": "luftreinigung-mit-hepa-filter",
+      "sort": 2
     }
   },
   {
@@ -4728,6 +5438,19 @@
       "form": "zivilschutz",
       "question": "schutzraumbefreiung-beantragt",
       "sort": 6
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "d296cf81-1542-4a85-a269-2fe6d8e28ceb",
+    "fields": {
+      "created_at": "2019-04-08T15:03:30.483Z",
+      "modified_at": "2019-04-08T15:03:30.483Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "5-spezialformulare",
+      "question": "entsorgung",
+      "sort": 1
     }
   },
   {
@@ -4823,6 +5546,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "d8d433ba-8083-492b-99bf-6cc3f0a63168",
+    "fields": {
+      "created_at": "2019-04-08T14:24:04.948Z",
+      "modified_at": "2019-04-08T14:24:04.948Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "reklame",
+      "question": "reklame-tabelle",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "d95d2632-9929-4a69-870f-52ac0c588bc6",
     "fields": {
       "created_at": "2019-04-02T14:11:50.534Z",
@@ -4832,6 +5568,19 @@
       "form": "biologische-sicherheit-und-stoerfallvorsorge",
       "question": "mengenschwelle-hochaktive-stoffe",
       "sort": 4
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "d988db5d-0aa0-48ec-99ff-fc89c01bc032",
+    "fields": {
+      "created_at": "2019-04-08T14:06:07.918Z",
+      "modified_at": "2019-04-08T14:06:07.918Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "reklame-tabelle",
+      "question": "text",
+      "sort": 13
     }
   },
   {
@@ -4858,6 +5607,19 @@
       "form": "ausschankraeume-tabelle",
       "question": "flaeche-in-quadratmeter",
       "sort": 3
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "db3a03e1-6b1f-4394-b49e-45b1400fd8c9",
+    "fields": {
+      "created_at": "2019-04-08T15:19:39.785Z",
+      "modified_at": "2019-04-08T15:19:39.785Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien-betreiberin-der-anlage",
+      "question": "name-kontaktperson",
+      "sort": 7
     }
   },
   {
@@ -4966,6 +5728,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "e1c7a70b-7ebe-4732-af0a-7ed3b09daa24",
+    "fields": {
+      "created_at": "2019-04-08T13:42:28.316Z",
+      "modified_at": "2019-04-08T13:42:28.316Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "wald",
+      "question": "eigentuemer-tabelle",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "e2529492-f992-4c3e-8243-8bb531edba24",
     "fields": {
       "created_at": "2019-04-04T08:26:55.035Z",
@@ -5005,6 +5780,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "e430eeba-c65d-4865-894d-97e09cfce4a6",
+    "fields": {
+      "created_at": "2019-04-08T14:30:25.231Z",
+      "modified_at": "2019-04-08T14:30:25.231Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "reklame-tabelle",
+      "question": "bemerkung-zur-beleuchtung",
+      "sort": 7
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "e433e2b2-0fe4-415b-87ef-b615b4c6c33a",
     "fields": {
       "created_at": "2019-03-15T13:17:11.871Z",
@@ -5039,7 +5827,20 @@
       "created_by_group": null,
       "form": "5-spezialformulare",
       "question": "personalien-gastgewerbe",
-      "sort": 4
+      "sort": 8
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "e66438f4-aa8e-423e-b9b5-0047d1aac6a7",
+    "fields": {
+      "created_at": "2019-04-08T13:34:59.421Z",
+      "modified_at": "2019-04-08T13:34:59.421Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "eigentuemer-tabelle",
+      "question": "name-wald-eigentuemer",
+      "sort": 6
     }
   },
   {
@@ -5096,6 +5897,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "e830e37e-60e4-470e-a685-5171f9db0541",
+    "fields": {
+      "created_at": "2019-04-08T13:36:48.510Z",
+      "modified_at": "2019-04-08T13:36:48.510Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "eigentuemer-tabelle",
+      "question": "nr-wald-eigentuemer",
+      "sort": 4
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "e8a74975-488d-4756-8abc-19942710b44e",
     "fields": {
       "created_at": "2019-04-05T10:35:54.406Z",
@@ -5105,6 +5919,19 @@
       "form": "gastgewerbe-allgemein",
       "question": "anzahl-garten-terrassen",
       "sort": 10
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "e9a909d9-f655-4881-b8f8-8cffedf8ee58",
+    "fields": {
+      "created_at": "2019-04-08T13:03:39.786Z",
+      "modified_at": "2019-04-08T13:03:39.786Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "gastgewerbe-fumoir",
+      "question": "mechanische-lueftung",
+      "sort": 3
     }
   },
   {
@@ -5161,6 +5988,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "ec0f3048-2294-46c1-b586-3388f890fc18",
+    "fields": {
+      "created_at": "2019-04-08T13:40:04.846Z",
+      "modified_at": "2019-04-08T13:40:04.846Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "eigentuemer-tabelle",
+      "question": "ort-wald-eigentuemer",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "ec38df13-478a-4ab2-b1f3-a36fbf2c1ff8",
     "fields": {
       "created_at": "2019-04-03T13:43:32.341Z",
@@ -5182,7 +6022,7 @@
       "created_by_group": null,
       "form": "5-spezialformulare",
       "question": "gastgewerbe-allgemein",
-      "sort": 3
+      "sort": 7
     }
   },
   {
@@ -5226,6 +6066,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "ee91c0f6-0465-4f68-8b42-352504987621",
+    "fields": {
+      "created_at": "2019-04-08T13:35:55.118Z",
+      "modified_at": "2019-04-08T13:35:55.118Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "eigentuemer-tabelle",
+      "question": "strasse-wald-eigentuemer",
+      "sort": 5
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "f14ae45a-9e4e-471d-a7c4-12ce898ce1d9",
     "fields": {
       "created_at": "2019-04-03T11:26:58.319Z",
@@ -5235,6 +6088,19 @@
       "form": "gewaesserschutz-gewerbe-industrie",
       "question": "fallen-abwaesser-an",
       "sort": 6
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "f198cd9c-32dc-4c71-9746-7431fa50632b",
+    "fields": {
+      "created_at": "2019-04-08T14:06:57.948Z",
+      "modified_at": "2019-04-08T14:06:57.948Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "reklame-tabelle",
+      "question": "grundfarben",
+      "sort": 12
     }
   },
   {
@@ -5260,7 +6126,7 @@
       "created_by_group": null,
       "form": "5-spezialformulare",
       "question": "solar-und-sendeanlagen",
-      "sort": 1
+      "sort": 4
     }
   },
   {
@@ -5343,6 +6209,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "f4e20dc5-9a25-49ba-974f-9d84ada7a9c9",
+    "fields": {
+      "created_at": "2019-04-08T13:31:30.997Z",
+      "modified_at": "2019-04-08T13:31:30.997Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "eigentuemer-tabelle",
+      "question": "parzellen-nr",
+      "sort": 9
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "f4e990b0-af69-42c3-8777-a17acf88cc85",
     "fields": {
       "created_at": "2019-04-01T11:58:51.253Z",
@@ -5408,6 +6287,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "f9179093-abbb-4cac-ac5c-f134613d162b",
+    "fields": {
+      "created_at": "2019-04-08T15:28:22.090Z",
+      "modified_at": "2019-04-08T15:28:22.090Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "personalien-betreiberin-der-anlage",
+      "question": "name-gewaesserschutzfragen",
+      "sort": 3
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "f968ca41-0bbc-48a8-ad1e-9a2829c913bd",
     "fields": {
       "created_at": "2019-04-03T13:22:25.565Z",
@@ -5443,6 +6335,19 @@
       "form": "triage",
       "question": "brandbelastung",
       "sort": 15
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "f9d4e9fc-c725-4e91-9c56-fdc234a5e7d6",
+    "fields": {
+      "created_at": "2019-04-08T14:38:01.148Z",
+      "modified_at": "2019-04-08T14:38:01.148Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "reklame-tabelle",
+      "question": "abstand-fahrbahnrand-bis-aussenkante",
+      "sort": 3
     }
   },
   {
@@ -5841,6 +6746,86 @@
   },
   {
     "model": "form.question",
+    "pk": "abschaltung-geplant",
+    "fields": {
+      "created_at": "2019-04-08T14:11:51.197Z",
+      "modified_at": "2019-04-08T14:11:51.197Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Abschaltung geplant?\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "abstand-boden-bis-unterkante",
+    "fields": {
+      "created_at": "2019-04-08T14:36:24.772Z",
+      "modified_at": "2019-04-08T14:36:24.772Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"B) ab Boden bis zur Unterkante der Reklame (in cm)\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "abstand-fahrbahnrand-bis-aussenkante",
+    "fields": {
+      "created_at": "2019-04-08T14:38:01.068Z",
+      "modified_at": "2019-04-08T14:38:01.068Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"C) von Fahrbahnrand bis zur Aussenkante der Reklame (in cm)\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "abstand-fassade-bis-aussenkante",
+    "fields": {
+      "created_at": "2019-04-08T14:34:13.009Z",
+      "modified_at": "2019-04-08T14:34:13.009Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"A) von der Fassade bis Aussenkante der Reklame (in cm)\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "abstellplaetze-fuer-fahrraeder-und-motorfahrraeder",
     "fields": {
       "created_at": "2019-04-03T11:21:35.459Z",
@@ -6021,6 +7006,26 @@
   },
   {
     "model": "form.question",
+    "pk": "anzahl-sitzplaetze-fumoir",
+    "fields": {
+      "created_at": "2019-04-08T13:01:37.827Z",
+      "modified_at": "2019-04-08T13:01:37.827Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Anzahl Sitzpl\\u00e4tze Fumoir\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "anzahl-sonden",
     "fields": {
       "created_at": "2019-04-01T14:10:23.987Z",
@@ -6033,6 +7038,26 @@
       "is_hidden": "'entzug-von-waerme-mittels-erdwaermesonde-nein' in 'entzug-von-waerme-mittels-erdwaermesonde'|answer",
       "is_archived": false,
       "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "anzahl-stehplaetze-fumoir",
+    "fields": {
+      "created_at": "2019-04-08T13:02:32.651Z",
+      "modified_at": "2019-04-08T13:02:32.651Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Anzahl Stehpl\\u00e4tze Fumoir\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
       "meta": {},
       "row_form": null,
       "sub_form": null,
@@ -6150,6 +7175,26 @@
       "label": "{\"de\": \"Art der Baugrubenumschliessung\", \"fr\": null, \"en\": null}",
       "type": "multiple_choice",
       "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "art-der-beleuchtung",
+    "fields": {
+      "created_at": "2019-04-08T14:10:46.435Z",
+      "modified_at": "2019-04-08T14:10:46.435Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Art der Beleuchtung\", \"fr\": null, \"en\": null}",
+      "type": "multiple_choice",
+      "is_required": "false",
       "is_hidden": "false",
       "is_archived": false,
       "configuration": {},
@@ -6348,6 +7393,26 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Autoabstellpl\\u00e4tze f\\u00fcr Fahrzeuge oder Fahrradabstellpl\\u00e4tze?\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "bar-buffet-im-fumoir",
+    "fields": {
+      "created_at": "2019-04-08T13:07:35.496Z",
+      "modified_at": "2019-04-08T13:07:35.496Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Bar/Buffet im Fumoir\", \"fr\": null, \"en\": null}",
       "type": "choice",
       "is_required": "true",
       "is_hidden": "false",
@@ -6661,6 +7726,26 @@
   },
   {
     "model": "form.question",
+    "pk": "begruendung-waldabstand-unterschritten",
+    "fields": {
+      "created_at": "2019-04-08T13:28:41.417Z",
+      "modified_at": "2019-04-08T13:28:41.417Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Begr\\u00fcndung, weshalb der gesetzliche Waldabstand unterschritten werden soll\", \"fr\": null, \"en\": null}",
+      "type": "textarea",
+      "is_required": "true",
+      "is_hidden": "'liegt-die-baute-im-waldabstandsbereich-nein' in 'liegt-die-baute-im-waldabstandsbereich'|answer",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "belasteter-standort",
     "fields": {
       "created_at": "2019-04-01T10:43:26.755Z",
@@ -6701,6 +7786,26 @@
   },
   {
     "model": "form.question",
+    "pk": "bemerkungen-reklame",
+    "fields": {
+      "created_at": "2019-04-08T14:41:42.848Z",
+      "modified_at": "2019-04-08T14:41:42.848Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Bemerkungen\", \"fr\": null, \"en\": null}",
+      "type": "textarea",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "bemerkungen-vorabklaerungen",
     "fields": {
       "created_at": "2019-04-04T09:35:11.071Z",
@@ -6708,6 +7813,26 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Bemerkungen\", \"fr\": null, \"en\": null}",
+      "type": "textarea",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "bemerkung-zur-beleuchtung",
+    "fields": {
+      "created_at": "2019-04-08T14:30:25.147Z",
+      "modified_at": "2019-04-08T14:30:25.147Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Bemerkung zur Beleuchtung\", \"fr\": null, \"en\": null}",
       "type": "textarea",
       "is_required": "false",
       "is_hidden": "false",
@@ -7221,6 +8346,26 @@
   },
   {
     "model": "form.question",
+    "pk": "breite-in-cm",
+    "fields": {
+      "created_at": "2019-04-08T14:05:10.722Z",
+      "modified_at": "2019-04-08T14:05:10.722Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Breite in cm\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "brennbare-fluessigkeit-gas",
     "fields": {
       "created_at": "2019-04-03T11:49:55.375Z",
@@ -7461,6 +8606,26 @@
   },
   {
     "model": "form.question",
+    "pk": "eigentuemer-tabelle",
+    "fields": {
+      "created_at": "2019-04-08T13:42:28.250Z",
+      "modified_at": "2019-04-08T13:42:28.250Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Eigent\\u00fcmer\", \"fr\": null, \"en\": null}",
+      "type": "table",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": "eigentuemer-tabelle",
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "e-mail",
     "fields": {
       "created_at": "2019-03-11T07:22:14.149Z",
@@ -7561,6 +8726,26 @@
   },
   {
     "model": "form.question",
+    "pk": "e-mail-gewaesserschutzfragen",
+    "fields": {
+      "created_at": "2019-04-08T15:35:47.343Z",
+      "modified_at": "2019-04-08T15:35:47.343Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"E-Mail\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "e-mail-grundeigentuemerin",
     "fields": {
       "created_at": "2019-04-04T08:31:26.893Z",
@@ -7570,6 +8755,26 @@
       "label": "{\"de\": \"E-Mail\", \"fr\": null, \"en\": null}",
       "type": "text",
       "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "e-mail-kontaktperson",
+    "fields": {
+      "created_at": "2019-04-08T15:34:14.983Z",
+      "modified_at": "2019-04-08T15:34:14.983Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"E-Mail\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "false",
       "is_hidden": "false",
       "is_archived": false,
       "configuration": { "max_length": null },
@@ -7716,6 +8921,26 @@
       "meta": {},
       "row_form": null,
       "sub_form": "energie",
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "entsorgung",
+    "fields": {
+      "created_at": "2019-04-08T15:03:30.404Z",
+      "modified_at": "2019-04-08T15:03:30.404Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Entsorgung\", \"fr\": null, \"en\": null}",
+      "type": "form",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": "entsorgung",
       "source": null
     }
   },
@@ -7921,6 +9146,26 @@
   },
   {
     "model": "form.question",
+    "pk": "flaeche-fumoir",
+    "fields": {
+      "created_at": "2019-04-08T13:00:47.739Z",
+      "modified_at": "2019-04-08T13:00:47.739Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Fl\\u00e4che Fumoir\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "flaeche-in-quadratmeter",
     "fields": {
       "created_at": "2019-04-05T10:21:23.880Z",
@@ -7954,6 +9199,46 @@
       "is_archived": false,
       "configuration": {},
       "meta": { "widgetType": "powerselect" },
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "folgender-raum-soll-als-fumoir-bewilligt-werden",
+    "fields": {
+      "created_at": "2019-04-08T12:59:20.175Z",
+      "modified_at": "2019-04-08T12:59:20.175Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Folgender Raum soll als Fumoir bewilligt werden\", \"fr\": null, \"en\": null}",
+      "type": "textarea",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "forstliche-baute",
+    "fields": {
+      "created_at": "2019-04-08T13:24:41.006Z",
+      "modified_at": "2019-04-08T13:24:41.006Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Forstliche Baute?\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "'handelt-es-sich-um-eine-baute-im-wald-nein' in 'handelt-es-sich-um-eine-baute-im-wald'|answer",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
       "row_form": null,
       "sub_form": null,
       "source": null
@@ -8121,6 +9406,26 @@
   },
   {
     "model": "form.question",
+    "pk": "gastgewerbe-fumoir",
+    "fields": {
+      "created_at": "2019-04-08T13:10:30.549Z",
+      "modified_at": "2019-04-08T13:10:30.549Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Gastgewerbe - Fumoir\", \"fr\": null, \"en\": null}",
+      "type": "form",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": "gastgewerbe-fumoir",
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "gebiet-mit-archaeologischen-objekten",
     "fields": {
       "created_at": "2019-04-01T11:17:11.154Z",
@@ -8273,6 +9578,26 @@
       "is_hidden": "false",
       "is_archived": false,
       "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "gesamtlaenge-in-cm",
+    "fields": {
+      "created_at": "2019-04-08T13:57:55.133Z",
+      "modified_at": "2019-04-08T13:57:55.133Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Gesamtl\\u00e4nge in cm\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
       "meta": {},
       "row_form": null,
       "sub_form": null,
@@ -8541,6 +9866,46 @@
   },
   {
     "model": "form.question",
+    "pk": "grundbuch-nr-wald-eigentuemer",
+    "fields": {
+      "created_at": "2019-04-08T13:40:56.804Z",
+      "modified_at": "2019-04-08T13:40:56.804Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Grundbuch-Nr.\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "grundfarben",
+    "fields": {
+      "created_at": "2019-04-08T14:06:57.859Z",
+      "modified_at": "2019-04-08T14:06:57.859Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Grundfarbe(n)\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "grundwasserschutzzonen",
     "fields": {
       "created_at": "2019-04-01T10:41:47.215Z",
@@ -8630,6 +9995,26 @@
       "label": "{\"de\": \"Handelt es sich bei der Liegenschaft um ein Baudenkmal?\", \"fr\": null, \"en\": null}",
       "type": "choice",
       "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "handelt-es-sich-um-eine-baute-im-wald",
+    "fields": {
+      "created_at": "2019-04-08T13:17:01.364Z",
+      "modified_at": "2019-04-08T13:17:01.364Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Handelt es sich um eine Baute im Wald?\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
       "is_hidden": "false",
       "is_archived": false,
       "configuration": {},
@@ -9071,6 +10456,26 @@
       "type": "choice",
       "is_required": "true",
       "is_hidden": "!('nutzungsart-gastgewerbe' in 'nutzungsart'|answer)",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "ist-fuer-das-vorhaben-eine-rodung-notwendig",
+    "fields": {
+      "created_at": "2019-04-08T13:19:56.674Z",
+      "modified_at": "2019-04-08T13:19:56.674Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ist f\\u00fcr das Vorhaben eine Rodung notwendig (Gr\\u00f6ssere Zweckentfremdung von Waldboden)?\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "'handelt-es-sich-um-eine-baute-im-wald-nein' in 'handelt-es-sich-um-eine-baute-im-wald'|answer",
       "is_archived": false,
       "configuration": {},
       "meta": {},
@@ -9981,6 +11386,26 @@
   },
   {
     "model": "form.question",
+    "pk": "liegt-die-baute-im-waldabstandsbereich",
+    "fields": {
+      "created_at": "2019-04-08T13:25:56.198Z",
+      "modified_at": "2019-04-08T13:25:56.198Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Liegt die Baute im Waldabstandsbereich?\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "liegt-kurzbericht-vor",
     "fields": {
       "created_at": "2019-04-02T14:16:13.188Z",
@@ -10008,6 +11433,26 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Liegt f\\u00fcr den aktuellen Betrieb bereits eine Risikoermittlung gem\\u00e4ss StFV vor?\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "luftreinigung-mit-hepa-filter",
+    "fields": {
+      "created_at": "2019-04-08T13:04:39.498Z",
+      "modified_at": "2019-04-08T13:04:39.498Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Luftreinigung mit HEPA Filter\", \"fr\": null, \"en\": null}",
       "type": "choice",
       "is_required": "true",
       "is_hidden": "false",
@@ -10113,6 +11558,26 @@
       "is_hidden": "false",
       "is_archived": false,
       "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "mechanische-lueftung",
+    "fields": {
+      "created_at": "2019-04-08T13:03:39.688Z",
+      "modified_at": "2019-04-08T13:03:39.688Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Mechanische L\\u00fcftung\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
       "meta": {},
       "row_form": null,
       "sub_form": null,
@@ -10301,6 +11766,46 @@
   },
   {
     "model": "form.question",
+    "pk": "montageort-am-gebaeude",
+    "fields": {
+      "created_at": "2019-04-08T14:32:10.391Z",
+      "modified_at": "2019-04-08T14:32:10.391Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Montageort am Geb\\u00e4ude (Fassadenbezeichnung)\", \"fr\": null, \"en\": null}",
+      "type": "textarea",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "montageort-freistehende-reklame",
+    "fields": {
+      "created_at": "2019-04-08T14:40:23.845Z",
+      "modified_at": "2019-04-08T14:40:23.845Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Beschrieb des Montageortes einer freistehenden Reklame (Situation, Umgebung usw.)\", \"fr\": null, \"en\": null}",
+      "type": "textarea",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "name-betrieb-energie",
     "fields": {
       "created_at": "2019-04-04T10:30:59.566Z",
@@ -10325,6 +11830,26 @@
     "fields": {
       "created_at": "2019-04-05T08:07:22.128Z",
       "modified_at": "2019-04-05T08:07:22.128Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Name Betrieb\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "name-betrieb-personalien",
+    "fields": {
+      "created_at": "2019-04-08T15:08:51.750Z",
+      "modified_at": "2019-04-08T15:08:51.750Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Name Betrieb\", \"fr\": null, \"en\": null}",
@@ -10481,6 +12006,26 @@
   },
   {
     "model": "form.question",
+    "pk": "name-gewaesserschutzfragen",
+    "fields": {
+      "created_at": "2019-04-08T15:28:21.977Z",
+      "modified_at": "2019-04-08T15:28:21.977Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Name\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "name-grundeigentuemerin",
     "fields": {
       "created_at": "2019-04-04T08:26:54.958Z",
@@ -10621,6 +12166,26 @@
   },
   {
     "model": "form.question",
+    "pk": "name-kontaktperson",
+    "fields": {
+      "created_at": "2019-04-08T15:19:39.702Z",
+      "modified_at": "2019-04-08T15:19:39.702Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Name\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "name-projektverfasserin",
     "fields": {
       "created_at": "2019-04-04T08:05:37.386Z",
@@ -10671,6 +12236,26 @@
       "type": "text",
       "is_required": "true",
       "is_hidden": "!('juristische-person-vertreterin-nein' in 'juristische-person-vertreterin'|answer)",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "name-wald-eigentuemer",
+    "fields": {
+      "created_at": "2019-04-08T13:34:59.341Z",
+      "modified_at": "2019-04-08T13:34:59.341Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Name\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
       "is_archived": false,
       "configuration": { "max_length": null },
       "meta": {},
@@ -10761,10 +12346,50 @@
   },
   {
     "model": "form.question",
+    "pk": "nicht-forstliche-kleinbaute",
+    "fields": {
+      "created_at": "2019-04-08T13:23:02.560Z",
+      "modified_at": "2019-04-08T13:23:02.560Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nicht forstliche Kleinbaute?\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "'handelt-es-sich-um-eine-baute-im-wald-nein' in 'handelt-es-sich-um-eine-baute-im-wald'|answer",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "nr",
     "fields": {
       "created_at": "2019-03-28T14:15:25.544Z",
       "modified_at": "2019-03-28T14:15:25.544Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nr.\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "nr-wald-eigentuemer",
+    "fields": {
+      "created_at": "2019-04-08T13:36:48.436Z",
+      "modified_at": "2019-04-08T13:36:48.436Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Nr.\", \"fr\": null, \"en\": null}",
@@ -10885,6 +12510,26 @@
     "fields": {
       "created_at": "2019-04-04T09:23:04.205Z",
       "modified_at": "2019-04-04T09:23:04.205Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nummer\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "nummer-personalien",
+    "fields": {
+      "created_at": "2019-04-08T15:10:40.457Z",
+      "modified_at": "2019-04-08T15:10:40.457Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Nummer\", \"fr\": null, \"en\": null}",
@@ -11341,6 +12986,26 @@
   },
   {
     "model": "form.question",
+    "pk": "ort-personalien",
+    "fields": {
+      "created_at": "2019-04-08T15:13:11.551Z",
+      "modified_at": "2019-04-08T15:13:11.551Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ort\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "ort-projektverfasserin",
     "fields": {
       "created_at": "2019-04-04T10:26:06.234Z",
@@ -11421,6 +13086,26 @@
   },
   {
     "model": "form.question",
+    "pk": "ort-wald-eigentuemer",
+    "fields": {
+      "created_at": "2019-04-08T13:40:04.766Z",
+      "modified_at": "2019-04-08T13:40:04.766Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ort\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "parzelle",
     "fields": {
       "created_at": "2019-03-28T14:16:48.858Z",
@@ -11436,6 +13121,26 @@
       "meta": {},
       "row_form": "parzelle-tabelle",
       "sub_form": "parzelle-tabelle",
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "parzellen-nr",
+    "fields": {
+      "created_at": "2019-04-08T13:31:30.926Z",
+      "modified_at": "2019-04-08T13:31:30.927Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Parzellen-Nr.\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
       "source": null
     }
   },
@@ -11741,6 +13446,26 @@
   },
   {
     "model": "form.question",
+    "pk": "plz-personalien",
+    "fields": {
+      "created_at": "2019-04-08T15:12:12.278Z",
+      "modified_at": "2019-04-08T15:12:12.278Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"PLZ\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "plz-projektverfasserin",
     "fields": {
       "created_at": "2019-04-04T10:24:41.475Z",
@@ -11813,6 +13538,26 @@
       "is_hidden": "false",
       "is_archived": false,
       "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "plz-wald-eigentuemer",
+    "fields": {
+      "created_at": "2019-04-08T13:38:49.137Z",
+      "modified_at": "2019-04-08T13:38:49.137Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"PLZ\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
       "meta": {},
       "row_form": null,
       "sub_form": null,
@@ -11915,6 +13660,66 @@
       "configuration": {},
       "meta": {},
       "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "reklame",
+    "fields": {
+      "created_at": "2019-04-08T13:55:04.033Z",
+      "modified_at": "2019-04-08T14:25:29.790Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Reklame\", \"fr\": null, \"en\": null}",
+      "type": "form",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": "reklame",
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "reklame-neu-oder-ersatz",
+    "fields": {
+      "created_at": "2019-04-08T14:52:57.867Z",
+      "modified_at": "2019-04-08T14:52:57.867Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Reklame\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "reklame-tabelle",
+    "fields": {
+      "created_at": "2019-04-08T14:24:04.853Z",
+      "modified_at": "2019-04-08T14:24:04.853Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Reklame\", \"fr\": null, \"en\": null}",
+      "type": "table",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": "reklame-tabelle",
       "sub_form": null,
       "source": null
     }
@@ -12081,6 +13886,46 @@
   },
   {
     "model": "form.question",
+    "pk": "schriftfarben-bei-nacht",
+    "fields": {
+      "created_at": "2019-04-08T14:08:21.904Z",
+      "modified_at": "2019-04-08T14:08:21.904Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Schriftfarbe(n) bei Nacht\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "schriftfarben-bei-tag",
+    "fields": {
+      "created_at": "2019-04-08T14:07:42.684Z",
+      "modified_at": "2019-04-08T14:07:42.684Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Schriftfarbe(n) bei Tag\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "schuetzenswert",
     "fields": {
       "created_at": "2019-04-01T11:06:06.925Z",
@@ -12168,6 +14013,26 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Sicherheitsstufe der Anlage gem\\u00e4ss Einschliessungsverordnung (ESV)\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "sind-bauschadstoffe-zu-erwarten",
+    "fields": {
+      "created_at": "2019-04-08T14:59:49.076Z",
+      "modified_at": "2019-04-08T14:59:49.076Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Sind Bauschadstoffe zu erwarten?\", \"fr\": null, \"en\": null}",
       "type": "choice",
       "is_required": "true",
       "is_hidden": "false",
@@ -12561,6 +14426,26 @@
   },
   {
     "model": "form.question",
+    "pk": "strasse-personalien",
+    "fields": {
+      "created_at": "2019-04-08T15:09:53.800Z",
+      "modified_at": "2019-04-08T15:09:53.800Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Strasse\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "strasse-projektverfasserin",
     "fields": {
       "created_at": "2019-04-04T09:49:12.080Z",
@@ -12625,6 +14510,26 @@
     "fields": {
       "created_at": "2019-04-04T07:34:15.734Z",
       "modified_at": "2019-04-04T07:39:23.637Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Strasse\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "strasse-wald-eigentuemer",
+    "fields": {
+      "created_at": "2019-04-08T13:35:55.032Z",
+      "modified_at": "2019-04-08T13:35:55.032Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Strasse\", \"fr\": null, \"en\": null}",
@@ -12709,6 +14614,26 @@
       "created_by_group": null,
       "label": "{\"de\": \"T\\u00e4tigkeit des Betriebs\", \"fr\": null, \"en\": null}",
       "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "taetigkeit-des-betriebs-personalien",
+    "fields": {
+      "created_at": "2019-04-08T15:14:19.973Z",
+      "modified_at": "2019-04-08T15:14:19.973Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"T\\u00e4tigkeit des Betriebs\", \"fr\": null, \"en\": null}",
+      "type": "textarea",
       "is_required": "true",
       "is_hidden": "false",
       "is_archived": false,
@@ -12841,6 +14766,26 @@
   },
   {
     "model": "form.question",
+    "pk": "telefon-oder-mobile-gewaesserschutzfragen",
+    "fields": {
+      "created_at": "2019-04-08T15:32:59.589Z",
+      "modified_at": "2019-04-08T15:32:59.589Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Telefon oder Mobile\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "telefon-oder-mobile-grundeigentuemerin",
     "fields": {
       "created_at": "2019-04-04T08:30:42.037Z",
@@ -12853,6 +14798,26 @@
       "is_hidden": "false",
       "is_archived": false,
       "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "telefon-oder-mobile-kontaktperson",
+    "fields": {
+      "created_at": "2019-04-08T15:20:51.497Z",
+      "modified_at": "2019-04-08T15:20:51.497Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Telefon oder Mobile\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
       "meta": {},
       "row_form": null,
       "sub_form": null,
@@ -13008,6 +14973,26 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": null, \"fr\": null, \"en\": \"test\"}",
+      "type": "text",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "text",
+    "fields": {
+      "created_at": "2019-04-08T14:06:07.835Z",
+      "modified_at": "2019-04-08T14:06:07.835Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Text\", \"fr\": null, \"en\": null}",
       "type": "text",
       "is_required": "false",
       "is_hidden": "false",
@@ -13213,6 +15198,26 @@
       "is_hidden": "false",
       "is_archived": false,
       "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "umfasst-die-bauabfallmenge-200-kubikmeter",
+    "fields": {
+      "created_at": "2019-04-08T15:01:58.871Z",
+      "modified_at": "2019-04-08T15:01:58.871Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Umfasst die Bauabfallmenge insgesamt 200 m\\u00b3?\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
       "meta": {},
       "row_form": null,
       "sub_form": null,
@@ -13601,6 +15606,26 @@
   },
   {
     "model": "form.question",
+    "pk": "vorname-gewaesserschutzfragen",
+    "fields": {
+      "created_at": "2019-04-08T15:24:27.198Z",
+      "modified_at": "2019-04-08T15:24:27.198Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Vorname\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "vorname-grundeigentuemerin",
     "fields": {
       "created_at": "2019-04-04T08:26:08.904Z",
@@ -13611,6 +15636,26 @@
       "type": "text",
       "is_required": "true",
       "is_hidden": "!('juristische-person-grundeigentuemerin-nein' in 'juristische-person-grundeigentuemerin'|answer)",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "vorname-kontaktperson",
+    "fields": {
+      "created_at": "2019-04-08T15:16:06.005Z",
+      "modified_at": "2019-04-08T15:16:06.005Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Vorname\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
       "is_archived": false,
       "configuration": { "max_length": null },
       "meta": {},
@@ -13681,6 +15726,26 @@
   },
   {
     "model": "form.question",
+    "pk": "vorname-wald-eigentuemer",
+    "fields": {
+      "created_at": "2019-04-08T13:34:09.395Z",
+      "modified_at": "2019-04-08T13:34:09.395Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Vorname\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "waermepumpen",
     "fields": {
       "created_at": "2019-04-02T09:07:37.033Z",
@@ -13714,6 +15779,46 @@
       "is_archived": false,
       "configuration": {},
       "meta": { "widgetType": "powerselect" },
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "wald",
+    "fields": {
+      "created_at": "2019-04-08T13:14:40.029Z",
+      "modified_at": "2019-04-08T13:14:40.029Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Wald\", \"fr\": null, \"en\": null}",
+      "type": "form",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": "wald",
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "waldabstand",
+    "fields": {
+      "created_at": "2019-04-08T13:32:44.963Z",
+      "modified_at": "2019-04-08T13:32:44.963Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Waldabstand\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
       "row_form": null,
       "sub_form": null,
       "source": null
@@ -13950,6 +16055,26 @@
       "label": "{\"de\": \"Welche W\\u00e4rmepumpen sind im Bauvorhaben vorgesehen?\", \"fr\": null, \"en\": null}",
       "type": "multiple_choice",
       "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "werden-bestehende-bauten-zurueckgebaut",
+    "fields": {
+      "created_at": "2019-04-08T14:58:15.756Z",
+      "modified_at": "2019-04-08T14:58:15.756Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Werden bestehende Bauten zur\\u00fcckgebaut (inklusive Aushub)?\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
       "is_hidden": "false",
       "is_archived": false,
       "configuration": {},
@@ -14387,6 +16512,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "014e65d7-34fa-483b-b9b4-f31dfd6695aa",
+    "fields": {
+      "created_at": "2019-04-08T14:10:46.438Z",
+      "modified_at": "2019-04-08T14:10:46.438Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "art-der-beleuchtung",
+      "option": "art-der-beleuchtung-von-unten",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "01b8c8c5-eb51-4aae-bb35-070eb53df2fc",
     "fields": {
       "created_at": "2019-04-05T09:07:35.942Z",
@@ -14712,6 +16850,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "0c2bfbff-cb33-4e5d-a6de-ea3f27b283ae",
+    "fields": {
+      "created_at": "2019-04-08T14:10:46.439Z",
+      "modified_at": "2019-04-08T14:10:46.439Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "art-der-beleuchtung",
+      "option": "art-der-beleuchtung-von-oben",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "0c30a042-856c-45bb-950d-35d959ee2bcf",
     "fields": {
       "created_at": "2019-04-03T15:11:37.526Z",
@@ -14798,6 +16949,32 @@
       "created_by_group": null,
       "question": "gewaesserschutzbereich",
       "option": "gewaesserschutzbereich-au",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "0ff78756-2d70-4e74-afe6-a765daa1ebea",
+    "fields": {
+      "created_at": "2019-04-08T15:01:58.876Z",
+      "modified_at": "2019-04-08T15:01:58.876Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "umfasst-die-bauabfallmenge-200-kubikmeter",
+      "option": "umfasst-die-bauabfallmenge-insgesamt-200-m-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "101d441f-4f5d-4766-879d-6d6313bfffae",
+    "fields": {
+      "created_at": "2019-04-08T13:04:39.501Z",
+      "modified_at": "2019-04-08T13:04:39.501Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "luftreinigung-mit-hepa-filter",
+      "option": "luftreinigung-mit-hepa-filter-ja",
       "sort": 2
     }
   },
@@ -15089,6 +17266,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "1d37ad81-d171-4c59-91d7-0db670e508ca",
+    "fields": {
+      "created_at": "2019-04-08T13:03:39.696Z",
+      "modified_at": "2019-04-08T13:03:39.696Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "mechanische-lueftung",
+      "option": "mechanische-luftung-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "1d868458-9b3b-4ae0-8afe-4cb4d31edc45",
     "fields": {
       "created_at": "2019-04-01T12:18:00.406Z",
@@ -15228,6 +17418,19 @@
       "question": "brandschutzrisiken",
       "option": "brandschutzrisiken-feuerwerk-uber-300kg",
       "sort": 9
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "24840033-69e7-4f33-ba9e-c8d9e195e74c",
+    "fields": {
+      "created_at": "2019-04-08T13:24:41.008Z",
+      "modified_at": "2019-04-08T13:24:41.008Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "forstliche-baute",
+      "option": "forstliche-baute-ja",
+      "sort": 2
     }
   },
   {
@@ -15765,6 +17968,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "3b2bbfde-4dc5-4a51-b3ab-80f011445045",
+    "fields": {
+      "created_at": "2019-04-08T14:59:49.077Z",
+      "modified_at": "2019-04-08T14:59:49.077Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "sind-bauschadstoffe-zu-erwarten",
+      "option": "sind-bauschadstoffe-zu-erwarten-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "3be8a3c5-1aab-4847-bf1e-b0013a253985",
     "fields": {
       "created_at": "2019-04-02T10:46:02.366Z",
@@ -15800,6 +18016,19 @@
       "question": "neu-bestehend",
       "option": "neu-bestehend-neu",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "3ce1a8aa-e3e2-4769-b473-0d9e61ee40c0",
+    "fields": {
+      "created_at": "2019-04-08T14:10:46.439Z",
+      "modified_at": "2019-04-08T14:10:46.439Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "art-der-beleuchtung",
+      "option": "art-der-beleuchtung-leuchtkasten",
+      "sort": 6
     }
   },
   {
@@ -15882,6 +18111,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "40e48916-e1a5-4813-bf6f-3b35bb446c09",
+    "fields": {
+      "created_at": "2019-04-08T14:10:46.439Z",
+      "modified_at": "2019-04-08T14:10:46.439Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "art-der-beleuchtung",
+      "option": "art-der-beleuchtung-blinkend",
+      "sort": 4
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "4132bf9c-a00d-45ec-b2d3-3a0bc9308b05",
     "fields": {
       "created_at": "2019-04-01T12:18:00.405Z",
@@ -15904,6 +18146,32 @@
       "question": "art-der-fundationsmassnahmen",
       "option": "art-der-fundationsmassnahmen-andere",
       "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "436e77cf-3a75-474b-b9aa-0ffd5326fff1",
+    "fields": {
+      "created_at": "2019-04-08T13:23:02.562Z",
+      "modified_at": "2019-04-08T13:23:02.562Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "nicht-forstliche-kleinbaute",
+      "option": "nicht-forstliche-kleinbaute-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "43b36bec-50e9-4211-8667-539d2e84f3b4",
+    "fields": {
+      "created_at": "2019-04-08T14:58:15.759Z",
+      "modified_at": "2019-04-08T14:58:15.759Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "werden-bestehende-bauten-zurueckgebaut",
+      "option": "werden-bestehende-bauten-zurueckgebaut-ja",
+      "sort": 2
     }
   },
   {
@@ -15947,6 +18215,32 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "45847e53-52d8-410b-949b-04e41890b99e",
+    "fields": {
+      "created_at": "2019-04-08T13:19:56.679Z",
+      "modified_at": "2019-04-08T13:19:56.679Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "ist-fuer-das-vorhaben-eine-rodung-notwendig",
+      "option": "ist-fuer-das-vorhaben-eine-rodung-notwendig-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "46033cdd-7f79-46a9-816b-96c743dd4de9",
+    "fields": {
+      "created_at": "2019-04-08T14:10:46.439Z",
+      "modified_at": "2019-04-08T14:10:46.439Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "art-der-beleuchtung",
+      "option": "art-der-beleuchtung-bildschirm",
+      "sort": 3
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "462b1177-c990-48f3-8130-6ec65acd5ee2",
     "fields": {
       "created_at": "2019-04-05T08:33:39.217Z",
@@ -15956,6 +18250,19 @@
       "question": "wochentag",
       "option": "wochentag-freitag",
       "sort": 3
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "4651f9e1-936b-46a9-91b2-df13c37d906e",
+    "fields": {
+      "created_at": "2019-04-08T14:52:57.869Z",
+      "modified_at": "2019-04-08T14:52:57.869Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "reklame-neu-oder-ersatz",
+      "option": "reklame-neu-oder-ersatz-ersatz",
+      "sort": 1
     }
   },
   {
@@ -16112,6 +18419,19 @@
       "question": "finden-bauarbeiten-in-der-nacht-statt",
       "option": "finden-bauarbeiten-in-der-nacht-statt-ja",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "4a734ba6-32a8-4fce-b360-4f524954af9e",
+    "fields": {
+      "created_at": "2019-04-08T14:59:49.077Z",
+      "modified_at": "2019-04-08T14:59:49.077Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "sind-bauschadstoffe-zu-erwarten",
+      "option": "sind-bauschadstoffe-zu-erwarten-nein",
+      "sort": 1
     }
   },
   {
@@ -16350,6 +18670,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "51ce19bd-a259-4c3c-98ee-8849a2db21f6",
+    "fields": {
+      "created_at": "2019-04-08T13:17:01.370Z",
+      "modified_at": "2019-04-08T13:17:01.370Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "handelt-es-sich-um-eine-baute-im-wald",
+      "option": "handelt-es-sich-um-eine-baute-im-wald-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "51df1629-6f29-4114-b99d-e676b78d002e",
     "fields": {
       "created_at": "2019-03-28T09:41:34.616Z",
@@ -16454,6 +18787,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "54d3113e-876b-4168-b6e7-3657ed195b13",
+    "fields": {
+      "created_at": "2019-04-08T13:07:35.499Z",
+      "modified_at": "2019-04-08T13:07:35.499Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "bar-buffet-im-fumoir",
+      "option": "bar-buffet-im-fumoir-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "54f67e1c-ccba-468c-9f70-a9699caf3b9c",
     "fields": {
       "created_at": "2019-03-11T09:24:56.214Z",
@@ -16463,6 +18809,19 @@
       "question": "baubeschrieb",
       "option": "baubeschrieb-tiefbauanlage",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "55234781-116e-4d20-96c1-e5710ef9c718",
+    "fields": {
+      "created_at": "2019-04-08T13:55:04.036Z",
+      "modified_at": "2019-04-08T13:55:04.036Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "reklame",
+      "option": "reklame-ersatz",
+      "sort": 1
     }
   },
   {
@@ -16519,6 +18878,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "593773c6-4391-44f9-be95-a19cfac12e12",
+    "fields": {
+      "created_at": "2019-04-08T14:10:46.439Z",
+      "modified_at": "2019-04-08T14:10:46.439Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "art-der-beleuchtung",
+      "option": "art-der-beleuchtung-einzelne-buchstaben",
+      "sort": 5
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "59985672-573b-4318-9b36-881dd10b929e",
     "fields": {
       "created_at": "2019-04-03T13:31:11.814Z",
@@ -16528,6 +18900,19 @@
       "question": "sanitaertechnische-anpassungen-liegenschaft",
       "option": "sanitaertechnische-anpassungen-liegenschaft-nein",
       "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "59c9cfdf-ffc7-4956-b58b-4969a7669ba4",
+    "fields": {
+      "created_at": "2019-04-08T13:25:56.201Z",
+      "modified_at": "2019-04-08T13:25:56.201Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "liegt-die-baute-im-waldabstandsbereich",
+      "option": "liegt-die-baute-im-waldabstandsbereich-ja",
+      "sort": 2
     }
   },
   {
@@ -16775,6 +19160,19 @@
       "question": "oeffentlichkeit",
       "option": "oeffentlichkeit-oeffentlich",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "64f15e8b-4298-46cb-9bb6-aa4e6db9bf13",
+    "fields": {
+      "created_at": "2019-04-08T14:58:15.759Z",
+      "modified_at": "2019-04-08T14:58:15.759Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "werden-bestehende-bauten-zurueckgebaut",
+      "option": "werden-bestehende-bauten-zurueckgebaut-nein",
+      "sort": 1
     }
   },
   {
@@ -17533,6 +19931,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "8655df94-d8c5-4f8d-8e43-ead7dad7099f",
+    "fields": {
+      "created_at": "2019-04-08T15:01:58.876Z",
+      "modified_at": "2019-04-08T15:01:58.876Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "umfasst-die-bauabfallmenge-200-kubikmeter",
+      "option": "umfasst-die-bauabfallmenge-insgesamt-200-m-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "8660c79d-ddb5-4337-843f-6a0f4e236d7f",
     "fields": {
       "created_at": "2019-04-02T11:12:04.990Z",
@@ -17689,6 +20100,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "8c5bd9ad-1030-4e96-bd3e-fc838b58ed39",
+    "fields": {
+      "created_at": "2019-04-08T13:55:04.036Z",
+      "modified_at": "2019-04-08T13:55:04.036Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "reklame",
+      "option": "reklame-neu",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "8c6f4dff-a034-41d9-9eed-0f279e43f704",
     "fields": {
       "created_at": "2019-04-05T08:30:18.673Z",
@@ -17775,6 +20199,19 @@
       "created_by_group": null,
       "question": "schmutz-oder-mischwasserkanalisation",
       "option": "schmutz-oder-mischwasserkanalisation-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "8e749f49-a737-40b2-a92c-9ec4118c3b0d",
+    "fields": {
+      "created_at": "2019-04-08T13:17:01.370Z",
+      "modified_at": "2019-04-08T13:17:01.370Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "handelt-es-sich-um-eine-baute-im-wald",
+      "option": "handelt-es-sich-um-eine-baute-im-wald-nein",
       "sort": 1
     }
   },
@@ -18023,6 +20460,19 @@
       "question": "fumoir",
       "option": "fumoir-neu",
       "sort": 3
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "97180849-1624-49e6-b4d5-40f6a217299e",
+    "fields": {
+      "created_at": "2019-04-08T13:24:41.008Z",
+      "modified_at": "2019-04-08T13:24:41.008Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "forstliche-baute",
+      "option": "forstliche-baute-nein",
+      "sort": 1
     }
   },
   {
@@ -18391,6 +20841,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "aae237d5-6bbc-4eec-9dfa-0832d954cd4a",
+    "fields": {
+      "created_at": "2019-04-08T13:04:39.500Z",
+      "modified_at": "2019-04-08T13:04:39.500Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "luftreinigung-mit-hepa-filter",
+      "option": "luftreinigung-mit-hepa-filter-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "ac1e1647-928d-4f63-8345-19f3e120099f",
     "fields": {
       "created_at": "2019-04-03T11:46:51.383Z",
@@ -18399,6 +20862,19 @@
       "created_by_group": null,
       "question": "neu-bestehend",
       "option": "neu-bestehend-bestehend",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "ac522225-d333-4f34-8914-cfceadfe6ead",
+    "fields": {
+      "created_at": "2019-04-08T13:07:35.499Z",
+      "modified_at": "2019-04-08T13:07:35.499Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "bar-buffet-im-fumoir",
+      "option": "bar-buffet-im-fumoir-nein",
       "sort": 1
     }
   },
@@ -18803,6 +21279,19 @@
       "question": "rechtliche-sicherung-fremden-bodens",
       "option": "rechtliche-sicherung-fremden-bodens-ja",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "bfc3cb1d-014c-435b-a5a4-ba058c5694bd",
+    "fields": {
+      "created_at": "2019-04-08T14:10:46.439Z",
+      "modified_at": "2019-04-08T14:10:46.439Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "art-der-beleuchtung",
+      "option": "art-der-beleuchtung-keine",
+      "sort": 7
     }
   },
   {
@@ -19249,6 +21738,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "db6460ba-a7a5-40d6-b16c-5e9938e3423a",
+    "fields": {
+      "created_at": "2019-04-08T14:11:51.200Z",
+      "modified_at": "2019-04-08T14:11:51.200Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "abschaltung-geplant",
+      "option": "abschaltung-geplant-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "db76bc65-861e-4663-93e2-5cb4e849adf5",
     "fields": {
       "created_at": "2019-04-02T09:15:42.014Z",
@@ -19401,6 +21903,19 @@
       "question": "brandschutzrisiken",
       "option": "brandschutzrisiken-tragwerk-brennbar",
       "sort": 18
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "e5811161-79d7-4cb2-b6e8-fdb9a585c097",
+    "fields": {
+      "created_at": "2019-04-08T14:52:57.869Z",
+      "modified_at": "2019-04-08T14:52:57.869Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "reklame-neu-oder-ersatz",
+      "option": "reklame-neu-oder-ersatz-neu",
+      "sort": 2
     }
   },
   {
@@ -19600,6 +22115,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "eeb2b47b-c4b4-4779-8004-deeb040c097e",
+    "fields": {
+      "created_at": "2019-04-08T13:23:02.562Z",
+      "modified_at": "2019-04-08T13:23:02.562Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "nicht-forstliche-kleinbaute",
+      "option": "nicht-forstliche-kleinbaute-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "eed3db75-11bc-4e94-88e3-7d523914a071",
     "fields": {
       "created_at": "2019-04-03T07:53:47.368Z",
@@ -19674,6 +22202,19 @@
       "question": "grenzwerte-ueberschritten",
       "option": "grenzwerte-ueberschritten-nicht-ueberpruft",
       "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "f2524210-5d42-4d1b-9af5-57129058fe25",
+    "fields": {
+      "created_at": "2019-04-08T13:03:39.696Z",
+      "modified_at": "2019-04-08T13:03:39.696Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "mechanische-lueftung",
+      "option": "mechanische-luftung-ja",
+      "sort": 2
     }
   },
   {
@@ -19782,6 +22323,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "f52b1c62-9c47-4fb8-8ab4-7e72b4583618",
+    "fields": {
+      "created_at": "2019-04-08T13:19:56.679Z",
+      "modified_at": "2019-04-08T13:19:56.679Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "ist-fuer-das-vorhaben-eine-rodung-notwendig",
+      "option": "ist-fuer-das-vorhaben-eine-rodung-notwendig-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "f5dbbbc6-b2b5-4f8c-b906-44fa63bbc85d",
     "fields": {
       "created_at": "2019-04-02T14:04:52.061Z",
@@ -19882,6 +22436,19 @@
       "question": "verwendungszweck-luft",
       "option": "verwendungszweck-luft-andere",
       "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "f9f0ec2f-6f76-4e1e-9aaf-2894a4b75d14",
+    "fields": {
+      "created_at": "2019-04-08T14:11:51.200Z",
+      "modified_at": "2019-04-08T14:11:51.200Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "abschaltung-geplant",
+      "option": "abschaltung-geplant-ja",
+      "sort": 2
     }
   },
   {
@@ -20080,6 +22647,19 @@
     }
   },
   {
+    "model": "form.questionoption",
+    "pk": "ffd8b682-6268-43c9-b39b-c66a08b98110",
+    "fields": {
+      "created_at": "2019-04-08T13:25:56.201Z",
+      "modified_at": "2019-04-08T13:25:56.201Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "liegt-die-baute-im-waldabstandsbereich",
+      "option": "liegt-die-baute-im-waldabstandsbereich-nein",
+      "sort": 1
+    }
+  },
+  {
     "model": "form.option",
     "pk": "ableitung-haeusliche-abwaesser-abflusslose-grube",
     "fields": {
@@ -20205,6 +22785,32 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": \"Nein\"}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "abschaltung-geplant-ja",
+    "fields": {
+      "created_at": "2019-04-08T14:11:50.999Z",
+      "modified_at": "2019-04-08T14:11:50.999Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "abschaltung-geplant-nein",
+    "fields": {
+      "created_at": "2019-04-08T14:11:51.010Z",
+      "modified_at": "2019-04-08T14:11:51.010Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
       "meta": {},
       "source": null
     }
@@ -20374,6 +22980,97 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Spundwand\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "art-der-beleuchtung-bildschirm",
+    "fields": {
+      "created_at": "2019-04-08T14:10:46.097Z",
+      "modified_at": "2019-04-08T14:10:46.097Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Bildschirm\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "art-der-beleuchtung-blinkend",
+    "fields": {
+      "created_at": "2019-04-08T14:10:46.085Z",
+      "modified_at": "2019-04-08T14:10:46.085Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"blinkend\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "art-der-beleuchtung-einzelne-buchstaben",
+    "fields": {
+      "created_at": "2019-04-08T14:10:46.062Z",
+      "modified_at": "2019-04-08T14:10:46.062Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"einzelne Buchstaben\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "art-der-beleuchtung-keine",
+    "fields": {
+      "created_at": "2019-04-08T14:10:46.024Z",
+      "modified_at": "2019-04-08T14:10:46.024Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Keine\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "art-der-beleuchtung-leuchtkasten",
+    "fields": {
+      "created_at": "2019-04-08T14:10:46.083Z",
+      "modified_at": "2019-04-08T14:10:46.083Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Leuchtkasten\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "art-der-beleuchtung-von-oben",
+    "fields": {
+      "created_at": "2019-04-08T14:10:46.122Z",
+      "modified_at": "2019-04-08T14:10:46.122Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"von oben\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "art-der-beleuchtung-von-unten",
+    "fields": {
+      "created_at": "2019-04-08T14:10:46.124Z",
+      "modified_at": "2019-04-08T14:10:46.124Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"von unten\", \"fr\": null, \"en\": null}",
       "meta": {},
       "source": null
     }
@@ -20605,6 +23302,32 @@
     "fields": {
       "created_at": "2019-04-03T11:12:03.978Z",
       "modified_at": "2019-04-03T11:12:03.978Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "bar-buffet-im-fumoir-ja",
+    "fields": {
+      "created_at": "2019-04-08T13:07:35.353Z",
+      "modified_at": "2019-04-08T13:07:35.353Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "bar-buffet-im-fumoir-nein",
+    "fields": {
+      "created_at": "2019-04-08T13:07:35.359Z",
+      "modified_at": "2019-04-08T13:07:35.359Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
@@ -21706,6 +24429,32 @@
   },
   {
     "model": "form.option",
+    "pk": "forstliche-baute-ja",
+    "fields": {
+      "created_at": "2019-04-08T13:24:40.803Z",
+      "modified_at": "2019-04-08T13:24:40.804Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "forstliche-baute-nein",
+    "fields": {
+      "created_at": "2019-04-08T13:24:40.805Z",
+      "modified_at": "2019-04-08T13:24:40.805Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
     "pk": "fruchtfolgeflaeche-ausgeschieden-ja",
     "fields": {
       "created_at": "2019-04-01T11:44:38.473Z",
@@ -22187,6 +24936,32 @@
   },
   {
     "model": "form.option",
+    "pk": "handelt-es-sich-um-eine-baute-im-wald-ja",
+    "fields": {
+      "created_at": "2019-04-08T13:17:01.191Z",
+      "modified_at": "2019-04-08T13:17:01.191Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "handelt-es-sich-um-eine-baute-im-wald-nein",
+    "fields": {
+      "created_at": "2019-04-08T13:17:01.206Z",
+      "modified_at": "2019-04-08T13:17:01.206Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
     "pk": "handelt-es-sich-um-eine-juristische-person-ja",
     "fields": {
       "created_at": "2019-03-28T11:42:03.459Z",
@@ -22428,6 +25203,32 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": \"Nein\"}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "ist-fuer-das-vorhaben-eine-rodung-notwendig-ja",
+    "fields": {
+      "created_at": "2019-04-08T13:19:56.489Z",
+      "modified_at": "2019-04-08T13:19:56.489Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "ist-fuer-das-vorhaben-eine-rodung-notwendig-nein",
+    "fields": {
+      "created_at": "2019-04-08T13:19:56.502Z",
+      "modified_at": "2019-04-08T13:19:56.502Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
       "meta": {},
       "source": null
     }
@@ -22850,6 +25651,32 @@
   },
   {
     "model": "form.option",
+    "pk": "liegt-die-baute-im-waldabstandsbereich-ja",
+    "fields": {
+      "created_at": "2019-04-08T13:25:55.919Z",
+      "modified_at": "2019-04-08T13:25:55.919Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "liegt-die-baute-im-waldabstandsbereich-nein",
+    "fields": {
+      "created_at": "2019-04-08T13:25:55.933Z",
+      "modified_at": "2019-04-08T13:25:55.933Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
     "pk": "liegt-kurzbericht-vor-ja",
     "fields": {
       "created_at": "2019-04-02T14:16:12.990Z",
@@ -22893,6 +25720,32 @@
     "fields": {
       "created_at": "2019-04-02T14:17:26.585Z",
       "modified_at": "2019-04-02T14:17:26.585Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "luftreinigung-mit-hepa-filter-ja",
+    "fields": {
+      "created_at": "2019-04-08T13:04:39.345Z",
+      "modified_at": "2019-04-08T13:04:39.345Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "luftreinigung-mit-hepa-filter-nein",
+    "fields": {
+      "created_at": "2019-04-08T13:04:39.345Z",
+      "modified_at": "2019-04-08T13:04:39.345Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
@@ -23039,6 +25892,32 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Liter\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "mechanische-luftung-ja",
+    "fields": {
+      "created_at": "2019-04-08T13:03:39.497Z",
+      "modified_at": "2019-04-08T13:03:39.497Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "mechanische-luftung-nein",
+    "fields": {
+      "created_at": "2019-04-08T13:03:39.499Z",
+      "modified_at": "2019-04-08T13:03:39.499Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
       "meta": {},
       "source": null
     }
@@ -23273,6 +26152,32 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Neu\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "nicht-forstliche-kleinbaute-ja",
+    "fields": {
+      "created_at": "2019-04-08T13:23:02.421Z",
+      "modified_at": "2019-04-08T13:23:02.421Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "nicht-forstliche-kleinbaute-nein",
+    "fields": {
+      "created_at": "2019-04-08T13:23:02.425Z",
+      "modified_at": "2019-04-08T13:23:02.425Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
       "meta": {},
       "source": null
     }
@@ -23799,6 +26704,58 @@
   },
   {
     "model": "form.option",
+    "pk": "reklame-ersatz",
+    "fields": {
+      "created_at": "2019-04-08T13:55:03.911Z",
+      "modified_at": "2019-04-08T13:55:03.911Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ersatz\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "reklame-neu",
+    "fields": {
+      "created_at": "2019-04-08T13:55:03.895Z",
+      "modified_at": "2019-04-08T13:55:03.895Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Neu\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "reklame-neu-oder-ersatz-ersatz",
+    "fields": {
+      "created_at": "2019-04-08T14:52:57.693Z",
+      "modified_at": "2019-04-08T14:52:57.693Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ersatz\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "reklame-neu-oder-ersatz-neu",
+    "fields": {
+      "created_at": "2019-04-08T14:52:57.689Z",
+      "modified_at": "2019-04-08T14:52:57.689Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Neu\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
     "pk": "rrb-ja",
     "fields": {
       "created_at": "2019-04-01T11:12:31.711Z",
@@ -24059,6 +27016,32 @@
   },
   {
     "model": "form.option",
+    "pk": "sind-bauschadstoffe-zu-erwarten-ja",
+    "fields": {
+      "created_at": "2019-04-08T14:59:48.917Z",
+      "modified_at": "2019-04-08T14:59:48.917Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "sind-bauschadstoffe-zu-erwarten-nein",
+    "fields": {
+      "created_at": "2019-04-08T14:59:48.906Z",
+      "modified_at": "2019-04-08T14:59:48.906Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
     "pk": "sondenmodell-anderes-sondenmodell",
     "fields": {
       "created_at": "2019-04-01T14:08:47.082Z",
@@ -24206,6 +27189,32 @@
     "fields": {
       "created_at": "2019-04-01T11:43:00.986Z",
       "modified_at": "2019-04-01T11:43:00.986Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "umfasst-die-bauabfallmenge-insgesamt-200-m-ja",
+    "fields": {
+      "created_at": "2019-04-08T15:01:58.708Z",
+      "modified_at": "2019-04-08T15:01:58.708Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "umfasst-die-bauabfallmenge-insgesamt-200-m-nein",
+    "fields": {
+      "created_at": "2019-04-08T15:01:58.710Z",
+      "modified_at": "2019-04-08T15:01:58.710Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
@@ -25431,6 +28440,32 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Wasser\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "werden-bestehende-bauten-zurueckgebaut-ja",
+    "fields": {
+      "created_at": "2019-04-08T14:58:15.590Z",
+      "modified_at": "2019-04-08T14:58:15.590Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "werden-bestehende-bauten-zurueckgebaut-nein",
+    "fields": {
+      "created_at": "2019-04-08T14:58:15.609Z",
+      "modified_at": "2019-04-08T14:58:15.609Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
       "meta": {},
       "source": null
     }
