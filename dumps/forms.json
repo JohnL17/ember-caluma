@@ -858,6 +858,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "0b655d25-4056-4634-8305-e34b776e8d53",
+    "fields": {
+      "created_at": "2019-04-08T08:36:39.325Z",
+      "modified_at": "2019-04-08T08:36:39.325Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "zonenvorschriften-schutzzonen",
+      "question": "gebiet-mit-naturgefahren",
+      "sort": 14
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "0b98eaf9-e5b2-4f48-976c-024665b942ee",
     "fields": {
       "created_at": "2019-04-03T11:48:06.243Z",
@@ -2829,7 +2842,7 @@
       "created_by_group": null,
       "form": "zonenvorschriften-schutzzonen",
       "question": "grundwasserschutzzonen",
-      "sort": 17
+      "sort": 18
     }
   },
   {
@@ -3037,7 +3050,7 @@
       "created_by_group": null,
       "form": "zonenvorschriften-schutzzonen",
       "question": "gewaesserschutzbereich",
-      "sort": 16
+      "sort": 17
     }
   },
   {
@@ -4441,7 +4454,7 @@
       "created_by_group": null,
       "form": "zonenvorschriften-schutzzonen",
       "question": "bauten-oder-pfaehlen-im-grundwasser",
-      "sort": 14
+      "sort": 15
     }
   },
   {
@@ -5143,7 +5156,7 @@
       "created_by_group": null,
       "form": "zonenvorschriften-schutzzonen",
       "question": "belasteter-standort",
-      "sort": 15
+      "sort": 16
     }
   },
   {
@@ -8115,6 +8128,26 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Gebiet mit bekannten oder vermuteten arch\\u00e4ologischen Objekten\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "gebiet-mit-naturgefahren",
+    "fields": {
+      "created_at": "2019-04-08T08:36:39.196Z",
+      "modified_at": "2019-04-08T08:36:39.196Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Gebiet mit bekannten oder vermuteten Naturgefahren\", \"fr\": null, \"en\": null}",
       "type": "choice",
       "is_required": "true",
       "is_hidden": "false",
@@ -15953,6 +15986,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "46999951-c30b-46d6-b14e-285c92c8dca8",
+    "fields": {
+      "created_at": "2019-04-08T08:36:39.214Z",
+      "modified_at": "2019-04-08T08:36:39.214Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "gebiet-mit-naturgefahren",
+      "option": "gebiet-mit-naturgefahren-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "47e7ab30-53e4-4ed4-b4cb-9662b3605a6d",
     "fields": {
       "created_at": "2019-04-03T10:45:56.697Z",
@@ -18692,6 +18738,19 @@
       "question": "gefaehrlich-fuer-bevoelkerung-oder-umwelt",
       "option": "gefaehrlich-fuer-bevoelkerung-oder-umwelt-ja",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "bdd02ab6-e1a7-4c88-9e2b-c0fb4eedbf90",
+    "fields": {
+      "created_at": "2019-04-08T08:36:39.214Z",
+      "modified_at": "2019-04-08T08:36:39.214Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "gebiet-mit-naturgefahren",
+      "option": "gebiet-mit-naturgefahren-nein",
+      "sort": 1
     }
   },
   {
@@ -21729,6 +21788,32 @@
     "fields": {
       "created_at": "2019-04-01T11:17:11.022Z",
       "modified_at": "2019-04-01T11:17:11.022Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "gebiet-mit-naturgefahren-ja",
+    "fields": {
+      "created_at": "2019-04-08T08:36:39.050Z",
+      "modified_at": "2019-04-08T08:36:39.050Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "gebiet-mit-naturgefahren-nein",
+    "fields": {
+      "created_at": "2019-04-08T08:36:39.055Z",
+      "modified_at": "2019-04-08T08:36:39.055Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
