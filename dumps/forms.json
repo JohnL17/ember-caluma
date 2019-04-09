@@ -97,6 +97,22 @@
   },
   {
     "model": "form.form",
+    "pk": "allgemeine-angaben-zum-betrieb",
+    "fields": {
+      "created_at": "2019-04-09T06:48:23.852Z",
+      "modified_at": "2019-04-09T06:48:23.854Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "name": "{\"de\": \"Allgemeine Angaben zum Betrieb\", \"fr\": null, \"en\": null}",
+      "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "is_published": true,
+      "is_archived": false,
+      "source": null
+    }
+  },
+  {
+    "model": "form.form",
     "pk": "ausschankraeume-tabelle",
     "fields": {
       "created_at": "2019-04-05T10:15:02.724Z",
@@ -137,6 +153,22 @@
       "created_by_group": null,
       "name": "{\"de\": null, \"fr\": null, \"en\": \"Bauvorhaben\"}",
       "description": "{\"de\": null, \"fr\": null, \"en\": \"\"}",
+      "meta": {},
+      "is_published": true,
+      "is_archived": false,
+      "source": null
+    }
+  },
+  {
+    "model": "form.form",
+    "pk": "beschreibung-der-prozessart-tabelle",
+    "fields": {
+      "created_at": "2019-04-09T07:33:10.623Z",
+      "modified_at": "2019-04-09T07:33:10.623Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "name": "{\"de\": \"Beschreibung der Prozessart Tabelle\", \"fr\": null, \"en\": null}",
+      "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
       "meta": {},
       "is_published": true,
       "is_archived": false,
@@ -401,6 +433,22 @@
   },
   {
     "model": "form.form",
+    "pk": "hindernisfreies-bauen",
+    "fields": {
+      "created_at": "2019-04-09T07:53:58.564Z",
+      "modified_at": "2019-04-09T07:53:58.564Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "name": "{\"de\": \"Hindernisfreies Bauen\", \"fr\": null, \"en\": null}",
+      "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "is_published": true,
+      "is_archived": false,
+      "source": null
+    }
+  },
+  {
+    "model": "form.form",
     "pk": "immissionsschutz",
     "fields": {
       "created_at": "2019-04-02T11:09:20.937Z",
@@ -456,6 +504,54 @@
       "created_by_user": null,
       "created_by_group": null,
       "name": "{\"de\": \"Lagerung von Stoffen Tabelle\", \"fr\": null, \"en\": null}",
+      "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "is_published": true,
+      "is_archived": false,
+      "source": null
+    }
+  },
+  {
+    "model": "form.form",
+    "pk": "maschinen-und-anlagen",
+    "fields": {
+      "created_at": "2019-04-09T07:18:22.019Z",
+      "modified_at": "2019-04-09T07:18:22.019Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "name": "{\"de\": \"Maschinen & Anlagen\", \"fr\": null, \"en\": null}",
+      "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "is_published": true,
+      "is_archived": false,
+      "source": null
+    }
+  },
+  {
+    "model": "form.form",
+    "pk": "maschinen-und-anlagen-tabelle",
+    "fields": {
+      "created_at": "2019-04-09T07:18:39.781Z",
+      "modified_at": "2019-04-09T07:18:39.781Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "name": "{\"de\": \"Maschinen & Anlagen Tabelle\", \"fr\": null, \"en\": null}",
+      "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "is_published": true,
+      "is_archived": false,
+      "source": null
+    }
+  },
+  {
+    "model": "form.form",
+    "pk": "naturgefahren",
+    "fields": {
+      "created_at": "2019-04-09T07:30:59.477Z",
+      "modified_at": "2019-04-09T07:30:59.477Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "name": "{\"de\": \"Naturgefahren\", \"fr\": null, \"en\": null}",
       "description": "{\"de\": \"\", \"fr\": null, \"en\": null}",
       "meta": {},
       "is_published": true,
@@ -879,6 +975,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "044e8d9e-b7d0-4d27-a3c6-e1406599e58f",
+    "fields": {
+      "created_at": "2019-04-09T07:10:35.403Z",
+      "modified_at": "2019-04-09T07:10:35.403Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "allgemeine-angaben-zum-betrieb",
+      "question": "schalldruckpegelabnahme",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "05b5d33c-8539-4e5f-9bbd-7fc423db312d",
     "fields": {
       "created_at": "2019-03-28T14:56:20.479Z",
@@ -1282,6 +1391,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "140a3460-b08d-4e12-b27d-b158f6c82a0d",
+    "fields": {
+      "created_at": "2019-04-09T07:15:16.156Z",
+      "modified_at": "2019-04-09T07:15:16.156Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "allgemeine-angaben-zum-betrieb",
+      "question": "wert-nachhallzeiten",
+      "sort": 3
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "140b20ab-3fed-484b-9ca3-b4f45b544508",
     "fields": {
       "created_at": "2019-04-04T08:04:44.255Z",
@@ -1386,6 +1508,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "18152f5d-d806-47cb-898c-57886cfcfa56",
+    "fields": {
+      "created_at": "2019-04-09T07:03:16.651Z",
+      "modified_at": "2019-04-09T07:03:16.651Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "allgemeine-angaben-zum-betrieb",
+      "question": "notbeleuchtung",
+      "sort": 8
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "1845a0bf-cc63-4877-90bd-4c95e3c509d7",
     "fields": {
       "created_at": "2019-04-02T10:44:46.122Z",
@@ -1485,7 +1620,7 @@
       "created_by_group": null,
       "form": "5-spezialformulare",
       "question": "zivilschutz",
-      "sort": 12
+      "sort": 17
     }
   },
   {
@@ -1594,6 +1729,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "1eb81ff4-6151-49cc-b81d-6f914f24fa14",
+    "fields": {
+      "created_at": "2019-04-09T06:54:58.107Z",
+      "modified_at": "2019-04-09T06:54:58.108Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "allgemeine-angaben-zum-betrieb",
+      "question": "anzahl-mitarbeitende-nach-umbau",
+      "sort": 12
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "1f6243da-506c-41ed-b773-1a9b56db30bb",
     "fields": {
       "created_at": "2019-04-04T08:42:45.932Z",
@@ -1672,6 +1820,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "224e7ab2-c945-44cc-9df2-8131fde7c474",
+    "fields": {
+      "created_at": "2019-04-09T07:21:22.908Z",
+      "modified_at": "2019-04-09T07:21:22.908Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "maschinen-und-anlagen-tabelle",
+      "question": "verwendung-maschinen-und-anlagen",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "22b978b4-dd32-4f80-9997-493021a1d376",
     "fields": {
       "created_at": "2019-04-04T07:53:17.651Z",
@@ -1746,6 +1907,19 @@
       "form": "immissionsschutz-laermschutz",
       "question": "arbeit-waehrend-nachtzeit",
       "sort": 4
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "2568b83d-acf3-4c49-bebc-751bd32f85b8",
+    "fields": {
+      "created_at": "2019-04-09T07:38:41.396Z",
+      "modified_at": "2019-04-09T07:38:41.396Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "beschreibung-der-prozessart-tabelle",
+      "question": "prozessart",
+      "sort": 2
     }
   },
   {
@@ -1906,6 +2080,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "2d194f5d-9c94-4095-b54f-f5fbf8ad1401",
+    "fields": {
+      "created_at": "2019-04-09T07:57:32.342Z",
+      "modified_at": "2019-04-09T07:57:32.342Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "5-spezialformulare",
+      "question": "hindernisfreies-bauen",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "2da61e3c-aaa6-4d74-8de7-fcc285591806",
     "fields": {
       "created_at": "2019-04-02T14:16:13.293Z",
@@ -1928,6 +2115,19 @@
       "form": "bauvorhaben",
       "question": "beschreibung",
       "sort": 4
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "2f19b077-b7e3-4692-afc3-44ace6c2ccee",
+    "fields": {
+      "created_at": "2019-04-09T07:42:13.322Z",
+      "modified_at": "2019-04-09T07:42:13.322Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "naturgefahren",
+      "question": "beschreibung-der-prozessart-tabelle",
+      "sort": 1
     }
   },
   {
@@ -2148,7 +2348,7 @@
       "created_by_group": null,
       "form": "5-spezialformulare",
       "question": "reklame",
-      "sort": 2
+      "sort": 7
     }
   },
   {
@@ -2491,6 +2691,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "460de339-d2d5-4ced-9078-2fc45b1ccead",
+    "fields": {
+      "created_at": "2019-04-09T07:19:17.817Z",
+      "modified_at": "2019-04-09T07:19:17.817Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "maschinen-und-anlagen-tabelle",
+      "question": "bezeichnung-maschinen-und-anlagen",
+      "sort": 4
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "463f1022-b643-47e5-a7f7-b5b8b58bce91",
     "fields": {
       "created_at": "2019-04-08T15:12:12.349Z",
@@ -2660,6 +2873,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "4d17a961-f42a-4a90-a622-0c2159ff4877",
+    "fields": {
+      "created_at": "2019-04-09T07:28:41.618Z",
+      "modified_at": "2019-04-09T07:28:41.618Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "5-spezialformulare",
+      "question": "maschinen-und-anlagen",
+      "sort": 3
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "4d7d7cab-280e-4de4-a3b2-1b3eb3fef03a",
     "fields": {
       "created_at": "2019-04-05T08:14:31.098Z",
@@ -2721,6 +2947,19 @@
       "form": "gewaesserschutz-bauten-im-grundwasser",
       "question": "oberflaechengewaesser-regenabwasserleitung",
       "sort": 3
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "4f21ab84-7948-4cb9-9746-ae7d4d5c85ff",
+    "fields": {
+      "created_at": "2019-04-09T07:25:42.044Z",
+      "modified_at": "2019-04-09T07:25:42.044Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "maschinen-und-anlagen",
+      "question": "maschinen-und-anlagen-tabelle",
+      "sort": 1
     }
   },
   {
@@ -3505,6 +3744,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "74536f22-3865-4ffd-9702-9ed059f39b50",
+    "fields": {
+      "created_at": "2019-04-09T06:52:26.073Z",
+      "modified_at": "2019-04-09T06:52:26.073Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "allgemeine-angaben-zum-betrieb",
+      "question": "anzahl-arbeitsplaetze-aktuell",
+      "sort": 15
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "747883e0-0056-46f6-82fa-0b00a1ece06a",
     "fields": {
       "created_at": "2019-04-02T14:28:48.522Z",
@@ -3513,7 +3765,7 @@
       "created_by_group": null,
       "form": "5-spezialformulare",
       "question": "biologische-sicherheit-und-stoerfallvorsorge",
-      "sort": 5
+      "sort": 10
     }
   },
   {
@@ -3591,7 +3843,7 @@
       "created_by_group": null,
       "form": "5-spezialformulare",
       "question": "immissionsschutz-laermschutz",
-      "sort": 10
+      "sort": 15
     }
   },
   {
@@ -3631,6 +3883,19 @@
       "form": "gastgewerbe-allgemein",
       "question": "sitzplaetze-garten",
       "sort": 8
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "79a7c101-3e08-4357-8aa7-90e2bd15e0ca",
+    "fields": {
+      "created_at": "2019-04-09T07:20:27.756Z",
+      "modified_at": "2019-04-09T07:20:27.756Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "maschinen-und-anlagen-tabelle",
+      "question": "typ-maschinen-und-anlagen",
+      "sort": 3
     }
   },
   {
@@ -3752,6 +4017,32 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "848ac05f-9cdb-4234-b200-7da3d74f8b86",
+    "fields": {
+      "created_at": "2019-04-08T15:39:02.098Z",
+      "modified_at": "2019-04-08T15:39:02.098Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "5-spezialformulare",
+      "question": "personalien-betreiberin-der-anlage",
+      "sort": 5
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "848d9641-33d7-4245-bc6b-7899d26f2a0d",
+    "fields": {
+      "created_at": "2019-04-09T07:13:02.991Z",
+      "modified_at": "2019-04-09T07:13:02.991Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "allgemeine-angaben-zum-betrieb",
+      "question": "wert-mittlerer-schallabsorptionsgrad",
+      "sort": 5
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "85122c62-f10e-4b02-bc0a-0ef430125c72",
     "fields": {
       "created_at": "2019-03-08T15:30:16.183Z",
@@ -3843,6 +4134,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "87ab37bb-a4fe-4a6c-a49a-00c94e1c8090",
+    "fields": {
+      "created_at": "2019-04-09T07:43:30.655Z",
+      "modified_at": "2019-04-09T07:43:30.655Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "5-spezialformulare",
+      "question": "naturgefahren",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "880e20f4-051e-491e-871d-78b90f4c7bba",
     "fields": {
       "created_at": "2019-04-02T09:07:37.108Z",
@@ -3851,7 +4155,20 @@
       "created_by_group": null,
       "form": "5-spezialformulare",
       "question": "waermepumpen",
-      "sort": 11
+      "sort": 16
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "883d0b4d-4763-4e73-877d-5fe5ebc8c46c",
+    "fields": {
+      "created_at": "2019-04-09T07:32:41.814Z",
+      "modified_at": "2019-04-09T07:32:41.814Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "naturgefahren",
+      "question": "gefahrenstufe",
+      "sort": 2
     }
   },
   {
@@ -3947,6 +4264,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "8cb24491-516b-4df5-8c0e-c330db66d489",
+    "fields": {
+      "created_at": "2019-04-09T07:34:56.524Z",
+      "modified_at": "2019-04-09T07:34:56.524Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "beschreibung-der-prozessart-tabelle",
+      "question": "hauptprozessart",
+      "sort": 3
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "8dd6149d-43fb-4578-9249-ec2100f2de9d",
     "fields": {
       "created_at": "2019-04-01T12:40:22.746Z",
@@ -3994,7 +4324,7 @@
       "created_by_group": null,
       "form": "5-spezialformulare",
       "question": "immissionsschutz",
-      "sort": 9
+      "sort": 14
     }
   },
   {
@@ -4033,7 +4363,7 @@
       "created_by_group": null,
       "form": "5-spezialformulare",
       "question": "gastgewerbe-fumoir",
-      "sort": 6
+      "sort": 11
     }
   },
   {
@@ -4337,6 +4667,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "9b993a22-30cf-4f82-a9a3-4f2dcce4cc09",
+    "fields": {
+      "created_at": "2019-04-09T07:08:49.688Z",
+      "modified_at": "2019-04-09T07:08:49.688Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "allgemeine-angaben-zum-betrieb",
+      "question": "nachhallzeiten",
+      "sort": 4
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "9bb345d4-134c-4f47-91ec-31caa92d9747",
     "fields": {
       "created_at": "2019-04-01T14:27:33.508Z",
@@ -4428,6 +4771,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "9fc2ff7f-c5a0-4fb1-ba4d-72dd51cb053b",
+    "fields": {
+      "created_at": "2019-04-09T07:17:14.825Z",
+      "modified_at": "2019-04-09T07:17:14.825Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "allgemeine-angaben-zum-betrieb",
+      "question": "wert-schalldruckpegelabnahme",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "a0a72be7-32a0-48c3-884a-0782b6d16f54",
     "fields": {
       "created_at": "2019-04-01T11:44:38.686Z",
@@ -4463,6 +4819,19 @@
       "form": "gebaudeeigentumerin",
       "question": "vorname-gebaeudeeigentuemerin",
       "sort": 8
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "a2849e07-5e16-4779-8563-a44343c897c5",
+    "fields": {
+      "created_at": "2019-04-09T07:07:29.719Z",
+      "modified_at": "2019-04-09T07:07:29.719Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "allgemeine-angaben-zum-betrieb",
+      "question": "mittlerer-schallabsorptionsgrad",
+      "sort": 6
     }
   },
   {
@@ -4636,6 +5005,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "aed22743-0aa0-499a-99d5-af9f8770fdcb",
+    "fields": {
+      "created_at": "2019-04-09T06:54:13.981Z",
+      "modified_at": "2019-04-09T06:54:13.981Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "allgemeine-angaben-zum-betrieb",
+      "question": "anzahl-mitarbeitende-aktuell",
+      "sort": 13
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "afa20193-5c1d-468f-ab93-2c7b3968501f",
     "fields": {
       "created_at": "2019-03-15T13:15:44.639Z",
@@ -4658,6 +5040,19 @@
       "form": "gewaesserschutz-bauten-im-grundwasser",
       "question": "menge-des-abzuleitenden-grundwassers",
       "sort": 7
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "b0eeb989-ca82-43cd-85be-df176d7c583a",
+    "fields": {
+      "created_at": "2019-04-09T06:58:34.762Z",
+      "modified_at": "2019-04-09T06:58:34.762Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "allgemeine-angaben-zum-betrieb",
+      "question": "art-der-notausgaenge",
+      "sort": 9
     }
   },
   {
@@ -5065,6 +5460,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "be2e90c8-278b-4baa-bba6-0f84a580fd93",
+    "fields": {
+      "created_at": "2019-04-09T07:01:16.440Z",
+      "modified_at": "2019-04-09T07:01:16.440Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "5-spezialformulare",
+      "question": "allgemeine-angaben-zum-betrieb",
+      "sort": 4
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "be82ecd1-3a98-492b-922d-f276e9b19c5c",
     "fields": {
       "created_at": "2019-04-02T10:47:39.112Z",
@@ -5169,6 +5577,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "c641fac4-c19d-4c39-ae57-d4df7120a9d2",
+    "fields": {
+      "created_at": "2019-04-09T07:24:06.908Z",
+      "modified_at": "2019-04-09T07:24:06.908Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "maschinen-und-anlagen-tabelle",
+      "question": "standort-maschinen-und-anlagen",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "c6dd5419-e1a5-4038-a60b-5c5b795ab6ba",
     "fields": {
       "created_at": "2019-04-03T11:29:24.359Z",
@@ -5268,7 +5689,7 @@
       "created_by_group": null,
       "form": "5-spezialformulare",
       "question": "wald",
-      "sort": 3
+      "sort": 8
     }
   },
   {
@@ -5312,6 +5733,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "cba24676-aa4c-4e43-bcbf-0180265e8e66",
+    "fields": {
+      "created_at": "2019-04-09T07:05:17.422Z",
+      "modified_at": "2019-04-09T07:05:17.422Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "allgemeine-angaben-zum-betrieb",
+      "question": "ort",
+      "sort": 7
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "cbb8e07e-8446-4b00-bdf7-45a04aa8919d",
     "fields": {
       "created_at": "2019-04-04T08:31:26.981Z",
@@ -5334,6 +5768,19 @@
       "form": "gewaesserschutz-bauten-im-grundwasser",
       "question": "terrain-kote",
       "sort": 20
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "cbcfc694-0299-4eed-9fa8-e049620b58ad",
+    "fields": {
+      "created_at": "2019-04-09T06:53:26.617Z",
+      "modified_at": "2019-04-09T06:53:26.617Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "allgemeine-angaben-zum-betrieb",
+      "question": "anzahl-arbeitsplaetze-nach-umbau",
+      "sort": 14
     }
   },
   {
@@ -5450,7 +5897,7 @@
       "created_by_group": null,
       "form": "5-spezialformulare",
       "question": "entsorgung",
-      "sort": 1
+      "sort": 6
     }
   },
   {
@@ -5529,6 +5976,19 @@
       "form": "gebaudeeigentumerin",
       "question": "ort-gebaeudeeigentuemerin",
       "sort": 3
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "d8104d8b-ed0a-447b-ae59-af403bd24154",
+    "fields": {
+      "created_at": "2019-04-09T07:40:23.995Z",
+      "modified_at": "2019-04-09T07:40:23.995Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "beschreibung-der-prozessart-tabelle",
+      "question": "beschreibung-der-gefaehrdung",
+      "sort": 1
     }
   },
   {
@@ -5806,6 +6266,19 @@
   },
   {
     "model": "form.formquestion",
+    "pk": "e4960271-fba8-4275-b301-5fc6243351bc",
+    "fields": {
+      "created_at": "2019-04-09T06:56:34.586Z",
+      "modified_at": "2019-04-09T06:56:34.586Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "allgemeine-angaben-zum-betrieb",
+      "question": "anzahl-jugendliche-nach-umbau",
+      "sort": 10
+    }
+  },
+  {
+    "model": "form.formquestion",
     "pk": "e6275e82-1bac-402a-8eb2-edd714315a35",
     "fields": {
       "created_at": "2019-04-03T11:47:23.242Z",
@@ -5827,7 +6300,7 @@
       "created_by_group": null,
       "form": "5-spezialformulare",
       "question": "personalien-gastgewerbe",
-      "sort": 8
+      "sort": 13
     }
   },
   {
@@ -5867,6 +6340,19 @@
       "form": "baugesuch",
       "question": "2-nutzung-bauvorhaben",
       "sort": 4
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "e7700007-2dae-4de1-bc68-45ba05a5b73b",
+    "fields": {
+      "created_at": "2019-04-09T06:55:45.774Z",
+      "modified_at": "2019-04-09T06:55:45.774Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "allgemeine-angaben-zum-betrieb",
+      "question": "anzahl-jugendliche-aktuell",
+      "sort": 11
     }
   },
   {
@@ -6022,7 +6508,7 @@
       "created_by_group": null,
       "form": "5-spezialformulare",
       "question": "gastgewerbe-allgemein",
-      "sort": 7
+      "sort": 12
     }
   },
   {
@@ -6126,7 +6612,7 @@
       "created_by_group": null,
       "form": "5-spezialformulare",
       "question": "solar-und-sendeanlagen",
-      "sort": 4
+      "sort": 9
     }
   },
   {
@@ -6400,6 +6886,19 @@
       "form": "biologische-sicherheit-und-stoerfallvorsorge",
       "question": "gentechnisch-veraenderte-organismen",
       "sort": 19
+    }
+  },
+  {
+    "model": "form.formquestion",
+    "pk": "fc37be50-cc14-4148-80d0-6e70c7fb4a8a",
+    "fields": {
+      "created_at": "2019-04-09T07:55:09.679Z",
+      "modified_at": "2019-04-09T07:55:09.679Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "form": "hindernisfreies-bauen",
+      "question": "gebaeudeversicherungswert-in-chf",
+      "sort": 1
     }
   },
   {
@@ -6906,6 +7405,26 @@
   },
   {
     "model": "form.question",
+    "pk": "allgemeine-angaben-zum-betrieb",
+    "fields": {
+      "created_at": "2019-04-09T07:01:16.348Z",
+      "modified_at": "2019-04-09T07:01:16.348Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Allgemeine Angaben zum Betrieb\", \"fr\": null, \"en\": null}",
+      "type": "form",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": "allgemeine-angaben-zum-betrieb",
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "amts-verfugungsnummer",
     "fields": {
       "created_at": "2019-04-01T13:25:22.157Z",
@@ -6936,6 +7455,46 @@
       "type": "integer",
       "is_required": "true",
       "is_hidden": "'auto-oder-fahrradabstellplaetze-nein' in 'auto-oder-fahrradabstellplaetze'|answer",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "anzahl-arbeitsplaetze-aktuell",
+    "fields": {
+      "created_at": "2019-04-09T06:52:25.807Z",
+      "modified_at": "2019-04-09T06:52:25.808Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Anzahl Arbeitspl\\u00e4tze aktuell\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "anzahl-arbeitsplaetze-nach-umbau",
+    "fields": {
+      "created_at": "2019-04-09T06:53:26.498Z",
+      "modified_at": "2019-04-09T06:53:26.498Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Anzahl Arbeitspl\\u00e4tze nach Umbau\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "false",
       "is_archived": false,
       "configuration": { "max_value": null, "min_value": null },
       "meta": {},
@@ -6978,6 +7537,86 @@
       "is_hidden": "false",
       "is_archived": false,
       "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "anzahl-jugendliche-aktuell",
+    "fields": {
+      "created_at": "2019-04-09T06:55:45.656Z",
+      "modified_at": "2019-04-09T06:55:45.656Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Anzahl Jugendliche aktuell\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "anzahl-jugendliche-nach-umbau",
+    "fields": {
+      "created_at": "2019-04-09T06:56:34.506Z",
+      "modified_at": "2019-04-09T06:56:34.506Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Anzahl Jugendliche nach Umbau\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "anzahl-mitarbeitende-aktuell",
+    "fields": {
+      "created_at": "2019-04-09T06:54:13.881Z",
+      "modified_at": "2019-04-09T06:54:13.881Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Anzahl Mitarbeitende aktuell\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "anzahl-mitarbeitende-nach-umbau",
+    "fields": {
+      "created_at": "2019-04-09T06:54:57.969Z",
+      "modified_at": "2019-04-09T06:54:57.969Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Anzahl Mitarbeitende nach Umbau\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
       "meta": {},
       "row_form": null,
       "sub_form": null,
@@ -7233,6 +7872,26 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Art der Grundwasserabsenkung\", \"fr\": null, \"en\": null}",
+      "type": "multiple_choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "art-der-notausgaenge",
+    "fields": {
+      "created_at": "2019-04-09T06:58:34.658Z",
+      "modified_at": "2019-04-09T06:58:34.658Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Art der Notausg\\u00e4nge\", \"fr\": null, \"en\": null}",
       "type": "multiple_choice",
       "is_required": "true",
       "is_hidden": "false",
@@ -7926,6 +8585,46 @@
   },
   {
     "model": "form.question",
+    "pk": "beschreibung-der-gefaehrdung",
+    "fields": {
+      "created_at": "2019-04-09T07:40:23.905Z",
+      "modified_at": "2019-04-09T07:40:23.905Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Beschreibung der Gef\\u00e4hrdung\", \"fr\": null, \"en\": null}",
+      "type": "textarea",
+      "is_required": "false",
+      "is_hidden": "'prozessart' in 'prozessart'|answer",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "beschreibung-der-prozessart-tabelle",
+    "fields": {
+      "created_at": "2019-04-09T07:42:13.235Z",
+      "modified_at": "2019-04-09T07:50:19.672Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Beschreibung der Prozessart\", \"fr\": null, \"en\": null}",
+      "type": "table",
+      "is_required": "false",
+      "is_hidden": "!('gefahrenstufe-unbestimmt' in 'gefahrenstufe'|answer || 'gefahrenstufe-rot' in 'gefahrenstufe'|answer || 'gefahrenstufe-blau' in 'gefahrenstufe'|answer || 'gefahrenstufe-gelb' in 'gefahrenstufe'|answer || 'gefahrenstufe-gelb-weiss' in 'gefahrenstufe'|answer)",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": "beschreibung-der-prozessart-tabelle",
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "beschreibung-geplante-taetigkeit",
     "fields": {
       "created_at": "2019-04-02T13:43:54.262Z",
@@ -8176,6 +8875,26 @@
       "type": "text",
       "is_required": "true",
       "is_hidden": "'baugruppe-bauinventar-nein' in 'baugruppe-bauinventar'|answer",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "bezeichnung-maschinen-und-anlagen",
+    "fields": {
+      "created_at": "2019-04-09T07:19:17.731Z",
+      "modified_at": "2019-04-09T07:19:17.731Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Bezeichnung\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "false",
+      "is_hidden": "false",
       "is_archived": false,
       "configuration": { "max_length": null },
       "meta": {},
@@ -9426,6 +10145,26 @@
   },
   {
     "model": "form.question",
+    "pk": "gebaeudeversicherungswert-in-chf",
+    "fields": {
+      "created_at": "2019-04-09T07:55:09.586Z",
+      "modified_at": "2019-04-09T07:55:09.586Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Geb\\u00e4udeversicherungswert vor der Erneuerung in CHF\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "gebiet-mit-archaeologischen-objekten",
     "fields": {
       "created_at": "2019-04-01T11:17:11.154Z",
@@ -9494,6 +10233,26 @@
       "created_by_group": null,
       "label": "{\"de\": \"Wurde der aktuelle Betrieb aufgrund seines Potenzials f\\u00fcr Bev\\u00f6lkerung oder Umwelt schwer sch\\u00e4dlich oder gef\\u00e4hrlich sein zu k\\u00f6nnen, durch die Vollzugsbeh\\u00f6rde auf der Basis von Art. 1 Abs. 3 StFV bereits der Verordnung unterstellt?\", \"fr\": null, \"en\": null}",
       "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "gefahrenstufe",
+    "fields": {
+      "created_at": "2019-04-09T07:32:41.724Z",
+      "modified_at": "2019-04-09T07:32:41.724Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Gefahrenstufe\", \"fr\": null, \"en\": null}",
+      "type": "multiple_choice",
       "is_required": "true",
       "is_hidden": "false",
       "is_archived": false,
@@ -10046,6 +10805,26 @@
   },
   {
     "model": "form.question",
+    "pk": "hauptprozessart",
+    "fields": {
+      "created_at": "2019-04-09T07:34:56.433Z",
+      "modified_at": "2019-04-09T07:34:56.433Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Hauptprozessart\", \"fr\": null, \"en\": null}",
+      "type": "multiple_choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": { "widgetType": "powerselect" },
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "heizleistungsbedarf",
     "fields": {
       "created_at": "2019-04-01T14:49:44.047Z",
@@ -10181,6 +10960,26 @@
       "meta": {},
       "row_form": null,
       "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "hindernisfreies-bauen",
+    "fields": {
+      "created_at": "2019-04-09T07:57:32.254Z",
+      "modified_at": "2019-04-09T07:57:32.254Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Hindernisfreies Bauen\", \"fr\": null, \"en\": null}",
+      "type": "form",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": "hindernisfreies-bauen",
       "source": null
     }
   },
@@ -11526,6 +12325,46 @@
   },
   {
     "model": "form.question",
+    "pk": "maschinen-und-anlagen",
+    "fields": {
+      "created_at": "2019-04-09T07:28:41.539Z",
+      "modified_at": "2019-04-09T07:28:41.539Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Maschinen & Anlagen\", \"fr\": null, \"en\": null}",
+      "type": "form",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": "maschinen-und-anlagen",
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "maschinen-und-anlagen-tabelle",
+    "fields": {
+      "created_at": "2019-04-09T07:25:41.960Z",
+      "modified_at": "2019-04-09T07:25:41.960Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Maschinen & Anlagen\", \"fr\": null, \"en\": null}",
+      "type": "table",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": "maschinen-und-anlagen-tabelle",
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "massangabe",
     "fields": {
       "created_at": "2019-04-03T11:48:06.149Z",
@@ -11766,6 +12605,26 @@
   },
   {
     "model": "form.question",
+    "pk": "mittlerer-schallabsorptionsgrad",
+    "fields": {
+      "created_at": "2019-04-09T07:07:29.635Z",
+      "modified_at": "2019-04-09T07:07:29.635Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Mittlerer Schallabsorptionsgrad (\\u03b1s)\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "montageort-am-gebaeude",
     "fields": {
       "created_at": "2019-04-08T14:32:10.391Z",
@@ -11798,6 +12657,26 @@
       "is_hidden": "false",
       "is_archived": false,
       "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "nachhallzeiten",
+    "fields": {
+      "created_at": "2019-04-09T07:08:49.596Z",
+      "modified_at": "2019-04-09T07:08:49.596Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nachhallzeiten (Tm)\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
       "meta": {},
       "row_form": null,
       "sub_form": null,
@@ -12266,6 +13145,26 @@
   },
   {
     "model": "form.question",
+    "pk": "naturgefahren",
+    "fields": {
+      "created_at": "2019-04-09T07:43:30.581Z",
+      "modified_at": "2019-04-09T07:43:30.581Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Naturgefahren\", \"fr\": null, \"en\": null}",
+      "type": "form",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": "naturgefahren",
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "naturschutz",
     "fields": {
       "created_at": "2019-04-01T11:17:45.666Z",
@@ -12356,6 +13255,26 @@
       "type": "choice",
       "is_required": "true",
       "is_hidden": "'handelt-es-sich-um-eine-baute-im-wald-nein' in 'handelt-es-sich-um-eine-baute-im-wald'|answer",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "notbeleuchtung",
+    "fields": {
+      "created_at": "2019-04-09T07:03:16.553Z",
+      "modified_at": "2019-04-09T07:03:16.553Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Notbeleuchtung\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
       "is_archived": false,
       "configuration": {},
       "meta": {},
@@ -12846,6 +13765,26 @@
   },
   {
     "model": "form.question",
+    "pk": "ort",
+    "fields": {
+      "created_at": "2019-04-09T07:05:17.336Z",
+      "modified_at": "2019-04-09T07:05:17.336Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ort\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "true",
+      "is_hidden": "'notbeleuchtung-nein' in 'notbeleuchtung'|answer",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "ort-energie",
     "fields": {
       "created_at": "2019-04-04T10:36:20.713Z",
@@ -13201,6 +14140,26 @@
       "meta": {},
       "row_form": null,
       "sub_form": "personalien",
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "personalien-betreiberin-der-anlage",
+    "fields": {
+      "created_at": "2019-04-08T15:39:02.013Z",
+      "modified_at": "2019-04-08T15:39:02.013Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Personalien - Betreiber/in der Anlage\", \"fr\": null, \"en\": null}",
+      "type": "form",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": "personalien-betreiberin-der-anlage",
       "source": null
     }
   },
@@ -13606,6 +14565,26 @@
   },
   {
     "model": "form.question",
+    "pk": "prozessart",
+    "fields": {
+      "created_at": "2019-04-09T07:38:41.289Z",
+      "modified_at": "2019-04-09T07:38:41.289Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Prozessart\", \"fr\": null, \"en\": null}",
+      "type": "multiple_choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": { "widgetType": "powerselect" },
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "qss-stufe",
     "fields": {
       "created_at": "2019-04-01T12:19:18.723Z",
@@ -13773,6 +14752,26 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Nur sanit\\u00e4rtechnische Anpassungen der Liegenschaft?\", \"fr\": null, \"en\": null}",
+      "type": "choice",
+      "is_required": "true",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": {},
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "schalldruckpegelabnahme",
+    "fields": {
+      "created_at": "2019-04-09T07:10:35.306Z",
+      "modified_at": "2019-04-09T07:10:35.307Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Schalldruckpegelabnahme pro Distanzverdoppelung (DL2)\", \"fr\": null, \"en\": null}",
       "type": "choice",
       "is_required": "true",
       "is_hidden": "false",
@@ -14196,6 +15195,26 @@
       "type": "text",
       "is_required": "false",
       "is_hidden": "!('geplante-anlagen-sendeanlage' in 'geplante-anlagen'|answer)",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "standort-maschinen-und-anlagen",
+    "fields": {
+      "created_at": "2019-04-09T07:24:06.840Z",
+      "modified_at": "2019-04-09T07:24:06.840Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Standort\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "false",
+      "is_hidden": "false",
       "is_archived": false,
       "configuration": { "max_length": null },
       "meta": {},
@@ -15106,6 +16125,26 @@
   },
   {
     "model": "form.question",
+    "pk": "typ-maschinen-und-anlagen",
+    "fields": {
+      "created_at": "2019-04-09T07:20:27.665Z",
+      "modified_at": "2019-04-09T07:20:27.665Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Typ\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "false",
+      "is_hidden": "false",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "typ-waermepumpen",
     "fields": {
       "created_at": "2019-04-04T11:28:03.814Z",
@@ -15396,6 +16435,26 @@
       "type": "text",
       "is_required": "false",
       "is_hidden": "!('geplante-anlagen-sendeanlage' in 'geplante-anlagen'|answer)",
+      "is_archived": false,
+      "configuration": { "max_length": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "verwendung-maschinen-und-anlagen",
+    "fields": {
+      "created_at": "2019-04-09T07:21:22.825Z",
+      "modified_at": "2019-04-09T07:21:22.825Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Verwendung\", \"fr\": null, \"en\": null}",
+      "type": "text",
+      "is_required": "false",
+      "is_hidden": "false",
       "is_archived": false,
       "configuration": { "max_length": null },
       "meta": {},
@@ -16166,6 +17225,66 @@
   },
   {
     "model": "form.question",
+    "pk": "wert-mittlerer-schallabsorptionsgrad",
+    "fields": {
+      "created_at": "2019-04-09T07:13:02.906Z",
+      "modified_at": "2019-04-09T07:13:02.906Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Wert\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "'mittlerer-schallabsorptionsgrad-nein' in 'mittlerer-schallabsorptionsgrad'|answer",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "wert-nachhallzeiten",
+    "fields": {
+      "created_at": "2019-04-09T07:15:16.047Z",
+      "modified_at": "2019-04-09T07:15:16.047Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Wert\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "'nachhallzeiten-nein' in 'nachhallzeiten'|answer",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
+    "pk": "wert-schalldruckpegelabnahme",
+    "fields": {
+      "created_at": "2019-04-09T07:17:14.716Z",
+      "modified_at": "2019-04-09T07:17:14.716Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Wert\", \"fr\": null, \"en\": null}",
+      "type": "integer",
+      "is_required": "true",
+      "is_hidden": "'schalldruckpegelabnahme-nein' in 'schalldruckpegelabnahme'|answer",
+      "is_archived": false,
+      "configuration": { "max_value": null, "min_value": null },
+      "meta": {},
+      "row_form": null,
+      "sub_form": null,
+      "source": null
+    }
+  },
+  {
+    "model": "form.question",
     "pk": "wildtierschutz",
     "fields": {
       "created_at": "2019-04-01T11:18:15.397Z",
@@ -16655,6 +17774,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "051c63b0-2b70-4ed2-a0e4-f49d09d35a26",
+    "fields": {
+      "created_at": "2019-04-09T07:32:41.727Z",
+      "modified_at": "2019-04-09T07:32:41.727Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "gefahrenstufe",
+      "option": "gefahrenstufe-gelb-weiss",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "052612ea-28f1-413c-8421-bc2a8b4add1e",
     "fields": {
       "created_at": "2019-04-02T10:40:18.708Z",
@@ -16980,6 +18112,32 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "1097d16b-4573-4e5c-a899-62d9f368b512",
+    "fields": {
+      "created_at": "2019-04-09T07:38:41.293Z",
+      "modified_at": "2019-04-09T07:38:41.293Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "prozessart",
+      "option": "prozessart-felssturz",
+      "sort": 11
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "10ba543a-1b9f-4676-bfa1-202b48c3514c",
+    "fields": {
+      "created_at": "2019-04-09T07:07:29.638Z",
+      "modified_at": "2019-04-09T07:07:29.638Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "mittlerer-schallabsorptionsgrad",
+      "option": "mittlerer-schallabsorptionsgrad-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "128908c2-d73e-4662-809d-110f09e972f0",
     "fields": {
       "created_at": "2019-04-02T13:42:24.457Z",
@@ -17066,6 +18224,19 @@
       "created_by_group": null,
       "question": "mehr-als-1500-m3-bodenmaterial",
       "option": "mehr-als-1500-m3-bodenmaterial-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "15983265-f1c5-46b2-87be-75ee2f537195",
+    "fields": {
+      "created_at": "2019-04-09T07:38:41.292Z",
+      "modified_at": "2019-04-09T07:38:41.292Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "prozessart",
+      "option": "prozessart-uferrutschung",
       "sort": 1
     }
   },
@@ -17171,6 +18342,19 @@
       "question": "tanzbetrieb",
       "option": "tanzbetrieb-ja",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "1a9cbb36-02d5-4ee5-aea7-b64e2227ce5f",
+    "fields": {
+      "created_at": "2019-04-09T07:08:49.599Z",
+      "modified_at": "2019-04-09T07:08:49.599Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "nachhallzeiten",
+      "option": "nachhallzeiten-nein",
+      "sort": 1
     }
   },
   {
@@ -17911,6 +19095,19 @@
       "created_by_group": null,
       "question": "zugang-zum-arbeitsbereich-ueber-schleuse",
       "option": "zugang-zum-arbeitsbereich-ueber-schleuse-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "399adae8-80b4-4d43-92e3-da758bdaeb7f",
+    "fields": {
+      "created_at": "2019-04-09T07:34:56.436Z",
+      "modified_at": "2019-04-09T07:34:56.436Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "hauptprozessart",
+      "option": "hauptprozessart-einsturz-dolinen",
       "sort": 1
     }
   },
@@ -19034,6 +20231,32 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "5f8ca82d-876b-4e74-855b-7f744a4dba19",
+    "fields": {
+      "created_at": "2019-04-09T07:38:41.292Z",
+      "modified_at": "2019-04-09T07:38:41.292Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "prozessart",
+      "option": "prozessart-murgang",
+      "sort": 8
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "60e0b38a-1bb6-40b1-8600-7d0599ee232a",
+    "fields": {
+      "created_at": "2019-04-09T07:38:41.293Z",
+      "modified_at": "2019-04-09T07:38:41.293Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "prozessart",
+      "option": "prozessart-fliesslawine",
+      "sort": 10
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "60e3b8a6-7d62-4894-a830-c39ab600dd79",
     "fields": {
       "created_at": "2019-04-04T06:41:01.905Z",
@@ -19502,6 +20725,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "70448a68-56b5-4d1a-9bfd-0b5776c91153",
+    "fields": {
+      "created_at": "2019-04-09T07:38:41.292Z",
+      "modified_at": "2019-04-09T07:38:41.292Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "prozessart",
+      "option": "prozessart-schneegleiten",
+      "sort": 6
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "707a5fcf-83f2-4cfc-84d0-567b95454397",
     "fields": {
       "created_at": "2019-04-05T08:33:39.217Z",
@@ -19563,6 +20799,19 @@
       "question": "laermintensive-bauarbeiten-ueber-6-tage",
       "option": "laermintensive-bauarbeiten-ueber-6-tagen-ja",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "73337fed-a781-4365-9165-ebd398743c6f",
+    "fields": {
+      "created_at": "2019-04-09T07:32:41.727Z",
+      "modified_at": "2019-04-09T07:32:41.727Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "gefahrenstufe",
+      "option": "gefahrenstufe-unbestimmt",
+      "sort": 5
     }
   },
   {
@@ -19706,6 +20955,19 @@
       "question": "brandbelastung",
       "option": "brandbelastung-ja",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "794c02e2-ac81-4d99-89d6-feff07b6bc9f",
+    "fields": {
+      "created_at": "2019-04-09T06:58:34.660Z",
+      "modified_at": "2019-04-09T06:58:34.660Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "art-der-notausgaenge",
+      "option": "art-der-notausgaenge-drehfluegeltueren",
+      "sort": 3
     }
   },
   {
@@ -20269,6 +21531,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "8fc2c78f-7d6a-452b-85ac-0b2c9818fcf9",
+    "fields": {
+      "created_at": "2019-04-09T07:38:41.292Z",
+      "modified_at": "2019-04-09T07:38:41.292Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "prozessart",
+      "option": "prozessart-ueberschwemmung",
+      "sort": 3
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "8fdb7bf5-d694-44a8-a6cf-3a204676bc83",
     "fields": {
       "created_at": "2019-04-01T10:42:44.405Z",
@@ -20304,6 +21579,19 @@
       "question": "projektverfasserin-identisch",
       "option": "projektverfasserin-identisch-ja",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "9138598b-cab4-4c9f-9ce4-3077df56f740",
+    "fields": {
+      "created_at": "2019-04-09T07:32:41.727Z",
+      "modified_at": "2019-04-09T07:32:41.727Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "gefahrenstufe",
+      "option": "gefahrenstufe-blau",
+      "sort": 3
     }
   },
   {
@@ -20438,6 +21726,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "95ba4288-7973-42b4-b200-26e13a216a5b",
+    "fields": {
+      "created_at": "2019-04-09T07:34:56.436Z",
+      "modified_at": "2019-04-09T07:34:56.436Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "hauptprozessart",
+      "option": "hauptprozessart-rutschung",
+      "sort": 3
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "966fb03c-c355-4521-b83a-f0a826ad2c26",
     "fields": {
       "created_at": "2019-04-03T11:48:06.151Z",
@@ -20473,6 +21774,19 @@
       "question": "forstliche-baute",
       "option": "forstliche-baute-nein",
       "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "97e6c662-52b6-4943-85b7-55bb440cd137",
+    "fields": {
+      "created_at": "2019-04-09T07:34:56.436Z",
+      "modified_at": "2019-04-09T07:34:56.436Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "hauptprozessart",
+      "option": "hauptprozessart-wasser",
+      "sort": 5
     }
   },
   {
@@ -20542,6 +21856,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "9a5772ec-9e2c-4b65-8487-246e57195e00",
+    "fields": {
+      "created_at": "2019-04-09T07:38:41.292Z",
+      "modified_at": "2019-04-09T07:38:41.292Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "prozessart",
+      "option": "prozessart-permanente-rutschung",
+      "sort": 5
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "9acce1ab-5e5e-4e08-88db-397cae895e0a",
     "fields": {
       "created_at": "2019-03-28T09:41:34.616Z",
@@ -20563,6 +21890,19 @@
       "created_by_group": null,
       "question": "auto-oder-fahrradabstellplaetze",
       "option": "auto-oder-fahrradabstellplaetze-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "9b1b5888-fb80-43e6-a4a9-86c2a333c703",
+    "fields": {
+      "created_at": "2019-04-09T07:03:16.555Z",
+      "modified_at": "2019-04-09T07:03:16.555Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "notbeleuchtung",
+      "option": "notbeleuchtung-ja",
       "sort": 2
     }
   },
@@ -20828,6 +22168,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "a9a619dd-e399-4c46-a972-84026d273e82",
+    "fields": {
+      "created_at": "2019-04-09T07:10:35.309Z",
+      "modified_at": "2019-04-09T07:10:35.309Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "schalldruckpegelabnahme",
+      "option": "schalldruckpegelabnahme-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "aabe2bc4-a3b1-4ff9-b179-e6209d73e4e4",
     "fields": {
       "created_at": "2019-04-01T09:32:36.966Z",
@@ -20941,6 +22294,19 @@
       "question": "grundwasserschutzzonen",
       "option": "grundwasserschutzzonen-s1",
       "sort": 3
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "af249871-9a3c-4095-af1e-64af28edbe17",
+    "fields": {
+      "created_at": "2019-04-09T07:38:41.292Z",
+      "modified_at": "2019-04-09T07:38:41.292Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "prozessart",
+      "option": "prozessart-ufererosion",
+      "sort": 2
     }
   },
   {
@@ -21335,6 +22701,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "c2472962-1cfa-43f9-a507-d5a3389c6e42",
+    "fields": {
+      "created_at": "2019-04-09T07:38:41.293Z",
+      "modified_at": "2019-04-09T07:38:41.293Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "prozessart",
+      "option": "prozessart-hangmure",
+      "sort": 9
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "c2498f02-879f-4c24-949b-f3dd7f7124fb",
     "fields": {
       "created_at": "2019-04-02T10:46:02.366Z",
@@ -21474,6 +22853,19 @@
       "question": "ist-durch-das-bauvorhaben-boden-betroffen",
       "option": "ist-durch-das-bauvorhaben-boden-betroffen-ja",
       "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "c7fa8554-5a72-4a73-a63d-46c1ea67d17e",
+    "fields": {
+      "created_at": "2019-04-09T07:32:41.727Z",
+      "modified_at": "2019-04-09T07:32:41.727Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "gefahrenstufe",
+      "option": "gefahrenstufe-rot",
+      "sort": 4
     }
   },
   {
@@ -21712,6 +23104,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "d96d944c-c7bc-4c02-a15e-e42655d4f0ab",
+    "fields": {
+      "created_at": "2019-04-09T07:32:41.727Z",
+      "modified_at": "2019-04-09T07:32:41.727Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "gefahrenstufe",
+      "option": "gefahrenstufe-gelb",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "d9c6a6ec-d969-4bc4-8e8b-2d3c1470ffe4",
     "fields": {
       "created_at": "2019-03-28T10:10:46.332Z",
@@ -21798,6 +23203,19 @@
       "created_by_group": null,
       "question": "hepa-filter-abluft",
       "option": "hepa-filter-abluft-ja",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "de0f968e-bcdb-4061-b595-1e1b7d74a0af",
+    "fields": {
+      "created_at": "2019-04-09T07:08:49.599Z",
+      "modified_at": "2019-04-09T07:08:49.599Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "nachhallzeiten",
+      "option": "nachhallzeiten-ja",
       "sort": 2
     }
   },
@@ -21920,6 +23338,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "e642ed43-ab3d-4cb6-b396-608012eedc41",
+    "fields": {
+      "created_at": "2019-04-09T07:10:35.309Z",
+      "modified_at": "2019-04-09T07:10:35.309Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "schalldruckpegelabnahme",
+      "option": "schalldruckpegelabnahme-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "e65d3ac2-b533-4303-9657-90d90f69381e",
     "fields": {
       "created_at": "2019-03-28T10:10:46.332Z",
@@ -21929,6 +23360,32 @@
       "question": "nutzungsart",
       "option": "nutzungsart-industrie",
       "sort": 8
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "e6f1383c-b61a-4737-86de-84904a9af65c",
+    "fields": {
+      "created_at": "2019-04-09T06:58:34.660Z",
+      "modified_at": "2019-04-09T06:58:34.660Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "art-der-notausgaenge",
+      "option": "art-der-notausgaenge-schiebetueren",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "e793d84a-fcda-493f-85eb-c966f95f4948",
+    "fields": {
+      "created_at": "2019-04-09T07:38:41.292Z",
+      "modified_at": "2019-04-09T07:38:41.292Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "prozessart",
+      "option": "prozessart-steinschlag",
+      "sort": 4
     }
   },
   {
@@ -21998,6 +23455,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "ea9c9333-06a6-4cfc-a7b1-5f73d73d6077",
+    "fields": {
+      "created_at": "2019-04-09T06:58:34.660Z",
+      "modified_at": "2019-04-09T06:58:34.660Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "art-der-notausgaenge",
+      "option": "art-der-notausgaenge-roll-fall-oder-klapptore",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "eaa8b6c5-feee-4b33-b9fa-c20e6960affe",
     "fields": {
       "created_at": "2019-04-01T10:41:47.217Z",
@@ -22037,6 +23507,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "ebcd6d36-ff50-43ba-ada0-fbea641e479c",
+    "fields": {
+      "created_at": "2019-04-09T07:34:56.436Z",
+      "modified_at": "2019-04-09T07:34:56.436Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "hauptprozessart",
+      "option": "hauptprozessart-lawinen",
+      "sort": 2
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "ebd7e2bc-dcbc-46a8-96ed-201d8a0bb91f",
     "fields": {
       "created_at": "2019-04-01T13:16:00.383Z",
@@ -22046,6 +23529,19 @@
       "question": "schutzraumbefreiung-beantragt",
       "option": "schutzraumbefreiung-beantragt-nein",
       "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "ebde4f33-896d-4717-b671-950c767a103f",
+    "fields": {
+      "created_at": "2019-04-09T07:38:41.292Z",
+      "modified_at": "2019-04-09T07:38:41.292Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "prozessart",
+      "option": "prozessart-staublawine",
+      "sort": 7
     }
   },
   {
@@ -22136,6 +23632,19 @@
       "created_by_group": null,
       "question": "stoerende-lichtreflektionen",
       "option": "stoerende-lichtreflektionen-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "ef491699-8e4d-442d-a866-9053f775ef43",
+    "fields": {
+      "created_at": "2019-04-09T07:07:29.638Z",
+      "modified_at": "2019-04-09T07:07:29.638Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "mittlerer-schallabsorptionsgrad",
+      "option": "mittlerer-schallabsorptionsgrad-nein",
       "sort": 1
     }
   },
@@ -22505,6 +24014,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "fc7e637b-cc75-4b6e-9563-7c5fb4714d86",
+    "fields": {
+      "created_at": "2019-04-09T07:38:41.293Z",
+      "modified_at": "2019-04-09T07:38:41.293Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "prozessart",
+      "option": "prozessart-absenkung-einsturz",
+      "sort": 12
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "fc8e1dc3-28d1-4518-ae80-9b0912df3dc2",
     "fields": {
       "created_at": "2019-04-02T13:50:09.090Z",
@@ -22570,6 +24092,19 @@
   },
   {
     "model": "form.questionoption",
+    "pk": "fd8361af-9bb6-40bd-a3c6-ce016f91d7c2",
+    "fields": {
+      "created_at": "2019-04-09T07:03:16.555Z",
+      "modified_at": "2019-04-09T07:03:16.555Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "notbeleuchtung",
+      "option": "notbeleuchtung-nein",
+      "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
     "pk": "fdc3462f-9718-481c-814f-51aa78b83149",
     "fields": {
       "created_at": "2019-04-02T13:42:24.457Z",
@@ -22605,6 +24140,19 @@
       "question": "hoehe",
       "option": "hoehe-grosse-hoehe-ab-30-m",
       "sort": 1
+    }
+  },
+  {
+    "model": "form.questionoption",
+    "pk": "fe6b7e28-ca1c-4ed5-b5f6-99395e0ef850",
+    "fields": {
+      "created_at": "2019-04-09T07:34:56.436Z",
+      "modified_at": "2019-04-09T07:34:56.436Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "question": "hauptprozessart",
+      "option": "hauptprozessart-sturz",
+      "sort": 4
     }
   },
   {
@@ -23175,6 +24723,45 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Vakuumverfahren\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "art-der-notausgaenge-drehfluegeltueren",
+    "fields": {
+      "created_at": "2019-04-09T06:58:34.396Z",
+      "modified_at": "2019-04-09T06:58:34.396Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Drehfl\\u00fcgelt\\u00fcren\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "art-der-notausgaenge-roll-fall-oder-klapptore",
+    "fields": {
+      "created_at": "2019-04-09T06:58:34.422Z",
+      "modified_at": "2019-04-09T06:58:34.422Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Roll-, Fall- oder Klapptore\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "art-der-notausgaenge-schiebetueren",
+    "fields": {
+      "created_at": "2019-04-09T06:58:34.401Z",
+      "modified_at": "2019-04-09T06:58:34.401Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Schiebet\\u00fcren\", \"fr\": null, \"en\": null}",
       "meta": {},
       "source": null
     }
@@ -24624,6 +26211,71 @@
   },
   {
     "model": "form.option",
+    "pk": "gefahrenstufe-blau",
+    "fields": {
+      "created_at": "2019-04-09T07:32:41.513Z",
+      "modified_at": "2019-04-09T07:32:41.513Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Blau\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "gefahrenstufe-gelb",
+    "fields": {
+      "created_at": "2019-04-09T07:32:41.532Z",
+      "modified_at": "2019-04-09T07:32:41.532Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Gelb\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "gefahrenstufe-gelb-weiss",
+    "fields": {
+      "created_at": "2019-04-09T07:32:41.560Z",
+      "modified_at": "2019-04-09T07:32:41.560Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Gelb-Weiss\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "gefahrenstufe-rot",
+    "fields": {
+      "created_at": "2019-04-09T07:32:41.493Z",
+      "modified_at": "2019-04-09T07:32:41.493Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Rot\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "gefahrenstufe-unbestimmt",
+    "fields": {
+      "created_at": "2019-04-09T07:32:41.495Z",
+      "modified_at": "2019-04-09T07:32:41.495Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Unbestimmt\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
     "pk": "gefahrliche-stoffe-ja",
     "fields": {
       "created_at": "2019-03-15T13:23:59.669Z",
@@ -24982,6 +26634,71 @@
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": null, \"fr\": null, \"en\": \"Nein\"}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "hauptprozessart-einsturz-dolinen",
+    "fields": {
+      "created_at": "2019-04-09T07:34:56.274Z",
+      "modified_at": "2019-04-09T07:34:56.274Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Einsturz/Dolinen\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "hauptprozessart-lawinen",
+    "fields": {
+      "created_at": "2019-04-09T07:34:56.260Z",
+      "modified_at": "2019-04-09T07:34:56.260Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Lawinen\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "hauptprozessart-rutschung",
+    "fields": {
+      "created_at": "2019-04-09T07:34:56.223Z",
+      "modified_at": "2019-04-09T07:34:56.223Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Rutschung\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "hauptprozessart-sturz",
+    "fields": {
+      "created_at": "2019-04-09T07:34:56.207Z",
+      "modified_at": "2019-04-09T07:34:56.207Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Sturz\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "hauptprozessart-wasser",
+    "fields": {
+      "created_at": "2019-04-09T07:34:56.193Z",
+      "modified_at": "2019-04-09T07:34:56.193Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Wasser\", \"fr\": null, \"en\": null}",
       "meta": {},
       "source": null
     }
@@ -26080,6 +27797,58 @@
   },
   {
     "model": "form.option",
+    "pk": "mittlerer-schallabsorptionsgrad-ja",
+    "fields": {
+      "created_at": "2019-04-09T07:07:29.484Z",
+      "modified_at": "2019-04-09T07:07:29.484Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "mittlerer-schallabsorptionsgrad-nein",
+    "fields": {
+      "created_at": "2019-04-09T07:07:29.497Z",
+      "modified_at": "2019-04-09T07:07:29.497Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "nachhallzeiten-ja",
+    "fields": {
+      "created_at": "2019-04-09T07:08:49.374Z",
+      "modified_at": "2019-04-09T07:08:49.374Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "nachhallzeiten-nein",
+    "fields": {
+      "created_at": "2019-04-09T07:08:49.383Z",
+      "modified_at": "2019-04-09T07:08:49.383Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
     "pk": "naturschutz-ja",
     "fields": {
       "created_at": "2019-04-01T11:17:45.493Z",
@@ -26175,6 +27944,32 @@
     "fields": {
       "created_at": "2019-04-08T13:23:02.425Z",
       "modified_at": "2019-04-08T13:23:02.425Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "notbeleuchtung-ja",
+    "fields": {
+      "created_at": "2019-04-09T07:03:16.353Z",
+      "modified_at": "2019-04-09T07:03:16.353Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "notbeleuchtung-nein",
+    "fields": {
+      "created_at": "2019-04-09T07:03:16.372Z",
+      "modified_at": "2019-04-09T07:03:16.372Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
@@ -26613,6 +28408,162 @@
   },
   {
     "model": "form.option",
+    "pk": "prozessart-absenkung-einsturz",
+    "fields": {
+      "created_at": "2019-04-09T07:38:40.775Z",
+      "modified_at": "2019-04-09T07:38:40.775Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Absenkung, Einsturz\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "prozessart-felssturz",
+    "fields": {
+      "created_at": "2019-04-09T07:38:40.783Z",
+      "modified_at": "2019-04-09T07:38:40.783Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Felssturz\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "prozessart-fliesslawine",
+    "fields": {
+      "created_at": "2019-04-09T07:38:40.854Z",
+      "modified_at": "2019-04-09T07:38:40.854Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Fliesslawine\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "prozessart-hangmure",
+    "fields": {
+      "created_at": "2019-04-09T07:38:40.822Z",
+      "modified_at": "2019-04-09T07:38:40.822Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Hangmure\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "prozessart-murgang",
+    "fields": {
+      "created_at": "2019-04-09T07:38:40.811Z",
+      "modified_at": "2019-04-09T07:38:40.811Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Murgang\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "prozessart-permanente-rutschung",
+    "fields": {
+      "created_at": "2019-04-09T07:38:40.884Z",
+      "modified_at": "2019-04-09T07:38:40.884Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Permanente Rutschung\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "prozessart-schneegleiten",
+    "fields": {
+      "created_at": "2019-04-09T07:38:41.025Z",
+      "modified_at": "2019-04-09T07:38:41.025Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Schneegleiten\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "prozessart-staublawine",
+    "fields": {
+      "created_at": "2019-04-09T07:38:40.841Z",
+      "modified_at": "2019-04-09T07:38:40.841Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Staublawine\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "prozessart-steinschlag",
+    "fields": {
+      "created_at": "2019-04-09T07:38:40.898Z",
+      "modified_at": "2019-04-09T07:38:40.899Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Steinschlag\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "prozessart-ueberschwemmung",
+    "fields": {
+      "created_at": "2019-04-09T07:38:40.925Z",
+      "modified_at": "2019-04-09T07:38:40.925Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"\\u00dcberschwemmung\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "prozessart-ufererosion",
+    "fields": {
+      "created_at": "2019-04-09T07:38:40.937Z",
+      "modified_at": "2019-04-09T07:38:40.937Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ufererosion\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "prozessart-uferrutschung",
+    "fields": {
+      "created_at": "2019-04-09T07:38:40.959Z",
+      "modified_at": "2019-04-09T07:38:40.959Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Uferrutschung\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
     "pk": "qss-stufe-1",
     "fields": {
       "created_at": "2019-04-01T12:19:18.529Z",
@@ -26825,6 +28776,32 @@
     "fields": {
       "created_at": "2019-04-03T13:31:11.650Z",
       "modified_at": "2019-04-03T13:31:11.650Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "schalldruckpegelabnahme-ja",
+    "fields": {
+      "created_at": "2019-04-09T07:10:35.083Z",
+      "modified_at": "2019-04-09T07:10:35.084Z",
+      "created_by_user": null,
+      "created_by_group": null,
+      "label": "{\"de\": \"Ja\", \"fr\": null, \"en\": null}",
+      "meta": {},
+      "source": null
+    }
+  },
+  {
+    "model": "form.option",
+    "pk": "schalldruckpegelabnahme-nein",
+    "fields": {
+      "created_at": "2019-04-09T07:10:35.095Z",
+      "modified_at": "2019-04-09T07:10:35.095Z",
       "created_by_user": null,
       "created_by_group": null,
       "label": "{\"de\": \"Nein\", \"fr\": null, \"en\": null}",
