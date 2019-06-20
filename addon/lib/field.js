@@ -1,5 +1,5 @@
 import EmberObject, { computed } from "@ember/object";
-import { equal, not, empty, reads } from "@ember/object/computed";
+import { not, empty, reads } from "@ember/object/computed";
 import { inject as service } from "@ember/service";
 import { assert } from "@ember/debug";
 import { getOwner } from "@ember/application";
@@ -70,6 +70,14 @@ export default EmberObject.extend(Evented, {
   intl: service(),
 
   /**
+   * The Validator service
+   *
+   * @property {ValidatorService} validator
+   * @accessor
+   */
+  validator: service(),
+
+  /**
    * Initialize function which validates the passed arguments and sets an
    * initial state of errors.
    *
@@ -78,6 +86,8 @@ export default EmberObject.extend(Evented, {
    */
   init() {
     this._super(...arguments);
+
+    this.validator.getValidators();
 
     assert("Owner must be injected!", getOwner(this));
     assert("_question must be passed!", this._question);
@@ -152,12 +162,16 @@ export default EmberObject.extend(Evented, {
    * @accessor
    */
   isValid: computed("error.length", "question.field.answer.value", function() {
-    // if regex...
+    /*    // if regex...
+    if (this.validator.getValidators().length === 0) {
+      return true;
+    }*/
     return (
-      this.get("errors.length") === 0 &&
-      /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(
-        this.get("question.field.answer.value")
-      )
+      this.get("errors.length") ===
+      0 /*&&
+      this.validator.validate(this.get("question.field.answer.value"), [
+        "email"
+      ])*/
     );
   }),
 
@@ -312,9 +326,7 @@ export default EmberObject.extend(Evented, {
    */
   _validateTextQuestion() {
     return (
-      validate("format", this.get("question.field.answer.value"), {
-        regex: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/
-      }) &&
+      this.validator.validate(this.get("answer.value"), ["email"]) &&
       validate("length", this.get("answer.value"), {
         max: this.get("question.textMaxLength") || Number.POSITIVE_INFINITY
       })

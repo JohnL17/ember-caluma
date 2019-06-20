@@ -100,7 +100,6 @@ export default Component.extend(ComponentQueryManager, {
             subForm: {},
             meta: {},
             dataSource: "",
-            formatValidators: "",
             __typename: Object.keys(TYPES)[0]
           }
         }
@@ -202,8 +201,7 @@ export default Component.extend(ComponentQueryManager, {
     return {
       isRequired: changeset.get("isRequired"),
       maxLength: parseInt(changeset.get("maxLength")),
-      placeholder: changeset.get("placeholder"),
-      formatValidators: changeset.get("formatValidators")
+      placeholder: changeset.get("placeholder")
     };
   },
 
@@ -211,8 +209,7 @@ export default Component.extend(ComponentQueryManager, {
     return {
       isRequired: changeset.get("isRequired"),
       maxLength: parseInt(changeset.get("maxLength")),
-      placeholder: changeset.get("placeholder"),
-      formatValidators: changeset.get("formatValidators")
+      placeholder: changeset.get("placeholder")
     };
   },
 
@@ -297,6 +294,13 @@ export default Component.extend(ComponentQueryManager, {
         ((!this.get("slug") && this.prefix) || "") + changeset.get("slug");
 
       yield this.saveOptions.perform(changeset);
+
+      changeset.set(
+        "meta.formatValidators",
+        (changeset.get("meta.formatValidators") || []).map(
+          validator => validator.slug
+        )
+      );
 
       const question = yield this.get("apollo").mutate(
         {
