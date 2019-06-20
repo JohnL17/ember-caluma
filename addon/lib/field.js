@@ -161,18 +161,8 @@ export default EmberObject.extend(Evented, {
    * @property {Boolean} isValid
    * @accessor
    */
-  isValid: computed("error.length", "question.field.answer.value", function() {
-    /*    // if regex...
-    if (this.validator.getValidators().length === 0) {
-      return true;
-    }*/
-    return (
-      this.get("errors.length") ===
-      0 /*&&
-      this.validator.validate(this.get("question.field.answer.value"), [
-        "email"
-      ])*/
-    );
+  isValid: computed("error.length", function() {
+    return this.get("errors.length") === 0;
   }),
 
   /**
@@ -325,12 +315,15 @@ export default EmberObject.extend(Evented, {
    * @internal
    */
   _validateTextQuestion() {
-    return (
-      this.validator.validate(this.get("answer.value"), ["email"]) &&
+    return [
+      ...this.validator.validate(
+        this.get("answer.value"),
+        this.getWithDefault("question.meta.formatValidators", [])
+      ),
       validate("length", this.get("answer.value"), {
         max: this.get("question.textMaxLength") || Number.POSITIVE_INFINITY
       })
-    );
+    ];
   },
 
   /**
@@ -342,9 +335,15 @@ export default EmberObject.extend(Evented, {
    * @internal
    */
   _validateTextareaQuestion() {
-    return validate("length", this.get("answer.value"), {
-      max: this.get("question.textareaMaxLength") || Number.POSITIVE_INFINITY
-    });
+    return [
+      ...this.validator.validate(
+        this.get("answer.value"),
+        this.getWithDefault("question.meta.formatValidators", [])
+      ),
+      validate("length", this.get("answer.value"), {
+        max: this.get("question.textareaMaxLength") || Number.POSITIVE_INFINITY
+      })
+    ];
   },
 
   /**
