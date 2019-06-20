@@ -151,7 +151,15 @@ export default EmberObject.extend(Evented, {
    * @property {Boolean} isValid
    * @accessor
    */
-  isValid: equal("errors.length", 0),
+  isValid: computed("error.length", "question.field.answer.value", function() {
+    // if regex...
+    return (
+      this.get("errors.length") === 0 &&
+      /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(
+        this.get("question.field.answer.value")
+      )
+    );
+  }),
 
   /**
    * Whether the field is invalid.
@@ -303,9 +311,14 @@ export default EmberObject.extend(Evented, {
    * @internal
    */
   _validateTextQuestion() {
-    return validate("length", this.get("answer.value"), {
-      max: this.get("question.textMaxLength") || Number.POSITIVE_INFINITY
-    });
+    return (
+      validate("format", this.get("question.field.answer.value"), {
+        regex: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/
+      }) &&
+      validate("length", this.get("answer.value"), {
+        max: this.get("question.textMaxLength") || Number.POSITIVE_INFINITY
+      })
+    );
   },
 
   /**

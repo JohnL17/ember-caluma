@@ -20,8 +20,6 @@ import formEditorQuestionQuery from "ember-caluma/gql/queries/form-editor-questi
 import addFormQuestionMutation from "ember-caluma/gql/mutations/add-form-question";
 import formListQuery from "ember-caluma/gql/queries/form-list";
 import allDataSourcesQuery from "ember-caluma/gql/queries/all-data-sources";
-import allFormatValidatorsQuery from "ember-caluma/gql/queries/all-format-validators";
-
 import saveOptionMutation from "ember-caluma/gql/mutations/save-option";
 import saveTextQuestionMutation from "ember-caluma/gql/mutations/save-text-question";
 import saveTextareaQuestionMutation from "ember-caluma/gql/mutations/save-textarea-question";
@@ -80,7 +78,6 @@ export default Component.extend(ComponentQueryManager, {
     await this.get("data").perform();
     await this.get("availableForms").perform();
     await this.get("availableDataSources").perform();
-    await this.get("availableFormatValidators").perform();
   },
 
   data: task(function*() {
@@ -162,20 +159,6 @@ export default Component.extend(ComponentQueryManager, {
     });
   }).restartable(),
 
-  availableFormatValidators: task(function*() {
-    const formatValidators = yield this.get("apollo").watchQuery(
-      { query: allFormatValidatorsQuery, fetchPolicy: "cache-and-network" },
-      "allFormatValidators.edges"
-    );
-    if (!formatValidators.mapBy) {
-      return [];
-    }
-    return formatValidators.map(edge => {
-      delete edge.node.__typename;
-      return edge.node;
-    });
-  }).restartable(),
-
   model: reads("data.lastSuccessful.value.firstObject.node"),
 
   changeset: computed("model", function() {
@@ -219,7 +202,8 @@ export default Component.extend(ComponentQueryManager, {
     return {
       isRequired: changeset.get("isRequired"),
       maxLength: parseInt(changeset.get("maxLength")),
-      placeholder: changeset.get("placeholder")
+      placeholder: changeset.get("placeholder"),
+      formatValidators: changeset.get("formatValidators")
     };
   },
 
@@ -227,7 +211,8 @@ export default Component.extend(ComponentQueryManager, {
     return {
       isRequired: changeset.get("isRequired"),
       maxLength: parseInt(changeset.get("maxLength")),
-      placeholder: changeset.get("placeholder")
+      placeholder: changeset.get("placeholder"),
+      formatValidators: changeset.get("formatValidators")
     };
   },
 
