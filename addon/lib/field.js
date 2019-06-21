@@ -161,7 +161,7 @@ export default EmberObject.extend(Evented, {
    * @property {Boolean} isValid
    * @accessor
    */
-  isValid: computed("error.length", function() {
+  isValid: computed("errors.length", function() {
     return this.get("errors.length") === 0;
   }),
 
