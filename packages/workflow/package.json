@@ -18,7 +18,7 @@
     "ember-apollo-client": "^5.0.0",
     "ember-auto-import": "^2.10.0",
     "ember-cli-babel": "^8.2.0",
-    "ember-cli-htmlbars": "^6.3.0",
+    "ember-cli-htmlbars": "^7.0.1",
     "ember-composable-helpers": "^5.0.0",
     "ember-concurrency": "^4.0.2 || ^5.1.0",
     "ember-intl": "^7.1.1",
